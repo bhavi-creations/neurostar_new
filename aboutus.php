@@ -7,9 +7,9 @@
         <section class="aboutus_section_block aboutus_section_hero">
             <div class="aboutus_section_hero_grid">
                 <div class="aboutus_section_hero_content">
-                    <h1 class="aboutus_section_main_title">About Carewell Multispeciality Hospital</h1>
-                    <div class="aboutus_section_subtitle">Compassionate Care. Advanced Medicine. Healthier Lives.</div>
-                    <p class="aboutus_section_hero_desc">Carewell Multispeciality Hospital is dedicated to providing world-class healthcare with compassion, innovation, and integrity. Our expert team and advanced technology ensure the best outcomes for every patient.</p>
+                    <h1 class="aboutus_section_main_title">About Neurostar Hospital</h1>
+                    <div class="aboutus_section_subtitle">Best Neurological Care, Patient First</div>
+                    <p class="aboutus_section_hero_desc"><p>"NEUROSTAR Hospital is dedicated to providing cutting-edge neurological care, combining advanced technology with compassionate service to enhance the well-being of our patients."</p><br>
                     <div class="aboutus_section_hero_icons_grid">
                         <div class="aboutus_section_hero_icon_item"><i class="fas fa-user-check"></i><div>Patient First</div><span>Always our priority</span></div>
                         <div class="aboutus_section_hero_icon_item"><i class="fas fa-certificate"></i><div>Safety & Quality</div><span>International Standards</span></div>
@@ -36,38 +36,38 @@
         </section>
 
         <!-- 3. Our Story Section -->
-        <section class="aboutus_section_block">
-            <div class="aboutus_section_story_grid">
-                <div class="aboutus_section_story_content">
-                    <h2 class="aboutus_section_story_title">Our Story</h2>
-                    <p class="aboutus_section_story_text">Carewell Multispeciality Hospital was established with a vision to provide comprehensive, compassionate, and affordable healthcare under one roof.</p>
-                    <p class="aboutus_section_story_text">Over the years, we have grown into a trusted healthcare institution, equipped with advanced technology and a team of expert doctors committed to excellence.</p>
-                    <p class="aboutus_section_story_text">We continue to innovate and expand our services to improve lives and build a healthier community.</p>
-                    <a href="#" class="aboutus_section_btn_blue">Our Journey <i class="fas fa-arrow-right"></i></a>
-                </div>
-                <div class="aboutus_section_story_img">
-                    <img src="https://via.placeholder.com/600x400?text=Doctor+and+Child" alt="Doctor and Child"> <!-- Replace with original image -->
-                </div>
-            </div>
-        </section>
+<section class="aboutus_section_block">
+    <div class="aboutus_section_story_grid">
+        <div class="aboutus_section_story_content">
+            <h2 class="aboutus_section_story_title">Our Story</h2>
+            <p class="aboutus_section_story_text">Neurostar Hospital was established with a vision to provide comprehensive, compassionate, and affordable neurological care under one roof.</p>
+            <p class="aboutus_section_story_text">Over the years, we have grown into a trusted neurology institution, equipped with advanced technology and a team of expert specialists committed to excellence.</p>
+            <p class="aboutus_section_story_text">We continue to innovate and expand our services to improve brain health and build a healthier community.</p>
+            <a href="#" class="aboutus_section_btn_blue">Our Journey <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="aboutus_section_story_img">
+            <img src="https://via.placeholder.com/600x400?text=Neurology+Care" alt="Neurology Care"> <!-- Replace with original image -->
+        </div>
+    </div>
+</section>
 
-        <!-- 4. Carewell At a Glance -->
-        <section class="aboutus_section_block">
-            <div class="aboutus_section_glance_grid">
-                <div class="aboutus_section_glance_info">
-                    <h2 class="aboutus_section_glance_title">Carewell At A Glance</h2>
-                    <p class="aboutus_section_story_text">A quick overview of our commitment, capabilities, and achievements in healthcare.</p>
-                </div>
-                <div class="aboutus_section_glance_icons_grid">
-                    <div class="aboutus_section_glance_icon_item"><i class="fas fa-award"></i><div>20+</div><p>Years of Excellence</p></div>
-                    <div class="aboutus_section_glance_icon_item"><i class="fas fa-user-md"></i><div>120+</div><p>Expert Doctors</p></div>
-                    <div class="aboutus_section_glance_icon_item"><i class="fas fa-bed"></i><div>25+</div><p>Departments</p></div>
-                    <div class="aboutus_section_glance_icon_item"><i class="fas fa-smile"></i><div>75,000+</div><p>Happy Patients</p></div>
-                    <div class="aboutus_section_glance_icon_item"><i class="fas fa-notes-medical"></i><div>2,50,000+</div><p>OP Consultations</p></div>
-                    <div class="aboutus_section_glance_icon_item"><i class="fas fa-heartbeat"></i><div>15,000+</div><p>Successful Surgeries</p></div>
-                </div>
-            </div>
-        </section>
+<!-- 4. Neurostar At a Glance -->
+<section class="aboutus_section_block">
+    <div class="aboutus_section_glance_grid">
+        <div class="aboutus_section_glance_info">
+            <h2 class="aboutus_section_glance_title">Neurostar At A Glance</h2>
+            <p class="aboutus_section_story_text">A quick overview of our commitment, capabilities, and achievements in neurological healthcare.</p>
+        </div>
+        <div class="aboutus_section_glance_icons_grid">
+            <div class="aboutus_section_glance_icon_item"><i class="fas fa-award"></i><div>15+</div><p>Years of Excellence</p></div>
+            <div class="aboutus_section_glance_icon_item"><i class="fas fa-user-md"></i><div>50+</div><p>Expert Neurologists</p></div>
+            <div class="aboutus_section_glance_icon_item"><i class="fas fa-bed"></i><div>10+</div><p>Specialized Departments</p></div>
+            <div class="aboutus_section_glance_icon_item"><i class="fas fa-smile"></i><div>30,000+</div><p>Happy Patients</p></div>
+            <div class="aboutus_section_glance_icon_item"><i class="fas fa-notes-medical"></i><div>1,00,000+</div><p>OP Consultations</p></div>
+            <div class="aboutus_section_glance_icon_item"><i class="fas fa-heartbeat"></i><div>5,000+</div><p>Successful Neuro Surgeries</p></div>
+        </div>
+    </div>
+</section>
 
         <!-- 5. Mission, Vision, Values -->
         <section class="aboutus_section_block">

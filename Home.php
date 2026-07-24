@@ -7,8 +7,8 @@
         <div class="index_section_container index_section_hero_grid">
             <div class="index_section_hero_content">
                 <div class="index_section_hero_tag"><i class="fas fa-star"></i> Trusted by 75,000+ Patients</div>
-                <h2 class="index_section_hero_title">Advanced Care. Compassionate Hearts. <span>Better Lives.</span></h2>
-                <p class="index_section_hero_text">World-class medical expertise with advanced technology and personalized care for you and your family.</p>
+                <h2 class="index_section_hero_title">Advanced Care, <span>Personal Attention</span></h2>
+                <p class="index_section_hero_text">Advanced technology and expert care — personalized just for you and your family.</p>
                 <div class="index_section_hero_btns">
                     <a href="#" class="index_section_btn index_section_btn_primary"><i class="fas fa-calendar-check"></i> Book Appointment</a>
                     <a href="#" class="index_section_btn index_section_btn_outline"><i class="fas fa-user-md"></i> Find a Doctor</a>
@@ -78,8 +78,10 @@
             </div>
             <div class="index_section_about_content">
                 <span class="index_section_subtitle">About Us</span>
-                <h3 class="index_section_title">Caring Beyond Treatment</h3>
-                <p>Carewell Multispeciality Hospital is dedicated to provide comprehensive, compassionate and advanced healthcare services under one roof. Our expert team of doctors and state-of-the-art technology ensure the best outcomes for our patients.</p>
+                <h3 class="index_section_title">Best Neurological Care, Patient First</h3>
+                <p>"NEUROSTAR Hospital is dedicated to providing cutting-edge neurological care, combining advanced technology with compassionate service to enhance the well-being of our patients."</p><br>
+                <p>“At NEUROSTAR Hospital, our primary focus is patient-centered care, delivered by a dedicated team of professionals specializing in neuroscience. We strive to provide exceptional treatment for brain and spine conditions through collaborative teamwork, ensuring top-quality services at an affordable cost, all while upholding the highest standards of medical practice for your optimal recovery.”</p>
+                <!-- <p>"We provide comprehensive treatment for a wide spectrum of neurological health issues through our dedicated multidisciplinary team of expert surgeons and physicians, meticulously selected from India’s leading neuroscience institutions. Our team includes highly skilled neurologists, neurosurgeons, and other specialized medical professionals who collaborate to deliver personalized care tailored to each patient's unique needs."</p> -->
                 <ul class="index_section_about_features">
                     <li><i class="fas fa-check-circle"></i> Patient First Approach</li>
                     <li><i class="fas fa-check-circle"></i> Expert Medical Team</li>
