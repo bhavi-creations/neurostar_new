@@ -1,88 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Doctors Section</title>
-    <style>
-        body { margin: 0; font-family: sans-serif; background-color: #f9fbff; }
-        .doctors_section_container { width: 90%; max-width: 1200px; margin: 0 auto; padding: 20px 0; }
-        .doctors_section_breadcrumb { font-size: 14px; color: #777; margin-bottom: 20px; }
-        .doctors_section_breadcrumb span { color: #aaa; margin: 0 5px; }
-
-        .doctors_section_hero { display: flex; align-items: center; justify-content: space-between; margin-bottom: 40px; }
-        .doctors_section_hero_content { flex: 1; padding-right: 40px; }
-        .doctors_section_hero_content h1 { font-size: 48px; color: #003366; margin: 0 0 10px; font-weight: bold; }
-        .doctors_section_hero_content h2 { font-size: 18px; color: #00c2a8; margin: 0 0 20px; font-weight: normal; }
-        .doctors_section_hero_content p { font-size: 16px; color: #666; line-height: 1.6; margin: 0; }
-        .doctors_section_hero_image { flex: 0 0 50%; max-width: 50%; }
-        .doctors_section_hero_image img { width: 100%; height: auto; }
-
-        .doctors_section_hero_stats { display: flex; gap: 30px; margin-bottom: 50px; justify-content: space-between; }
-        .doctors_section_hero_stat_item { display: flex; align-items: center; gap: 15px; background: white; padding: 15px 25px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.05); }
-        .doctors_section_hero_stat_item .doctors_section_hero_icon { width: 40px; height: 40px; opacity: 0.7; }
-        .doctors_section_hero_stat_item .doctors_section_hero_number { font-size: 24px; font-weight: bold; color: #003366; }
-        .doctors_section_hero_stat_item .doctors_section_hero_label { font-size: 14px; color: #666; }
-
-        .doctors_section_filter_bar { display: flex; gap: 15px; background: white; padding: 15px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05); margin-bottom: 40px; align-items: center; justify-content: space-between; }
-        .doctors_section_filter_input { flex: 1; border: 1px solid #ddd; padding: 10px; border-radius: 5px; }
-        .doctors_section_filter_select { flex: 1; border: 1px solid #ddd; padding: 10px; border-radius: 5px; color: #666; appearance: none; background: #fff url('data:image/svg+xml;charset=UTF-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"></polyline></svg>') no-repeat right 10px center; background-size: 15px; }
-        .doctors_section_filter_btn { background: #003366; color: white; border: none; padding: 10px 20px; border-radius: 5px; cursor: pointer; }
-        .doctors_section_clear_btn { background: none; color: #003366; border: none; cursor: pointer; }
-
-        .doctors_section_grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 30px; margin-bottom: 40px; }
-        .doctors_section_card { background: white; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.05); text-align: center; border: 1px solid transparent; }
-        .doctors_section_card:hover { border-color: #00c2a8; transform: translateY(-3px); }
-        .doctors_section_card_top { position: relative; background: #e3f2fd; padding: 20px 0; }
-        .doctors_section_doctor_image { width: 100px; height: 100px; border-radius: 50%; object-fit: cover; border: 4px solid white; }
-        .doctors_section_card_heart { position: absolute; top: 10px; right: 10px; width: 20px; height: 20px; opacity: 0.6; cursor: pointer; }
-        .doctors_section_card_bottom { padding: 20px; text-align: left; }
-        .doctors_section_doctor_name { font-size: 18px; color: #003366; margin: 0 0 5px; font-weight: bold; }
-        .doctors_section_doctor_spec { font-size: 14px; color: #00c2a8; margin: 0 0 15px; }
-        .doctors_section_card_meta_row { display: flex; align-items: center; gap: 8px; margin-bottom: 10px; color: #666; font-size: 13px; }
-        .doctors_section_meta_icon { width: 16px; height: 16px; opacity: 0.7; }
-        .doctors_section_card_actions { display: flex; gap: 10px; margin-top: 20px; }
-        .doctors_section_card_btn { flex: 1; border: 1px solid transparent; padding: 8px; border-radius: 5px; font-size: 14px; cursor: pointer; text-decoration: none; text-align: center; }
-        .doctors_section_card_btn_profile { color: #003366; border-color: #ddd; background: white; }
-        .doctors_section_card_btn_book { background: #003366; color: white; display: flex; align-items: center; justify-content: center; gap: 5px;}
-        .doctors_section_card_btn_book:hover { background: #002a55; }
-        .doctors_section_card_btn_profile:hover { border-color: #003366; }
-
-        .doctors_section_all_btn { display: block; width: 150px; margin: 0 auto; text-align: center; background: white; color: #003366; border: 1px solid #ddd; padding: 10px 20px; border-radius: 5px; text-decoration: none; font-size: 14px; font-weight: bold; }
-        .doctors_section_all_btn:hover { border-color: #003366; }
-
-        .doctors_section_bottom_stats { display: flex; gap: 20px; margin: 50px 0; background: #e3f2fd; padding: 30px; border-radius: 10px; justify-content: space-between; }
-        .doctors_section_bottom_stat_item { display: flex; align-items: center; gap: 15px; flex: 1; justify-content: center;}
-        .doctors_section_bottom_stat_item .doctors_section_bottom_icon { width: 40px; height: 40px; }
-        .doctors_section_bottom_stat_item .doctors_section_bottom_number { font-size: 24px; font-weight: bold; color: #003366; }
-        .doctors_section_bottom_stat_item .doctors_section_bottom_label { font-size: 14px; color: #666; }
-
-        .doctors_section_why_title { text-align: center; font-size: 32px; color: #003366; margin: 60px 0 20px; font-weight: bold; }
-        .doctors_section_why_underline { width: 50px; height: 3px; background: #00c2a8; margin: 0 auto 50px; border-radius: 2px;}
-
-        .doctors_section_why_grid { display: flex; gap: 10px; margin-bottom: 60px; justify-content: space-between; }
-        .doctors_section_why_item { background: white; border-radius: 8px; padding: 30px; flex: 1; text-align: center; border: 1px solid #f0f0f0; box-shadow: 0 2px 5px rgba(0,0,0,0.03); }
-        .doctors_section_why_item .doctors_section_why_icon { width: 50px; height: 50px; margin-bottom: 20px; padding: 15px; background: #e3f2fd; border-radius: 50%; color: #003366; font-size: 20px; line-height: 20px;}
-        .doctors_section_why_item h3 { font-size: 18px; color: #003366; margin: 0 0 10px; font-weight: bold; }
-        .doctors_section_why_item p { font-size: 14px; color: #777; line-height: 1.6; margin: 0; }
-
-        .doctors_section_cta { background: #001a33; border-radius: 10px; padding: 40px; color: white; display: flex; align-items: center; justify-content: space-between; margin-bottom: 40px;}
-        .doctors_section_cta_left { flex: 1; padding-right: 40px;}
-        .doctors_section_cta h2 { font-size: 28px; margin: 0 0 10px; font-weight: bold;}
-        .doctors_section_cta h3 { font-size: 28px; color: #00c2a8; margin: 0 0 10px; font-weight: bold; }
-        .doctors_section_cta p { font-size: 16px; opacity: 0.8; margin: 0;}
-        .doctors_section_cta_right { display: flex; gap: 15px; flex: 0 0 auto;}
-        .doctors_section_cta_btn_full { background: #00c2a8; color: white; padding: 12px 25px; border-radius: 5px; text-decoration: none; font-size: 14px; font-weight: bold; display: flex; align-items: center; gap: 8px;}
-        .doctors_section_cta_btn_outline { border: 1px solid rgba(255,255,255,0.5); color: white; padding: 12px 25px; border-radius: 5px; text-decoration: none; font-size: 14px; font-weight: bold; display: flex; align-items: center; gap: 8px;}
-        .doctors_section_cta_btn_full:hover { background: #00ac9a;}
-        .doctors_section_cta_btn_outline:hover { border-color: white;}
-        .doctors_section_cta_emergency { text-align: right; }
-        .doctors_section_cta_emergency_label { font-size: 14px; opacity: 0.8; margin-bottom: 5px; }
-        .doctors_section_cta_emergency_number { font-size: 24px; color: #00c2a8; font-weight: bold; }
-
-    </style>
-</head>
-<body>
+<?php include 'header.php' ; ?>
 
     <div class="doctors_section_container">
         
@@ -427,5 +343,4 @@
 
     </div>
 
-</body>
-</html>
+<?php include 'footer.php' ; ?>
