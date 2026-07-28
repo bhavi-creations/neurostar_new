@@ -1,69 +1,162 @@
+<!-- Footer -->
+<footer class="index_section_footer">
+    <div class="container-fluid px-lg-5">
 
-    <!-- Footer -->
-    <footer class="index_section_footer">
-        <div class="index_section_container index_section_footer_grid">
-            <div class="index_section_footer_about">
-                <img src="https://via.placeholder.com/180x40?text=CAREWELL+WHITE" alt="Carewell Logo">
-                <p>Providing world-class healthcare with compassion, excellence and innovation.</p>
-                <div class="index_section_social_links">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-twitter"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
-                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        <!-- Single Row Layout for Desktop & Large Screens -->
+        <div class="row gy-4 gx-lg-4 align-items-start">
+
+           <!-- 1. Logo & Brand Summary -->
+<div class="col-12 col-md-6 col-lg-3 text-center text-lg-start">
+    <img src="assets/img/neurostar_logo.png"
+         alt="Neurostar Logo"
+         class="index_section_footer_logo mb-3"
+         style="max-width: 190px; height: auto;">
+
+    <!-- Changed text-white-50 to text-white -->
+    <p class="text-white mb-3" style="font-size: 0.875rem; line-height: 1.5;">
+        Providing compassionate, advanced neurological &amp; multi-specialty healthcare services around the clock.
+    </p>
+
+ <div class="index_section_social_links justify-content-center justify-content-lg-start">
+    <!-- Facebook: Solid Round Blue Badge -->
+    <a href="https://www.facebook.com/NeurostarMultiSpecialityHospital/" target="_blank" class="brand_social_link brand_facebook" title="Facebook">
+        <i class="fab fa-facebook-f"></i>
+    </a>
+
+    <!-- Instagram: Glowing Rounded Gradient Badge -->
+    <a href="https://www.instagram.com/neurostar_multispeciality_/" target="_blank" class="brand_social_link brand_instagram" title="Instagram">
+        <i class="fab fa-instagram"></i>
+    </a>
+
+    <!-- YouTube: Rounded Red Rectangle Badge -->
+    <a href="https://www.youtube.com/@neurostarkakinada2455" target="_blank" class="brand_social_link brand_youtube" title="YouTube">
+        <i class="fab fa-youtube"></i>
+    </a>
+
+    <!-- Twitter / X: Dark Soft Rounded Badge 
+    <a href="#" target="_blank" class="brand_social_link brand_twitter" title="Twitter / X">
+        <i class="fab fa-x-twitter"></i>
+    </a>
+
+     LinkedIn: Rounded Blue Square Badge 
+    <a href="#" target="_blank" class="brand_social_link brand_linkedin" title="LinkedIn">
+        <i class="fab fa-linkedin-in"></i>
+    </a> -->
+</div>
+</div>
+
+            <!-- 2. Quick Links -->
+            <div class="col-6 col-md-6 col-lg-2">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Doctors</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- 3. Our Services 1 -->
+            <div class="col-6 col-md-6 col-lg-2">
+                <h5>Our Services</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Neuro Surgery</a></li>
+                    <li><a href="#">Neurology</a></li>
+                    <li><a href="#">Accidents &amp; Trauma Care</a></li>
+                    <li><a href="#">Orthopaedic Surgery</a></li>
+                    <li><a href="#">General Medicine</a></li>
+                    <li><a href="#">Critical Care</a></li>
+                    <li><a href="#">Neuro Psychiatric</a></li>
+                    <li><a href="#">Dental</a></li>
+                </ul>
+            </div>
+
+            <!-- 4. Our Services 2 -->
+            <div class="col-6 col-md-6 col-lg-2">
+                <h5>Our Services</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#">Maxillo facial Surgery</a></li>
+                    <li><a href="#">Plastic &amp; Cosmetic surgery</a></li>
+                    <li><a href="#">Pediatrics</a></li>
+                    <li><a href="#">Physiotherapy</a></li>
+                    <li><a href="#">Radiology</a></li>
+                    <li><a href="#">Neuro rehabilitation</a></li>
+                    <li><a href="#">General &amp; Laproscopic Surgery</a></li>
+                </ul>
+            </div>
+
+            <!-- 5. Contact Info -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <h5>Contact Info</h5>
+                <div class="index_section_footer_contact">
+                    <p class="d-flex align-items-start gap-2">
+                        <i class="bi bi-geo-alt mt-1"></i>
+                        <span>67-19-1, opp. Ashram School,<br>Nagamalli Thota, Kakinada - 533003</span>
+                    </p>
+                    <p class="d-flex align-items-center gap-2">
+                        <i class="bi bi-clock"></i>
+                        <span><strong>Time :</strong> 24/7</span>
+                    </p>
+                    <p class="d-flex align-items-center gap-2">
+                        <i class="bi bi-telephone"></i>
+                        <a href="tel:+919121476777" class="text-white text-decoration-none">+91 9121476777</a>
+                    </p>
+                    <p class="d-flex align-items-center gap-2 mb-0">
+                        <i class="bi bi-envelope-fill"></i>
+                        <a href="mailto:info@neurostarhospital.com" class="text-white text-decoration-none text-break">info@neurostarhospital.com</a>
+                    </p>
                 </div>
             </div>
-            <div class="index_section_footer_col">
-                <h4>Quick Links</h4>
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Doctors</a></li>
-                    <li><a href="#">Departments</a></li>
-                    <li><a href="#">Achievements</a></li>
-                    <li><a href="#">Happy Patients</a></li>
-                    <li><a href="#">Contact Us</a></li>
-                </ul>
-            </div>
-            <div class="index_section_footer_col">
-                <h4>Patient Care</h4>
-                <ul>
-                    <li><a href="#">Book Appointment</a></li>
-                    <li><a href="#">Health Packages</a></li>
-                    <li><a href="#">Insurance</a></li>
-                    <li><a href="#">International Patients</a></li>
-                    <li><a href="#">Patient Guide</a></li>
-                    <li><a href="#">FAQs</a></li>
-                </ul>
-            </div>
-            <div class="index_section_footer_col">
-                <h4>Our Services</h4>
-                <ul>
-                    <li><a href="#">Diagnostics & Lab</a></li>
-                    <li><a href="#">Pharmacy</a></li>
-                    <li><a href="#">Ambulance Service</a></li>
-                    <li><a href="#">Health Checkups</a></li>
-                    <li><a href="#">24x7 Emergency</a></li>
-                    <li><a href="#">Online Reports</a></li>
-                </ul>
-            </div>
-            <div class="index_section_footer_col">
-                <h4>Contact Us</h4>
-                <ul class="index_section_contact_list">
-                    <li><i class="fas fa-map-marker-alt"></i> 123, Main Road, Kakinada, Andhra Pradesh - 533001</li>
-                    <li><i class="fas fa-phone-alt"></i> +91 98765 43210</li>
-                    <li><i class="fas fa-envelope"></i> info@carewellhospital.com</li>
-                    <li><i class="fas fa-globe"></i> www.carewellhospital.com</li>
-                </ul>
+
+        </div>
+
+    </div>
+
+    <!-- ================= Footer Bottom ================= -->
+    <div class="index_section_footer_bottom mt-5">
+        <div class="container-fluid">
+            <div class="index_section_footer_bottom_inner">
+                <div class="index_section_footer_left">
+                    <a href="#">Terms &amp; Conditions</a>
+                    <span>:</span>
+                    <a href="#">Privacy &amp; Policy</a>
+                </div>
+                <div class="index_section_footer_right">
+                    <a href="https://bhavicreations.com" target="_blank" class="index_section_branding_link">
+                        <span>Branding By @</span>
+                        <img src="assets/img/Bhavi_branding_footer.png" alt="" class="index_section_branding_logo">
+                    </a>
+                </div>
             </div>
         </div>
-        <div class="index_section_container index_section_footer_bottom">
-            <p>&copy; 2026 Carewell Multispeciality Hospital. All Rights Reserved.</p>
-            <div class="index_section_footer_legal">
-                <a href="#">Privacy Policy</a> | <a href="#">Terms & Conditions</a>
-            </div>
-        </div>
-    </footer>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+document.getElementById("index_section_scroll_top").addEventListener("click",function(e){
+    e.preventDefault();
+    window.scrollTo({
+        top:0,
+        behavior:"smooth"
+    });
+});
+</script>
+
+<!-- Floating Buttons -->
+<!-- WhatsApp -->
+<a href="https://wa.me/919121476777"
+   target="_blank"
+   class="index_section_whatsapp_float">
+    <i class="bi bi-whatsapp"></i>
+</a>
+
+<!-- Back To Top -->
+<a href="#"
+   class="index_section_scroll_top"
+   id="index_section_scroll_top">
+    <i class="bi bi-arrow-up"></i>
+</a>
 
 </body>
 </html>

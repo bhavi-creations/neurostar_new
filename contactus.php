@@ -1,205 +1,307 @@
 <?php include 'header.php'; ?>
-    <!-- WhatsApp Float -->
-    <a href="#" class="contactus_section_whatsapp_float"><i class="fab fa-whatsapp"></i></a>
+<!-- ============================================================
+     CONTACT US SECTION - HERO, FORM, MAP & FEATURES
+============================================================ -->
+<section class="contactus_section_wrapper py-4">
 
-    <!-- Top Section -->
-    <section class="contactus_section_top_wrap">
-        <div class="contactus_section_container">
-            <h1 class="contactus_section_main_title">We're Here to Help You</h1>
-            <p class="contactus_section_subtitle">Have questions or need assistance? Our team is ready to help you with the best care and support.</p>
-            
-            <div class="contactus_section_top_info_grid">
-                <div class="contactus_section_top_icon_box">
-                    <i class="far fa-clock contactus_section_top_icon"></i>
-                    <h4>24x7 Support</h4>
-                    <p>Always here for you</p>
+    <!-- 1. HERO SECTION -->
+    <div class="contactus_section_hero py-4 mb-4">
+        <div class="container">
+            <!-- Breadcrumb -->
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb contactus_section_breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
+                </ol>
+            </nav>
+
+            <div class="row align-items-center">
+                <!-- Hero Left Content -->
+                <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
+                    <h1 class="contactus_section_hero_title fw-bold">We’re Here to Help You</h1>
+                    <p class="contactus_section_hero_text text-muted mb-4">
+                        Have questions or need assistance? Our team is ready to help you with the best care and support.
+                    </p>
+
+                    <!-- Top 4 Service Badges -->
+                    <div class="row g-3 contactus_section_hero_badges">
+                        <div class="col-6 col-sm-3">
+                            <div class="contactus_section_badge_item p-2 text-center text-sm-start border-end">
+                                <div class="contactus_section_badge_icon text-primary fs-3 mb-1">
+                                    <i class="bi bi-headset"></i>
+                                </div>
+                                <h6 class="fw-bold mb-0">24x7 Support</h6>
+                                <small class="text-muted">Always here for you</small>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-3">
+                            <div class="contactus_section_badge_item p-2 text-center text-sm-start border-end">
+                                <div class="contactus_section_badge_icon text-primary fs-3 mb-1">
+                                    <i class="bi bi-clock-history"></i>
+                                </div>
+                                <h6 class="fw-bold mb-0">Quick Response</h6>
+                                <small class="text-muted">We value your time</small>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-3">
+                            <div class="contactus_section_badge_item p-2 text-center text-sm-start border-end">
+                                <div class="contactus_section_badge_icon text-primary fs-3 mb-1">
+                                    <i class="bi bi-people"></i>
+                                </div>
+                                <h6 class="fw-bold mb-0">Expert Assistance</h6>
+                                <small class="text-muted">From our care team</small>
+                            </div>
+                        </div>
+                        <div class="col-6 col-sm-3">
+                            <div class="contactus_section_badge_item p-2 text-center text-sm-start">
+                                <div class="contactus_section_badge_icon text-primary fs-3 mb-1">
+                                    <i class="bi bi-shield-check"></i>
+                                </div>
+                                <h6 class="fw-bold mb-0">Safe & Secure</h6>
+                                <small class="text-muted">Your privacy matters</small>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="contactus_section_top_icon_box">
-                    <i class="far fa-hourglass-start contactus_section_top_icon"></i>
-                    <h4>Quick Response</h4>
-                    <p>We value your time</p>
-                </div>
-                <div class="contactus_section_top_icon_box">
-                    <i class="fas fa-user-md contactus_section_top_icon"></i>
-                    <h4>Expert Assistance</h4>
-                    <p>From our care team</p>
-                </div>
-                <div class="contactus_section_top_icon_box">
-                    <i class="fas fa-shield-alt contactus_section_top_icon"></i>
-                    <h4>Safe & Secure</h4>
-                    <p>Your privacy matters</p>
+
+                <!-- Hero Right Image -->
+                <div class="col-lg-6 col-md-12 text-center">
+                    <img src="assets/images/hospital-building.png" alt="Hospital Building" class="img-fluid contactus_section_hero_img rounded-4 shadow-sm">
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
-    <!-- Middle Section: Get In Touch & Form -->
-    <section class="contactus_section_middle_wrap">
-        <div class="contactus_section_container contactus_section_middle_grid">
+    <!-- 2. CONTACT INFO & FORM SECTION -->
+    <div class="container mb-5">
+        <div class="row g-4">
             
-            <!-- Left: Get In Touch Cards -->
-            <div class="contactus_section_get_in_touch">
-                <div class="contactus_section_card">
-                    <h3>Get In Touch</h3>
-                    
-                    <div class="contactus_section_contact_item">
-                        <div class="contactus_section_contact_icon_wrap"><i class="fas fa-map-marker-alt"></i></div>
-                        <div class="contactus_section_contact_item_details">
-                            <h5>Hospital Address</h5>
-                            <p>123, Main Road, Kakinada, Andhra Pradesh - 533001</p>
-                            <a href="#">View on Map <i class="fas fa-arrow-right"></i></a>
+            <!-- Left Info Box: Get In Touch -->
+            <div class="col-lg-4 col-md-12">
+                <div class="contactus_section_info_card p-4 rounded-4 bg-white border shadow-sm h-100">
+                    <h4 class="fw-bold text-dark mb-4">Get In Touch</h4>
+
+                    <!-- Hospital Address -->
+                    <div class="d-flex align-items-start mb-4">
+                        <div class="contactus_section_info_icon text-white bg-primary rounded-circle me-3 flex-shrink-0 d-flex align-items-center justify-content-center">
+                            <i class="bi bi-geo-alt-fill"></i>
+                        </div>
+                        <div>
+                            <h6 class="fw-bold mb-1">Hospital Address</h6>
+                            <p class="mb-1 text-muted small">67-19-1, opp. Ashram School, Nagamalli Thota, Kakinada - 533003</p>
+                            <a href="#map" class="text-primary fw-semibold small text-decoration-none">View on Map <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
-                    
-                    <div class="contactus_section_contact_item">
-                        <div class="contactus_section_contact_icon_wrap"><i class="fas fa-phone-alt"></i></div>
-                        <div class="contactus_section_contact_item_details">
-                            <h5>Call Us</h5>
-                            <p>+91 98765 43210</p>
-                            <p class="contactus_section_emergency_sub">(24x7 Emergency)</p>
+
+                    <!-- Call Us -->
+                    <div class="d-flex align-items-start mb-4">
+                        <div class="contactus_section_info_icon text-white bg-primary rounded-circle me-3 flex-shrink-0 d-flex align-items-center justify-content-center">
+                            <i class="bi bi-telephone-fill"></i>
+                        </div>
+                        <div>
+                            <h6 class="fw-bold mb-1">Call Us</h6>
+                            <p class="mb-0 fw-bold text-dark">+91 9121476777</p>
+                            <small class="text-danger fw-semibold">(24x7 Emergency)</small>
                         </div>
                     </div>
-                    
-                    <div class="contactus_section_contact_item">
-                        <div class="contactus_section_contact_icon_wrap"><i class="far fa-envelope"></i></div>
-                        <div class="contactus_section_contact_item_details">
-                            <h5>Email Us</h5>
-                            <p>info@carewellhospital.com</p>
-                            <p>appointments@carewellhospital.com</p>
+
+                    <!-- Email Us -->
+                    <div class="d-flex align-items-start mb-4">
+                        <div class="contactus_section_info_icon text-white bg-primary rounded-circle me-3 flex-shrink-0 d-flex align-items-center justify-content-center">
+                            <i class="bi bi-envelope-fill"></i>
+                        </div>
+                        <div>
+                            <h6 class="fw-bold mb-1">Email Us</h6>
+                            <p class="mb-0 text-muted small">info@neurostarhospital.com</p>
+                            <p class="mb-0 text-muted small">appointments@neurostarhospital.com</p>
                         </div>
                     </div>
-                    
-                    <div class="contactus_section_contact_item">
-                        <div class="contactus_section_contact_icon_wrap"><i class="fab fa-whatsapp"></i></div>
-                        <div class="contactus_section_contact_item_details">
-                            <h5>WhatsApp Us</h5>
-                            <p>+91 98765 43210</p>
-                            <p>Chat with us on WhatsApp</p>
+
+                    <!-- WhatsApp Us -->
+                    <div class="d-flex align-items-start mb-4">
+                        <div class="contactus_section_info_icon text-white bg-success rounded-circle me-3 flex-shrink-0 d-flex align-items-center justify-content-center">
+                            <i class="bi bi-whatsapp"></i>
+                        </div>
+                        <div>
+                            <h6 class="fw-bold mb-1">WhatsApp Us</h6>
+                            <p class="mb-0 fw-bold text-dark">+91 9121476777</p>
+                            <small class="text-muted">Chat with us on WhatsApp</small>
                         </div>
                     </div>
-                    
-                    <div class="contactus_section_contact_item">
-                        <div class="contactus_section_contact_icon_wrap"><i class="far fa-clock"></i></div>
-                        <div class="contactus_section_contact_item_details">
-                            <h5>Working Hours</h5>
-                            <p>Monday - Sunday</p>
-                            <p>24 Hours Open</p>
+
+                    <!-- Working Hours -->
+                    <div class="d-flex align-items-start">
+                        <div class="contactus_section_info_icon text-white bg-primary rounded-circle me-3 flex-shrink-0 d-flex align-items-center justify-content-center">
+                            <i class="bi bi-clock-fill"></i>
+                        </div>
+                        <div>
+                            <h6 class="fw-bold mb-1">Working Hours</h6>
+                            <p class="mb-0 text-muted small">Monday - Sunday</p>
+                            <span class="badge bg-light text-dark border">24 Hours Open</span>
                         </div>
                     </div>
                 </div>
             </div>
-            
-            <!-- Right: Send Us a Message Form -->
-            <div class="contactus_section_message_form">
-                <div class="contactus_section_card">
-                    <h3>Send Us a Message</h3>
-                    <p class="contactus_section_subtitle">Have any questions or need details? Feel free to reach out to us.</p>
+
+            <!-- Right Box: Send Us a Message Form -->
+            <div class="col-lg-8 col-md-12">
+                <div class="contactus_section_form_card p-4 p-md-5 rounded-4 bg-white border shadow-sm h-100">
+                    <h4 class="fw-bold text-dark mb-4">Send Us a Message</h4>
                     
                     <form action="#" method="POST">
-                        <div class="contactus_section_form_row">
-                            <div class="contactus_section_input_group">
-                                <label for="your_name">Your Name <span>*</span></label>
-                                <input type="text" id="your_name" name="your_name" placeholder="Enter your full name" required>
+                        <div class="row g-3">
+                            <div class="col-md-6">
+                                <label class="form-label small fw-semibold">Your Name <span class="text-danger">*</span></label>
+                                <input type="text" class="form-control bg-light" placeholder="Enter your full name" required>
                             </div>
-                            <div class="contactus_section_input_group">
-                                <label for="phone_number">Phone Number <span>*</span></label>
-                                <input type="tel" id="phone_number" name="phone_number" placeholder="Enter your phone number" required>
+                            <div class="col-md-6">
+                                <label class="form-label small fw-semibold">Phone Number <span class="text-danger">*</span></label>
+                                <input type="tel" class="form-control bg-light" placeholder="Enter your phone number" required>
                             </div>
-                        </div>
-                        
-                        <div class="contactus_section_form_row">
-                            <div class="contactus_section_input_group">
-                                <label for="email_address">Email Address <span>*</span></label>
-                                <input type="email" id="email_address" name="email_address" placeholder="Enter your email address" required>
+                            <div class="col-md-6">
+                                <label class="form-label small fw-semibold">Email Address <span class="text-danger">*</span></label>
+                                <input type="email" class="form-control bg-light" placeholder="Enter your email address" required>
                             </div>
-                            <div class="contactus_section_input_group">
-                                <label for="subject">Subject <span>*</span></label>
-                                <select id="subject" name="subject" required>
-                                    <option value="" disabled selected>Select a subject</option>
-                                    <option value="appointment">Appointment Inquiry</option>
-                                    <option value="feedback">Feedback</option>
-                                    <option value="other">Other</option>
+                            <div class="col-md-6">
+                                <label class="form-label small fw-semibold">Subject <span class="text-danger">*</span></label>
+                                <select class="form-select bg-light" required>
+                                    <option value="" selected disabled>Select a subject</option>
+                                    <option value="General Inquiry">General Inquiry</option>
+                                    <option value="Appointment">Book Appointment</option>
+                                    <option value="Feedback">Feedback</option>
                                 </select>
                             </div>
-                        </div>
-                        
-                        <div class="contactus_section_input_group contactus_section_input_group textarea_full">
-                            <label for="message">Message <span>*</span></label>
-                            <textarea id="message" name="message" placeholder="Write your message here..." required></textarea>
-                        </div>
-                        
-                        <div class="contactus_section_submit_box">
-                            <button type="submit" class="contactus_section_btn">
-                                <i class="fas fa-paper-plane"></i> Send Message
-                            </button>
+                            <div class="col-12">
+                                <label class="form-label small fw-semibold">Message <span class="text-danger">*</span></label>
+                                <textarea class="form-control bg-light" rows="5" placeholder="Write your message here..." required></textarea>
+                            </div>
+                            <div class="col-12 mt-4">
+                                <button type="submit" class="btn contactus_section_submit_btn text-white fw-bold w-100 py-3">
+                                    <i class="bi bi-send-fill me-2"></i> Send Message
+                                </button>
+                            </div>
                         </div>
                     </form>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Bottom Map & Appointment Section -->
-    <section class="contactus_section_bottom_wrap">
-        <div class="contactus_section_container contactus_section_bottom_grid">
+        </div>
+    </div>
+
+    <!-- 3. MAP & EMERGENCY SIDEBAR SECTION -->
+    <div class="container mb-5" id="map">
+        <div class="row g-4 align-items-stretch">
             
-            <!-- Left: Map -->
-            <div class="contactus_section_map_wrap contactus_section_card">
-                <div class="contactus_section_map_img"></div>
-                <div class="contactus_section_map_overlay_card">
-                    <h4>Carewell Multispeciality Hospital</h4>
-                    <p>123, Main Road, Kakinada, Andhra Pradesh - 533001</p>
-                    <a href="#">Directions <i class="fas fa-arrow-right"></i></a>
-                </div>
-            </div>
-            
-            <!-- Right: Appointment Callout -->
-            <div class="contactus_section_appointment_wrap contactus_section_card">
-                <h3>Book an Appointment</h3>
-                <p>Schedule your appointment with our specialists today.</p>
-                <button class="contactus_section_btn"><i class="far fa-calendar-alt"></i> Book Appointment</button>
-                
-                <div class="contactus_section_immediate_help_box">
-                    <h3>Need Immediate Help?</h3>
-                    <p class="contactus_section_sub_info">Our emergency team is available 24x7</p>
-                    <div class="contactus_section_emergency_call_box">
-                        <span class="contactus_section_call_emergency_sub"><i class="fas fa-ambulance"></i> Call Emergency</span>
-                        <span class="contactus_section_call_num">+91 98765 43210</span>
+            <!-- Map Column -->
+<div class="col-lg-7 col-md-12">
+    <div class="contactus_section_map_wrapper position-relative rounded-4 overflow-hidden border shadow-sm h-100" style="min-height: 320px;">
+        <!-- Embedded Google Map Pointing to Exact Address -->
+        <iframe 
+            src="https://maps.google.com/maps?q=Neurostar%20Multispeciality%20Hospital,%2067-19-1,%20opp.%20Ashram%20School,%20Nagamalli%20Thota,%20Kakinada%20533003&t=&z=16&ie=UTF8&iwloc=&output=embed" 
+            width="100%" 
+            height="100%" 
+            style="border:0; min-height: 320px;" 
+            allowfullscreen="" 
+            loading="lazy">
+        </iframe>
+
+        <!-- Map Floating Card -->
+        <div class="contactus_section_map_card position-absolute top-0 start-0 m-3 p-3 bg-white rounded-3 shadow-sm border d-none d-sm-block">
+            <h6 class="fw-bold mb-1">Neurostar Multispeciality Hospital</h6>
+            <p class="mb-1 text-muted small">67-19-1, opp. Ashram School, Nagamalli Thota, Kakinada - 533003</p>
+            <a href="https://www.google.com/maps/search/?api=1&query=Neurostar+Multispeciality+Hospital+Kakinada" target="_blank" class="text-primary fw-semibold small text-decoration-none">
+                Directions <i class="bi bi-box-arrow-up-right ms-1"></i>
+            </a>
+        </div>
+    </div>
+</div>
+
+            <!-- Right Emergency Box -->
+            <div class="col-lg-5 col-md-12">
+                <div class="contactus_section_sidebar_card p-4 rounded-4 border shadow-sm h-100 d-flex flex-column justify-content-center">
+                    
+                    <!-- Top Sub Box: Book Appointment -->
+                    <div class="contactus_section_cta_box text-center p-4 rounded-3 mb-4">
+                        <h5 class="fw-bold text-dark mb-2">Book an Appointment</h5>
+                        <p class="text-muted small mb-3">Schedule your appointment with our specialists today.</p>
+                        <a href="#" class="btn contactus_section_teal_btn text-white fw-bold px-4 py-2 w-100">
+                            <i class="bi bi-calendar-check me-2"></i> Book Appointment
+                        </a>
                     </div>
+
+                    <!-- Bottom Sub Box: Need Immediate Help -->
+                    <div class="contactus_section_cta_box text-center p-4 rounded-3">
+                        <h5 class="fw-bold text-dark mb-2">Need Immediate Help?</h5>
+                        <p class="text-muted small mb-3">Our emergency team is available 24x7</p>
+                        <a href="tel:+919876543210" class="btn btn-outline-primary text-dark fw-bold px-4 py-2 w-100 d-flex align-items-center justify-content-center gap-2">
+                            <i class="bi bi-telephone-fill text-danger"></i>
+                            <span>Call Emergency</span>
+                            <span class="fw-bold text-primary ms-2">+91 98765 43210</span>
+                        </a>
+                    </div>
+
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Final Footer Icons Section -->
-    <section class="contactus_section_footer_icons_wrap">
-        <div class="contactus_section_container contactus_section_footer_icons_grid">
-            <div class="contactus_section_footer_icon_box">
-                <i class="fas fa-ambulance contactus_section_footer_icon"></i>
-                <h4>24x7 Emergency Care</h4>
-                <p>Round-the-clock emergency services for critical care.</p>
-            </div>
-            <div class="contactus_section_footer_icon_box">
-                <i class="fas fa-user-md contactus_section_footer_icon"></i>
-                <h4>Expert Doctors</h4>
-                <p>Highly experienced and qualified specialists.</p>
-            </div>
-            <div class="contactus_section_footer_icon_box">
-                <i class="fas fa-microscope contactus_section_footer_icon"></i>
-                <h4>Advanced Technology</h4>
-                <p>State-of-the-art infrastructure and medical equipment.</p>
-            </div>
-            <div class="contactus_section_footer_icon_box">
-                <i class="fas fa-hospital-user contactus_section_footer_icon"></i>
-                <h4>Patient First Approach</h4>
-                <p>Personalized care with compassion and empathy.</p>
-            </div>
-            <div class="contactus_section_footer_icon_box">
-                <i class="fas fa-check-circle contactus_section_footer_icon"></i>
-                <h4>Safe & Hygienic</h4>
-                <p>Strict hygiene protocols for a safe environment.</p>
-            </div>
         </div>
-    </section>
+    </div>
 
+    <!-- 4. BOTTOM 5 FEATURE CARDS -->
+    <div class="container my-4">
+        <div class="row g-3 text-center">
+            
+            <div class="col-6 col-md-4 col-lg">
+                <div class="contactus_section_feature_box p-3 rounded-4 bg-white border shadow-sm h-100">
+                    <div class="contactus_section_feature_icon fs-2 text-primary mb-2">
+                        <i class="bi bi-truck-front"></i>
+                    </div>
+                    <h6 class="fw-bold mb-1">24x7 Emergency Care</h6>
+                    <small class="text-muted d-block">Round-the-clock emergency services for critical care.</small>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg">
+                <div class="contactus_section_feature_box p-3 rounded-4 bg-white border shadow-sm h-100">
+                    <div class="contactus_section_feature_icon fs-2 text-primary mb-2">
+                        <i class="bi bi-person-badge"></i>
+                    </div>
+                    <h6 class="fw-bold mb-1">Expert Doctors</h6>
+                    <small class="text-muted d-block">Highly experienced and qualified specialists.</small>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg">
+                <div class="contactus_section_feature_box p-3 rounded-4 bg-white border shadow-sm h-100">
+                    <div class="contactus_section_feature_icon fs-2 text-primary mb-2">
+                        <i class="bi bi-cpu"></i>
+                    </div>
+                    <h6 class="fw-bold mb-1">Advanced Technology</h6>
+                    <small class="text-muted d-block">State-of-the-art infrastructure and medical equipment.</small>
+                </div>
+            </div>
+
+            <div class="col-6 col-md-4 col-lg">
+                <div class="contactus_section_feature_box p-3 rounded-4 bg-white border shadow-sm h-100">
+                    <div class="contactus_section_feature_icon fs-2 text-primary mb-2">
+                        <i class="bi bi-heart-pulse"></i>
+                    </div>
+                    <h6 class="fw-bold mb-1">Patient First Approach</h6>
+                    <small class="text-muted d-block">Personalized care with compassion and empathy.</small>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4 col-lg">
+                <div class="contactus_section_feature_box p-3 rounded-4 bg-white border shadow-sm h-100">
+                    <div class="contactus_section_feature_icon fs-2 text-primary mb-2">
+                        <i class="bi bi-shield-check"></i>
+                    </div>
+                    <h6 class="fw-bold mb-1">Safe & Hygienic</h6>
+                    <small class="text-muted d-block">Strict hygiene protocols for a safe environment.</small>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+</section>
 <?php include 'footer.php' ; ?>

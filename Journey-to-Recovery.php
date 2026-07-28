@@ -1,228 +1,334 @@
 <?php  include  'header.php' ; ?>
+<!-- ============================================================
+     HAPPY PATIENTS / JOURNEY TO RECOVERY SECTION
+============================================================ -->
+<section class="journey_section_wrapper py-4">
 
+    <!-- 1. HERO BANNER SECTION -->
+    <div class="container mb-5">
+        <div class="journey_section_hero position-relative rounded-4 overflow-hidden p-4 p-md-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
+                    <h1 class="journey_section_hero_title fw-bold mb-3">
+                        Happy Patients,<br><span class="journey_section_text_primary">Stronger Together</span>
+                    </h1>
+                    <p class="journey_section_hero_desc text-muted mb-4 pe-lg-4">
+                        Real stories from real people whose lives have been transformed with compassionate care, advanced technology and expert treatment.
+                    </p>
 
-  </style>
-</head>
-<body>
-
-  <!-- MAIN SECTION START -->
-  <div class="journey_section">
-
-    <!-- 1. Hero Section -->
-    <div class="journey_hero">
-      <div class="journey_hero_content">
-        <h1>Happy Patients,<br>Stronger Together</h1>
-        <p>Real stories from real people whose lives have been transformed with compassionate care, advanced technology and expert treatment.</p>
-        
-        <div class="journey_stats_grid">
-          <div class="journey_stat_item">
-            <div class="journey_stat_icon"><i class="fa-solid fa-user-group"></i></div>
-            <div class="journey_stat_number">75,000+</div>
-            <div class="journey_stat_label">Happy Patients</div>
-          </div>
-          <div class="journey_stat_item">
-            <div class="journey_stat_icon"><i class="fa-solid fa-stethoscope"></i></div>
-            <div class="journey_stat_number">2,50,000+</div>
-            <div class="journey_stat_label">OP Consultations</div>
-          </div>
-          <div class="journey_stat_item">
-            <div class="journey_stat_icon"><i class="fa-regular fa-star"></i></div>
-            <div class="journey_stat_number">15,000+</div>
-            <div class="journey_stat_label">Successful Surgeries</div>
-          </div>
-          <div class="journey_stat_item">
-            <div class="journey_stat_icon"><i class="fa-regular fa-face-smile"></i></div>
-            <div class="journey_stat_number">98%</div>
-            <div class="journey_stat_label">Patient Satisfaction</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="journey_hero_image">
-        <!-- Sample Doctor-Patient Image -->
-        <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?q=80&w=600&auto=format&fit=crop" alt="Doctor and Patient">
-      </div>
-    </div>
-
-    <!-- 2. Patient Stories Section -->
-    <div class="journey_section_header">
-      <h2 class="journey_section_title">Patient Stories – <span>In Their Own Words</span></h2>
-      <a href="#" class="journey_btn_outline"><i class="fa-regular fa-circle-play"></i> View All Videos</a>
-    </div>
-
-    <div class="journey_video_grid">
-      <!-- Card 1 -->
-      <div class="journey_video_card">
-        <div class="journey_video_thumb">
-          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=300&auto=format&fit=crop" alt="Ramesh Babu">
-          <div class="journey_play_icon"><i class="fa-solid fa-play"></i></div>
-          <span class="journey_duration">02:45</span>
-        </div>
-        <div class="journey_card_content">
-          <h4>Ramesh Babu</h4>
-          <div class="journey_subtitle">Knee Replacement Surgery</div>
-          <p>"I am able to walk pain-free now. The care and support I received was excellent."</p>
-          <div class="journey_quote_mark">”</div>
-        </div>
-      </div>
-
-      <!-- Card 2 -->
-      <div class="journey_video_card">
-        <div class="journey_video_thumb">
-          <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=300&auto=format&fit=crop" alt="Lakshmi Devi">
-          <div class="journey_play_icon"><i class="fa-solid fa-play"></i></div>
-          <span class="journey_duration">03:12</span>
-        </div>
-        <div class="journey_card_content">
-          <h4>Lakshmi Devi</h4>
-          <div class="journey_subtitle">Gallbladder Surgery</div>
-          <p>"From consultation to recovery, every step was smooth and comfortable."</p>
-          <div class="journey_quote_mark">”</div>
-        </div>
-      </div>
-
-      <!-- Card 3 -->
-      <div class="journey_video_card">
-        <div class="journey_video_thumb">
-          <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=300&auto=format&fit=crop" alt="Venkatesh">
-          <div class="journey_play_icon"><i class="fa-solid fa-play"></i></div>
-          <span class="journey_duration">02:30</span>
-        </div>
-        <div class="journey_card_content">
-          <h4>Venkatesh</h4>
-          <div class="journey_subtitle">Hernia Surgery</div>
-          <p>"Thanks to the expert team, I recovered quickly and got back to my routine."</p>
-          <div class="journey_quote_mark">”</div>
-        </div>
-      </div>
-
-      <!-- Card 4 -->
-      <div class="journey_video_card">
-        <div class="journey_video_thumb">
-          <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?q=80&w=300&auto=format&fit=crop" alt="Anitha Kumari">
-          <div class="journey_play_icon"><i class="fa-solid fa-play"></i></div>
-          <span class="journey_duration">02:18</span>
-        </div>
-        <div class="journey_card_content">
-          <h4>Anitha Kumari</h4>
-          <div class="journey_subtitle">Gynecology Treatment</div>
-          <p>"Very friendly staff and doctors. I felt safe and well taken care of throughout."</p>
-          <div class="journey_quote_mark">”</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- 3. Google Reviews Section -->
-    <div class="journey_google_box">
-      <div class="journey_google_header">Google Reviews</div>
-      <div class="journey_reviews_grid">
-        
-        <!-- Score Box -->
-        <div class="journey_rating_card">
-          <div class="journey_rating_score">4.9</div>
-          <div class="journey_stars">
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-            <i class="fa-solid fa-star"></i>
-          </div>
-          <div class="journey_rating_text">Based on 1,245 reviews</div>
-          <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_92x30dp.png" alt="Google" style="height: 20px; margin-bottom: 15px;">
-          <a href="#" class="journey_btn_write"><i class="fa-solid fa-pencil"></i> Write a Review</a>
-        </div>
-
-        <!-- Review 1 -->
-        <div class="journey_review_card">
-          <div class="journey_reviewer">
-            <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=100&auto=format&fit=crop" alt="User">
-            <div class="journey_reviewer_info">
-              <h5>Sowmya Reddy</h5>
-              <span>2 days ago</span>
+                    <!-- Stat Counters Grid -->
+<div class="row g-2 journey_section_stats pt-2 align-items-stretch">
+    <div class="col-6 col-sm-3 d-flex">
+        <div class="journey_section_stat_card text-center p-2 rounded-3 w-100 d-flex flex-column justify-content-center align-items-center">
+            <div class="journey_section_stat_icon mb-2">
+                <i class="bi bi-people fs-4 text-primary"></i>
             </div>
-          </div>
-          <div class="journey_stars" style="margin-bottom:8px;">
-            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-          </div>
-          <p>Excellent hospital with well experienced doctors and caring staff. Highly recommended!</p>
+            <h5 class="journey_section_stat_number fw-bold mb-1 text-dark">75,000+</h5>
+            <span class="text-muted journey_section_stat_label">Happy Patients</span>
         </div>
-
-        <!-- Review 2 -->
-        <div class="journey_review_card">
-          <div class="journey_reviewer">
-            <i class="fa-brands fa-google" style="font-size: 28px; color: #4285F4;"></i>
-            <div class="journey_reviewer_info">
-              <h5>Praveen Kumar</h5>
-              <span>1 week ago</span>
+    </div>
+    <div class="col-6 col-sm-3 d-flex">
+        <div class="journey_section_stat_card text-center p-2 rounded-3 w-100 d-flex flex-column justify-content-center align-items-center">
+            <div class="journey_section_stat_icon mb-2">
+                <i class="bi bi-stethoscope fs-4 text-primary"></i>
             </div>
-          </div>
-          <div class="journey_stars" style="margin-bottom:8px;">
-            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-          </div>
-          <p>Had a great experience with the treatment and facilities. The staff took good care of me during my stay.</p>
+            <h5 class="journey_section_stat_number fw-bold mb-1 text-dark">2,50,000+</h5>
+            <span class="text-muted journey_section_stat_label">OP Consultations</span>
         </div>
-
-        <!-- Review 3 -->
-        <div class="journey_review_card">
-          <div class="journey_reviewer">
-            <i class="fa-brands fa-google" style="font-size: 28px; color: #EA4335;"></i>
-            <div class="journey_reviewer_info">
-              <h5>Gayathri P.</h5>
-              <span>2 weeks ago</span>
+    </div>
+    <div class="col-6 col-sm-3 d-flex">
+        <div class="journey_section_stat_card text-center p-2 rounded-3 w-100 d-flex flex-column justify-content-center align-items-center">
+            <div class="journey_section_stat_icon mb-2">
+                <i class="bi bi-star fs-4 text-primary"></i>
             </div>
-          </div>
-          <div class="journey_stars" style="margin-bottom:8px;">
-            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
-          </div>
-          <p>Very clean and well maintained hospital. Doctors explain everything clearly and make us feel comfortable.</p>
+            <h5 class="journey_section_stat_number fw-bold mb-1 text-dark">15,000+</h5>
+            <span class="text-muted journey_section_stat_label">Successful Surgeries</span>
+        </div>
+    </div>
+    <div class="col-6 col-sm-3 d-flex">
+        <div class="journey_section_stat_card text-center p-2 rounded-3 w-100 d-flex flex-column justify-content-center align-items-center">
+            <div class="journey_section_stat_icon mb-2">
+                <i class="bi bi-emoji-smile fs-4 text-primary"></i>
+            </div>
+            <h5 class="journey_section_stat_number fw-bold mb-1 text-dark">98%</h5>
+            <span class="text-muted journey_section_stat_label">Patient Satisfaction</span>
+        </div>
+    </div>
+</div>
+                </div>
+
+                <!-- Hero Image -->
+                <div class="col-lg-6 col-md-12 text-center text-lg-end">
+                    <div class="journey_section_hero_img_wrapper rounded-4 overflow-hidden shadow-sm">
+                        <img src="assets/images/doctor-patient-thumbs-up.jpg" alt="Happy Patients, Stronger Together" class="img-fluid w-100 object-fit-cover">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2. PATIENT STORIES (VIDEO TESTIMONIALS) -->
+    <div class="container mb-5">
+        <div class="d-flex flex-wrap align-items-center justify-content-between mb-4 gap-2">
+            <div>
+                <h3 class="fw-bold text-dark mb-1">
+                    Patient Stories – <span class="journey_section_text_accent">In Their Own Words</span>
+                </h3>
+            </div>
+            <a href="#" class="btn btn-outline-primary rounded-3 btn-sm px-3 fw-semibold d-inline-flex align-items-center gap-1">
+                <i class="bi bi-play-circle"></i> View All Videos
+            </a>
         </div>
 
-      </div>
+        <div class="row g-4">
+            <!-- Video Card 1 -->
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                <div class="journey_section_story_card bg-white rounded-4 border shadow-sm h-100 overflow-hidden d-flex flex-column">
+                    <div class="position-relative journey_section_video_thumb">
+                        <img src="assets/images/patient-1.jpg" alt="Ramesh Babu" class="w-100 object-fit-cover" style="height: 180px;">
+                        <a href="#" class="journey_section_play_btn position-absolute top-50 start-50 translate-middle rounded-circle bg-white shadow d-flex align-items-center justify-content-center">
+                            <i class="bi bi-play-fill fs-3 text-dark"></i>
+                        </a>
+                        <span class="journey_section_time_badge position-absolute bottom-0 end-0 m-2 bg-dark bg-opacity-75 text-white px-2 py-1 rounded small" style="font-size: 11px;">02:45</span>
+                    </div>
+                    <div class="p-3 position-relative flex-grow-1 d-flex flex-column">
+                        <h6 class="fw-bold text-dark mb-0">Ramesh Babu</h6>
+                        <span class="text-muted small mb-2 d-block">Knee Replacement Surgery</span>
+                        <p class="text-secondary small mb-3 flex-grow-1 fs-7">"I am able to walk pain-free now. The care and support I received was excellent."</p>
+                        <i class="bi bi-quote position-absolute bottom-0 end-0 m-2 text-light fs-1 opacity-50 z-0"></i>
+                    </div>
+                </div>
+            </div>
 
-      <div class="journey_view_all_google">
-        <a href="#">View All Reviews on Google <i class="fa-solid fa-arrow-right"></i></a>
-      </div>
-    </div>
+            <!-- Video Card 2 -->
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                <div class="journey_section_story_card bg-white rounded-4 border shadow-sm h-100 overflow-hidden d-flex flex-column">
+                    <div class="position-relative journey_section_video_thumb">
+                        <img src="assets/images/patient-2.jpg" alt="Lakshmi Devi" class="w-100 object-fit-cover" style="height: 180px;">
+                        <a href="#" class="journey_section_play_btn position-absolute top-50 start-50 translate-middle rounded-circle bg-white shadow d-flex align-items-center justify-content-center">
+                            <i class="bi bi-play-fill fs-3 text-dark"></i>
+                        </a>
+                        <span class="journey_section_time_badge position-absolute bottom-0 end-0 m-2 bg-dark bg-opacity-75 text-white px-2 py-1 rounded small" style="font-size: 11px;">03:12</span>
+                    </div>
+                    <div class="p-3 position-relative flex-grow-1 d-flex flex-column">
+                        <h6 class="fw-bold text-dark mb-0">Lakshmi Devi</h6>
+                        <span class="text-muted small mb-2 d-block">Gallbladder Surgery</span>
+                        <p class="text-secondary small mb-3 flex-grow-1 fs-7">"From consultation to recovery, every step was smooth and comfortable."</p>
+                        <i class="bi bi-quote position-absolute bottom-0 end-0 m-2 text-light fs-1 opacity-50 z-0"></i>
+                    </div>
+                </div>
+            </div>
 
-    <!-- 4. Doctors Who Care Section -->
-    <div class="journey_section_header">
-      <div>
-        <h2 class="journey_section_title">Doctors Who <span>Care</span></h2>
-        <p style="font-size: 13px; color: #64748b; margin-top: 4px;">Moments of trust, gratitude and care shared by our patients.</p>
-      </div>
-      <a href="#" class="journey_btn_outline"><i class="fa-regular fa-image"></i> View All Photos</a>
-    </div>
+            <!-- Video Card 3 -->
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                <div class="journey_section_story_card bg-white rounded-4 border shadow-sm h-100 overflow-hidden d-flex flex-column">
+                    <div class="position-relative journey_section_video_thumb">
+                        <img src="assets/images/patient-3.jpg" alt="Venkatesh" class="w-100 object-fit-cover" style="height: 180px;">
+                        <a href="#" class="journey_section_play_btn position-absolute top-50 start-50 translate-middle rounded-circle bg-white shadow d-flex align-items-center justify-content-center">
+                            <i class="bi bi-play-fill fs-3 text-dark"></i>
+                        </a>
+                        <span class="journey_section_time_badge position-absolute bottom-0 end-0 m-2 bg-dark bg-opacity-75 text-white px-2 py-1 rounded small" style="font-size: 11px;">02:30</span>
+                    </div>
+                    <div class="p-3 position-relative flex-grow-1 d-flex flex-column">
+                        <h6 class="fw-bold text-dark mb-0">Venkatesh</h6>
+                        <span class="text-muted small mb-2 d-block">Hernia Surgery</span>
+                        <p class="text-secondary small mb-3 flex-grow-1 fs-7">"Thanks to the expert team, I recovered quickly and got back to my routine."</p>
+                        <i class="bi bi-quote position-absolute bottom-0 end-0 m-2 text-light fs-1 opacity-50 z-0"></i>
+                    </div>
+                </div>
+            </div>
 
-    <div class="journey_doctors_grid">
-      <div class="journey_doctor_card">
-        <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?q=80&w=300&auto=format&fit=crop" alt="Doctor 1">
-      </div>
-      <div class="journey_doctor_card">
-        <img src="https://images.unsplash.com/photo-1594824813572-c0e25a83a002?q=80&w=300&auto=format&fit=crop" alt="Doctor 2">
-      </div>
-      <div class="journey_doctor_card">
-        <img src="https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?q=80&w=300&auto=format&fit=crop" alt="Doctor 3">
-      </div>
-      <div class="journey_doctor_card">
-        <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?q=80&w=300&auto=format&fit=crop" alt="Doctor 4">
-      </div>
-      <div class="journey_doctor_card">
-        <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=300&auto=format&fit=crop" alt="Doctor 5">
-      </div>
-    </div>
-
-    <!-- 5. CTA Banner Section -->
-    <div class="journey_cta_banner">
-      <div class="journey_cta_left">
-        <div class="journey_cta_icon"><i class="fa-regular fa-handshake"></i></div>
-        <div class="journey_cta_text">
-          <h3>Your Trust Inspires Us Every Day</h3>
-          <p>We are committed to delivering the best possible care and creating more happy and healthy tomorrows.</p>
+            <!-- Video Card 4 -->
+            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                <div class="journey_section_story_card bg-white rounded-4 border shadow-sm h-100 overflow-hidden d-flex flex-column">
+                    <div class="position-relative journey_section_video_thumb">
+                        <img src="assets/images/patient-4.jpg" alt="Anitha Kumari" class="w-100 object-fit-cover" style="height: 180px;">
+                        <a href="#" class="journey_section_play_btn position-absolute top-50 start-50 translate-middle rounded-circle bg-white shadow d-flex align-items-center justify-content-center">
+                            <i class="bi bi-play-fill fs-3 text-dark"></i>
+                        </a>
+                        <span class="journey_section_time_badge position-absolute bottom-0 end-0 m-2 bg-dark bg-opacity-75 text-white px-2 py-1 rounded small" style="font-size: 11px;">02:18</span>
+                    </div>
+                    <div class="p-3 position-relative flex-grow-1 d-flex flex-column">
+                        <h6 class="fw-bold text-dark mb-0">Anitha Kumari</h6>
+                        <span class="text-muted small mb-2 d-block">Gynecology Treatment</span>
+                        <p class="text-secondary small mb-3 flex-grow-1 fs-7">"Very friendly staff and doctors. I felt safe and well taken care of throughout."</p>
+                        <i class="bi bi-quote position-absolute bottom-0 end-0 m-2 text-light fs-1 opacity-50 z-0"></i>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      <a href="#" class="journey_btn_cta"><i class="fa-regular fa-calendar-check"></i> Book an Appointment</a>
     </div>
 
-  </div>
-  <!-- MAIN SECTION END -->
+    <!-- 3. GOOGLE REVIEWS SECTION -->
+<div class="container mb-5">
+    <div class="journey_section_google_box bg-light rounded-4 p-4 border shadow-sm">
+        <h5 class="fw-bold text-dark mb-4">Google Reviews</h5>
+        <div class="row g-3 align-items-stretch">
+            
+            <!-- Left Rating Summary Box -->
+            <div class="col-lg-3 col-md-12">
+                <div class="p-3 h-100 d-flex flex-column justify-content-center align-items-start">
+                    <h1 class="display-4 fw-bold text-dark mb-0">4.9</h1>
+                    <div class="journey_section_stars text-warning my-1">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <span class="text-muted small mb-3">Based on 1,245 reviews</span>
+                    
+                    <!-- Multicolored Google Text Logo -->
+                    <div class="d-flex align-items-center gap-2 mb-3">
+                        <span class="journey_section_google_text">
+                            <span class="g-blue">G</span><span class="o-red">o</span><span class="o-yellow">o</span><span class="g-blue">g</span><span class="l-green">l</span><span class="e-red">e</span>
+                        </span>
+                    </div>
+
+                    <a href="#" class="btn journey_section_write_btn text-white fw-semibold rounded-3 btn-sm px-3 d-inline-flex align-items-center gap-2">
+                        <i class="bi bi-pencil-square"></i> Write a Review
+                    </a>
+                </div>
+            </div>
+
+                <!-- Review Card 1 -->
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="journey_section_review_card bg-white p-3 rounded-3 border h-100 d-flex flex-column">
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                            <div class="rounded-circle bg-success text-white d-flex align-items-center justify-content-center fw-bold" style="width: 38px; height: 38px; font-size: 14px;">S</div>
+                            <div>
+                                <h6 class="fw-bold mb-0 text-dark small">Sowmya Reddy</h6>
+                                <span class="text-muted" style="font-size: 11px;">2 days ago</span>
+                            </div>
+                        </div>
+                        <div class="journey_section_stars text-warning mb-2" style="font-size: 12px;">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="text-secondary small mb-0 flex-grow-1" style="font-size: 12px;">Excellent hospital with well experienced doctors and caring staff. Highly recommended!</p>
+                    </div>
+                </div>
+
+                <!-- Review Card 2 -->
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="journey_section_review_card bg-white p-3 rounded-3 border h-100 d-flex flex-column">
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                            <div class="rounded-circle bg-danger text-white d-flex align-items-center justify-content-center fw-bold" style="width: 38px; height: 38px; font-size: 14px;">P</div>
+                            <div>
+                                <h6 class="fw-bold mb-0 text-dark small">Praveen Kumar</h6>
+                                <span class="text-muted" style="font-size: 11px;">1 week ago</span>
+                            </div>
+                        </div>
+                        <div class="journey_section_stars text-warning mb-2" style="font-size: 12px;">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="text-secondary small mb-0 flex-grow-1" style="font-size: 12px;">Had a great experience with the treatment and facilities. The staff took good care of me during my stay.</p>
+                    </div>
+                </div>
+
+                <!-- Review Card 3 -->
+                <div class="col-lg-3 col-md-4 col-sm-12">
+                    <div class="journey_section_review_card bg-white p-3 rounded-3 border h-100 d-flex flex-column">
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                            <div class="rounded-circle bg-success text-white d-flex align-items-center justify-content-center fw-bold" style="width: 38px; height: 38px; font-size: 14px;">G</div>
+                            <div>
+                                <h6 class="fw-bold mb-0 text-dark small">Gayathri P.</h6>
+                                <span class="text-muted" style="font-size: 11px;">2 weeks ago</span>
+                            </div>
+                        </div>
+                        <div class="journey_section_stars text-warning mb-2" style="font-size: 12px;">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                        <p class="text-secondary small mb-0 flex-grow-1" style="font-size: 12px;">Very clean and well maintained hospital. Doctors explain everything clearly and make us feel comfortable.</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- View All Link -->
+            <div class="text-center mt-3 pt-2">
+                <a href="#" class="journey_section_text_primary fw-bold text-decoration-none small">
+                    View All Reviews on Google <i class="bi bi-arrow-right ms-1"></i>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 4. DOCTORS WHO CARE (PHOTO GALLERY) -->
+    <div class="container mb-5">
+        <div class="d-flex flex-wrap align-items-center justify-content-between mb-3 gap-2">
+            <div>
+                <h3 class="fw-bold text-dark mb-0">
+                    Doctors Who <span class="journey_section_text_accent">Care</span>
+                </h3>
+                <p class="text-muted small mb-0">Moments of trust, gratitude and care shared by our patients.</p>
+            </div>
+            <a href="#" class="btn btn-outline-primary rounded-3 btn-sm px-3 fw-semibold d-inline-flex align-items-center gap-1">
+                <i class="bi bi-images"></i> View All Photos
+            </a>
+        </div>
+
+        <div class="row g-3">
+            <div class="col-6 col-md-4 col-lg">
+                <div class="journey_section_gallery_img rounded-4 overflow-hidden border shadow-sm">
+                    <img src="assets/images/doctor-patient-1.jpg" alt="Doctor and Patient Moment" class="w-100 h-100 object-fit-cover" style="min-height: 200px;">
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg">
+                <div class="journey_section_gallery_img rounded-4 overflow-hidden border shadow-sm">
+                    <img src="assets/images/doctor-patient-2.jpg" alt="Doctor and Patient Moment" class="w-100 h-100 object-fit-cover" style="min-height: 200px;">
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg">
+                <div class="journey_section_gallery_img rounded-4 overflow-hidden border shadow-sm">
+                    <img src="assets/images/doctor-patient-3.jpg" alt="Doctor and Patient Moment" class="w-100 h-100 object-fit-cover" style="min-height: 200px;">
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg">
+                <div class="journey_section_gallery_img rounded-4 overflow-hidden border shadow-sm">
+                    <img src="assets/images/doctor-patient-4.jpg" alt="Doctor and Patient Moment" class="w-100 h-100 object-fit-cover" style="min-height: 200px;">
+                </div>
+            </div>
+            <div class="col-6 col-md-4 col-lg">
+                <div class="journey_section_gallery_img rounded-4 overflow-hidden border shadow-sm">
+                    <img src="assets/images/doctor-patient-5.jpg" alt="Doctor and Patient Moment" class="w-100 h-100 object-fit-cover" style="min-height: 200px;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 5. BOTTOM CTA BANNER -->
+    <div class="container mb-4">
+        <div class="journey_section_cta_banner p-4 p-md-4 rounded-4 text-white">
+            <div class="row align-items-center g-3">
+                <div class="col-lg-8 col-md-7 d-flex align-items-center gap-3">
+                    <div class="journey_section_cta_icon d-none d-sm-flex rounded-circle border border-white border-opacity-25 p-3 align-items-center justify-content-center">
+                        <i class="bi bi-heart-pulse fs-2 text-white"></i>
+                    </div>
+                    <div>
+                        <h5 class="fw-bold mb-1 text-white">Your Trust Inspires Us Every Day</h5>
+                        <p class="mb-0 text-white-50 small">We are committed to delivering the best possible care and creating more happy and healthy tomorrows.</p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-5 text-md-end text-start">
+                    <a href="#" class="btn journey_section_cta_btn fw-bold px-4 py-2 rounded-3 text-white d-inline-flex align-items-center gap-2">
+                        <i class="bi bi-calendar-check"></i> Book an Appointment
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
 <?php include 'footer.php' ; ?>
