@@ -92,11 +92,11 @@
         <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-3">
 
           <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link active" href="Home.php">Home</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">About Us</a>
+            <a class="nav-link" href="aboutus.php">About Us</a>
           </li>
 
           <!-- Services Megamenu Dropdown -->
@@ -110,34 +110,34 @@
                 <!-- Column 1 -->
                 <div class="col-md-4">
                   <ul class="list-unstyled mb-0">
-                    <li><a class="dropdown-item mega_menu_item" href="#">Neuro Surgery</a></li>
-                    <li><a class="dropdown-item mega_menu_item" href="#">Neurology</a></li>
-                    <li><a class="dropdown-item mega_menu_item" href="#">Accidents &amp; Trauma Care</a></li>
-                    <li><a class="dropdown-item mega_menu_item" href="#">Orthopaedic Surgery</a></li>
-                    <li><a class="dropdown-item mega_menu_item" href="#">General Medicine</a></li>
-                    <li><a class="dropdown-item mega_menu_item" href="#">Gynecology</a></li>
+                    <li><a class="dropdown-item mega_menu_item" href="neuro-surgery.php">Neuro Surgery</a></li>
+                    <li><a class="dropdown-item mega_menu_item" href="neurology.php">Neurology</a></li>
+                    <li><a class="dropdown-item mega_menu_item" href="accidents-and-trauma-care.php">Accidents &amp; Trauma Care</a></li>
+                    <li><a class="dropdown-item mega_menu_item" href="orthopaedic-surgery.php">Orthopaedic Surgery</a></li>
+                    <li><a class="dropdown-item mega_menu_item" href="general-and-laproscopic-surgery.php">General Medicine</a></li>
+                    <li><a class="dropdown-item mega_menu_item" href="gynecology.php">Gynecology</a></li>
                   </ul>
                 </div>
 
                 <!-- Column 2 -->
                 <div class="col-md-4">
                   <ul class="list-unstyled mb-0">
-                    <li><a class="dropdown-item mega_menu_item" href="#">Critical Care</a></li>
-                    <li><a class="dropdown-item mega_menu_item" href="#">Neuro Psychiatric</a></li>
-                    <li><a class="dropdown-item mega_menu_item" href="#">Dental</a></li>
-                    <li><a class="dropdown-item mega_menu_item" href="#">Maxillo facial Surgery</a></li>
-                    <li><a class="dropdown-item mega_menu_item" href="#">Plastic &amp; Cosmetic surgery</a></li>
+                    <li><a class="dropdown-item mega_menu_item" href="critical-care.php">Critical Care</a></li>
+                    <li><a class="dropdown-item mega_menu_item" href="neuro-psychiatric.php">Neuro Psychiatric</a></li>
+                    <li><a class="dropdown-item mega_menu_item" href="dental.php">Dental</a></li>
+                    <li><a class="dropdown-item mega_menu_item" href="maxillo-facial-surgery.php">Maxillo facial Surgery</a></li>
+                    <li><a class="dropdown-item mega_menu_item" href="plastic-cosmetic-surgery.php">Plastic &amp; Cosmetic surgery</a></li>
                   </ul>
                 </div>
 
                 <!-- Column 3 -->
                 <div class="col-md-4">
                   <ul class="list-unstyled mb-0">
-                    <li><a class="dropdown-item mega_menu_item" href="#">Pediatrics</a></li>
-                    <li><a class="dropdown-item mega_menu_item" href="#">Physiotherapy</a></li>
-                    <li><a class="dropdown-item mega_menu_item" href="#">Radiology</a></li>
-                    <li><a class="dropdown-item mega_menu_item" href="#">Neuro rehabilitation</a></li>
-                    <li><a class="dropdown-item mega_menu_item" href="#">General &amp; Laproscopic Surgery</a></li>
+                    <li><a class="dropdown-item mega_menu_item" href="pediatrics.php">Pediatrics</a></li>
+                    <li><a class="dropdown-item mega_menu_item" href="physiotherapy.php">Physiotherapy</a></li>
+                    <li><a class="dropdown-item mega_menu_item" href="radiology.php">Radiology</a></li>
+                    <li><a class="dropdown-item mega_menu_item" href="neuro-rehabilitation.php">Neuro rehabilitation</a></li>
+                    <li><a class="dropdown-item mega_menu_item" href="general-and-laproscopic-surgery.php">General &amp; Laproscopic Surgery</a></li>
                   </ul>
                 </div>
               </div>
@@ -145,15 +145,15 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">Doctors</a>
+            <a class="nav-link" href="doctors.php">Doctors</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">Blogs</a>
+            <a class="nav-link" href="blogs.php">Blogs</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">Contact Us</a>
+            <a class="nav-link" href="contactus.php">Contact Us</a>
           </li>
 
           <!-- Outline Pill Appointment Button -->
