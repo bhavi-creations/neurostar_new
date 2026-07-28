@@ -499,4 +499,36 @@
 
 </section>
 
+<div class="modal fade doctor_profile_modal" id="doctorProfileModal" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-sm-down">
+        <div class="modal-content">
+            <div class="modal-header position-relative">
+                <div>
+                    <h5 class="modal-title fw-bold mb-0" id="doctorProfileName">Doctor Profile</h5>
+                    <p class="text-muted mb-0 small" id="doctorProfileDesignation">Designation</p>
+                </div>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body position-relative">
+                <button type="button" class="doctor_profile_nav prev" id="doctorProfilePrev" aria-label="Previous doctor">
+                    <i class="bi bi-chevron-left"></i>
+                </button>
+                <button type="button" class="doctor_profile_nav next" id="doctorProfileNext" aria-label="Next doctor">
+                    <i class="bi bi-chevron-right"></i>
+                </button>
+
+                <div class="doctor_profile_panel">
+                    <img id="doctorProfileImage" src="" alt="Doctor image">
+                    <div class="text-start">
+                        <h4 class="fw-bold mb-1" id="doctorProfileTitle">Doctor Name</h4>
+                        <p class="text-primary fw-semibold mb-2" id="doctorProfileSpecialty">Specialty</p>
+                        <p class="text-muted mb-1" id="doctorProfileQualification">Qualification</p>
+                        <p class="text-muted mb-1" id="doctorProfileExperience">Experience</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <?php include 'footer.php'; ?>

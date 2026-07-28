@@ -2,8 +2,8 @@
 Google Font
 ====================================================*/
 *{
-    margin: -2px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing:border-box;
     font-family:'Poppins',sans-serif;
 }
@@ -89,6 +89,26 @@ Top Bar
 
 }
 
+.index_section_topbar .row{
+    row-gap: 8px;
+}
+
+.index_section_topbar_left,
+.index_section_topbar_right{
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:14px;
+}
+
+.index_section_topbar_left span,
+.index_section_topbar_right span{
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+    white-space:nowrap;
+}
+
 /*====================================================
 Navbar
 ====================================================*/
@@ -96,7 +116,7 @@ Navbar
 .index_section_navbar{
 
     background:#fff;
-    padding:18px 0;
+    padding:12px 0;
 
 }
 
@@ -105,7 +125,16 @@ Navbar
     font-size:28px;
     font-weight:700;
     color:var(--secondary);
+    display:flex;
+    align-items:center;
+    line-height:1;
 
+}
+
+.index_section_navbar .navbar-brand img{
+    max-height:54px;
+    width:auto;
+    object-fit:contain;
 }
 
 .index_section_navbar .nav-link{
@@ -3223,6 +3252,91 @@ Footer Bottom
     }
 }
 
+.doctor_profile_modal .modal-content{
+    border:0;
+    border-radius:22px;
+    overflow:hidden;
+}
+
+.doctor_profile_modal .modal-header{
+    border-bottom:0;
+    padding:1rem 1.25rem 0 1.25rem;
+}
+
+.doctor_profile_modal .btn-close{
+    box-shadow:none;
+}
+
+.doctor_profile_modal .modal-body{
+    padding:0 1.25rem 1.25rem 1.25rem;
+}
+
+.doctor_profile_panel{
+    display:flex;
+    align-items:center;
+    gap:18px;
+    background:linear-gradient(135deg,#eef7ff,#ffffff);
+    border:1px solid #e8edf5;
+    border-radius:18px;
+    padding:18px;
+}
+
+.doctor_profile_panel img{
+    width:96px;
+    height:96px;
+    object-fit:contain;
+    flex-shrink:0;
+}
+
+.doctor_profile_nav{
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    width:42px;
+    height:42px;
+    border-radius:50%;
+    border:0;
+    background:#052c65;
+    color:#fff;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    box-shadow:0 10px 24px rgba(5,44,101,.25);
+}
+
+.doctor_profile_nav.prev{
+    left:12px;
+}
+
+.doctor_profile_nav.next{
+    right:12px;
+}
+
+@media (max-width: 576px) {
+    .doctor_profile_panel{
+        flex-direction:column;
+        text-align:center;
+    }
+
+    .doctor_profile_nav{
+        top:auto;
+        bottom:14px;
+        transform:none;
+    }
+
+    .doctor_profile_nav.prev{
+        left:18px;
+    }
+
+    .doctor_profile_nav.next{
+        right:18px;
+    }
+
+    .doctor_profile_modal .modal-body{
+        padding-bottom:3.75rem;
+    }
+}
+
 /* ============================================================
    6. BOOK AN APPOINTMENT CTA BANNER STYLES
 ============================================================ */
@@ -4160,8 +4274,8 @@ footer,
 /* Navy Navbar Styling */
 .custom_navy_navbar {
     background-color: #052c65 !important;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* Navigation Links */
@@ -4215,6 +4329,14 @@ footer,
     filter: invert(1);
 }
 
+.custom_navy_navbar .navbar-toggler{
+    box-shadow:none;
+}
+
+.custom_navy_navbar .navbar-collapse{
+    flex-grow:0;
+}
+
 
 /* Megamenu Container Overlay */
 .custom_navy_navbar .mega_menu_dropdown {
@@ -4259,6 +4381,29 @@ footer,
     .mega_menu_item {
         font-size: 0.875rem !important;
         padding: 6px 10px !important;
+    }
+
+    .index_section_topbar_left,
+    .index_section_topbar_right{
+        justify-content:center;
+    }
+
+    .index_section_navbar .container-fluid{
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .custom_navy_navbar .navbar-nav{
+        padding-top: 14px;
+        gap: 8px;
+    }
+
+    .custom_navy_navbar .nav-link,
+    .custom_navy_navbar .nav_services_btn,
+    .custom_navy_navbar .nav_appointment_btn{
+        width:100%;
+        justify-content:center;
+        text-align:center;
     }
 }
 
