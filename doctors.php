@@ -77,7 +77,7 @@
 
                 <!-- Right Hero Banner Image -->
                 <div class="col-lg-5 col-md-12 text-center position-relative">
-                    <img src="assets/images/doctors-hero-group.png" alt="Neurostar Doctors Team" class="img-fluid doctors_section_hero_img">
+                    <img src="assets/img/Home_doctors_bg.png" alt="Neurostar Doctors Team" class="img-fluid doctors_section_hero_img">
                 </div>
             </div>
         </div>
@@ -137,7 +137,7 @@
                         <button class="doctors_section_wishlist_btn position-absolute top-0 end-0 m-2 btn btn-sm btn-light rounded-circle shadow-sm">
                             <i class="bi bi-heart"></i>
                         </button>
-                        <img src="assets/images/doctor1.png" alt="Dr. Ramesh Babu" class="img-fluid doctors_section_card_img">
+                        <img src="assets/img/ashokkumar.png" alt="Dr. M. Ashok Kumar" class="img-fluid doctors_section_card_img">
                     </div>
                     <div class="card-body d-flex flex-column p-3">
                         <h5 class="doctors_section_card_title fw-bold mb-1">Dr. M. Ashok Kumar</h5>
@@ -163,12 +163,13 @@
                         <button class="doctors_section_wishlist_btn position-absolute top-0 end-0 m-2 btn btn-sm btn-light rounded-circle shadow-sm">
                             <i class="bi bi-heart"></i>
                         </button>
-                        <img src="assets/images/doctor2.png" alt="Dr. Anitha Reddy" class="img-fluid doctors_section_card_img">
+                        <img src="assets/img/sasthrulu.png" alt="Dr. G.V.N.B.R. Sasthrulu" class="img-fluid doctors_section_card_img">
                     </div>
                     <div class="card-body d-flex flex-column p-3">
                         <h5 class="doctors_section_card_title fw-bold mb-1">Dr. G.V.N.B.R. Sasthrulu</h5>
                         <p class="doctors_section_card_specialty text-primary fw-semibold mb-2">Oral & Maxillofacial Surgeon</p>
-                        <p class="doctors_section_card_meta text-muted small mb-1"><i class="bi bi-mortarboard-fill me-1"></i>B.D.S., M.D.S.(Implantologist)</p>
+                        <p class="doctors_section_card_meta text-muted small mb-1"><i class="bi bi-mortarboard-fill me-1"></i>B.D.S.</p>
+                        <p class="doctors_section_card_meta text-muted small mb-1"><i class="bi bi-mortarboard-fill me-1"></i>M.D.S.(Implantologist)</p>
                         <p class="doctors_section_card_meta text-muted small mb-3"><i class="bi bi-briefcase-fill me-1"></i> 12+ Years Exp.</p>
                         
                         <div class="mt-auto d-flex gap-2">
@@ -186,12 +187,13 @@
                         <button class="doctors_section_wishlist_btn position-absolute top-0 end-0 m-2 btn btn-sm btn-light rounded-circle shadow-sm">
                             <i class="bi bi-heart"></i>
                         </button>
-                        <img src="assets/images/doctor3.png" alt="Dr. Sandeep Kumar" class="img-fluid doctors_section_card_img">
+                        <img src="assets/img/ratnabushan.png" alt="Dr. Ratna Bhushan" class="img-fluid doctors_section_card_img">
                     </div>
                     <div class="card-body d-flex flex-column p-3">
                         <h5 class="doctors_section_card_title fw-bold mb-1">Dr. Ratna Bhushan</h5>
                         <p class="doctors_section_card_specialty text-primary fw-semibold mb-2">Plastic & Cosmetic Surgeon</p>
-                        <p class="doctors_section_card_meta text-muted small mb-1"><i class="bi bi-mortarboard-fill me-1"></i>M.B.B.S., M.S., M.Ch.</p>
+                        <p class="doctors_section_card_meta text-muted small mb-1"><i class="bi bi-mortarboard-fill me-1"></i>M.B.B.S., M.S.</p>
+                        <p class="doctors_section_card_meta text-muted small mb-1"><i class="bi bi-mortarboard-fill me-1"></i>M.Ch.</p>
                         <p class="doctors_section_card_meta text-muted small mb-3"><i class="bi bi-briefcase-fill me-1"></i> 14+ Years Exp.</p>
                         
                         <div class="mt-auto d-flex gap-2">
@@ -209,7 +211,7 @@
                         <button class="doctors_section_wishlist_btn position-absolute top-0 end-0 m-2 btn btn-sm btn-light rounded-circle shadow-sm">
                             <i class="bi bi-heart"></i>
                         </button>
-                        <img src="assets/images/doctor4.png" alt="Dr. Priya Sharma" class="img-fluid doctors_section_card_img">
+                        <img src="assets/img/ramakrishna.png" alt="Dr. Rama Krishna" class="img-fluid doctors_section_card_img">
                     </div>
                     <div class="card-body d-flex flex-column p-3">
                         <h5 class="doctors_section_card_title fw-bold mb-1">Dr. Rama Krishna</h5>
@@ -233,12 +235,12 @@
                         <button class="doctors_section_wishlist_btn position-absolute top-0 end-0 m-2 btn btn-sm btn-light rounded-circle shadow-sm">
                             <i class="bi bi-heart"></i>
                         </button>
-                        <img src="assets/images/doctor5.png" alt="Dr. Mohan Rao" class="img-fluid doctors_section_card_img">
+                        <img src="assets/img/laxmanprasad.png" alt="Dr.G.Laxman Prasad" class="img-fluid doctors_section_card_img">
                     </div>
                     <div class="card-body d-flex flex-column p-3">
-                        <h5 class="doctors_section_card_title fw-bold mb-1">Dr. Mohan Rao</h5>
-                        <p class="doctors_section_card_specialty text-primary fw-semibold mb-2">Nephrologist</p>
-                        <p class="doctors_section_card_meta text-muted small mb-1"><i class="bi bi-mortarboard-fill me-1"></i> MD, DM (Nephrology)</p>
+                        <h5 class="doctors_section_card_title fw-bold mb-1">Dr.G.Laxman Prasad</h5>
+                        <p class="doctors_section_card_specialty text-primary fw-semibold mb-2">E.N.T Specialist</p>
+                        <p class="doctors_section_card_meta text-muted small mb-1"><i class="bi bi-mortarboard-fill me-1"></i> M.S.(E.N.T)</p>
                         <p class="doctors_section_card_meta text-muted small mb-3"><i class="bi bi-briefcase-fill me-1"></i> 13+ Years Exp.</p>
                         
                         <div class="mt-auto d-flex gap-2">
@@ -256,12 +258,12 @@
                         <button class="doctors_section_wishlist_btn position-absolute top-0 end-0 m-2 btn btn-sm btn-light rounded-circle shadow-sm">
                             <i class="bi bi-heart"></i>
                         </button>
-                        <img src="assets/images/doctor6.png" alt="Dr. Kavya Rani" class="img-fluid doctors_section_card_img">
+                        <img src="assets/img/praveenrevu.png" alt="Dr. Praveen Revu" class="img-fluid doctors_section_card_img">
                     </div>
                     <div class="card-body d-flex flex-column p-3">
-                        <h5 class="doctors_section_card_title fw-bold mb-1">Dr. Kavya Rani</h5>
-                        <p class="doctors_section_card_specialty text-primary fw-semibold mb-2">Pediatrician</p>
-                        <p class="doctors_section_card_meta text-muted small mb-1"><i class="bi bi-mortarboard-fill me-1"></i> MD (Pediatrics)</p>
+                        <h5 class="doctors_section_card_title fw-bold mb-1">Dr. Praveen Revu</h5>
+                        <p class="doctors_section_card_specialty text-primary fw-semibold mb-2">Nephrologist</p>
+                        <p class="doctors_section_card_meta text-muted small mb-1"><i class="bi bi-mortarboard-fill me-1"></i>MD (Gen medicine),DM (Nephrology)</p>
                         <p class="doctors_section_card_meta text-muted small mb-3"><i class="bi bi-briefcase-fill me-1"></i> 9+ Years Exp.</p>
                         
                         <div class="mt-auto d-flex gap-2">
@@ -279,12 +281,12 @@
                         <button class="doctors_section_wishlist_btn position-absolute top-0 end-0 m-2 btn btn-sm btn-light rounded-circle shadow-sm">
                             <i class="bi bi-heart"></i>
                         </button>
-                        <img src="assets/images/doctor7.png" alt="Dr. Venkatesh P." class="img-fluid doctors_section_card_img">
+                        <img src="assets/img/dani.png" alt="Dr. G. Dani" class="img-fluid doctors_section_card_img">
                     </div>
                     <div class="card-body d-flex flex-column p-3">
-                        <h5 class="doctors_section_card_title fw-bold mb-1">Dr. Venkatesh P.</h5>
-                        <p class="doctors_section_card_specialty text-primary fw-semibold mb-2">Gastroenterologist</p>
-                        <p class="doctors_section_card_meta text-muted small mb-1"><i class="bi bi-mortarboard-fill me-1"></i> MD, DM (Gastro)</p>
+                        <h5 class="doctors_section_card_title fw-bold mb-1">Dr. G. Dani</h5>
+                        <p class="doctors_section_card_specialty text-primary fw-semibold mb-2">Intensivist & Anesthetist</p>
+                        <p class="doctors_section_card_meta text-muted small mb-1"><i class="bi bi-mortarboard-fill me-1"></i> MBBS DA (FIICM)</p>
                         <p class="doctors_section_card_meta text-muted small mb-3"><i class="bi bi-briefcase-fill me-1"></i> 11+ Years Exp.</p>
                         
                         <div class="mt-auto d-flex gap-2">
@@ -302,12 +304,12 @@
                         <button class="doctors_section_wishlist_btn position-absolute top-0 end-0 m-2 btn btn-sm btn-light rounded-circle shadow-sm">
                             <i class="bi bi-heart"></i>
                         </button>
-                        <img src="assets/images/doctor8.png" alt="Dr. Arjun Varma" class="img-fluid doctors_section_card_img">
+                        <img src="assets/img/akhila.png" alt="Dr. Akhila .S" class="img-fluid doctors_section_card_img">
                     </div>
                     <div class="card-body d-flex flex-column p-3">
-                        <h5 class="doctors_section_card_title fw-bold mb-1">Dr. Arjun Varma</h5>
-                        <p class="doctors_section_card_specialty text-primary fw-semibold mb-2">ENT Specialist</p>
-                        <p class="doctors_section_card_meta text-muted small mb-1"><i class="bi bi-mortarboard-fill me-1"></i> MS (ENT)</p>
+                        <h5 class="doctors_section_card_title fw-bold mb-1">Dr. Akhila .S</h5>
+                        <p class="doctors_section_card_specialty text-primary fw-semibold mb-2">Psychiatrist</p>
+                        <p class="doctors_section_card_meta text-muted small mb-1"><i class="bi bi-mortarboard-fill me-1"></i>MD (Psychiatrist)</p>
                         <p class="doctors_section_card_meta text-muted small mb-3"><i class="bi bi-briefcase-fill me-1"></i> 8+ Years Exp.</p>
                         
                         <div class="mt-auto d-flex gap-2">

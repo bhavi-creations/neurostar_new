@@ -99,18 +99,50 @@
           <a class="nav-link" href="#">About Us</a>
         </li>
 
-        <!-- Services Dropdown Button -->
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle nav_services_btn" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Services
+        <!-- Services Megamenu Dropdown -->
+     <li class="nav-item dropdown position-static">
+         <a class="nav-link dropdown-toggle nav_services_btn" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+             Services
           </a>
-          <ul class="dropdown-menu shadow" aria-labelledby="servicesDropdown">
-            <li><a class="dropdown-item" href="#">Neuro Surgery</a></li>
-            <li><a class="dropdown-item" href="#">Neurology</a></li>
-            <li><a class="dropdown-item" href="#">Orthopaedic Surgery</a></li>
-            <li><a class="dropdown-item" href="#">General Medicine</a></li>
-          </ul>
-        </li>
+  
+          <div class="dropdown-menu mega_menu_dropdown shadow-lg border-0 p-4" aria-labelledby="servicesDropdown">
+          <div class="row g-3">      
+              <!-- Column 1 -->
+             <div class="col-md-4">
+                 <ul class="list-unstyled mb-0">
+                     <li><a class="dropdown-item mega_menu_item" href="#">Neuro Surgery</a></li>
+                     <li><a class="dropdown-item mega_menu_item" href="#">Neurology</a></li>
+                     <li><a class="dropdown-item mega_menu_item" href="#">Accidents &amp; Trauma Care</a></li>
+                     <li><a class="dropdown-item mega_menu_item" href="#">Orthopaedic Surgery</a></li>
+                     <li><a class="dropdown-item mega_menu_item" href="#">General Medicine</a></li>
+                     <li><a class="dropdown-item mega_menu_item" href="#">Gynecology</a></li>
+                 </ul>
+             </div>
+
+             <!-- Column 2 -->
+             <div class="col-md-4">
+                 <ul class="list-unstyled mb-0">
+                     <li><a class="dropdown-item mega_menu_item" href="#">Critical Care</a></li>
+                     <li><a class="dropdown-item mega_menu_item" href="#">Neuro Psychiatric</a></li>
+                     <li><a class="dropdown-item mega_menu_item" href="#">Dental</a></li>
+                     <li><a class="dropdown-item mega_menu_item" href="#">Maxillo facial Surgery</a></li>
+                     <li><a class="dropdown-item mega_menu_item" href="#">Plastic &amp; Cosmetic surgery</a></li>
+                 </ul>
+             </div>
+
+             <!-- Column 3 -->
+             <div class="col-md-4">
+                 <ul class="list-unstyled mb-0">
+                     <li><a class="dropdown-item mega_menu_item" href="#">Pediatrics</a></li>
+                     <li><a class="dropdown-item mega_menu_item" href="#">Physiotherapy</a></li>
+                     <li><a class="dropdown-item mega_menu_item" href="#">Radiology</a></li>
+                     <li><a class="dropdown-item mega_menu_item" href="#">Neuro rehabilitation</a></li>
+                     <li><a class="dropdown-item mega_menu_item" href="#">General &amp; Laproscopic Surgery</a></li>
+                 </ul>
+            </div>
+        </div>
+    </div>
+ </li>
 
         <li class="nav-item">
           <a class="nav-link" href="#">Doctors</a>

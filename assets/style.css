@@ -4216,5 +4216,217 @@ footer,
 }
 
 
+/* Megamenu Container Overlay */
+.custom_navy_navbar .mega_menu_dropdown {
+    width: auto;
+    min-width: 820px;                     /* Creates the wide multi-column layout */
+    left: auto !important;
+    right: 5% !important;                  /* Aligns nicely under the right menu area */
+    top: 100% !important;
+    margin-top: 10px !important;
+    border-radius: 12px !important;
+    background-color: #ffffff !important;
+}
+
+/* Individual Item Links */
+.mega_menu_item {
+    color: #0b1e38 !important;             /* Dark navy bold text color */
+    font-weight: 700 !important;
+    font-size: 0.95rem !important;
+    padding: 8px 12px !important;
+    border-radius: 6px;
+    white-space: normal !important;        /* Prevents text clipping */
+    transition: all 0.2s ease;
+}
+
+/* Hover State */
+.mega_menu_item:hover {
+    background-color: #f0f5ff !important;  /* Light blue accent on hover */
+    color: #0d6efd !important;             /* Primary blue highlight */
+    padding-left: 16px !important;         /* Smooth slide effect */
+}
+
+/* Mobile & Tablet Responsiveness */
+@media (max-width: 991.98px) {
+    .custom_navy_navbar .mega_menu_dropdown {
+        min-width: 100% !important;
+        position: static !important;
+        right: 0 !important;
+        box-shadow: none !important;
+        border-radius: 0 !important;
+    }
+
+    .mega_menu_item {
+        font-size: 0.875rem !important;
+        padding: 6px 10px !important;
+    }
+}
+
+
+
+
+/* ========================================= */
+/* New Service Pages Styles                       */
+/* ========================================= */
+
+.service_page_wrapper {
+    background-color: #fbfcfd;
+}
+
+/* Service Title */
+.service_title {
+    color: #052c65;
+    font-size: 2.25rem;
+    font-weight: 800;
+    line-height: 1.2;
+    position: relative;
+    display: inline-block;
+}
+
+.service_title::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background-color: #052c65;
+    border-radius: 2px;
+    margin-top: 8px;
+}
+
+/* Paragraph Content */
+.service_description {
+    color: #4a5568;
+    font-size: 1rem;
+    line-height: 1.7;
+    font-weight: 500;
+}
+
+/* Read More / Read Less Toggle Link */
+.toggle_read_more_btn {
+    color: #052c65;
+    font-weight: 700;
+    font-size: 0.95rem;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    transition: color 0.2s ease;
+    cursor: pointer;
+}
+
+.toggle_read_more_btn:hover {
+    color: #0d6efd;
+}
+
+/* Image Container */
+.service_image_container {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.service_main_img {
+    max-height: 380px;
+    width: auto;
+    object-fit: contain;
+}
+
+/* ========================================= */
+/* Advantages & Disadvantages Styling       */
+/* ========================================= */
+
+.pros_cons_heading {
+    color: #052c65;
+    font-size: 1.75rem;
+}
+
+.heading_line {
+    width: 50px;
+    height: 3px;
+    background-color: #0d6efd;
+    border-radius: 2px;
+    margin-top: 6px;
+}
+
+/* Cards */
+.pro_con_card {
+    border: 1px solid #eef2f6;
+    border-top: 4px solid transparent;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.pro_con_card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08) !important;
+}
+
+.advantages_card {
+    border-top-color: #198754 !important;
+}
+
+.disadvantages_card {
+    border-top-color: #dc3545 !important;
+}
+
+/* Header Icon Badges */
+.icon_box {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+}
+
+.pro_icon_bg {
+    background-color: #d1e7dd;
+    color: #198754;
+}
+
+.con_icon_bg {
+    background-color: #f8d7da;
+    color: #dc3545;
+}
+
+/* List Items Typography */
+.pros_cons_list li span {
+    color: #334155;
+    font-size: 0.95rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+/* Responsive Scaling */
+@media (max-width: 991.98px) {
+    .service_title {
+        font-size: 1.85rem;
+    }
+
+    .service_main_img {
+        max-height: 280px;
+    }
+}
+
+
+
+/* Read More / Read Less Links matching reference image */
+.toggle_read_more_btn {
+    color: #052c65 !important;           /* Dark Navy Blue */
+    font-weight: 700 !important;
+    font-size: 1rem !important;
+    text-decoration: none !important;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    transition: color 0.2s ease, transform 0.2s ease;
+}
+
+.toggle_read_more_btn:hover {
+    color: #0d6efd !important;           /* Light blue accent on hover */
+}
+
+.toggle_read_more_btn .toggle_arrow {
+    font-weight: 800;
+    font-size: 1.1rem;
+}
 
 
