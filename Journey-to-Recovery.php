@@ -21,37 +21,37 @@
     <div class="col-6 col-sm-3 d-flex">
         <div class="journey_section_stat_card text-center p-2 rounded-3 w-100 d-flex flex-column justify-content-center align-items-center">
             <div class="journey_section_stat_icon mb-2">
-                <i class="bi bi-people fs-4 text-primary"></i>
+                <img src="./assets/img/Neuro_doctor.png" alt="Doctors" style="width:50px; height:50px">   
             </div>
-            <h5 class="journey_section_stat_number fw-bold mb-1 text-dark">75,000+</h5>
-            <span class="text-muted journey_section_stat_label">Happy Patients</span>
+            <h5 class="journey_section_stat_number mb-1 text-black">75+</h5>
+            <span class="text-black journey_section_stat_label">Doctors</span>
         </div>
     </div>
     <div class="col-6 col-sm-3 d-flex">
         <div class="journey_section_stat_card text-center p-2 rounded-3 w-100 d-flex flex-column justify-content-center align-items-center">
             <div class="journey_section_stat_icon mb-2">
-                <i class="bi bi-stethoscope fs-4 text-primary"></i>
+                <img src="./assets/img/Department.png" alt="Hospital" style="width:50px; height:50px">
             </div>
-            <h5 class="journey_section_stat_number fw-bold mb-1 text-dark">2,50,000+</h5>
-            <span class="text-muted journey_section_stat_label">OP Consultations</span>
+            <h5 class="journey_section_stat_number mb-1 text-black">25+</h5>
+            <span class="text-black journey_section_stat_label">Departments</span>
         </div>
     </div>
     <div class="col-6 col-sm-3 d-flex">
         <div class="journey_section_stat_card text-center p-2 rounded-3 w-100 d-flex flex-column justify-content-center align-items-center">
             <div class="journey_section_stat_icon mb-2">
-                <i class="bi bi-star fs-4 text-primary"></i>
+                <img src="./assets/img/happy-clients-01.png" alt="" style="width:50px; height:50px">
             </div>
-            <h5 class="journey_section_stat_number fw-bold mb-1 text-dark">15,000+</h5>
-            <span class="text-muted journey_section_stat_label">Successful Surgeries</span>
+            <h5 class="journey_section_stat_number mb-1 text-black">75,000+</h5>
+            <span class="text-black journey_section_stat_label">Happy Patients</span>
         </div>
     </div>
     <div class="col-6 col-sm-3 d-flex">
         <div class="journey_section_stat_card text-center p-2 rounded-3 w-100 d-flex flex-column justify-content-center align-items-center">
             <div class="journey_section_stat_icon mb-2">
-                <i class="bi bi-emoji-smile fs-4 text-primary"></i>
+                <img src="./assets/img/Experience.png" alt="" style="width:50px; height:50px">
             </div>
-            <h5 class="journey_section_stat_number fw-bold mb-1 text-dark">98%</h5>
-            <span class="text-muted journey_section_stat_label">Patient Satisfaction</span>
+            <h5 class="journey_section_stat_number mb-1 text-black">15+</h5>
+            <span class="text-black journey_section_stat_label">Years Experience</span>
         </div>
     </div>
 </div>
@@ -60,7 +60,7 @@
                 <!-- Hero Image -->
                 <div class="col-lg-6 col-md-12 text-center text-lg-end">
                     <div class="journey_section_hero_img_wrapper rounded-4 overflow-hidden shadow-sm">
-                        <img src="assets/images/doctor-patient-thumbs-up.jpg" alt="Happy Patients, Stronger Together" class="img-fluid w-100 object-fit-cover">
+                        <img src="assets/img/doctor-patient-thumbs-up.jpg" alt="Happy Patients, Stronger Together" class="img-fluid w-100 object-fit-cover">
                     </div>
                 </div>
             </div>

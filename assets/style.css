@@ -665,7 +665,7 @@ Feature Box
 
     line-height:27px;
 
-    font-size:16px;
+    font-size:17px;
 
 }
 
@@ -1847,7 +1847,6 @@ Mobile Fix (Only Mobile)
     [class*="col-"]{
         padding-left:8px;
         padding-right:8px;
-        text-align: left;
     }
 
     /* Navbar */
@@ -2193,8 +2192,8 @@ Back To Top
     }
 
     .index_section_stat_card i{
-        width:46px;
-        height:46px;
+        width:55px;
+        height:51px;
         font-size:20px;
         margin-bottom:12px;
     }
@@ -4215,7 +4214,7 @@ footer,
 
 /* 1. Reduce overall card dimensions & vertical space */
 .index_section_stat_card {
-  padding: 18px 10px !important;    /* Reduced card height/padding */
+  padding: 13px 10px !important;    /* Reduced card height/padding */
   min-height: 120px !important;     /* Compact equal card height */
   display: flex !important;
   flex-direction: column !important;
@@ -4232,8 +4231,8 @@ footer,
 
 /* 3. Reduce Number Size (<h3>) */
 .index_section_stat_card h3 {
-  font-size: 1.3rem !important;      /* Reduced from large hero text */
-  font-weight: 700 !important;
+  font-size: 18px !important;      /* Reduced from large hero text */
+  font-weight: 500 !important;
   line-height: 1.15 !important;
   margin-top: 0 !important;
   margin-bottom: 3px !important;
@@ -4856,3 +4855,1827 @@ footer,
       background: #0d6efd;
       border-radius: 4px;
     }
+
+
+
+/* ========================================= */
+/* Appointment Section Styling               */
+/* ========================================= */
+
+.appointment_section {
+  background-color: #ffffff;
+}
+
+/* Section Main Heading */
+.appointment_title {
+  color: #0b2545;
+  font-size: 2rem;
+  position: relative;
+  display: inline-block;
+}
+
+.appointment_title::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #0b2545;
+  margin: 6px auto 0;
+  border-radius: 2px;
+}
+
+/* Left Image Box Styling */
+.appointment_img_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.appointment_img {
+  max-height: 480px;
+  object-fit: contain;
+}
+
+/* Form Container Card (Matching Background Color from DevTools #09045252 / Soft Purple-Grey) */
+.appointment_card {
+  background-color: #a8acc0; /* Matching DevTools computed soft-grayish-purple tone */
+  border-radius: 16px !important;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+/* Custom Input and Select Fields */
+.appointment_card .custom_input {
+  border-radius: 50px; /* Pill Shape Design */
+  border: 1px solid #ffffff;
+  padding: 12px 20px;
+  font-size: 0.95rem;
+  color: #333333;
+  background-color: #ffffff;
+  box-shadow: none;
+  outline: none;
+}
+
+.appointment_card .custom_input:focus {
+  border-color: #1a237e;
+  box-shadow: 0 0 0 0.2rem rgba(26, 35, 126, 0.15);
+}
+
+.appointment_card .custom_input::placeholder {
+  color: #6c757d;
+}
+
+/* Custom Textarea Field */
+.appointment_card .custom_textarea {
+  border-radius: 20px; /* Rounded Box Shape for Message */
+  border: 1px solid #ffffff;
+  padding: 16px 20px;
+  font-size: 0.95rem;
+  color: #333333;
+  background-color: #ffffff;
+  resize: none;
+  box-shadow: none;
+}
+
+.appointment_card .custom_textarea:focus {
+  border-color: #1a237e;
+  box-shadow: 0 0 0 0.2rem rgba(26, 35, 126, 0.15);
+}
+
+.appointment_card .custom_textarea::placeholder {
+  color: #6c757d;
+}
+
+/* Submit Button Design */
+.btn_submit_appointment {
+  background-color: #172b53; /* Dark Navy Color from Reference */
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.btn_submit_appointment:hover {
+  background-color: #0b1933;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.2);
+}
+
+/* Mobile Responsiveness Adjustments */
+@media (max-width: 767.98px) {
+  .appointment_card {
+    padding: 24px 18px !important;
+  }
+  
+  .appointment_title {
+    font-size: 1.6rem;
+  }
+  
+  .btn_submit_appointment {
+    width: 100%; /* Mobile లో Full width బటన్ వస్తుంది */
+  }
+}
+
+/* Container section styling */
+.index_section_stats {
+  padding: 30px 0;
+}
+
+/* Card container */
+.index_section_stat_card {
+  background: #ffffff;
+  padding: 25px 15px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.index_section_stat_card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 15px 35px rgba(0, 0, 0, 0.12);
+}
+
+/* Custom Circle Icon Box */
+.stat_icon_box {
+  width: 70px;
+  height: 70px;
+  background-color: #eef5ff; /* Light blue circle background */
+  border-radius: 50%;         /* Makes it a perfect circle */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 15px auto;   /* Centers the circle horizontally */
+  transition: background-color 0.3s ease;
+}
+
+/* Custom Image Inside Circle */
+.stat_icon_box img {
+  width:50px;                /* Controls image size inside circle */
+  height: 50px;
+  object-fit: contain;        /* Keeps icon image aspect ratio intact */
+}
+
+/* Typography */
+.index_section_stat_card h3 {
+  font-size: 26px;
+  font-weight: 600;
+  color: #0d233a;             /* Dark header color */
+  margin-bottom: 5px;
+}
+
+.index_section_stat_card p {
+  font-size: 16px;
+  margin: 0;
+}
+
+
+
+/* ==========================================================================
+   FIX FOR ABOUT SECTION (992px to 1199px - Laptop View in your Inspector)
+   ========================================================================== */
+/* @media (min-width: 992px) and (max-width: 1199.98px) {
+
+     1. Pull the image up to align with the top title 
+    .index_section_about .row {
+        align-items: flex-start !important;  Removes vertical center pushing image down 
+    }
+
+     2. Remove extra top section padding 
+    .index_section_about {
+        padding-top: 1rem !important;
+        padding-bottom: 1.5rem !important;
+    }
+
+     3. Make building image larger so its bottom aligns with the cards 
+    .index_section_about_main_image {
+        width: 100% !important;
+        height: auto !important;
+        max-height: 480px !important;
+        object-fit: cover !important;
+    }
+
+     4. Fix the 170px min-height causing giant box heights on right 
+    .index_section_feature_box {
+        min-height: auto !important;  OVERRIDES your style.css:2116 min-height: 170px 
+        padding: 12px 15px !important;
+        gap: 12px !important;
+    }
+
+    .index_section_feature_box h5 {
+        font-size: 0.95rem !important;
+        margin-bottom: 2px !important;
+    }
+
+    .index_section_feature_box p {
+        font-size: 0.8rem !important;
+        line-height: 1.3 !important;
+        margin-bottom: 0 !important;
+    }
+
+    .index_section_title {
+        font-size: 1.65rem !important;
+        line-height: 1.25 !important;
+    }
+
+    .index_section_description {
+        font-size: 0.9rem !important;
+        margin-top: 0.75rem !important;
+        margin-bottom: 1rem !important;
+    }
+} */
+
+/* ==========================================================================
+   FIX FOR 1400px and Above
+   ========================================================================== */
+/* @media (min-width: 1400px) {
+    .index_section_about .row {
+        align-items: flex-start !important;
+    }
+
+    .index_section_feature_box {
+        min-height: auto !important;
+        padding: 16px 18px !important;
+    }
+
+    .index_section_about_main_image {
+        width: 100% !important;
+        height: 100% !important;
+        max-height: 460px !important;
+        object-fit: cover !important;
+    }
+} */
+
+/* Core Section Adjustments */
+.index_section_about {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+    overflow: hidden;
+}
+
+/* Feature Box Layout */
+.index_section_feature_box {
+    padding: 4px;
+    border-radius: 8px;
+    background-color: #f8f9fa; /* Optional background light fill */
+    height: 100%;
+}
+
+.index_section_feature_box h5 {
+    line-height: 1.2;
+}
+
+.index_section_feature_box p {
+    line-height: 1.3;
+}
+
+/* Desktop & Laptop Breakpoint (992px - 1199px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .index_section_about {
+        padding-top: 2.5rem !important;
+        padding-bottom: 2.5rem !important;
+    }
+    
+    .index_section_title {
+        font-size: 1.75rem;
+    }
+    
+    .index_section_feature_box {
+        padding: 0.5rem;
+    }
+}
+
+/* Ultra Wide Screens (1400px and above) */
+@media (min-width: 1400px) {
+    .index_section_about {
+        padding-top: 3.5rem !important;
+        padding-bottom: 3.5rem !important;
+    }
+
+    .index_section_title {
+        font-size: 2.25rem;
+        line-height: 1.3;
+    }
+
+    .index_section_description {
+        font-size: 1.1rem;
+        line-height: 1.6;
+    }
+}
+
+
+
+/* About Us Page complete fix */
+
+/* ============================================================
+   GLOBAL & TITLE STYLES
+============================================================ */
+:root {
+  --primary-color: #0d6efd;
+  --secondary-color: #0dcaf0;
+  --text-main: #2b303a;
+  --text-muted: #6c757d;
+  --bg-light: #f8f9fa;
+  --card-border-radius: 12px;
+}
+
+.aboutus_section_title {
+  color: #06195a;
+  font-weight: 700;
+  font-size: 2.25rem;
+  line-height: 1.3;
+  position: relative;
+}
+
+/* Base section padding */
+section[class^="aboutus_section_"] {
+  padding: 60px 0;
+}
+
+/* ============================================================
+   1. HERO / BANNER SECTION
+============================================================ */
+.aboutus_section_hero {
+  background-color: var(--bg-light);
+  padding: 50px 0;
+}
+
+.aboutus_section_breadcrumb {
+  background: transparent;
+  padding: 0;
+  margin-bottom: 1rem;
+}
+
+.aboutus_section_hero_title {
+  font-weight: 800;
+  font-size: 2.5rem;
+  color: #06195a;
+}
+
+.aboutus_section_hero_subtitle {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.aboutus_section_hero_desc {
+  color: black;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+/* Hero Feature Cards Grid */
+.aboutus_section_hero_features {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin-top: 2rem;
+}
+
+.aboutus_section_feature_item {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: var(--card-border-radius);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.aboutus_section_feature_icon {
+  width: 45px;
+  height: 45px;
+  background-color: rgba(13, 110, 253, 0.1);
+  color: var(--primary-color);
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  margin-bottom: 12px;
+}
+
+.aboutus_section_feature_item h6 {
+  font-weight: 700;
+  color: var(--text-main);
+  margin-bottom: 6px;
+}
+
+.aboutus_section_feature_item span {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+}
+
+.aboutus_section_hero_img_wrapper {
+  border-radius: var(--card-border-radius);
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.aboutus_section_hero_img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  display: block;
+}
+
+/* ============================================================
+   2. OUR STORY & AT A GLANCE
+============================================================ */
+.aboutus_section_story_glance {
+  background: #ffffff;
+}
+
+.aboutus_section_story_img_wrapper {
+  border-radius: var(--card-border-radius);
+  overflow: hidden;
+}
+
+.aboutus_section_story_img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: var(--card-border-radius);
+}
+
+.aboutus_section_btn_primary {
+  background-color: var(--primary-color);
+  color: #fff;
+  padding: 10px 24px;
+  border-radius: 30px;
+  font-weight: 600;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.aboutus_section_btn_primary:hover {
+  background-color: #0b5ed7;
+  color: #fff;
+  transform: translateY(-2px);
+}
+
+/* Glance Items Uniform Grid Styling */
+.aboutus_section_glance_item {
+  background-color: var(--bg-light);
+  padding: 16px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 100%;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+.aboutus_section_glance_item i {
+  font-size: 1.8rem;
+  color: var(--primary-color);
+}
+
+.aboutus_section_glance_item h4 {
+  margin: 0;
+  font-weight: 800;
+  font-size: 1.25rem;
+  color: var(--text-main);
+}
+
+.aboutus_section_glance_item span {
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+/* ============================================================
+   3. MISSION, VISION, VALUES
+============================================================ */
+.aboutus_section_mvv {
+  background-color: var(--bg-light);
+}
+
+.aboutus_section_mvv_card {
+  background: #ffffff;
+  padding: 30px 20px;
+  border-radius: var(--card-border-radius);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.04);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutus_section_mvv_icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.icon_blue { background: #e7f1ff; color: #0d6efd; }
+.icon_green { background: #e6f8f0; color: #198754; }
+.icon_pink { background: #ffeef2; color: #dc3545; }
+
+.aboutus_section_mvv_card h3 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color:#06195a;
+}
+
+.aboutus_section_values_list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.aboutus_section_values_list li {
+  background: var(--bg-light);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--text-main);
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.aboutus_section_values_list li i {
+  color: #198754;
+}
+
+/* ============================================================
+   4. WHY CHOOSE NEUROSTAR
+============================================================ */
+.aboutus_section_why_card {
+  background: #ffffff;
+  padding: 24px 16px;
+  border-radius: var(--card-border-radius);
+  border: 1px solid #edf2f7;
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.aboutus_section_why_card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+
+.aboutus_section_why_icon {
+  font-size: 2rem;
+  color: var(--primary-color);
+  margin-bottom: 12px;
+}
+
+.aboutus_section_why_card h5 {
+  font-weight: 700;
+  font-size: 1.05rem;
+  margin-bottom: 8px;
+}
+
+.aboutus_section_why_card p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+/* ============================================================
+   5. TIMELINE SECTION
+============================================================ */
+.aboutus_section_timeline {
+  background-color: var(--bg-light);
+}
+
+.aboutus_section_timeline_item {
+  background: #ffffff;
+  padding: 20px 15px;
+  border-radius: var(--card-border-radius);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.04);
+  height: 100%;
+  position: relative;
+}
+
+.aboutus_section_year_badge {
+  display: inline-block;
+  padding: 4px 16px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: #fff;
+  margin-bottom: 12px;
+}
+
+.color_blue .aboutus_section_year_badge { background-color: #0d6efd; }
+.color_cyan .aboutus_section_year_badge { background-color: #0dcaf0; }
+.color_green .aboutus_section_year_badge { background-color: #198754; }
+.color_amber .aboutus_section_year_badge { background-color: #ffc107; color: #000; }
+.color_red .aboutus_section_year_badge { background-color: #dc3545; }
+.color_purple .aboutus_section_year_badge { background-color: #6f42c1; }
+
+.aboutus_section_timeline_item p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  margin: 0;
+}
+
+/* ============================================================
+   6. ACCREDITATIONS & AWARDS (Custom 5-column helper)
+============================================================ */
+@media (min-width: 992px) {
+  .col-lg-2-4 {
+    flex: 0 0 auto;
+    width: 20%;
+  }
+}
+
+.aboutus_section_award_card {
+  background: #ffffff;
+  padding: 24px 16px;
+  border-radius: var(--card-border-radius);
+  border: 1px solid #f0f0f0;
+  height: 100%;
+}
+
+.aboutus_section_award_img {
+  height: 60px;
+  object-fit: contain;
+  margin-bottom: 14px;
+}
+
+.aboutus_section_award_card h5 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 6px !important;
+}
+
+.aboutus_section_award_card p {
+  font-size: 15px;
+  color: black;
+  margin: 0;
+}
+
+/* ============================================================
+   7. CTA BANNER
+============================================================ */
+.aboutus_section_cta_box {
+  background: linear-gradient(135deg, #0d6efd 0%, #084298 100%);
+  color: #ffffff;
+  padding: 40px;
+  border-radius: var(--card-border-radius);
+}
+
+.aboutus_section_cta_box h2 {
+  font-weight: 800;
+  margin-bottom: 8px;
+}
+
+.aboutus_section_cta_btn {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 14px 18px;
+  border-radius: 10px;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.aboutus_section_cta_btn:hover {
+  transform: translateY(-3px);
+}
+
+.aboutus_section_cta_btn.white_btn {
+  background: #ffffff;
+  color: var(--text-main);
+}
+
+.aboutus_section_cta_btn.teal_btn {
+  background: #0dcaf0;
+  color: #000000;
+}
+
+.aboutus_section_cta_btn i {
+  font-size: 1.5rem;
+}
+
+.aboutus_section_cta_btn strong {
+  display: block;
+  font-size: 0.95rem;
+  line-height: 1.2;
+}
+
+.aboutus_section_cta_btn span {
+  font-size: 0.75rem;
+  opacity: 0.85;
+}
+
+/* ============================================================
+   8. NEWSLETTER / HEALTH TIPS
+============================================================ */
+.aboutus_section_newsletter_card {
+  background: var(--bg-light);
+  padding: 30px;
+  border-radius: var(--card-border-radius);
+}
+
+.aboutus_section_newsletter_icon {
+  font-size: 2rem;
+  color: var(--primary-color);
+}
+
+.aboutus_section_newsletter_card h4 {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin: 0;
+}
+
+.aboutus_section_newsletter_form {
+  display: flex;
+  gap: 8px;
+}
+
+.aboutus_section_newsletter_form input {
+  border: 1px solid #ced4da;
+  padding: 10px 16px;
+  border-radius: 25px;
+  width: 100%;
+  outline: none;
+}
+
+.aboutus_section_newsletter_form .btn {
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 25px;
+  padding: 10px 24px;
+  font-weight: 600;
+}
+
+.aboutus_section_social_btn {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: #ffffff;
+  color: var(--primary-color);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+}
+
+.aboutus_section_social_btn:hover {
+  background: var(--primary-color);
+  color: #ffffff;
+}
+
+/* ============================================================
+   RESPONSIVE BREAKPOINTS (Mobile & Tablet Adjustments)
+============================================================ */
+@media (max-width: 991px) {
+  section[class^="aboutus_section_"] {
+    padding: 40px 0;
+  }
+  
+  .aboutus_section_title {
+    font-size: 1.8rem;
+  }
+  
+  .aboutus_section_hero_title {
+    font-size: 2rem;
+    color:#06195a;
+  }
+
+  .aboutus_section_cta_box {
+    padding: 25px;
+  }
+}
+
+@media (max-width: 576px) {
+  .aboutus_section_newsletter_form {
+    flex-direction: column;
+  }
+  
+  .aboutus_section_hero_features {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* ============================================================
+   ABOUT US HERO STAT CARDS (IMAGE ICONS)
+============================================================ */
+
+.aboutus_section_hero {
+  padding: 50px 0;
+  background-color: #f8fafc;
+}
+
+/* 4-column layout container for the cards */
+.aboutus_hero_stats_wrapper {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-top: 25px;
+  width: 100%;
+}
+
+/* Card Styling - matching screenshot design */
+.aboutus_stat_card {
+  background: #ffffff;
+  padding: 15px 7px 11px 7px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.04);
+  border: 1px solid #f1f5f9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.aboutus_stat_card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 25px rgba(0, 0, 0, 0.08);
+}
+
+/* Image Icon Circular Container */
+.aboutus_stat_icon_img_wrapper {
+  width: 58px;
+  height: 58px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Sizing for the icon inside the circle */
+.aboutus_stat_icon_img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+/* Stat Number Styling */
+.aboutus_stat_card h3 {
+  font-size: 1.2rem;
+  font-weight: 800;
+  color: #1e293b;
+  margin: 0 0 3px 0;
+  line-height: 1.2;
+}
+
+/* Stat Description Label */
+.aboutus_stat_card p {
+  font-size: 15px;
+  color: black;
+  margin: 0;
+  line-height: 1.25;
+  font-weight: 500;
+}
+
+/* Right Side Image Adjustments */
+.aboutus_section_hero_img_wrapper {
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  height: 100%;
+}
+
+.aboutus_section_hero_img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+/* ============================================================
+   RESPONSIVE BREAKPOINTS (ALL DEVICES)
+============================================================ */
+
+/* Medium Screens / Laptops */
+@media (max-width: 1199px) {
+  .aboutus_stat_card h3 {
+    font-size: 1.1rem;
+  }
+  .aboutus_stat_card p {
+    font-size: 0.75rem;
+  }
+}
+
+/* Tablets (Switch to 2x2 grid so cards don't get squished) */
+@media (max-width: 991px) {
+  .aboutus_hero_stats_wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+  
+  .aboutus_stat_card {
+    padding: 16px 10px;
+  }
+}
+
+/* Mobile Phones (2x2 compact grid) */
+@media (max-width: 576px) {
+  .aboutus_hero_stats_wrapper {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .aboutus_stat_icon_img_wrapper {
+    width: 48px;
+    height: 48px;
+  }
+
+  .aboutus_stat_card h3 {
+    font-size: 1rem;
+    font-weight: 500;
+  }
+
+  .aboutus_stat_card p {
+    font-size: 15px;
+    color:black;
+  }
+}
+
+
+/* Container for each glance item */
+.aboutus_section_glance_item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #ffffff;
+  padding: 12px 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.aboutus_section_glance_item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Custom Circular Icon Box */
+.glance_icon_box {
+  width: 50px;
+  height: 50px;
+  min-width: 50px;             /* Prevents shrinking in flex layout */
+  background-color: #eef5ff;    /* Circular background color */
+  border-radius: 50%;            /* Circular shape */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Image inside circle */
+.glance_icon_box img {
+  width: 40px;                   /* Icon image size */
+  height: 40px;
+  object-fit: contain;
+}
+
+/* Text styling */
+.aboutus_section_glance_item h4 {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  color: #0d233a;
+  line-height: 1.2;
+}
+
+.aboutus_section_glance_item span {
+  font-size: 14px;
+  color: black;
+  display: block;
+}
+
+
+
+/* ============================================================
+   TIMELINE CIRCULAR YEAR BADGES & TEXT STYLING
+============================================================ */
+
+/* Card Container */
+.aboutus_section_timeline_item {
+  background: #ffffff;
+  padding: 24px 16px;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  border: 1px solid #f1f5f9;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+/* Perfect Circular Year Badge */
+.aboutus_section_year_badge {
+  width: 65px;
+  height: 65px;
+  border-radius: 50% !important; /* Forces circular shape */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 1rem;
+  color: #ffffff !important; /* White year text for all badges */
+  margin: 0 auto 16px auto;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
+}
+
+/* Color Palette for Badges (All with White Text) */
+.color_blue .aboutus_section_year_badge { background-color: #0d6efd; }
+.color_cyan .aboutus_section_year_badge { background-color: #0dcaf0; }
+.color_green .aboutus_section_year_badge { background-color: #198754; }
+.color_amber .aboutus_section_year_badge { background-color: #ffc107; } /* Amber background with white text */
+.color_red .aboutus_section_year_badge { background-color: #dc3545; }
+.color_purple .aboutus_section_year_badge { background-color: #6f42c1; }
+
+/* Content Text in Black Color */
+.aboutus_section_timeline_item p {
+  color: #000000 !important; /* Sets related description text to solid black */
+  line-height: 1.5;
+  margin: 0;
+  font-weight: 400;
+}
+
+
+
+/* Section Padding */
+.aboutus_section_why {
+  padding: 60px 0;
+  background-color: #f8fbff;
+}
+
+/* Card Container */
+.aboutus_section_why_card {
+  background: #ffffff;
+  padding: 25px 15px;
+  border-radius: 12px;
+  height: 100%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.aboutus_section_why_card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Circular Icon Box */
+.aboutus_section_why_icon {
+  width: 65px;
+  height: 65px;
+  background-color: #eef5ff;   /* Light blue circular background */
+  border-radius: 50%;           /* Perfect circle */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 18px auto;      /* Center horizontally and add bottom space */
+  transition: background-color 0.3s ease;
+}
+
+.aboutus_section_why_card:hover .aboutus_section_why_icon {
+  background-color: #0d6efd;   /* Primary theme blue on hover */
+}
+
+/* Icon Image Inside Circle */
+.aboutus_section_why_icon img {
+  width: 50px;
+  height:50px;
+  object-fit: contain;
+  transition: filter 0.3s ease;
+}
+
+/* Hover effect to turn dark icon white if circle turns blue */
+.aboutus_section_why_card:hover .aboutus_section_why_icon img {
+  filter: brightness(0) invert(1);
+}
+
+/* Card Content Typography */
+.aboutus_section_why_card h5 {
+  font-size: 16px;
+  font-weight: 500;
+  color: #0d233a;
+  margin-bottom: 10px;
+}
+
+.aboutus_section_why_card p {
+  font-size: 16px;
+  color: black;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Card Container Styling */
+/* .doctors_section_stat_card {
+  min-height: 82px;                           Ensures uniform height across all 4 cards 
+  border-color: #e2e8f0 !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);   Subtle soft shadow 
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.doctors_section_stat_card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(13, 110, 253, 0.12);
+}
+
+ Enlarged Icon Circle 
+.doctors_stat_icon_box {
+  width: 54px;
+  height: 54px;
+  min-width: 54px;                            Stops circle from shrinking when text wraps 
+  background-color: #eef5ff;                   Modern soft blue background 
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+ Image Inside Circle 
+.doctors_stat_icon_box img {
+  width: 28px;                                Increased icon size inside circle 
+  height: 28px;
+  object-fit: contain;
+}
+
+ Typography Improvements 
+.doctors_section_stat_card .stat_title {
+  font-size: 20px;                            Increased number title size 
+  color: #0d233a;
+  line-height: 1.1;
+}
+
+.doctors_section_stat_card .stat_subtitle {
+  font-size: 13px;                            Scaled up subtitle text 
+  font-weight: 500;
+  line-height: 1.25;
+  white-space: normal;                        Clean text wrapping 
+} */
+
+/* Doctor Hero Badge Card Container */
+.doctors_section_stat_card {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.04);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.doctors_section_stat_card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+}
+
+/* Circular Background Wrapper */
+.doctors_stat_icon_box {
+  width: 44px;
+  height: 44px;
+  min-width: 44px;             /* Keeps circle intact on smaller screens */
+  background-color: #eef5ff;    /* Light blue circular background */
+  border-radius: 50%;            /* Circular shape */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Custom Image Inside Circle */
+.doctors_stat_icon_box img {
+  width: 22px;                   /* Icon dimensions inside circle */
+  height: 22px;
+  object-fit: contain;
+}
+
+/* Text alignment tuning */
+.doctors_section_stat_card h6 {
+  font-size: 14px;
+  color: #0d233a;
+  line-height: 1.2;
+}
+
+.doctors_section_stat_card small {
+  font-size: 13px;
+  display: block;
+}
+
+
+/* Speciality Card Base Styling */
+.index_section_speciality_card {
+    background-color: #ffffff;
+    border-radius: 16px;
+    padding: 30px 24px;
+    border: 1px solid #e9ecef;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.03);
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Card Hover - Top border accent & elevation */
+.index_section_speciality_card:hover {
+    border-top: 4px solid #0d6efd; /* Accent primary blue top border on hover */
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(13, 110, 253, 0.1);
+}
+
+/* Icon Circular Container Styling */
+.index_section_speciality_icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: #e7f1ff; /* Light blue circular background */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Bootstrap Font Icons (i element) Styling */
+.index_section_speciality_icon i {
+    font-size: 32px;
+    color: #0d6efd; /* Primary blue icon color */
+    transition: color 0.3s ease-in-out;
+}
+
+/* Image Icons (img element) Styling */
+.index_section_speciality_icon img {
+    width: 80px !important;
+    height: 60px !important;
+    object-fit: contain;
+    transition: filter 0.3s ease-in-out;
+}
+
+/* ========================================= */
+/* HOVER EFFECTS: Background & Icon Color Swap */
+/* ========================================= */
+
+/* Container turns solid primary blue on hover */
+.index_section_speciality_card:hover .index_section_speciality_icon {
+    background-color: #0d6efd;
+}
+
+/* Font icon turns pure white on hover */
+.index_section_speciality_card:hover .index_section_speciality_icon i {
+    color: #ffffff;
+}
+
+/* PNG image icon converts to pure white on hover */
+.index_section_speciality_card:hover .index_section_speciality_icon img {
+    filter: brightness(0) invert(1);
+}
+
+
+/* Stats Container Icon Circle Styling */
+.doctors_section_counter_icon {
+    width: 58px;
+    height: 58px;
+    min-width: 58px;
+    min-height: 58px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}
+
+.doctors_section_counter_icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+/* Align text top perfectly with icon circle */
+.stats_number {
+    font-size: 16px;
+    line-height: 1.1; /* Keeps top aligned with the top edge of the icon circle */
+    margin-top: 2px;
+}
+
+.stats_title {
+    font-size: 16px;
+    line-height: 1.2;
+    margin-top: 4px;
+}
+
+/* Mobile Screens Optimization (Max Width 575px) */
+@media (max-width: 575.98px) {
+    .doctors_section_counter_icon {
+        width: 48px;
+        height: 48px;
+        min-width: 48px;
+        min-height: 48px;
+        padding: 8px;
+    }
+
+    .stats_number {
+        font-size: 1.05rem; /* Prevents overflow for long numbers like 2,50,000+ */
+        line-height: 1;
+        margin-top: 1px;
+    }
+
+    .stats_title {
+        font-size: 0.75rem;
+        margin-top: 3px;
+    }
+}
+
+
+/* Container Box Alignment Fix */
+.doctors_section_feature_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 14px !important;
+}
+
+/* Icon Container Constraints */
+.doctors_section_feature_icon {
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Constrain Image Icons (PNG/SVG) */
+.doctors_section_feature_icon img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+/* Constrain Font Icons (Bootstrap Icons) */
+.doctors_section_feature_icon i {
+    font-size: 2rem;
+    line-height: 1;
+}
+
+/* Responsive adjustment for small screens */
+@media (max-width: 575.98px) {
+    .doctors_section_feature_icon {
+        width: 38px;
+        height: 38px;
+    }
+}
+
+
+/* Ensure uniform card height & layout */
+.doctors_section_hero_stats .doctors_section_stat_card {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Circular Icon Box Container */
+.doctors_stat_icon_box {
+    width: 54px;
+    height: 54px;
+    min-width: 54px;
+    min-height: 54px;
+    border-radius: 50%;
+    background-color: #ebf3fe; /* Subtle circular background color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    padding: 10px; /* Space inside the circle */
+}
+
+/* Make image icons large & crisp inside circle */
+.doctors_stat_icon_box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+}
+
+/* Mobile Responsiveness Scaling */
+@media (max-width: 575.98px) {
+    .doctors_stat_icon_box {
+        width: 44px;
+        height: 44px;
+        min-width: 44px;
+        min-height: 44px;
+        padding: 8px;
+    }
+}
+
+
+/* All service pages custom css responsive */
+/* Hero Banner Styling */
+.ns-hero-banner {
+  background-size: cover !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  padding: 70px 0;
+  color: #ffffff;
+  position: relative;
+  width: 100%;
+}
+
+.ns-breadcrumb {
+  font-size: 0.9rem;
+  color: #cbd5e1;
+  margin-bottom: 12px;
+}
+
+.ns-breadcrumb a {
+  color: #94a3b8;
+  text-decoration: none;
+}
+
+.ns-hero-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #ffffff;
+}
+
+.ns-hero-subtitle {
+  font-size: 1.15rem;
+  color: #e2e8f0;
+  margin-bottom: 0;
+}
+
+/* Card Block Containers */
+.ns-service-wrapper .ns-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 28px;
+  margin-bottom: 24px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+  border: 1px solid #e2e8f0;
+}
+
+.ns-card-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.ns-icon-badge {
+  width: 42px;
+  height: 42px;
+  background-color: #e0f2fe;
+  color: #0284c7;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  margin-right: 14px;
+}
+
+.ns-card-title {
+  font-size: 1.35rem;
+  font-weight: 700;
+  margin: 0;
+  color: #0f172a;
+}
+
+.service_description {
+  color: #475569;
+  line-height: 1.65;
+  font-size: 0.98rem;
+  margin-bottom: 0;
+}
+
+/* Read More Button */
+.ns-btn-readmore {
+  background: none !important;
+  border: none !important;
+  color: #0284c7 !important;
+  font-weight: 600;
+  padding: 0 !important;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Carewell Responsive Points Grid */
+.ns-check-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px 24px;
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.ns-check-item {
+  display: flex;
+  align-items: flex-start;
+  color: #334155;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+
+.ns-check-icon {
+  color: #10b981;
+  font-size: 1.1rem;
+  margin-right: 10px;
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+@media (max-width: 767px) {
+  .ns-check-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}
+
+/* Process List */
+.ns-process-list {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}
+
+.ns-process-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  color: #334155;
+  font-size: 0.95rem;
+}
+
+.ns-process-item:last-child {
+  margin-bottom: 0;
+}
+
+.ns-process-number {
+  width: 32px;
+  height: 32px;
+  background: #0284c7;
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-right: 14px;
+  flex-shrink: 0;
+}
+
+/* Related Depts Tags */
+.ns-dept-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.ns-dept-tag {
+  background: #f1f5f9;
+  color: #334155;
+  padding: 8px 16px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-size: 0.88rem;
+  font-weight: 500;
+  transition: all 0.2s ease;
+}
+
+.ns-dept-tag:hover {
+  background: #0284c7;
+  color: #ffffff;
+}
+
+/* =========================================================
+   SIDEBAR CTA - FIXED NAVBAR OFFSET & NO INNER BG IMAGE
+   ========================================================= */
+.ns-sidebar-cta {
+  background: #0b1528;
+  color: #ffffff;
+  padding: 32px 24px;
+  border-radius: 14px;
+  position: sticky;
+  top: 100px; /* Offset to clear the fixed top navbar completely */
+  z-index: 10;
+}
+
+.cta_sub_label {
+  font-size: 0.75rem;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+  color: #94a3b8;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.cta_main_title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: #ffffff;
+}
+
+.ns-btn-cta-orange {
+  background: #f97316 !important;
+  background-image: none !important;
+  color: #ffffff !important;
+  display: block;
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  border: none;
+  transition: background-color 0.2s ease;
+}
+
+.ns-btn-cta-orange:hover {
+  background: #ea580c !important;
+}
+
+.ns-btn-cta-outline {
+  background: transparent !important;
+  background-image: none !important;
+  border: 1px solid #334155 !important;
+  color: #ffffff !important;
+  display: block;
+  width: 100%;
+  padding: 12px 16px;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.ns-btn-cta-outline:hover {
+  background: #1e293b !important;
+}
+
+
+
+/* Navbar fix for 992-1200px device response  */
+/* Prevent navbar links from wrapping onto multiple lines */
+.navbar-nav .nav-link {
+    white-space: nowrap !important;
+}
+
+/* Optimize spacing specifically for 992px - 1199px screen widths */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /* Reduce gap between menu items */
+    .navbar-nav {
+        gap: 0.5rem !important; /* Overrides gap-lg-3 for tight viewports */
+    }
+
+    /* Reduce left and right padding on links */
+    .navbar-nav .nav-link {
+        padding-left: 0.4rem !important;
+        padding-right: 0.4rem !important;
+        font-size: 0.88rem !important; /* Slightly smaller font to fit comfortably */
+    }
+
+    /* Optional: Scale down appointment button slightly to save space */
+    .navbar-nav .btn,
+    .navbar-nav .nav-item .btn {
+        padding: 0.375rem 0.75rem !important;
+        font-size: 0.85rem !important;
+        white-space: nowrap !important;
+    }
+}
+
+
+.ns-hero-banner {
+  /* 1. Change background-size to allow the image to scale naturally without severe cropping */
+  background-size: 100% auto !important; 
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+
+  /* 2. Increase padding top/bottom so the section matches the aspect ratio of the full image */
+  padding: 120px 0 !important; 
+  
+  color: #ffffff;
+  position: relative;
+  width: 100%;
+}
+
+/* Optional: Keep moderate padding on tablet/mobile views */
+@media (max-width: 991px) {
+  .ns-hero-banner {
+    padding: 70px 0 !important;
+    background-size: cover !important; /* Revert to cover on small screens to fill space cleanly */
+  }
+}
+
+/* 1. Main Hero Container - Fits image clearly on the right */
+.ns-hero-banner {
+  background-position: right center !important;
+  background-size: contain !important; /* Or cover depending on image ratio */
+  background-repeat: no-repeat !important;
+  background-color: #ffffff; /* Base white background */
+  min-height: 420px;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+/* 2. Left Box Overlay - Fade applies ONLY to the content side */
+.ns-hero-left-box {
+  background: linear-gradient(
+    to right, 
+    #ffffff 0%, 
+    #ffffff 70%, 
+    rgba(255, 255, 255, 0.85) 85%, 
+    rgba(255, 255, 255, 0) 100%
+  );
+  padding: 60px 40px 60px 80px; /* Adjust left padding to align with header/container */
+  z-index: 2;
+}
+
+/* 3. Dark Text Styling for White Background */
+.ns-hero-content .ns-hero-title {
+  color: #0f172a !important;
+  font-weight: 700;
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+.ns-hero-content .ns-hero-subtitle {
+  color: #475569 !important;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.ns-hero-content .ns-breadcrumb, 
+.ns-hero-content .ns-breadcrumb a {
+  color: #64748b !important;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 991px) {
+  .ns-hero-banner {
+    background-size: cover !important;
+    background-position: center !important;
+  }
+  .ns-hero-left-box {
+    background: rgba(255, 255, 255, 0.92); /* Solid soft white background on mobile */
+    padding: 40px 20px;
+    width: 100%;
+  }
+}
+
+
+/* Award Card */
+.aboutus_section_award_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+}
+
+/* Logo/Image */
+.aboutus_section_award_img{
+    width: 90px;          /* Change size if needed */
+    height: 90px;
+    object-fit: contain;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+/* Paragraph */
+.aboutus_section_award_card p{
+    margin-bottom: 0;
+}
+
+
+/* Center only the icons */
+.contactus_section_feature_icon{
+    text-align: center;
+}
+
+.contactus_section_feature_icon img{
+    display: block;
+    margin: 0 auto;
+}
+
+.contactus_section_feature_icon i{
+    display: inline-block;
+}

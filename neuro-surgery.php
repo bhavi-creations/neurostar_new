@@ -1,149 +1,222 @@
 <?php include 'header.php'; ?>
-<!-- ========================================= -->
-<!-- Service Main Section                      -->
-<!-- ========================================= -->
-<section class="service_page_wrapper py-5">
+
+<!-- HERO BANNER SECTION -->
+<section class="ns-hero-banner" style="background-image: linear-gradient(rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.85)), url('assets/img/Neurosurgery-bg.png');">
   <div class="container">
-    
-    <!-- Hero / Intro Block -->
-    <div class="row align-items-center g-4 lg-g-5 mb-5">
-      
-     <!-- Left Content Column -->
-<div class="col-lg-6">
-  <h1 class="service_title mb-3">Neuro Surgery</h1>
-  
-  <!-- Paragraph 1 (Always Visible) -->
-  <p class="service_description mb-3">
-    At NeuroStar Hospital, our Neurosurgery Department offers cutting-edge surgical interventions for complex brain and spinal conditions. Equipped with state-of-the-art facilities like MRI, CT, and neuronavigation systems, our expert neurosurgeons ensure precise diagnosis and tailored treatment planning.
-  </p>
-
-  <!-- Paragraph 2 (Hidden until Read More is clicked) -->
-  <div class="collapse" id="moreServiceContent">
-    <p class="service_description mb-3">
-      We specialize in minimally invasive endoscopic and robotic-assisted techniques that significantly reduce recovery times and improve patient outcomes. Collaborating with neurologists, oncologists, and rehabilitation specialists, we deliver compassionate care focused on patient safety and long-term recovery.
-    </p>
-
-    <!-- Read Less button (Placed AT THE BOTTOM inside expanded content) -->
-    <div class="pt-1 mb-3">
-      <a class="toggle_read_more_btn" data-bs-toggle="collapse" href="#moreServiceContent" role="button" aria-expanded="true" aria-controls="moreServiceContent">
-        <span class="btn_text">Read Less</span> <i class="bi bi-arrow-up ms-1 toggle_arrow"></i>
-      </a>
+    <div class="row">
+      <div class="col-lg-8 ns-hero-content">
+        <nav class="ns-breadcrumb">
+          <a href="#">Home</a> &rsaquo; <a href="#">Services</a> &rsaquo; Neurosurgery
+        </nav>
+        <h1 class="ns-hero-title">Neurosurgery Care</h1>
+        <p class="ns-hero-subtitle">Advanced surgical interventions for complex brain, spine & nerve conditions</p>
+      </div>
     </div>
   </div>
+</section>
 
-  <!-- Read More button (Visible only when collapsed) -->
-  <div class="pt-1" id="readMoreWrapper">
-    <a class="toggle_read_more_btn" data-bs-toggle="collapse" href="#moreServiceContent" role="button" aria-expanded="false" aria-controls="moreServiceContent">
-      <span class="btn_text">Read More</span> <i class="bi bi-arrow-right ms-1 toggle_arrow"></i>
-    </a>
-  </div>
-</div>
+<!-- MAIN CONTENT SECTION -->
+<section class="ns-service-wrapper mt-4 mb-5">
+  <div class="container">
+    <div class="row g-4">
 
-      <!-- Right Image Column -->
-      <div class="col-lg-6 text-center">
-        <div class="service_image_container">
-          <img src="assets/img/neurosurgery-illustration.png" alt="Neuro Surgery Treatment" class="img-fluid service_main_img">
-        </div>
-      </div>
+      <!-- LEFT COLUMN -->
+      <div class="col-lg-8">
 
-    </div>
-
-    <!-- ========================================= -->
-    <!-- Advantages & Disadvantages Section       -->
-    <!-- ========================================= -->
-    <div class="service_pros_cons_wrapper mt-5 pt-3">
-      <div class="text-center mb-4">
-        <h2 class="pros_cons_heading fw-bold">Treatment Overview</h2>
-        <div class="heading_line mx-auto"></div>
-      </div>
-
-      <div class="row g-4 justify-content-center">
-        
-        <!-- Advantages Card -->
-        <div class="col-md-6 col-lg-5">
-          <div class="pro_con_card advantages_card h-100 p-4 rounded-4 bg-white shadow-sm">
-            <div class="d-flex align-items-center mb-3">
-              <div class="icon_box pro_icon_bg me-3">
-                <i class="bi bi-check-circle-fill"></i>
-              </div>
-              <h3 class="h4 mb-0 fw-bold text-success">Advantages</h3>
+        <!-- 1. Service Overview -->
+        <div class="ns-card">
+          <div class="ns-card-header">
+            <div class="ns-icon-badge"><i class="bi bi-activity"></i></div>
+            <h2 class="ns-card-title">Service Overview</h2>
+          </div>
+          <div class="ns-card-body">
+            <p class="service_description">
+              At NeuroStar Hospital, our Neurosurgery department provides cutting-edge surgical treatments for patients suffering from critical conditions of the central and peripheral nervous system. Our world-class team of neurosurgeons combines vast clinical experience with ultra-modern surgical equipment to treat brain tumors, complex spinal disorders, head trauma, and vascular malformations.
+            </p>
+            <div class="collapse" id="moreNeurosurgeryContent">
+              <p class="service_description pt-2">
+                We specialize in minimally invasive neurosurgery (KEYHOLE procedures), complex spine stabilization, brain aneurysm clipping, and endoscopic skull-base procedures. Every surgical plan is meticulously crafted utilizing intraoperative imaging and real-time nerve monitoring to ensure high surgical precision, minimal tissue injury, and faster postoperative recovery.
+              </p>
             </div>
             
-            <ul class="list-unstyled mb-0 pros_cons_list">
-              <li class="d-flex align-items-start mb-3">
-                <i class="bi bi-check-circle-fill text-success me-2 mt-1 fs-5"></i>
-                <span>Provides direct relief from severe brain and spinal nerve pain.</span>
-              </li>
-              <li class="d-flex align-items-start mb-3">
-                <i class="bi bi-check-circle-fill text-success me-2 mt-1 fs-5"></i>
-                <span>Prevents progressive neurological damage and long-term disability.</span>
-              </li>
-              <li class="d-flex align-items-start mb-3">
-                <i class="bi bi-check-circle-fill text-success me-2 mt-1 fs-5"></i>
-                <span>Utilizes minimally invasive options for faster overall recovery times.</span>
-              </li>
-              <li class="d-flex align-items-start">
-                <i class="bi bi-check-circle-fill text-success me-2 mt-1 fs-5"></i>
-                <span>Restores physical motor functions and improves daily independent living.</span>
-              </li>
-            </ul>
+            <div class="pt-2">
+              <a class="toggle_read_more_btn ns-btn-readmore text-decoration-none" data-bs-toggle="collapse" href="#moreNeurosurgeryContent" role="button" aria-expanded="false" aria-controls="moreNeurosurgeryContent" onclick="toggleReadMoreText(this)">
+                <span class="btn_text">Read More</span> <i class="bi bi-arrow-right ms-1 toggle_arrow"></i>
+              </a>
+            </div>
           </div>
         </div>
 
-        <!-- Disadvantages Card -->
-        <div class="col-md-6 col-lg-5">
-          <div class="pro_con_card disadvantages_card h-100 p-4 rounded-4 bg-white shadow-sm">
-            <div class="d-flex align-items-center mb-3">
-              <div class="icon_box con_icon_bg me-3">
-                <i class="bi bi-exclamation-triangle-fill"></i>
-              </div>
-              <h3 class="h4 mb-0 fw-bold text-danger">Considerations</h3>
-            </div>
+        <!-- 2. What's Included -->
+        <div class="ns-card">
+          <div class="ns-card-header">
+            <div class="ns-icon-badge"><i class="bi bi-list-check"></i></div>
+            <h2 class="ns-card-title">What's Included</h2>
+          </div>
+          <ul class="ns-check-grid">
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Brain tumor excision & complex skull-base surgery</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Minimally invasive spine surgery & disc replacement</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Emergency neuro-trauma & head injury management</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Cerebrovascular surgery for brain aneurysms & AVMs</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Hydrocephalus management & VP shunt insertion</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Trigeminal neuralgia & peripheral nerve decompression</span>
+            </li>
+          </ul>
+        </div>
 
-            <ul class="list-unstyled mb-0 pros_cons_list">
-              <li class="d-flex align-items-start mb-3">
-                <i class="bi bi-check-circle-fill text-danger me-2 mt-1 fs-5"></i>
-                <span>Requires a post-surgery recovery and monitored rehabilitation period.</span>
-              </li>
-              <li class="d-flex align-items-start mb-3">
-                <i class="bi bi-check-circle-fill text-danger me-2 mt-1 fs-5"></i>
-                <span>Standard surgical risks like infection, bleeding, or anesthetic reaction.</span>
-              </li>
-              <li class="d-flex align-items-start mb-3">
-                <i class="bi bi-check-circle-fill text-danger me-2 mt-1 fs-5"></i>
-                <span>May require follow-up physical therapy sessions for optimal mobility.</span>
-              </li>
-              <li class="d-flex align-items-start">
-                <i class="bi bi-check-circle-fill text-danger me-2 mt-1 fs-5"></i>
-                <span>Recovery progress varies based on the patient's individual overall health.</span>
-              </li>
-            </ul>
+        <!-- 3. Equipment & Technology -->
+        <div class="ns-card">
+          <div class="ns-card-header">
+            <div class="ns-icon-badge"><i class="bi bi-cpu"></i></div>
+            <h2 class="ns-card-title">Equipment &amp; Technology</h2>
+          </div>
+          <ul class="ns-check-grid">
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Advanced High-Precision Operating Microscopes</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Frameless Neuronavigation Guidance Systems</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Intraoperative Neurophysiological Monitoring (IONM)</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Ultrasonic Surgical Aspirator (CUSA) for Tumor Removal</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>High-End Neuro-Endoscopic Surgical Equipment</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>3D C-Arm & Intraoperative CT Imaging</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 4. Benefits -->
+        <div class="ns-card">
+          <div class="ns-card-header">
+            <div class="ns-icon-badge"><i class="bi bi-sparkles"></i></div>
+            <h2 class="ns-card-title">Benefits</h2>
+          </div>
+          <ul class="ns-check-grid">
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Minimally invasive techniques ensuring smaller incisions</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Significantly reduced hospital stay & faster recovery times</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Maximum preservation of critical brain & neurological functions</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Round-the-clock dedicated Neuro Intensive Care Unit (NICU) support</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 5. Process / Workflow -->
+        <div class="ns-card">
+          <div class="ns-card-header">
+            <div class="ns-icon-badge"><i class="bi bi-diagram-3"></i></div>
+            <h2 class="ns-card-title">Process / Workflow</h2>
+          </div>
+          <ul class="ns-process-list">
+            <li class="ns-process-item">
+              <div class="ns-process-number">1</div>
+              <div>Pre-surgical neuro-evaluation & high-resolution imaging planning</div>
+            </li>
+            <li class="ns-process-item">
+              <div class="ns-process-number">2</div>
+              <div>Multidisciplinary surgical team review & anesthesia clearance</div>
+            </li>
+            <li class="ns-process-item">
+              <div class="ns-process-number">3</div>
+              <div>Precision surgical intervention using neuronavigation technology</div>
+            </li>
+            <li class="ns-process-item">
+              <div class="ns-process-number">4</div>
+              <div>Postoperative Neuro-ICU monitoring & early neuro-rehabilitation</div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 6. Related Departments -->
+        <div class="ns-card">
+          <div class="ns-card-header">
+            <div class="ns-icon-badge"><i class="bi bi-building"></i></div>
+            <h2 class="ns-card-title">Related Departments</h2>
+          </div>
+          <div class="ns-dept-tags">
+            <a href="#" class="ns-dept-tag">Neurology</a>
+            <a href="#" class="ns-dept-tag">Emergency &amp; Trauma Care</a>
+            <a href="#" class="ns-dept-tag">Neuroradiology</a>
+            <a href="#" class="ns-dept-tag">Critical Care & NICU</a>
           </div>
         </div>
 
       </div>
-    </div>
 
+      <!-- RIGHT SIDEBAR (CTA - CLEAN & STICKY BELOW NAVBAR) -->
+      <div class="col-lg-4">
+        <div class="ns-sidebar-cta sticky-top">
+          <div class="cta_sub_label">NEED THIS SERVICE?</div>
+          <h3 class="cta_main_title">Get in touch</h3>
+          
+          <a href="#" class="ns-btn-cta-orange mb-3 text-center text-decoration-none">
+            <i class="bi bi-calendar-event me-2"></i>Book Appointment
+          </a>
+          <a href="tel:8341713713" class="ns-btn-cta-outline text-center text-decoration-none">
+            <i class="bi bi-telephone me-2"></i>Call 8341713713
+          </a>
+        </div>
+      </div>
+
+    </div>
   </div>
 </section>
 
 <script>
-// Neuro Surgery service page read less and more buttons
-document.addEventListener('DOMContentLoaded', function () {
-  const collapseElem = document.getElementById('moreServiceContent');
-  const readMoreWrapper = document.getElementById('readMoreWrapper');
-
-  if (collapseElem && readMoreWrapper) {
-    // Hide "Read More" button when content expands
-    collapseElem.addEventListener('show.bs.collapse', function () {
-      readMoreWrapper.style.display = 'none';
-    });
-
-    // Show "Read More" button again when content collapses
-    collapseElem.addEventListener('hide.bs.collapse', function () {
-      readMoreWrapper.style.display = 'block';
-    });
-  }
-});
+function toggleReadMoreText(btn) {
+  const textSpan = btn.querySelector('.btn_text');
+  const icon = btn.querySelector('.toggle_arrow');
+  
+  setTimeout(() => {
+    const isExpanded = btn.getAttribute('aria-expanded') === 'true';
+    if (isExpanded) {
+      textSpan.textContent = 'Read Less';
+      icon.className = 'bi bi-arrow-up ms-1 toggle_arrow';
+    } else {
+      textSpan.textContent = 'Read More';
+      icon.className = 'bi bi-arrow-right ms-1 toggle_arrow';
+    }
+  }, 150);
+}
 </script>
 <?php include 'footer.php'; ?>

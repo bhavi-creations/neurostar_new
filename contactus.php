@@ -10,7 +10,7 @@
             <!-- Breadcrumb -->
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb contactus_section_breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li class="breadcrumb-item"><a href="Home.php">Home</a></li>
                     <li class="breadcrumb-item active" aria-current="page">Contact Us</li>
                 </ol>
             </nav>
@@ -66,7 +66,7 @@
 
                 <!-- Hero Right Image -->
                 <div class="col-lg-6 col-md-12 text-center">
-                    <img src="assets/images/hospital-building.png" alt="Hospital Building" class="img-fluid contactus_section_hero_img rounded-4 shadow-sm">
+                    <img src="assets/img/Neurostar-hospital.png" alt="Hospital Building" class="img-fluid contactus_section_hero_img rounded-4 shadow-sm">
                 </div>
             </div>
         </div>
@@ -224,7 +224,7 @@
                     <div class="contactus_section_cta_box text-center p-4 rounded-3 mb-4">
                         <h5 class="fw-bold text-dark mb-2">Book an Appointment</h5>
                         <p class="text-muted small mb-3">Schedule your appointment with our specialists today.</p>
-                        <a href="#" class="btn contactus_section_teal_btn text-white fw-bold px-4 py-2 w-100">
+                        <a href="appointment.php" class="btn contactus_section_teal_btn text-white fw-bold px-4 py-2 w-100">
                             <i class="bi bi-calendar-check me-2"></i> Book Appointment
                         </a>
                     </div>
@@ -236,7 +236,7 @@
                         <a href="tel:+919876543210" class="btn btn-outline-primary text-dark fw-bold px-4 py-2 w-100 d-flex align-items-center justify-content-center gap-2">
                             <i class="bi bi-telephone-fill text-danger"></i>
                             <span>Call Emergency</span>
-                            <span class="fw-bold text-primary ms-2">+91 98765 43210</span>
+                            <span class="fw-bold text-primary ms-2">+91 9121476777</span>
                         </a>
                     </div>
 
@@ -256,14 +256,14 @@
                         <i class="bi bi-truck-front"></i>
                     </div>
                     <h6 class="fw-bold mb-1">24x7 Emergency Care</h6>
-                    <small class="text-muted d-block">Round-the-clock emergency services for critical care.</small>
+                    <small class="text-muted d-block">Immediate emergency services for critical care.</small>
                 </div>
             </div>
 
             <div class="col-6 col-md-4 col-lg">
                 <div class="contactus_section_feature_box p-3 rounded-4 bg-white border shadow-sm h-100">
                     <div class="contactus_section_feature_icon fs-2 text-primary mb-2">
-                        <i class="bi bi-person-badge"></i>
+                        <img src="./assets/img/Neuro_doctor.png" alt="" style="height:50px; width:50px">
                     </div>
                     <h6 class="fw-bold mb-1">Expert Doctors</h6>
                     <small class="text-muted d-block">Highly experienced and qualified specialists.</small>
@@ -273,30 +273,30 @@
             <div class="col-6 col-md-4 col-lg">
                 <div class="contactus_section_feature_box p-3 rounded-4 bg-white border shadow-sm h-100">
                     <div class="contactus_section_feature_icon fs-2 text-primary mb-2">
-                        <i class="bi bi-cpu"></i>
+                        <i class="bi bi-laptop"></i>
                     </div>
                     <h6 class="fw-bold mb-1">Advanced Technology</h6>
-                    <small class="text-muted d-block">State-of-the-art infrastructure and medical equipment.</small>
+                    <small class="text-muted d-block">Advanced treatment using latest technology.</small>
                 </div>
             </div>
 
             <div class="col-6 col-md-4 col-lg">
                 <div class="contactus_section_feature_box p-3 rounded-4 bg-white border shadow-sm h-100">
                     <div class="contactus_section_feature_icon fs-2 text-primary mb-2">
-                        <i class="bi bi-heart-pulse"></i>
+                        <img src="./assets/img/Department.png" style="width: 50px; height: 50px;" alt="">
                     </div>
-                    <h6 class="fw-bold mb-1">Patient First Approach</h6>
-                    <small class="text-muted d-block">Personalized care with compassion and empathy.</small>
+                    <h6 class="fw-bold mb-1">Medical departments</h6>
+                    <small class="text-muted d-block">Personalized care with experts over each department.</small>
                 </div>
             </div>
 
             <div class="col-12 col-md-4 col-lg">
                 <div class="contactus_section_feature_box p-3 rounded-4 bg-white border shadow-sm h-100">
                     <div class="contactus_section_feature_icon fs-2 text-primary mb-2">
-                        <i class="bi bi-shield-check"></i>
+                        <img src="./assets/img/patient-sevices.png" style="width: 50px; height: 50px;" alt="">
                     </div>
-                    <h6 class="fw-bold mb-1">Safe & Hygienic</h6>
-                    <small class="text-muted d-block">Strict hygiene protocols for a safe environment.</small>
+                    <h6 class="fw-bold mb-1">Specialised Service</h6>
+                    <small class="text-muted d-block">Best health care services for patients</small>
                 </div>
             </div>
 

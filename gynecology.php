@@ -1,147 +1,223 @@
 <?php include 'header.php'; ?>
-<!-- ========================================= -->
-<!-- Gynecology Section                         -->
-<!-- ========================================= -->
-<section class="service_page_wrapper py-5">
+
+<!-- HERO BANNER SECTION -->
+<section class="ns-hero-banner" style="background-image: linear-gradient(rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.85)), url('assets/img/gynecology-obstetrics.png');">
   <div class="container">
-    
-    <!-- Hero / Intro Block -->
-    <div class="row align-items-center g-4 lg-g-5 mb-5">
-      
-      <!-- Left Content Column -->
-      <div class="col-lg-6">
-        <h1 class="service_title mb-3">Gynecology & Obstetrics</h1>
-        
-        <!-- Paragraph 1 (Always Visible) -->
-        <p class="service_description mb-3">
-          At NeuroStar Hospital, our Gynecology & Obstetrics department is dedicated to providing compassionate, comprehensive healthcare for women at every stage of life. Our expert team of gynecologists specializes in preventive care, advanced surgical interventions, maternity care, and the treatment of various reproductive health conditions.
-        </p>
+    <div class="row">
+      <div class="col-lg-8 ns-hero-content">
+        <nav class="ns-breadcrumb">
+          <a href="#">Home</a> &rsaquo; <a href="#">Services</a> &rsaquo; Gynecology
+        </nav>
+        <h1 class="ns-hero-title">Gynecology &amp; Women's Health</h1>
+        <p class="ns-hero-subtitle">Comprehensive medical and surgical care for women at every stage of life</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <!-- Paragraph 2 (Hidden until Read More is clicked) -->
-        <div class="collapse" id="moreGynaeContent">
-          <p class="service_description mb-3">
-            Utilizing state-of-the-art diagnostic technology and minimally invasive laparoscopic techniques, we manage complex conditions like fibroids, endometriosis, PCOS, and high-risk pregnancies. We are committed to providing personalized care, prioritizing patient comfort, emotional support, and overall well-being.
-          </p>
+<!-- MAIN CONTENT SECTION -->
+<section class="ns-service-wrapper mt-4 mb-5">
+  <div class="container">
+    <div class="row g-4">
 
-          <!-- Read Less button (Placed AT THE BOTTOM inside expanded content) -->
-          <div class="pt-1 mb-3">
-            <a class="toggle_read_more_btn" data-bs-toggle="collapse" href="#moreGynaeContent" role="button" aria-expanded="true" aria-controls="moreGynaeContent">
-              <span class="btn_text">Read Less</span> <i class="bi bi-arrow-up ms-1 toggle_arrow"></i>
-            </a>
+      <!-- LEFT COLUMN -->
+      <div class="col-lg-8">
+
+        <!-- 1. Service Overview -->
+        <div class="ns-card">
+          <div class="ns-card-header">
+            <div class="ns-icon-badge"><i class="bi bi-activity"></i></div>
+            <h2 class="ns-card-title">Service Overview</h2>
+          </div>
+          <div class="ns-card-body">
+            <p class="service_description">
+              At NeuroStar Hospital, our Gynecology department is dedicated to providing compassionate, confidential, and comprehensive healthcare tailored specifically to women. Led by experienced gynecologists and laparoscopic surgeons, we treat a broad spectrum of health conditions—ranging from routine preventive screenings and hormonal evaluations to advanced minimally invasive surgical procedures.
+            </p>
+            <div class="collapse" id="moreGynContent">
+              <p class="service_description pt-2">
+                We specialize in managing complex conditions such as uterine fibroids, endometriosis, polycystic ovary syndrome (PCOS), pelvic organ prolapse, and abnormal uterine bleeding. Utilizing modern laparoscopic (keyhole) techniques and state-of-the-art diagnostic tools, our team ensures gentle care, reduced recovery times, and optimal health outcomes for adolescent, reproductive-age, and menopausal women.
+              </p>
+            </div>
+            
+            <div class="pt-2">
+              <a class="toggle_read_more_btn ns-btn-readmore text-decoration-none" data-bs-toggle="collapse" href="#moreGynContent" role="button" aria-expanded="false" aria-controls="moreGynContent" onclick="toggleReadMoreText(this)">
+                <span class="btn_text">Read More</span> <i class="bi bi-arrow-right ms-1 toggle_arrow"></i>
+              </a>
+            </div>
           </div>
         </div>
 
-        <!-- Read More button (Visible only when collapsed) -->
-        <div class="pt-1" id="readMoreWrapperGynae">
-          <a class="toggle_read_more_btn" data-bs-toggle="collapse" href="#moreGynaeContent" role="button" aria-expanded="false" aria-controls="moreGynaeContent">
-            <span class="btn_text">Read More</span> <i class="bi bi-arrow-right ms-1 toggle_arrow"></i>
+        <!-- 2. What's Included -->
+        <div class="ns-card">
+          <div class="ns-card-header">
+            <div class="ns-icon-badge"><i class="bi bi-list-check"></i></div>
+            <h2 class="ns-card-title">What's Included</h2>
+          </div>
+          <ul class="ns-check-grid">
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Diagnosis & treatment of PCOS, PCOD, and hormonal imbalances</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Minimally invasive laparoscopic hysterectomy & myomectomy</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Management of endometriosis, pelvic pain & ovarian cysts</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Comprehensive cervical cancer screening (PAP Smear & HPV testing)</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Evaluation and therapeutic care for abnormal uterine bleeding</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Menopause wellness programs & hormone replacement advice</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 3. Equipment & Technology -->
+        <div class="ns-card">
+          <div class="ns-card-header">
+            <div class="ns-icon-badge"><i class="bi bi-cpu"></i></div>
+            <h2 class="ns-card-title">Equipment &amp; Technology</h2>
+          </div>
+          <ul class="ns-check-grid">
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>4D Color Doppler Pelvic Ultrasound & Transvaginal Scanning (TVS)</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>High-Definition Laparoscopic & Hysteroscopic Surgical Towers</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Precision Colposcopy Systems for Early Cervical Evaluation</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Advanced Electrosurgical Units for Keyhole Interventions</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Automated Endocrine & Reproductive Hormone Assays</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Ultra-Clean Sterile Modular Operation Theaters</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 4. Benefits -->
+        <div class="ns-card">
+          <div class="ns-card-header">
+            <div class="ns-icon-badge"><i class="bi bi-sparkles"></i></div>
+            <h2 class="ns-card-title">Benefits</h2>
+          </div>
+          <ul class="ns-check-grid">
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Minimally invasive surgeries resulting in minimal scarring and quick recovery</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Specialized treatment plans for hormonal regulation and pain management</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Early detection of preventive conditions ensuring peace of mind</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Private, empathetic, and confidential environment for every consultation</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 5. Process / Workflow -->
+        <div class="ns-card">
+          <div class="ns-card-header">
+            <div class="ns-icon-badge"><i class="bi bi-diagram-3"></i></div>
+            <h2 class="ns-card-title">Process / Workflow</h2>
+          </div>
+          <ul class="ns-process-list">
+            <li class="ns-process-item">
+              <div class="ns-process-number">1</div>
+              <div>Detailed gynecological consultation & empathetic physical examination</div>
+            </li>
+            <li class="ns-process-item">
+              <div class="ns-process-number">2</div>
+              <div>Diagnostic investigation (pelvic ultrasound, hormonal panels, PAP smear)</div>
+            </li>
+            <li class="ns-process-item">
+              <div class="ns-process-number">3</div>
+              <div>Formulation of treatment strategy (medical management or keyhole surgery)</div>
+            </li>
+            <li class="ns-process-item">
+              <div class="ns-process-number">4</div>
+              <div>Post-treatment follow-up, lifestyle guidance & preventive health care</div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 6. Related Departments -->
+        <div class="ns-card">
+          <div class="ns-card-header">
+            <div class="ns-icon-badge"><i class="bi bi-building"></i></div>
+            <h2 class="ns-card-title">Related Departments</h2>
+          </div>
+          <div class="ns-dept-tags">
+            <a href="#" class="ns-dept-tag">Obstetrics &amp; Maternity</a>
+            <a href="#" class="ns-dept-tag">Radiology &amp; Ultrasound Imaging</a>
+            <a href="#" class="ns-dept-tag">General Surgery</a>
+            <a href="#" class="ns-dept-tag">Endocrinology</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- RIGHT SIDEBAR (CTA - CLEAN & STICKY BELOW NAVBAR) -->
+      <div class="col-lg-4">
+        <div class="ns-sidebar-cta sticky-top">
+          <div class="cta_sub_label">NEED THIS SERVICE?</div>
+          <h3 class="cta_main_title">Get in touch</h3>
+          
+          <a href="#" class="ns-btn-cta-orange mb-3 text-center text-decoration-none">
+            <i class="bi bi-calendar-event me-2"></i>Book Appointment
+          </a>
+          <a href="tel:8341713713" class="ns-btn-cta-outline text-center text-decoration-none">
+            <i class="bi bi-telephone me-2"></i>Call 8341713713
           </a>
         </div>
       </div>
 
-      <!-- Right Image Column -->
-      <div class="col-lg-6 text-center">
-        <div class="service_image_container">
-          <img src="assets/img/gynecology-illustration.png" alt="Gynecology Care and Treatment" class="img-fluid service_main_img">
-        </div>
-      </div>
-
     </div>
-
-    <!-- ========================================= -->
-    <!-- Advantages & Considerations Section       -->
-    <!-- ========================================= -->
-    <div class="service_pros_cons_wrapper mt-5 pt-3">
-      <div class="text-center mb-4">
-        <h2 class="pros_cons_heading fw-bold">Treatment Overview</h2>
-        <div class="heading_line mx-auto"></div>
-      </div>
-
-      <div class="row g-4 justify-content-center">
-        
-        <!-- Advantages Card -->
-        <div class="col-md-6 col-lg-5">
-          <div class="pro_con_card advantages_card h-100 p-4 rounded-4 bg-white shadow-sm">
-            <div class="d-flex align-items-center mb-3">
-              <div class="icon_box pro_icon_bg me-3">
-                <i class="bi bi-check-circle-fill"></i>
-              </div>
-              <h3 class="h4 mb-0 fw-bold text-success">Advantages</h3>
-            </div>
-            
-            <ul class="list-unstyled mb-0 pros_cons_list">
-              <li class="d-flex align-items-start mb-3">
-                <i class="bi bi-check-circle-fill text-success me-2 mt-1 fs-5"></i>
-                <span>Advanced laparoscopic surgeries ensure minimal scarring and faster recovery times.</span>
-              </li>
-              <li class="d-flex align-items-start mb-3">
-                <i class="bi bi-check-circle-fill text-success me-2 mt-1 fs-5"></i>
-                <span>Comprehensive maternal and prenatal care ensuring optimal safety for mother and baby.</span>
-              </li>
-              <li class="d-flex align-items-start mb-3">
-                <i class="bi bi-check-circle-fill text-success me-2 mt-1 fs-5"></i>
-                <span>Effective management and long-term relief for hormonal issues like PCOS and Endometriosis.</span>
-              </li>
-              <li class="d-flex align-items-start">
-                <i class="bi bi-check-circle-fill text-success me-2 mt-1 fs-5"></i>
-                <span>Personalized treatment plans tailored to women's physical and reproductive wellness.</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Considerations Card -->
-        <div class="col-md-6 col-lg-5">
-          <div class="pro_con_card disadvantages_card h-100 p-4 rounded-4 bg-white shadow-sm">
-            <div class="d-flex align-items-center mb-3">
-              <div class="icon_box con_icon_bg me-3">
-                <i class="bi bi-exclamation-triangle-fill"></i>
-              </div>
-              <h3 class="h4 mb-0 fw-bold text-danger">Considerations</h3>
-            </div>
-
-            <ul class="list-unstyled mb-0 pros_cons_list">
-              <li class="d-flex align-items-start mb-3">
-                <i class="bi bi-check-circle-fill text-danger me-2 mt-1 fs-5"></i>
-                <span>Certain hormonal therapies require long-term monitoring and regular follow-ups.</span>
-              </li>
-              <li class="d-flex align-items-start mb-3">
-                <i class="bi bi-check-circle-fill text-danger me-2 mt-1 fs-5"></i>
-                <span>Post-operative rest and activity restrictions are vital after major gynecological surgeries.</span>
-              </li>
-              <li class="d-flex align-items-start mb-3">
-                <i class="bi bi-check-circle-fill text-danger me-2 mt-1 fs-5"></i>
-                <span>High-risk pregnancies require strict adherence to clinical guidance and frequent check-ups.</span>
-              </li>
-              <li class="d-flex align-items-start">
-                <i class="bi bi-check-circle-fill text-danger me-2 mt-1 fs-5"></i>
-                <span>Individual recovery periods vary based on whether procedures are open or minimally invasive.</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
   </div>
 </section>
 
 <script>
-// gynecology service page read less and more buttons
-document.addEventListener('DOMContentLoaded', function () {
-  const gynaeCollapse = document.getElementById('moreGynaeContent');
-  const readMoreGynae = document.getElementById('readMoreWrapperGynae');
-
-  if (gynaeCollapse && readMoreGynae) {
-    gynaeCollapse.addEventListener('show.bs.collapse', function () {
-      readMoreGynae.style.display = 'none';
-    });
-
-    gynaeCollapse.addEventListener('hide.bs.collapse', function () {
-      readMoreGynae.style.display = 'block';
-    });
-  }
-});
+function toggleReadMoreText(btn) {
+  const textSpan = btn.querySelector('.btn_text');
+  const icon = btn.querySelector('.toggle_arrow');
+  
+  setTimeout(() => {
+    const isExpanded = btn.getAttribute('aria-expanded') === 'true';
+    if (isExpanded) {
+      textSpan.textContent = 'Read Less';
+      icon.className = 'bi bi-arrow-up ms-1 toggle_arrow';
+    } else {
+      textSpan.textContent = 'Read More';
+      icon.className = 'bi bi-arrow-right ms-1 toggle_arrow';
+    }
+  }, 150);
+}
 </script>
+
 <?php include 'footer.php'; ?>

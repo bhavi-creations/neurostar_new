@@ -1,147 +1,223 @@
 <?php include 'header.php'; ?>
-<!-- ========================================= -->
-<!-- General & Laparoscopic Surgery Section    -->
-<!-- ========================================= -->
-<section class="service_page_wrapper py-5">
+
+<!-- HERO BANNER SECTION -->
+<section class="ns-hero-banner" style="background-image: linear-gradient(rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.85)), url('assets/img/general-medicine.png');">
   <div class="container">
-    
-    <!-- Hero / Intro Block -->
-    <div class="row align-items-center g-4 lg-g-5 mb-5">
-      
-      <!-- Left Content Column -->
-      <div class="col-lg-6">
-        <h1 class="service_title mb-3">General & Laparoscopic Surgery</h1>
-        
-        <!-- Paragraph 1 (Always Visible) -->
-        <p class="service_description mb-3">
-          At NeuroStar Hospital, our General & Laparoscopic Surgery department offers advanced surgical care for a wide range of abdominal, gastrointestinal, and general health conditions. Utilizing minimally invasive keyhole surgery techniques, our expert surgical team performs procedures with high precision, minimal scarring, and faster patient recovery.
-        </p>
+    <div class="row">
+      <div class="col-lg-8 ns-hero-content">
+        <nav class="ns-breadcrumb">
+          <a href="#">Home</a> &rsaquo; <a href="#">Services</a> &rsaquo; General Medicine
+        </nav>
+        <h1 class="ns-hero-title">General Medicine &amp; Internal Care</h1>
+        <p class="ns-hero-subtitle">Comprehensive primary care, chronic disease management, and acute illness treatment</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <!-- Paragraph 2 (Hidden until Read More is clicked) -->
-        <div class="collapse" id="moreLaparoContent">
-          <p class="service_description mb-3">
-            Equipped with high-definition laparoscopic towers and modern surgical suites, we specialize in gallbladder removal (cholecystectomy), appendectomy, hernia repair, trauma surgeries, thyroidectomies, and bowel surgeries. We focus on patient safety, reduced post-operative pain, and ensuring a swift return to daily activities.
-          </p>
+<!-- MAIN CONTENT SECTION -->
+<section class="ns-service-wrapper mt-4 mb-5">
+  <div class="container">
+    <div class="row g-4">
 
-          <!-- Read Less button (Placed AT THE BOTTOM inside expanded content) -->
-          <div class="pt-1 mb-3">
-            <a class="toggle_read_more_btn" data-bs-toggle="collapse" href="#moreLaparoContent" role="button" aria-expanded="true" aria-controls="moreLaparoContent">
-              <span class="btn_text">Read Less</span> <i class="bi bi-arrow-up ms-1 toggle_arrow"></i>
-            </a>
+      <!-- LEFT COLUMN -->
+      <div class="col-lg-8">
+
+        <!-- 1. Service Overview -->
+        <div class="ns-card">
+          <div class="ns-card-header">
+            <div class="ns-icon-badge"><i class="bi bi-activity"></i></div>
+            <h2 class="ns-card-title">Service Overview</h2>
+          </div>
+          <div class="ns-card-body">
+            <p class="service_description">
+              At NeuroStar Hospital, our General Medicine department serves as the primary gateway for comprehensive healthcare, addressing a wide spectrum of acute illnesses and complex chronic conditions. Led by expert internists and general physicians, we offer thorough clinical evaluations, precise diagnostic workups, and personalized treatment plans to promote overall wellness and preventive health.
+            </p>
+            <div class="collapse" id="moreGenMedContent">
+              <p class="service_description pt-2">
+                We specialize in managing long-term metabolic conditions such as diabetes, hypertension, and thyroid disorders, as well as treating infectious diseases, respiratory infections, and multiorgan health issues. By coordinating seamlessly with sub-specialty departments, our general medicine team delivers holistic, patient-centered care for both outpatient consultation and inpatient medical management.
+              </p>
+            </div>
+            
+            <div class="pt-2">
+              <a class="toggle_read_more_btn ns-btn-readmore text-decoration-none" data-bs-toggle="collapse" href="#moreGenMedContent" role="button" aria-expanded="false" aria-controls="moreGenMedContent" onclick="toggleReadMoreText(this)">
+                <span class="btn_text">Read More</span> <i class="bi bi-arrow-right ms-1 toggle_arrow"></i>
+              </a>
+            </div>
           </div>
         </div>
 
-        <!-- Read More button (Visible only when collapsed) -->
-        <div class="pt-1" id="readMoreWrapperLaparo">
-          <a class="toggle_read_more_btn" data-bs-toggle="collapse" href="#moreLaparoContent" role="button" aria-expanded="false" aria-controls="moreLaparoContent">
-            <span class="btn_text">Read More</span> <i class="bi bi-arrow-right ms-1 toggle_arrow"></i>
+        <!-- 2. What's Included -->
+        <div class="ns-card">
+          <div class="ns-card-header">
+            <div class="ns-icon-badge"><i class="bi bi-list-check"></i></div>
+            <h2 class="ns-card-title">What's Included</h2>
+          </div>
+          <ul class="ns-check-grid">
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Diagnosis & management of chronic diseases (Diabetes, Hypertension, Thyroid)</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Treatment for acute viral, bacterial, and seasonal infectious fevers</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Comprehensive preventive health checkups & routine screening packages</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Management of respiratory, gastrointestinal & systemic illnesses</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Geriatric care & age-related multisystem condition monitoring</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Pre-operative medical clearance & post-discharge follow-up care</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 3. Equipment & Technology -->
+        <div class="ns-card">
+          <div class="ns-card-header">
+            <div class="ns-icon-badge"><i class="bi bi-cpu"></i></div>
+            <h2 class="ns-card-title">Equipment &amp; Technology</h2>
+          </div>
+          <ul class="ns-check-grid">
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Fully Automated 24/7 Clinical Pathology & Biochemistry Analyzers</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Continuous Glucose Monitoring (CGM) & HbA1c Rapid Testing</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Advanced Non-Invasive Blood Pressure & Holter Monitoring Systems</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Digital Electrocardiogram (ECG) & Spirometry Pulmonary Function Testing</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>High-Resolution Digital X-Ray & Point-of-Care Ultrasound Scans</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Dedicated Inpatient Isolation & Step-Down Medical Monitoring Units</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 4. Benefits -->
+        <div class="ns-card">
+          <div class="ns-card-header">
+            <div class="ns-icon-badge"><i class="bi bi-sparkles"></i></div>
+            <h2 class="ns-card-title">Benefits</h2>
+          </div>
+          <ul class="ns-check-grid">
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Holistic approach treating root causes rather than just symptom management</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Early detection of lifestyle diseases to prevent long-term complications</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Seamless referrals and co-management with super-specialty doctors</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Personalized diet, medication, and lifestyle guidance for sustained health</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 5. Process / Workflow -->
+        <div class="ns-card">
+          <div class="ns-card-header">
+            <div class="ns-icon-badge"><i class="bi bi-diagram-3"></i></div>
+            <h2 class="ns-card-title">Process / Workflow</h2>
+          </div>
+          <ul class="ns-process-list">
+            <li class="ns-process-item">
+              <div class="ns-process-number">1</div>
+              <div>Initial physician consultation, detailed medical history & clinical examination</div>
+            </li>
+            <li class="ns-process-item">
+              <div class="ns-process-number">2</div>
+              <div>Targeted diagnostic evaluations (blood tests, imaging, or cardiac workups)</div>
+            </li>
+            <li class="ns-process-item">
+              <div class="ns-process-number">3</div>
+              <div>Evidence-based medical therapy initiation or inpatient stabilization</div>
+            </li>
+            <li class="ns-process-item">
+              <div class="ns-process-number">4</div>
+              <div>Ongoing disease monitoring, periodic review, and health maintenance planning</div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 6. Related Departments -->
+        <div class="ns-card">
+          <div class="ns-card-header">
+            <div class="ns-icon-badge"><i class="bi bi-building"></i></div>
+            <h2 class="ns-card-title">Related Departments</h2>
+          </div>
+          <div class="ns-dept-tags">
+            <a href="#" class="ns-dept-tag">Neurology</a>
+            <a href="#" class="ns-dept-tag">Emergency &amp; Trauma Care</a>
+            <a href="#" class="ns-dept-tag">Critical Care &amp; NICU</a>
+            <a href="#" class="ns-dept-tag">Radiology &amp; Diagnostics</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- RIGHT SIDEBAR (CTA - CLEAN & STICKY BELOW NAVBAR) -->
+      <div class="col-lg-4">
+        <div class="ns-sidebar-cta sticky-top">
+          <div class="cta_sub_label">NEED THIS SERVICE?</div>
+          <h3 class="cta_main_title">Get in touch</h3>
+          
+          <a href="#" class="ns-btn-cta-orange mb-3 text-center text-decoration-none">
+            <i class="bi bi-calendar-event me-2"></i>Book Appointment
+          </a>
+          <a href="tel:8341713713" class="ns-btn-cta-outline text-center text-decoration-none">
+            <i class="bi bi-telephone me-2"></i>Call 8341713713
           </a>
         </div>
       </div>
 
-      <!-- Right Image Column -->
-      <div class="col-lg-6 text-center">
-        <div class="service_image_container">
-          <img src="assets/img/laparoscopic-surgery-illustration.png" alt="General and Laparoscopic Surgery" class="img-fluid service_main_img">
-        </div>
-      </div>
-
     </div>
-
-    <!-- ========================================= -->
-    <!-- Advantages & Considerations Section       -->
-    <!-- ========================================= -->
-    <div class="service_pros_cons_wrapper mt-5 pt-3">
-      <div class="text-center mb-4">
-        <h2 class="pros_cons_heading fw-bold">Treatment Overview</h2>
-        <div class="heading_line mx-auto"></div>
-      </div>
-
-      <div class="row g-4 justify-content-center">
-        
-        <!-- Advantages Card -->
-        <div class="col-md-6 col-lg-5">
-          <div class="pro_con_card advantages_card h-100 p-4 rounded-4 bg-white shadow-sm">
-            <div class="d-flex align-items-center mb-3">
-              <div class="icon_box pro_icon_bg me-3">
-                <i class="bi bi-check-circle-fill"></i>
-              </div>
-              <h3 class="h4 mb-0 fw-bold text-success">Advantages</h3>
-            </div>
-            
-            <ul class="list-unstyled mb-0 pros_cons_list">
-              <li class="d-flex align-items-start mb-3">
-                <i class="bi bi-check-circle-fill text-success me-2 mt-1 fs-5"></i>
-                <span>Minimally invasive keyhole procedures result in significantly smaller surgical incisions and minimal scarring.</span>
-              </li>
-              <li class="d-flex align-items-start mb-3">
-                <i class="bi bi-check-circle-fill text-success me-2 mt-1 fs-5"></i>
-                <span>Reduces post-operative pain, discomfort, and reliance on pain medications.</span>
-              </li>
-              <li class="d-flex align-items-start mb-3">
-                <i class="bi bi-check-circle-fill text-success me-2 mt-1 fs-5"></i>
-                <span>Ensures shorter hospital stays, allowing patients to recover in the comfort of their homes.</span>
-              </li>
-              <li class="d-flex align-items-start">
-                <i class="bi bi-check-circle-fill text-success me-2 mt-1 fs-5"></i>
-                <span>Lowers the risk of wound infections and speeds up return to normal daily routine.</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Considerations Card -->
-        <div class="col-md-6 col-lg-5">
-          <div class="pro_con_card disadvantages_card h-100 p-4 rounded-4 bg-white shadow-sm">
-            <div class="d-flex align-items-center mb-3">
-              <div class="icon_box con_icon_bg me-3">
-                <i class="bi bi-exclamation-triangle-fill"></i>
-              </div>
-              <h3 class="h4 mb-0 fw-bold text-danger">Considerations</h3>
-            </div>
-
-            <ul class="list-unstyled mb-0 pros_cons_list">
-              <li class="d-flex align-items-start mb-3">
-                <i class="bi bi-check-circle-fill text-danger me-2 mt-1 fs-5"></i>
-                <span>Requires thorough pre-operative medical evaluation and routine blood/imaging tests.</span>
-              </li>
-              <li class="d-flex align-items-start mb-3">
-                <i class="bi bi-check-circle-fill text-danger me-2 mt-1 fs-5"></i>
-                <span>Temporary abdominal bloating or mild shoulder tip pain may occur due to CO2 gas used in laparoscopy.</span>
-              </li>
-              <li class="d-flex align-items-start mb-3">
-                <i class="bi bi-check-circle-fill text-danger me-2 mt-1 fs-5"></i>
-                <span>Patients must follow temporary dietary restrictions right after gastrointestinal procedures.</span>
-              </li>
-              <li class="d-flex align-items-start">
-                <i class="bi bi-check-circle-fill text-danger me-2 mt-1 fs-5"></i>
-                <span>Complex cases with extensive scar tissue may occasionally require conversion to open surgery.</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
   </div>
 </section>
 
 <script>
-// general & laparoscopic surgery service page read less and more buttons
-document.addEventListener('DOMContentLoaded', function () {
-  const laparoCollapse = document.getElementById('moreLaparoContent');
-  const readMoreLaparo = document.getElementById('readMoreWrapperLaparo');
-
-  if (laparoCollapse && readMoreLaparo) {
-    laparoCollapse.addEventListener('show.bs.collapse', function () {
-      readMoreLaparo.style.display = 'none';
-    });
-
-    laparoCollapse.addEventListener('hide.bs.collapse', function () {
-      readMoreLaparo.style.display = 'block';
-    });
-  }
-});
+function toggleReadMoreText(btn) {
+  const textSpan = btn.querySelector('.btn_text');
+  const icon = btn.querySelector('.toggle_arrow');
+  
+  setTimeout(() => {
+    const isExpanded = btn.getAttribute('aria-expanded') === 'true';
+    if (isExpanded) {
+      textSpan.textContent = 'Read Less';
+      icon.className = 'bi bi-arrow-up ms-1 toggle_arrow';
+    } else {
+      textSpan.textContent = 'Read More';
+      icon.className = 'bi bi-arrow-right ms-1 toggle_arrow';
+    }
+  }, 150);
+}
 </script>
+
 <?php include 'footer.php'; ?>

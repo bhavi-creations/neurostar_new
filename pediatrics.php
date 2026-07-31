@@ -1,147 +1,223 @@
 <?php include 'header.php'; ?>
-<!-- ========================================= -->
-<!-- Pediatrics Section                        -->
-<!-- ========================================= -->
-<section class="service_page_wrapper py-5">
+
+<!-- HERO BANNER SECTION -->
+<section class="ns-hero-banner" style="background-image: linear-gradient(rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.85)), url('assets/img/pediatrics-bg.png');">
   <div class="container">
-    
-    <!-- Hero / Intro Block -->
-    <div class="row align-items-center g-4 lg-g-5 mb-5">
-      
-      <!-- Left Content Column -->
-      <div class="col-lg-6">
-        <h1 class="service_title mb-3">Pediatrics & Child Care</h1>
-        
-        <!-- Paragraph 1 (Always Visible) -->
-        <p class="service_description mb-3">
-          At NeuroStar Hospital, our Pediatrics department is dedicated to providing compassionate, comprehensive healthcare for infants, children, and adolescents. Our team of experienced pediatricians creates a child-friendly and comforting environment to ensure early diagnosis, effective treatment, and healthy growth at every stage of childhood.
-        </p>
+    <div class="row">
+      <div class="col-lg-8 ns-hero-content">
+        <nav class="ns-breadcrumb">
+          <a href="#">Home</a> &rsaquo; <a href="#">Services</a> &rsaquo; Pediatrics
+        </nav>
+        <h1 class="ns-hero-title">Pediatric &amp; Child Care</h1>
+        <p class="ns-hero-subtitle">Comprehensive, compassionate medical care for infants, children, and adolescents</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <!-- Paragraph 2 (Hidden until Read More is clicked) -->
-        <div class="collapse" id="morePedsContent">
-          <p class="service_description mb-3">
-            Equipped with modern neonatal care units (NICU/PICU) and advanced pediatric diagnostic facilities, we specialize in routine vaccinations, growth and developmental monitoring, pediatric emergency care, infectious disease management, and childhood nutritional guidance. We work closely with parents to support their child's physical and emotional well-being.
-          </p>
+<!-- MAIN CONTENT SECTION -->
+<section class="ns-service-wrapper mt-4 mb-5">
+  <div class="container">
+    <div class="row g-4">
 
-          <!-- Read Less button (Placed AT THE BOTTOM inside expanded content) -->
-          <div class="pt-1 mb-3">
-            <a class="toggle_read_more_btn" data-bs-toggle="collapse" href="#morePedsContent" role="button" aria-expanded="true" aria-controls="morePedsContent">
-              <span class="btn_text">Read Less</span> <i class="bi bi-arrow-up ms-1 toggle_arrow"></i>
-            </a>
+      <!-- LEFT COLUMN -->
+      <div class="col-lg-8">
+
+        <!-- 1. Service Overview -->
+        <div class="ns-card">
+          <div class="ns-card-header">
+            <div class="ns-icon-badge"><i class="bi bi-activity"></i></div>
+            <h2 class="ns-card-title">Service Overview</h2>
+          </div>
+          <div class="ns-card-body">
+            <p class="service_description">
+              At NeuroStar Hospital, our Pediatrics Department is dedicated to providing exceptional medical care for children from birth through adolescence. Our team of experienced pediatricians, neonatologists, and pediatric nurses understands that children require specialized medical attention delivered with patience and extreme care. We focus on preventive medicine, accurate diagnosis, and effective treatment for a wide range of childhood illnesses and developmental conditions.
+            </p>
+            <div class="collapse" id="morePediatricContent">
+              <p class="service_description pt-2">
+                We offer a complete continuum of care, from routine well-baby checkups and vaccinations to advanced neonatal intensive care (NICU) for critically ill newborns. Our child-friendly environment is designed to minimize anxiety for both the patient and the parents. We work closely with families to ensure the healthy physical, emotional, and social development of your child at every stage of growth.
+              </p>
+            </div>
+            
+            <div class="pt-2">
+              <a class="toggle_read_more_btn ns-btn-readmore text-decoration-none" data-bs-toggle="collapse" href="#morePediatricContent" role="button" aria-expanded="false" aria-controls="morePediatricContent" onclick="toggleReadMoreText(this)">
+                <span class="btn_text">Read More</span> <i class="bi bi-arrow-right ms-1 toggle_arrow"></i>
+              </a>
+            </div>
           </div>
         </div>
 
-        <!-- Read More button (Visible only when collapsed) -->
-        <div class="pt-1" id="readMoreWrapperPeds">
-          <a class="toggle_read_more_btn" data-bs-toggle="collapse" href="#morePedsContent" role="button" aria-expanded="false" aria-controls="morePedsContent">
-            <span class="btn_text">Read More</span> <i class="bi bi-arrow-right ms-1 toggle_arrow"></i>
+        <!-- 2. What's Included -->
+        <div class="ns-card">
+          <div class="ns-card-header">
+            <div class="ns-icon-badge"><i class="bi bi-list-check"></i></div>
+            <h2 class="ns-card-title">What's Included</h2>
+          </div>
+          <ul class="ns-check-grid">
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Routine Well-Baby and Well-Child Examinations</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Complete Childhood Immunization &amp; Vaccination Schedules</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Treatment of Acute Childhood Illnesses (Fevers, Infections, Respiratory issues)</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Growth and Developmental Milestones Monitoring</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Pediatric Nutrition &amp; Diet Counseling</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Adolescent Medicine and Health Education</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 3. Equipment & Technology -->
+        <div class="ns-card">
+          <div class="ns-card-header">
+            <div class="ns-icon-badge"><i class="bi bi-cpu"></i></div>
+            <h2 class="ns-card-title">Equipment &amp; Technology</h2>
+          </div>
+          <ul class="ns-check-grid">
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Advanced Level-III Neonatal Intensive Care Unit (NICU)</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Pediatric Ventilators and High-Flow Oxygen Systems</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Neonatal Incubators, Warmers, and Phototherapy Units</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Continuous Pediatric Vital Signs Monitoring Systems</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Non-Invasive Diagnostic Tools adapted for Children</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Child-Specific Emergency Cart and Resuscitation Equipment</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 4. Benefits -->
+        <div class="ns-card">
+          <div class="ns-card-header">
+            <div class="ns-icon-badge"><i class="bi bi-sparkles"></i></div>
+            <h2 class="ns-card-title">Benefits</h2>
+          </div>
+          <ul class="ns-check-grid">
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Expert care from Board-Certified Pediatricians and Neonatologists</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Child-friendly environment designed to reduce fear and anxiety</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Early detection of developmental delays through regular screening</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Family-centered approach with extensive parental guidance and support</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 5. Process / Workflow -->
+        <div class="ns-card">
+          <div class="ns-card-header">
+            <div class="ns-icon-badge"><i class="bi bi-diagram-3"></i></div>
+            <h2 class="ns-card-title">Process / Workflow</h2>
+          </div>
+          <ul class="ns-process-list">
+            <li class="ns-process-item">
+              <div class="ns-process-number">1</div>
+              <div>Appointment Scheduling &amp; Child Health History documentation</div>
+            </li>
+            <li class="ns-process-item">
+              <div class="ns-process-number">2</div>
+              <div>Physical Examination (Growth parameters, vitals, systemic exam)</div>
+            </li>
+            <li class="ns-process-item">
+              <div class="ns-process-number">3</div>
+              <div>Diagnosis, Vaccination administration, or Treatment Plan formulation</div>
+            </li>
+            <li class="ns-process-item">
+              <div class="ns-process-number">4</div>
+              <div>Parental Counseling, prescription handover, and Follow-up scheduling</div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 6. Related Departments -->
+        <div class="ns-card">
+          <div class="ns-card-header">
+            <div class="ns-icon-badge"><i class="bi bi-building"></i></div>
+            <h2 class="ns-card-title">Related Departments</h2>
+          </div>
+          <div class="ns-dept-tags">
+            <a href="#" class="ns-dept-tag">Neonatology (NICU)</a>
+            <a href="#" class="ns-dept-tag">Obstetrics &amp; Gynecology</a>
+            <a href="#" class="ns-dept-tag">Pediatric Neurology</a>
+            <a href="#" class="ns-dept-tag">Emergency &amp; Trauma Care</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- RIGHT SIDEBAR (CTA - CLEAN & STICKY BELOW NAVBAR) -->
+      <div class="col-lg-4">
+        <div class="ns-sidebar-cta sticky-top">
+          <div class="cta_sub_label">NEED CHILD CARE?</div>
+          <h3 class="cta_main_title">Consult a Pediatrician</h3>
+          
+          <a href="#" class="ns-btn-cta-orange mb-3 text-center text-decoration-none">
+            <i class="bi bi-calendar-event me-2"></i>Book Appointment
+          </a>
+          <a href="tel:8341713713" class="ns-btn-cta-outline text-center text-decoration-none">
+            <i class="bi bi-telephone me-2"></i>Call 8341713713
           </a>
         </div>
       </div>
 
-      <!-- Right Image Column -->
-      <div class="col-lg-6 text-center">
-        <div class="service_image_container">
-          <img src="assets/img/pediatrics-illustration.png" alt="Pediatric Care and Child Health" class="img-fluid service_main_img">
-        </div>
-      </div>
-
     </div>
-
-    <!-- ========================================= -->
-    <!-- Advantages & Considerations Section       -->
-    <!-- ========================================= -->
-    <div class="service_pros_cons_wrapper mt-5 pt-3">
-      <div class="text-center mb-4">
-        <h2 class="pros_cons_heading fw-bold">Treatment Overview</h2>
-        <div class="heading_line mx-auto"></div>
-      </div>
-
-      <div class="row g-4 justify-content-center">
-        
-        <!-- Advantages Card -->
-        <div class="col-md-6 col-lg-5">
-          <div class="pro_con_card advantages_card h-100 p-4 rounded-4 bg-white shadow-sm">
-            <div class="d-flex align-items-center mb-3">
-              <div class="icon_box pro_icon_bg me-3">
-                <i class="bi bi-check-circle-fill"></i>
-              </div>
-              <h3 class="h4 mb-0 fw-bold text-success">Advantages</h3>
-            </div>
-            
-            <ul class="list-unstyled mb-0 pros_cons_list">
-              <li class="d-flex align-items-start mb-3">
-                <i class="bi bi-check-circle-fill text-success me-2 mt-1 fs-5"></i>
-                <span>Ensures timely immunizations and preventive care against common childhood diseases.</span>
-              </li>
-              <li class="d-flex align-items-start mb-3">
-                <i class="bi bi-check-circle-fill text-success me-2 mt-1 fs-5"></i>
-                <span>Provides continuous tracking of physical growth, motor skills, and cognitive developmental milestones.</span>
-              </li>
-              <li class="d-flex align-items-start mb-3">
-                <i class="bi bi-check-circle-fill text-success me-2 mt-1 fs-5"></i>
-                <span>Offers specialized, gentle care tailored specifically for delicate infant and child anatomy.</span>
-              </li>
-              <li class="d-flex align-items-start">
-                <i class="bi bi-check-circle-fill text-success me-2 mt-1 fs-5"></i>
-                <span>Guides parents with expert dietary and lifestyle advice for robust immunity and growth.</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Considerations Card -->
-        <div class="col-md-6 col-lg-5">
-          <div class="pro_con_card disadvantages_card h-100 p-4 rounded-4 bg-white shadow-sm">
-            <div class="d-flex align-items-center mb-3">
-              <div class="icon_box con_icon_bg me-3">
-                <i class="bi bi-exclamation-triangle-fill"></i>
-              </div>
-              <h3 class="h4 mb-0 fw-bold text-danger">Considerations</h3>
-            </div>
-
-            <ul class="list-unstyled mb-0 pros_cons_list">
-              <li class="d-flex align-items-start mb-3">
-                <i class="bi bi-check-circle-fill text-danger me-2 mt-1 fs-5"></i>
-                <span>Requires strict adherence to routine vaccination schedules and pediatric checkup timelines.</span>
-              </li>
-              <li class="d-flex align-items-start mb-3">
-                <i class="bi bi-check-circle-fill text-danger me-2 mt-1 fs-5"></i>
-                <span>Children may experience temporary mild fever or irritability following routine vaccinations.</span>
-              </li>
-              <li class="d-flex align-items-start mb-3">
-                <i class="bi bi-check-circle-fill text-danger me-2 mt-1 fs-5"></i>
-                <span>Demands active parent involvement and continuous home monitoring during medical treatments.</span>
-              </li>
-              <li class="d-flex align-items-start">
-                <i class="bi bi-check-circle-fill text-danger me-2 mt-1 fs-5"></i>
-                <span>Requires careful dosage management tailored specifically to the child's age and exact weight.</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
   </div>
 </section>
 
 <script>
-// pediatrics service page read less and more buttons
-document.addEventListener('DOMContentLoaded', function () {
-  const pedsCollapse = document.getElementById('morePedsContent');
-  const readMorePeds = document.getElementById('readMoreWrapperPeds');
-
-  if (pedsCollapse && readMorePeds) {
-    pedsCollapse.addEventListener('show.bs.collapse', function () {
-      readMorePeds.style.display = 'none';
-    });
-
-    pedsCollapse.addEventListener('hide.bs.collapse', function () {
-      readMorePeds.style.display = 'block';
-    });
-  }
-});
+function toggleReadMoreText(btn) {
+  const textSpan = btn.querySelector('.btn_text');
+  const icon = btn.querySelector('.toggle_arrow');
+  
+  setTimeout(() => {
+    const isExpanded = btn.getAttribute('aria-expanded') === 'true';
+    if (isExpanded) {
+      textSpan.textContent = 'Read Less';
+      icon.className = 'bi bi-arrow-up ms-1 toggle_arrow';
+    } else {
+      textSpan.textContent = 'Read More';
+      icon.className = 'bi bi-arrow-right ms-1 toggle_arrow';
+    }
+  }, 150);
+}
 </script>
+
 <?php include 'footer.php'; ?>

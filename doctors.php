@@ -5,83 +5,86 @@
 <section class="doctors_section_wrapper">
 
     <!-- 1. HERO SECTION -->
-    <div class="doctors_section_hero py-5">
-        <div class="container">
-            <!-- Breadcrumb -->
-            <nav aria-label="breadcrumb">
-                <ol class="breadcrumb doctors_section_breadcrumb">
-                    <li class="breadcrumb-item"><a href="#">Home</a></li>
-                    <li class="breadcrumb-item active" aria-current="page">Doctors</li>
-                </ol>
-            </nav>
+<div class="doctors_section_hero py-5">
+    <div class="container">
+        <!-- Breadcrumb -->
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb doctors_section_breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Doctors</li>
+            </ol>
+        </nav>
 
-            <div class="row align-items-center">
-                <!-- Left Content -->
-                <div class="col-lg-7 col-md-12 mb-4 mb-lg-0">
-                    <h1 class="doctors_section_hero_title fw-bold">Our Expert Doctors</h1>
-                    <h5 class="doctors_section_hero_subtitle text-success fw-semibold mb-3">
-                        Experienced. Dedicated. Compassionate.
-                    </h5>
-                    <p class="doctors_section_hero_text text-muted mb-4">
-                        Our team of highly qualified and experienced doctors is committed to providing world-class healthcare with compassion and excellence.
-                    </p>
+        <div class="row align-items-center">
+            <!-- Left Content -->
+            <div class="col-lg-7 col-md-12 mb-4 mb-lg-0">
+                <h1 class="doctors_section_hero_title fw-bold">Our Expert Doctors</h1>
+                <h5 class="doctors_section_hero_subtitle text-success fw-semibold mb-3">
+                    Experienced. Dedicated. Compassionate.
+                </h5>
+                <p class="doctors_section_hero_text text-black mb-4">
+                    Our team of highly qualified and experienced doctors is committed to providing world-class healthcare with compassion and excellence.
+                </p>
 
-                    <!-- Top Counter Badges -->
-                    <div class="row g-3 doctors_section_hero_stats">
-                        <div class="col-6 col-sm-3">
-                            <div class="doctors_section_stat_card d-flex align-items-center p-2 rounded border bg-white">
-                                <div class="doctors_section_stat_icon me-2 text-primary fs-3">
-                                    <i class="bi bi-person-badge"></i>
-                                </div>
-                                <div>
-                                    <h6 class="fw-bold mb-0">120+</h6>
-                                    <small class="text-muted">Expert Doctors</small>
-                                </div>
+                <!-- Top Counter Badges -->
+                <div class="row g-3 doctors_section_hero_stats">
+                    <div class="col-6 col-sm-3">
+                        <div class="doctors_section_stat_card d-flex align-items-center p-2 rounded border bg-white">
+                            <div class="doctors_stat_icon_box me-2">
+                                <img src="assets/img/Neuro_doctor.png" alt="Expert Doctors">
+                            </div>
+                            <div>
+                                <h6 class=" mb-0">120+</h6>
+                                <small class="text-black">Expert Doctors</small>
                             </div>
                         </div>
-                        <div class="col-6 col-sm-3">
-                            <div class="doctors_section_stat_card d-flex align-items-center p-2 rounded border bg-white">
-                                <div class="doctors_section_stat_icon me-2 text-primary fs-3">
-                                    <i class="bi bi-award"></i>
-                                </div>
-                                <div>
-                                    <h6 class="fw-bold mb-0">25+</h6>
-                                    <small class="text-muted">Specialities</small>
-                                </div>
+                    </div>
+
+                    <div class="col-6 col-sm-3">
+                        <div class="doctors_section_stat_card d-flex align-items-center p-2 rounded border bg-white">
+                            <div class="doctors_stat_icon_box me-2">
+                                <img src="assets/img/Department.png" alt="Specialities">
+                            </div>
+                            <div>
+                                <h6 class=" mb-0">25+</h6>
+                                <small class="text-black">Medical Departments</small>
                             </div>
                         </div>
-                        <div class="col-6 col-sm-3">
-                            <div class="doctors_section_stat_card d-flex align-items-center p-2 rounded border bg-white">
-                                <div class="doctors_section_stat_icon me-2 text-primary fs-3">
-                                    <i class="bi bi-shield-check"></i>
-                                </div>
-                                <div>
-                                    <h6 class="fw-bold mb-0">20+</h6>
-                                    <small class="text-muted">Years of Excellence</small>
-                                </div>
+                    </div>
+
+                    <div class="col-6 col-sm-3">
+                        <div class="doctors_section_stat_card d-flex align-items-center p-2 rounded border bg-white">
+                            <div class="doctors_stat_icon_box me-2">
+                                <img src="assets/img/Experience.png" alt="Years of Excellence">
+                            </div>
+                            <div>
+                                <h6 class=" mb-0">20+</h6>
+                                <small class="text-black">Years of Excellence</small>
                             </div>
                         </div>
-                        <div class="col-6 col-sm-3">
-                            <div class="doctors_section_stat_card d-flex align-items-center p-2 rounded border bg-white">
-                                <div class="doctors_section_stat_icon me-2 text-primary fs-3">
-                                    <i class="bi bi-people"></i>
-                                </div>
-                                <div>
-                                    <h6 class="fw-bold mb-0">75,000+</h6>
-                                    <small class="text-muted">Happy Patients</small>
-                                </div>
+                    </div>
+
+                    <div class="col-6 col-sm-3">
+                        <div class="doctors_section_stat_card d-flex align-items-center p-2 rounded border bg-white">
+                            <div class="doctors_stat_icon_box me-2">
+                                <img src="assets/img/happy-clients-01.png" alt="Happy Patients">
+                            </div>
+                            <div>
+                                <h6 class=" mb-0">75,000+</h6>
+                                <small class="text-black">Happy Patients</small>
                             </div>
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <!-- Right Hero Banner Image -->
-                <div class="col-lg-5 col-md-12 text-center position-relative">
-                    <img src="assets/img/Home_doctors_bg.png" alt="Neurostar Doctors Team" class="img-fluid doctors_section_hero_img">
-                </div>
+            <!-- Right Hero Banner Image -->
+            <div class="col-lg-5 col-md-12 text-center position-relative">
+                <img src="assets/img/Home_doctors_bg.png" alt="Neurostar Doctors Team" class="img-fluid doctors_section_hero_img">
             </div>
         </div>
     </div>
+</div>
 
     <!-- ============================================================
   POPUP (doctor_popup_section) — hidden by default
@@ -190,20 +193,20 @@
                         <p class="doctors_section_card_meta text-muted small mb-3"><i class="bi bi-briefcase-fill me-1"></i> 15+ Years Exp.</p>
                         <div class="mt-auto d-flex gap-2">
                             <a href="#" class="btn btn-outline-primary btn-sm w-50 view-profile-btn">View Profile</a>
-                            <a href="#" class="btn btn-primary btn-sm w-50"><i class="bi bi-calendar-check me-1"></i> Book</a>
+                            <!-- <a href="#" class="btn btn-primary btn-sm w-50"><i class="bi bi-calendar-check me-1"></i> Book</a> -->
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Doctor Card 2 -->
-            <div class="col-xl-3 col-lg-4 col-md-6 col-12" data-doctor='{"name":"Dr. G.V.N.B.R. Sasthrulu","specialty":"Oral &amp; Maxillofacial Surgeon","qual":"B.D.S., M.D.S.(Implantologist)","exp":"12+ Years Exp.","bio":"Renowned oral surgeon specializing in implants and maxillofacial reconstruction.","img":"https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=300&h=300&fit=crop&crop=center&auto=format"}'>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12" data-doctor='{"name":"Dr. G.V.N.B.R. Sasthrulu","specialty":"Oral &amp; Maxillofacial Surgeon","qual":"B.D.S., M.D.S.(Implantologist)","exp":"12+ Years Exp.","bio":"Renowned oral surgeon specializing in implants and maxillofacial reconstruction.","img":"./assets/img/sasthrulu.png"}'>
                 <div class="doctors_section_card card h-100 border-0 shadow-sm rounded-3 overflow-hidden">
                     <div class="doctors_section_card_img_wrapper position-relative text-center pt-3 bg-light">
                         <button class="doctors_section_wishlist_btn position-absolute top-0 end-0 m-2 btn btn-sm btn-light rounded-circle shadow-sm">
                             <i class="bi bi-heart"></i>
                         </button>
-                        <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=300&h=300&fit=crop&crop=center&auto=format" alt="Dr. G.V.N.B.R. Sasthrulu" class="img-fluid doctors_section_card_img">
+                        <img src="./assets/img/sasthrulu.png" alt="Dr. G.V.N.B.R. Sasthrulu" class="img-fluid doctors_section_card_img">
                     </div>
                     <div class="card-body d-flex flex-column p-3">
                         <h5 class="doctors_section_card_title fw-bold mb-1">Dr. G.V.N.B.R. Sasthrulu</h5>
@@ -213,20 +216,20 @@
                         <p class="doctors_section_card_meta text-muted small mb-3"><i class="bi bi-briefcase-fill me-1"></i> 12+ Years Exp.</p>
                         <div class="mt-auto d-flex gap-2">
                             <a href="#" class="btn btn-outline-primary btn-sm w-50 view-profile-btn">View Profile</a>
-                            <a href="#" class="btn btn-primary btn-sm w-50"><i class="bi bi-calendar-check me-1"></i> Book</a>
+                            <!-- <a href="#" class="btn btn-primary btn-sm w-50"><i class="bi bi-calendar-check me-1"></i> Book</a> -->
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Doctor Card 3 -->
-            <div class="col-xl-3 col-lg-4 col-md-6 col-12" data-doctor='{"name":"Dr. Ratna Bhushan","specialty":"Plastic &amp; Cosmetic Surgeon","qual":"M.B.B.S., M.S., M.Ch.","exp":"14+ Years Exp.","bio":"Leading plastic surgeon with a focus on aesthetic and reconstructive surgery.","img":"https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=300&h=300&fit=crop&crop=center&auto=format"}'>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12" data-doctor='{"name":"Dr. Ratna Bhushan","specialty":"Plastic &amp; Cosmetic Surgeon","qual":"M.B.B.S., M.S., M.Ch.","exp":"14+ Years Exp.","bio":"Leading plastic surgeon with a focus on aesthetic and reconstructive surgery.","img":"./assets/img/ratnabushan.png"}'>
                 <div class="doctors_section_card card h-100 border-0 shadow-sm rounded-3 overflow-hidden">
                     <div class="doctors_section_card_img_wrapper position-relative text-center pt-3 bg-light">
                         <button class="doctors_section_wishlist_btn position-absolute top-0 end-0 m-2 btn btn-sm btn-light rounded-circle shadow-sm">
                             <i class="bi bi-heart"></i>
                         </button>
-                        <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=300&h=300&fit=crop&crop=center&auto=format" alt="Dr. Ratna Bhushan" class="img-fluid doctors_section_card_img">
+                        <img src="./assets/img/ratnabushan.png" alt="Dr. Ratna Bhushan" class="img-fluid doctors_section_card_img">
                     </div>
                     <div class="card-body d-flex flex-column p-3">
                         <h5 class="doctors_section_card_title fw-bold mb-1">Dr. Ratna Bhushan</h5>
@@ -236,20 +239,20 @@
                         <p class="doctors_section_card_meta text-muted small mb-3"><i class="bi bi-briefcase-fill me-1"></i> 14+ Years Exp.</p>
                         <div class="mt-auto d-flex gap-2">
                             <a href="#" class="btn btn-outline-primary btn-sm w-50 view-profile-btn">View Profile</a>
-                            <a href="#" class="btn btn-primary btn-sm w-50"><i class="bi bi-calendar-check me-1"></i> Book</a>
+                            <!-- <a href="#" class="btn btn-primary btn-sm w-50"><i class="bi bi-calendar-check me-1"></i> Book</a> -->
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Doctor Card 4 -->
-            <div class="col-xl-3 col-lg-4 col-md-6 col-12" data-doctor='{"name":"Dr. Rama Krishna","specialty":"Consultant Orthopedic Surgeon","qual":"M.S.(Ortho), Joint Replacement Specialist","exp":"10+ Years Exp.","bio":"Expert in joint replacements and sports medicine.","img":"https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=300&h=300&fit=crop&crop=center&auto=format"}'>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12" data-doctor='{"name":"Dr. Rama Krishna","specialty":"Consultant Orthopedic Surgeon","qual":"M.S.(Ortho), Joint Replacement Specialist","exp":"10+ Years Exp.","bio":"Expert in joint replacements and sports medicine.","img":"./assets/img/ramakrishna.png"}'>
                 <div class="doctors_section_card card h-100 border-0 shadow-sm rounded-3 overflow-hidden">
                     <div class="doctors_section_card_img_wrapper position-relative text-center pt-3 bg-light">
                         <button class="doctors_section_wishlist_btn position-absolute top-0 end-0 m-2 btn btn-sm btn-light rounded-circle shadow-sm">
                             <i class="bi bi-heart"></i>
                         </button>
-                        <img src="https://images.unsplash.com/photo-1582750433449-648ed127bb54?w=300&h=300&fit=crop&crop=center&auto=format" alt="Dr. Rama Krishna" class="img-fluid doctors_section_card_img">
+                        <img src="./assets/img/ramakrishna.png" alt="Dr. Rama Krishna" class="img-fluid doctors_section_card_img">
                     </div>
                     <div class="card-body d-flex flex-column p-3">
                         <h5 class="doctors_section_card_title fw-bold mb-1">Dr. Rama Krishna</h5>
@@ -259,20 +262,20 @@
                         <p class="doctors_section_card_meta text-muted small mb-3"><i class="bi bi-briefcase-fill me-1"></i> 10+ Years Exp.</p>
                         <div class="mt-auto d-flex gap-2">
                             <a href="#" class="btn btn-outline-primary btn-sm w-50 view-profile-btn">View Profile</a>
-                            <a href="#" class="btn btn-primary btn-sm w-50"><i class="bi bi-calendar-check me-1"></i> Book</a>
+                            <!-- <a href="#" class="btn btn-primary btn-sm w-50"><i class="bi bi-calendar-check me-1"></i> Book</a> -->
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Doctor Card 5 -->
-            <div class="col-xl-3 col-lg-4 col-md-6 col-12" data-doctor='{"name":"Dr.G.Laxman Prasad","specialty":"E.N.T Specialist","qual":"M.S.(E.N.T)","exp":"13+ Years Exp.","bio":"Specialist in ENT disorders with advanced surgical training.","img":"https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=300&h=300&fit=crop&crop=center&auto=format"}'>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12" data-doctor='{"name":"Dr.G.Laxman Prasad","specialty":"E.N.T Specialist","qual":"M.S.(E.N.T)","exp":"13+ Years Exp.","bio":"Specialist in ENT disorders with advanced surgical training.","img":"./assets/img/laxmanprasad.png"}'>
                 <div class="doctors_section_card card h-100 border-0 shadow-sm rounded-3 overflow-hidden">
                     <div class="doctors_section_card_img_wrapper position-relative text-center pt-3 bg-light">
                         <button class="doctors_section_wishlist_btn position-absolute top-0 end-0 m-2 btn btn-sm btn-light rounded-circle shadow-sm">
                             <i class="bi bi-heart"></i>
                         </button>
-                        <img src="https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=300&h=300&fit=crop&crop=center&auto=format" alt="Dr.G.Laxman Prasad" class="img-fluid doctors_section_card_img">
+                        <img src="./assets/img/laxmanprasad.png" alt="Dr.G.Laxman Prasad" class="img-fluid doctors_section_card_img">
                     </div>
                     <div class="card-body d-flex flex-column p-3">
                         <h5 class="doctors_section_card_title fw-bold mb-1">Dr.G.Laxman Prasad</h5>
@@ -281,20 +284,20 @@
                         <p class="doctors_section_card_meta text-muted small mb-3"><i class="bi bi-briefcase-fill me-1"></i> 13+ Years Exp.</p>
                         <div class="mt-auto d-flex gap-2">
                             <a href="#" class="btn btn-outline-primary btn-sm w-50 view-profile-btn">View Profile</a>
-                            <a href="#" class="btn btn-primary btn-sm w-50"><i class="bi bi-calendar-check me-1"></i> Book</a>
+                            <!-- <a href="#" class="btn btn-primary btn-sm w-50"><i class="bi bi-calendar-check me-1"></i> Book</a> -->
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Doctor Card 6 -->
-            <div class="col-xl-3 col-lg-4 col-md-6 col-12" data-doctor='{"name":"Dr. Praveen Revu","specialty":"Nephrologist","qual":"MD (Gen medicine), DM (Nephrology)","exp":"9+ Years Exp.","bio":"Dedicated nephrologist with expertise in kidney disorders and dialysis.","img":"https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=300&h=300&fit=crop&crop=center&auto=format"}'>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12" data-doctor='{"name":"Dr. Praveen Revu","specialty":"Nephrologist","qual":"MD (Gen medicine), DM (Nephrology)","exp":"9+ Years Exp.","bio":"Dedicated nephrologist with expertise in kidney disorders and dialysis.","img":"./assets/img/praveenrevu.png"}'>
                 <div class="doctors_section_card card h-100 border-0 shadow-sm rounded-3 overflow-hidden">
                     <div class="doctors_section_card_img_wrapper position-relative text-center pt-3 bg-light">
                         <button class="doctors_section_wishlist_btn position-absolute top-0 end-0 m-2 btn btn-sm btn-light rounded-circle shadow-sm">
                             <i class="bi bi-heart"></i>
                         </button>
-                        <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=300&h=300&fit=crop&crop=center&auto=format" alt="Dr. Praveen Revu" class="img-fluid doctors_section_card_img">
+                        <img src="./assets/img/praveenrevu.png" alt="Dr. Praveen Revu" class="img-fluid doctors_section_card_img">
                     </div>
                     <div class="card-body d-flex flex-column p-3">
                         <h5 class="doctors_section_card_title fw-bold mb-1">Dr. Praveen Revu</h5>
@@ -303,20 +306,20 @@
                         <p class="doctors_section_card_meta text-muted small mb-3"><i class="bi bi-briefcase-fill me-1"></i> 9+ Years Exp.</p>
                         <div class="mt-auto d-flex gap-2">
                             <a href="#" class="btn btn-outline-primary btn-sm w-50 view-profile-btn">View Profile</a>
-                            <a href="#" class="btn btn-primary btn-sm w-50"><i class="bi bi-calendar-check me-1"></i> Book</a>
+                            <!-- <a href="#" class="btn btn-primary btn-sm w-50"><i class="bi bi-calendar-check me-1"></i> Book</a> -->
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Doctor Card 7 -->
-            <div class="col-xl-3 col-lg-4 col-md-6 col-12" data-doctor='{"name":"Dr. G. Dani","specialty":"Intensivist &amp; Anesthetist","qual":"MBBS DA (FIICM)","exp":"11+ Years Exp.","bio":"Critical care expert with experience in ICU management and anesthesia.","img":"https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=300&h=300&fit=crop&crop=center&auto=format"}'>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12" data-doctor='{"name":"Dr. G. Dani","specialty":"Intensivist &amp; Anesthetist","qual":"MBBS DA (FIICM)","exp":"11+ Years Exp.","bio":"Critical care expert with experience in ICU management and anesthesia.","img":"./assets/img/dani.png"}'>
                 <div class="doctors_section_card card h-100 border-0 shadow-sm rounded-3 overflow-hidden">
                     <div class="doctors_section_card_img_wrapper position-relative text-center pt-3 bg-light">
                         <button class="doctors_section_wishlist_btn position-absolute top-0 end-0 m-2 btn btn-sm btn-light rounded-circle shadow-sm">
                             <i class="bi bi-heart"></i>
                         </button>
-                        <img src="https://images.unsplash.com/photo-1622253692010-333f2da6031d?w=300&h=300&fit=crop&crop=center&auto=format" alt="Dr. G. Dani" class="img-fluid doctors_section_card_img">
+                        <img src="./assets/img/dani.png" alt="Dr. G. Dani" class="img-fluid doctors_section_card_img">
                     </div>
                     <div class="card-body d-flex flex-column p-3">
                         <h5 class="doctors_section_card_title fw-bold mb-1">Dr. G. Dani</h5>
@@ -325,20 +328,20 @@
                         <p class="doctors_section_card_meta text-muted small mb-3"><i class="bi bi-briefcase-fill me-1"></i> 11+ Years Exp.</p>
                         <div class="mt-auto d-flex gap-2">
                             <a href="#" class="btn btn-outline-primary btn-sm w-50 view-profile-btn">View Profile</a>
-                            <a href="#" class="btn btn-primary btn-sm w-50"><i class="bi bi-calendar-check me-1"></i> Book</a>
+                            <!-- <a href="#" class="btn btn-primary btn-sm w-50"><i class="bi bi-calendar-check me-1"></i> Book</a> -->
                         </div>
                     </div>
                 </div>
             </div>
 
             <!-- Doctor Card 8 -->
-            <div class="col-xl-3 col-lg-4 col-md-6 col-12" data-doctor='{"name":"Dr. Akhila .S","specialty":"Psychiatrist","qual":"MD (Psychiatrist)","exp":"8+ Years Exp.","bio":"Compassionate psychiatrist with focus on mental wellness and therapy.","img":"https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=300&h=300&fit=crop&crop=center&auto=format"}'>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12" data-doctor='{"name":"Dr. Akhila .S","specialty":"Psychiatrist","qual":"MD (Psychiatrist)","exp":"8+ Years Exp.","bio":"Compassionate psychiatrist with focus on mental wellness and therapy.","img":"./assets/img/akhila.png"}'>
                 <div class="doctors_section_card card h-100 border-0 shadow-sm rounded-3 overflow-hidden">
                     <div class="doctors_section_card_img_wrapper position-relative text-center pt-3 bg-light">
                         <button class="doctors_section_wishlist_btn position-absolute top-0 end-0 m-2 btn btn-sm btn-light rounded-circle shadow-sm">
                             <i class="bi bi-heart"></i>
                         </button>
-                        <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=300&h=300&fit=crop&crop=center&auto=format" alt="Dr. Akhila .S" class="img-fluid doctors_section_card_img">
+                        <img src="./assets/img/akhila.png" alt="Dr. Akhila .S" class="img-fluid doctors_section_card_img">
                     </div>
                     <div class="card-body d-flex flex-column p-3">
                         <h5 class="doctors_section_card_title fw-bold mb-1">Dr. Akhila .S</h5>
@@ -347,7 +350,7 @@
                         <p class="doctors_section_card_meta text-muted small mb-3"><i class="bi bi-briefcase-fill me-1"></i> 8+ Years Exp.</p>
                         <div class="mt-auto d-flex gap-2">
                             <a href="#" class="btn btn-outline-primary btn-sm w-50 view-profile-btn">View Profile</a>
-                            <a href="#" class="btn btn-primary btn-sm w-50"><i class="bi bi-calendar-check me-1"></i> Book</a>
+                            <!-- <a href="#" class="btn btn-primary btn-sm w-50"><i class="bi bi-calendar-check me-1"></i> Book</a> -->
                         </div>
                     </div>
                 </div>
@@ -362,57 +365,78 @@
     </div>
 
     <!-- 4. BOTTOM STATS BAR -->
-    <div class="container my-5">
-        <div class="doctors_section_bottom_stats p-4 bg-light rounded-4 border shadow-sm">
-            <div class="row text-center g-3">
-                <div class="col-6 col-md-2-4 col-lg">
-                    <div class="d-flex align-items-center justify-content-center">
-                        <div class="doctors_section_counter_icon fs-2 text-primary me-2"><i class="bi bi-person-badge"></i></div>
-                        <div class="text-start">
-                            <h5 class="fw-bold mb-0">120+</h5>
-                            <small class="text-muted">Expert Doctors</small>
-                        </div>
+<div class="container my-4 my-md-5">
+    <div class="doctors_section_bottom_stats p-3 p-sm-4 bg-light rounded-4 border shadow-sm">
+        <div class="row align-items-center justify-content-center g-3 g-md-4">
+            
+            <!-- Item 1 -->
+            <div class="col-6 col-md-4 col-lg">
+                <div class="d-flex align-items-start justify-content-start justify-content-sm-center">
+                    <div class="doctors_section_counter_icon me-2 me-sm-3">
+                        <img src="assets/img/Neuro_doctor.png" alt="Expert Doctors">
                     </div>
-                </div>
-                <div class="col-6 col-md-2-4 col-lg">
-                    <div class="d-flex align-items-center justify-content-center">
-                        <div class="doctors_section_counter_icon fs-2 text-info me-2"><i class="bi bi-gear-wide-connected"></i></div>
-                        <div class="text-start">
-                            <h5 class="fw-bold mb-0">25+</h5>
-                            <small class="text-muted">Specialities</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-2-4 col-lg">
-                    <div class="d-flex align-items-center justify-content-center">
-                        <div class="doctors_section_counter_icon fs-2 text-primary me-2"><i class="bi bi-emoji-smile"></i></div>
-                        <div class="text-start">
-                            <h5 class="fw-bold mb-0">75,000+</h5>
-                            <small class="text-muted">Happy Patients</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-6 col-md-2-4 col-lg">
-                    <div class="d-flex align-items-center justify-content-center">
-                        <div class="doctors_section_counter_icon fs-2 text-success me-2"><i class="bi bi-stethoscope"></i></div>
-                        <div class="text-start">
-                            <h5 class="fw-bold mb-0">2,50,000+</h5>
-                            <small class="text-muted">OP Consultations</small>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-2-4 col-lg">
-                    <div class="d-flex align-items-center justify-content-center">
-                        <div class="doctors_section_counter_icon fs-2 text-primary me-2"><i class="bi bi-heart-pulse"></i></div>
-                        <div class="text-start">
-                            <h5 class="fw-bold mb-0">15,000+</h5>
-                            <small class="text-muted">Successful Surgeries</small>
-                        </div>
+                    <div class="text-start">
+                        <h5 class="stats_number mb-0">120+</h5>
+                        <small class="stats_title text-black d-block">Expert Doctors</small>
                     </div>
                 </div>
             </div>
+
+            <!-- Item 2 -->
+            <div class="col-6 col-md-4 col-lg">
+                <div class="d-flex align-items-start justify-content-start justify-content-sm-center">
+                    <div class="doctors_section_counter_icon me-2 me-sm-3">
+                        <img src="assets/img/Department.png" alt="Specialities">
+                    </div>
+                    <div class="text-start">
+                        <h5 class="stats_number mb-0">25+</h5>
+                        <small class="stats_title text-black d-block">Specialities</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 3 -->
+            <div class="col-6 col-md-4 col-lg">
+                <div class="d-flex align-items-start justify-content-start justify-content-sm-center">
+                    <div class="doctors_section_counter_icon me-2 me-sm-3">
+                        <img src="assets/img/happy-clients-01.png" alt="Happy Patients">
+                    </div>
+                    <div class="text-start">
+                        <h5 class="stats_number mb-0">75,000+</h5>
+                        <small class="stats_title text-black d-block">Happy Patients</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 4 -->
+            <div class="col-6 col-md-4 col-lg">
+                <div class="d-flex align-items-start justify-content-start justify-content-sm-center">
+                    <div class="doctors_section_counter_icon me-2 me-sm-3">
+                        <img src="assets/img/outpatient-consultations.png" alt="OP Consultations">
+                    </div>
+                    <div class="text-start">
+                        <h5 class="stats_number mb-0">2,50,000+</h5>
+                        <small class="stats_title text-black d-block">OP Consultations</small>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Item 5 (Centered on Mobile Grid) -->
+            <div class="col-12 col-md-4 col-lg">
+                <div class="d-flex align-items-start justify-content-center">
+                    <div class="doctors_section_counter_icon me-2 me-sm-3">
+                        <img src="assets/img/Surgical-weapons.png" alt="Successful Surgeries">
+                    </div>
+                    <div class="text-start">
+                        <h5 class="stats_number mb-0">15,000+</h5>
+                        <small class="stats_title text-black d-block">Success Surgeries</small>
+                    </div>
+                </div>
+            </div>
+
         </div>
     </div>
+</div>
 
     <!-- 5. WHY OUR DOCTORS ARE TRUSTED SECTION -->
     <div class="container py-4">
@@ -420,44 +444,44 @@
         <div class="row g-4 text-center">
             <div class="col-6 col-md-4 col-lg-2">
                 <div class="doctors_section_feature_card p-3 h-100 rounded bg-white shadow-sm border">
-                    <div class="doctors_section_feature_icon mb-2 text-primary fs-2"><i class="bi bi-patch-check"></i></div>
-                    <h6 class="fw-bold mb-1">Highly Qualified</h6>
-                    <small class="text-muted d-block">Trained in top institutes across India and abroad</small>
+                    <div class="doctors_section_feature_icon mb-2 text-primary fs-2"><img src="assets/img/Neuro_doctor.png" alt="Expert Doctors"></div>
+                    <h6 class="fw-bold mb-1">Expert Doctors</h6>
+                    <small class="text-black d-block">Trained in top institutes across India and abroad</small>
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-2">
                 <div class="doctors_section_feature_card p-3 h-100 rounded bg-white shadow-sm border">
-                    <div class="doctors_section_feature_icon mb-2 text-primary fs-2"><i class="bi bi-people"></i></div>
-                    <h6 class="fw-bold mb-1">Experienced Team</h6>
-                    <small class="text-muted d-block">Years of hands-on experience in specialized care</small>
+                    <div class="doctors_section_feature_icon mb-2 text-primary fs-2"><img src="assets/img/Experience.png" alt="Expert Doctors"></div>
+                    <h6 class="fw-bold mb-1">Experience</h6>
+                    <small class="text-black d-block">Years of hands-on experience in specialized care</small>
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-2">
                 <div class="doctors_section_feature_card p-3 h-100 rounded bg-white shadow-sm border">
-                    <div class="doctors_section_feature_icon mb-2 text-primary fs-2"><i class="bi bi-heart"></i></div>
-                    <h6 class="fw-bold mb-1">Patient First</h6>
-                    <small class="text-muted d-block">Compassionate care with personalized treatment</small>
+                    <div class="doctors_section_feature_icon mb-2 text-primary fs-2"><img src="assets/img/patient-sevices.png" alt="Expert Doctors"></div>
+                    <h6 class="fw-bold mb-1">Specialised Services</h6>
+                    <small class="text-black d-block">Best services with personalized treatment</small>
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-2">
                 <div class="doctors_section_feature_card p-3 h-100 rounded bg-white shadow-sm border">
-                    <div class="doctors_section_feature_icon mb-2 text-primary fs-2"><i class="bi bi-cpu"></i></div>
+                    <div class="doctors_section_feature_icon mb-2 text-primary fs-2"><i class="bi bi-laptop"></i></div>
                     <h6 class="fw-bold mb-1">Advanced Treatment</h6>
-                    <small class="text-muted d-block">Latest technology and evidence-based protocols</small>
+                    <small class="text-black d-block">latest technology for better health checkups.</small>
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-2">
                 <div class="doctors_section_feature_card p-3 h-100 rounded bg-white shadow-sm border">
-                    <div class="doctors_section_feature_icon mb-2 text-primary fs-2"><i class="bi bi-shield-check"></i></div>
-                    <h6 class="fw-bold mb-1">Ethical Practices</h6>
-                    <small class="text-muted d-block">Transparent, honest & ethical medical practices</small>
+                    <div class="doctors_section_feature_icon mb-2 text-primary fs-2"><img src="assets/img/Department.png" alt="Expert Doctors"></div>
+                    <h6 class="fw-bold mb-1">Departments</h6>
+                    <small class="text-black d-block">Fully equipped medical and surgical departments</small>
                 </div>
             </div>
             <div class="col-6 col-md-4 col-lg-2">
                 <div class="doctors_section_feature_card p-3 h-100 rounded bg-white shadow-sm border">
                     <div class="doctors_section_feature_icon mb-2 text-primary fs-2"><i class="bi bi-clock-history"></i></div>
                     <h6 class="fw-bold mb-1">Continuous Support</h6>
-                    <small class="text-muted d-block">Follow-up care and continuous health monitoring</small>
+                    <small class="text-black d-block">Follow-up care and continuous health monitoring</small>
                 </div>
             </div>
         </div>
@@ -479,10 +503,10 @@
                 </div>
                 <div class="col-xl-5 col-lg-5 col-md-8 col-12">
                     <div class="d-flex flex-sm-row flex-column gap-2 justify-content-lg-center">
-                        <a href="#" class="btn doctors_section_btn_teal text-white fw-semibold px-3 py-2 d-flex align-items-center justify-content-center gap-2">
+                        <a href="appointment.php" class="btn doctors_section_btn_teal text-white fw-semibold px-3 py-2 d-flex align-items-center justify-content-center gap-2">
                             <i class="bi bi-calendar-event"></i> Book Appointment
                         </a>
-                        <a href="#" class="btn doctors_section_btn_outline_white text-white fw-semibold px-3 py-2 d-flex align-items-center justify-content-center gap-2">
+                        <a href="doctors.php" class="btn doctors_section_btn_outline_white text-white fw-semibold px-3 py-2 d-flex align-items-center justify-content-center gap-2">
                             <i class="bi bi-person"></i> Find a Doctor
                         </a>
                     </div>
@@ -494,7 +518,7 @@
                         </div>
                         <div class="text-start">
                             <span class="d-block text-white-50 fw-semibold" style="font-size: 11px; letter-spacing: 0.5px;">24x7 Emergency</span>
-                            <span class="fw-bold fs-5 text-white text-nowrap">+91 98765 43210</span>
+                            <span class="fw-bold fs-5 text-white text-nowrap">+91 9121476777</span>
                         </div>
                     </div>
                 </div>
@@ -510,7 +534,7 @@
             <div class="modal-header position-relative">
                 <div>
                     <h5 class="modal-title fw-bold mb-0" id="doctorProfileName">Doctor Profile</h5>
-                    <p class="text-muted mb-0 small" id="doctorProfileDesignation">Designation</p>
+                    <p class="text-black mb-0 small" id="doctorProfileDesignation">Designation</p>
                 </div>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
@@ -527,8 +551,8 @@
                     <div class="text-start">
                         <h4 class="fw-bold mb-1" id="doctorProfileTitle">Doctor Name</h4>
                         <p class="text-primary fw-semibold mb-2" id="doctorProfileSpecialty">Specialty</p>
-                        <p class="text-muted mb-1" id="doctorProfileQualification">Qualification</p>
-                        <p class="text-muted mb-1" id="doctorProfileExperience">Experience</p>
+                        <p class="text-black mb-1" id="doctorProfileQualification">Qualification</p>
+                        <p class="text-black mb-1" id="doctorProfileExperience">Experience</p>
                     </div>
                 </div>
             </div>

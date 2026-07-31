@@ -1,56 +1,77 @@
 <?php include 'header.php'; ?>
 
 <!-- ============================================================
-     1. HERO / BANNER SECTION
+     1. HERO / BANNER SECTION (ABOUT US)
 ============================================================ -->
 <section class="aboutus_section_hero">
     <div class="container">
-        <div class="row align-items-center">
+        <div class="row align-items-center gy-4">
+            
+            <!-- Left Side: Content & Custom Icon Cards -->
             <div class="col-lg-6">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb aboutus_section_breadcrumb">
-                        <li class="breadcrumb-item"><a href="index.php">Home</a></li>
+                        <li class="breadcrumb-item"><a href="Home.php">Home</a></li>
                         <li class="breadcrumb-item active" aria-current="page">About Us</li>
                     </ol>
                 </nav>
-                <h1 class="aboutus_section_hero_title">
-                    <span>About Neurostar Hospital</span>
-                </h1>
-                <p class="aboutus_section_hero_subtitle">
-                    Best Neurological Care, Patient First.
-                </p>
+
+                <h1 class="aboutus_section_hero_title">About Neurostar Hospital</h1>
+                <p class="aboutus_section_hero_subtitle">Best Neurological Care, Patient First.</p>
                 <p class="aboutus_section_hero_desc">
                     Neurostar Hospital provides advanced treatment with modern technology and caring doctors to help every patient live a healthier life.
                 </p>
-                
-                <div class="aboutus_section_hero_features">
-                    <div class="aboutus_section_feature_item">
-                        <div class="aboutus_section_feature_icon"><i class="bi bi-people"></i></div>
-                        <h6>Intensive Care</h6>
-                        <span>We treat every patient with empathy, respect and individual attention.</span>
-                    </div>
-                    <div class="aboutus_section_feature_item">
-                        <div class="aboutus_section_feature_icon"><i class="bi bi-shield-check"></i></div>
-                        <h6> Specialised Service</h6>
-                        <span>A wide range of specialties and advanced treatments under one roof.</span>
-                    </div>
-                    <div class="aboutus_section_feature_item">
-                        <div class="aboutus_section_feature_icon"><i class="bi bi-award"></i></div>
-                        <h6>Expert doctor</h6>
-                        <span>Highly qualified and experienced doctors providing personalized care.</span>
-                    </div>
+
+                <!-- Cards Grid with Image Icons -->
+                <div class="aboutus_hero_stats_wrapper">
                     
+                    <div class="aboutus_stat_card">
+                        <div class="aboutus_stat_icon_img_wrapper">
+                            <!-- Replace with your actual home page icon image path -->
+                            <img src="assets/img/Department.png" alt="Departments" class="aboutus_stat_icon_img">
+                        </div>
+                        <h3>25+</h3>
+                        <p>Departments</p>
+                    </div>
+
+                    <div class="aboutus_stat_card">
+                        <div class="aboutus_stat_icon_img_wrapper">
+                            <img src="assets/img/Neuro_doctor.png" alt="Doctors" class="aboutus_stat_icon_img">
+                        </div>
+                        <h3>75+</h3>
+                        <p>Doctors</p>
+                    </div>
+
+                    <div class="aboutus_stat_card">
+                        <div class="aboutus_stat_icon_img_wrapper">
+                            <img src="assets/img/happy-clients-01.png" alt="Happy Patients" class="aboutus_stat_icon_img">
+                        </div>
+                        <h3>1 Lakh+</h3>
+                        <p>Happy Patients</p>
+                    </div>
+
+                    <div class="aboutus_stat_card">
+                        <div class="aboutus_stat_icon_img_wrapper">
+                            <img src="assets/img/Experience.png" alt="Years Experience" class="aboutus_stat_icon_img">
+                        </div>
+                        <h3>15+</h3>
+                        <p>Years Experience</p>
+                    </div>
+
                 </div>
             </div>
-            
-            <div class="col-lg-6 mt-4 mt-lg-0">
+
+            <!-- Right Side: Hospital Building Image -->
+            <div class="col-lg-6">
                 <div class="aboutus_section_hero_img_wrapper">
-                    <img src="assets/img/hospital_building.jpg" alt="Neurostar Hospital Building" class="img-fluid aboutus_section_hero_img">
+                    <img src="assets/img/Neurostar-hospital.png" alt="Neurostar Hospital Building" class="img-fluid aboutus_section_hero_img">
                 </div>
             </div>
+
         </div>
     </div>
 </section>
+
 
 <!-- ============================================================
      2. OUR STORY & AT A GLANCE
@@ -64,76 +85,95 @@
                 <p>At NEUROSTAR Hospital, our primary focus is patient-centered care, delivered by a dedicated team of professionals specializing in neuroscience.</p>
                 <p> We provide best treatment for brain and spine conditions through teamwork, ensuring top-quality services at an affordable cost, with the highest standards of medical practice.</p>
                 <p>Our expert doctors and surgeons are trained at India’s best hospitals. Using modern technology, we provide personalized care to help every patient recover quickly and safely.</p>
-                <a href="#" class="btn aboutus_section_btn_primary">Our Journey <i class="bi bi-arrow-right"></i></a>
+                <a href="Journey-to-Recovery.php" class="btn aboutus_section_btn_primary">Our Journey <i class="bi bi-arrow-right"></i></a>
             </div>
 
             <!-- Center Image -->
             <div class="col-lg-4 text-center">
                 <div class="aboutus_section_story_img_wrapper">
-                    <img src="assets/img/doctors_team.jpg" alt="Doctors Team" class="img-fluid aboutus_section_story_img">
+                    <img src="assets/img/Home_doctors_bg.png" alt="Doctors Team" class="img-fluid aboutus_section_story_img">
                 </div>
             </div>
 
             <!-- Right: At a Glance -->
-            <div class="col-lg-4">
-                <h2 class="aboutus_section_title">Neurostar At A Glance</h2>
-                <div class="row g-3">
-                    <div class="col-6">
-                        <div class="aboutus_section_glance_item">
-                            <i class="bi bi-award"></i>
-                            <div>
-                                <h4>20+</h4>
-                                <span>Years of Excellence</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="aboutus_section_glance_item">
-                            <i class="bi bi-person-badge"></i>
-                            <div>
-                                <h4>120+</h4>
-                                <span>Expert Doctors</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="aboutus_section_glance_item">
-                            <i class="bi bi-building"></i>
-                            <div>
-                                <h4>120+</h4>
-                                <span>Specialities</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="aboutus_section_glance_item">
-                            <i class="bi bi-people"></i>
-                            <div>
-                                <h4>75,000+</h4>
-                                <span>Happy Patients</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="aboutus_section_glance_item">
-                            <i class="bi bi-stethoscope"></i>
-                            <div>
-                                <h4>2,50,000+</h4>
-                                <span>OP Consultations</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-6">
-                        <div class="aboutus_section_glance_item">
-                            <i class="bi bi-heart-pulse"></i>
-                            <div>
-                                <h4>15,000+</h4>
-                                <span>Successful Surgeries</span>
-                            </div>
-                        </div>
-                    </div>
+<div class="col-lg-4">
+    <h2 class="aboutus_section_title">Neurostar At A Glance</h2>
+    <div class="row g-3">
+        
+        <div class="col-6">
+            <div class="aboutus_section_glance_item">
+                <div class="glance_icon_box">
+                    <img src="assets/img/Experience.png" alt="Years of Excellence">
+                </div>
+                <div>
+                    <h4>20+</h4>
+                    <span>Years of Excellence</span>
                 </div>
             </div>
+        </div>
+
+        <div class="col-6">
+            <div class="aboutus_section_glance_item">
+                <div class="glance_icon_box">
+                    <img src="./assets/img/Neuro_doctor.png" alt="Expert Doctors">
+                </div>
+                <div>
+                    <h4>75+</h4>
+                    <span>Expert Doctors</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6">
+            <div class="aboutus_section_glance_item">
+                <div class="glance_icon_box">
+                    <img src="assets/img/Department.png" alt="Departments">
+                </div>
+                <div>
+                    <h4>25+</h4>
+                    <span>Departments</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6">
+            <div class="aboutus_section_glance_item">
+                <div class="glance_icon_box">
+                    <img src="assets/img/happy-clients-01.png" alt="Happy Patients">
+                </div>
+                <div>
+                    <h4>75,000+</h4>
+                    <span>Happy Patients</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6">
+            <div class="aboutus_section_glance_item">
+                <div class="glance_icon_box">
+                    <img src="assets/img/outpatient-consultations.png" alt="OP Consultations" style="height:50px; width:50px">
+                </div>
+                <div>
+                    <h4>2,50,000+</h4>
+                    <span>Doctor Consultation</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-6">
+            <div class="aboutus_section_glance_item">
+                <div class="glance_icon_box">
+                    <img src="assets/img/Successfull-surgery.png" alt="Successful Surgeries">
+                </div>
+                <div>
+                    <h4>15,000+</h4>
+                    <span>Successful Surgeries</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
         </div>
     </div>
 </section>
@@ -187,49 +227,68 @@
 <section class="aboutus_section_why">
     <div class="container">
         <h2 class="aboutus_section_title text-center mb-5">Why Choose Neurostar?</h2>
-        <div class="row g-4">
+        <div class="row g-4 justify-content-center">
+
             <div class="col-lg-2 col-md-4 col-6">
                 <div class="aboutus_section_why_card text-center">
-                    <div class="aboutus_section_why_icon"><i class="bi bi-person-heart"></i></div>
-                    <h5>Expert Care</h5>
-                    <p>Highly qualified and experienced doctors providing personalized care.</p>
+                    <div class="aboutus_section_why_icon">
+                        <img src="assets/img/Neuro_doctor.png" alt="Expert Doctor">
+                    </div>
+                    <h5>Expert Doctor</h5>
+                    <p>High skilled doctors providing medical care.</p>
                 </div>
             </div>
+
             <div class="col-lg-2 col-md-4 col-6">
                 <div class="aboutus_section_why_card text-center">
-                    <div class="aboutus_section_why_icon"><i class="bi bi-cpu"></i></div>
+                    <div class="aboutus_section_why_icon">
+                        <img src="assets/img/development.png" alt="Advanced Technology">
+                    </div>
                     <h5>Advanced Technology</h5>
-                    <p>State-of-the-art infrastructure and cutting edge medical technology.</p>
+                    <p>Treatment using latest technology</p>
                 </div>
             </div>
+
             <div class="col-lg-2 col-md-4 col-6">
                 <div class="aboutus_section_why_card text-center">
-                    <div class="aboutus_section_why_icon"><i class="bi bi-layers"></i></div>
-                    <h5>Comprehensive Services</h5>
-                    <p>A wide range of specialties and advanced treatments under one roof.</p>
+                    <div class="aboutus_section_why_icon">
+                        <img src="assets/img/Department.png" alt="Comprehensive Services">
+                    </div>
+                    <h5>Medical departments</h5>
+                    <p>All medical services in one place.</p>
                 </div>
             </div>
+
             <div class="col-lg-2 col-md-4 col-6">
                 <div class="aboutus_section_why_card text-center">
-                    <div class="aboutus_section_why_icon"><i class="bi bi-shield-heart"></i></div>
-                    <h5>Patient-Centered Care</h5>
-                    <p>We treat every patient with empathy, respect and individual attention.</p>
+                    <div class="aboutus_section_why_icon">
+                        <img src="assets/img/patient-sevices.png" alt="Patient-Centered Care">
+                    </div>
+                    <h5>Specialized services</h5>
+                    <p>Specialized treatments for better health.</p>
                 </div>
             </div>
+
             <div class="col-lg-2 col-md-4 col-6">
                 <div class="aboutus_section_why_card text-center">
-                    <div class="aboutus_section_why_icon"><i class="bi bi-hand-thumbs-up"></i></div>
-                    <h5>Safe & Hygienic</h5>
-                    <p>Strict infection control and international safety standards.</p>
+                    <div class="aboutus_section_why_icon">
+                        <img src="assets/img/happy-clients-01.png" alt="Happy patients">
+                    </div>
+                    <h5>Happy patients</h5>
+                    <p>Making patients smile every day.</p>
                 </div>
             </div>
+
             <div class="col-lg-2 col-md-4 col-6">
                 <div class="aboutus_section_why_card text-center">
-                    <div class="aboutus_section_why_icon"><i class="bi bi-heart-pulse"></i></div>
+                    <div class="aboutus_section_why_icon">
+                        <img src="assets/img/clock.png" alt="24x7 Emergency">
+                    </div>
                     <h5>24x7 Emergency</h5>
-                    <p>Round-the-clock emergency and trauma care for your peace of mind.</p>
+                    <p>24x7 emergency and trauma care for better health.</p>
                 </div>
             </div>
+
         </div>
     </div>
 </section>
@@ -307,35 +366,35 @@
         <div class="row g-4">
             <div class="col-lg-2-4 col-md-4 col-6">
                 <div class="aboutus_section_award_card text-center">
-                    <img src="assets/img/nabh_logo.png" alt="NABH Accredited" class="img-fluid aboutus_section_award_img">
+                    <img src="assets/img/NABH-Accredited.png" alt="NABH Accredited" class="img-fluid aboutus_section_award_img">
                     <h5>NABH Accredited</h5>
                     <p>Maintaining highest standards of quality and patient safety.</p>
                 </div>
             </div>
             <div class="col-lg-2-4 col-md-4 col-6">
                 <div class="aboutus_section_award_card text-center">
-                    <img src="assets/img/iso_logo.png" alt="ISO Certified" class="img-fluid aboutus_section_award_img">
+                    <img src="assets/img/ISO.png" alt="ISO Certified" class="img-fluid aboutus_section_award_img">
                     <h5>ISO Certified</h5>
                     <p>Certified for quality management system and best practices.</p>
                 </div>
             </div>
             <div class="col-lg-2-4 col-md-4 col-6">
                 <div class="aboutus_section_award_card text-center">
-                    <img src="assets/img/trophy_icon.png" alt="Excellence in Healthcare" class="img-fluid aboutus_section_award_img">
+                    <img src="assets/img/Healthcare-excellence.png" alt="Excellence in Healthcare" class="img-fluid aboutus_section_award_img">
                     <h5>Excellence in Healthcare</h5>
                     <p>Award for outstanding contribution to patient care and safety.</p>
                 </div>
             </div>
             <div class="col-lg-2-4 col-md-4 col-6">
                 <div class="aboutus_section_award_card text-center">
-                    <img src="assets/img/award_shield.png" alt="Best Multispeciality Hospital" class="img-fluid aboutus_section_award_img">
+                    <img src="assets/img/Best-multispeciality-hospital.png" alt="Best Multispeciality Hospital" class="img-fluid aboutus_section_award_img">
                     <h5>Best Multispeciality Hospital Award</h5>
                     <p>Recognized for clinical excellence and service.</p>
                 </div>
             </div>
             <div class="col-lg-2-4 col-md-4 col-6">
                 <div class="aboutus_section_award_card text-center">
-                    <img src="assets/img/trophy_gold.png" alt="Trusted Brand" class="img-fluid aboutus_section_award_img">
+                    <img src="assets/img/Trusted-brand.png" alt="Trusted Brand" class="img-fluid aboutus_section_award_img">
                     <h5>Trusted Brand</h5>
                     <p>Recognized as one of the most trusted healthcare brands.</p>
                 </div>

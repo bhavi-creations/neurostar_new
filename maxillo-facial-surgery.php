@@ -1,147 +1,223 @@
 <?php include 'header.php'; ?>
-<!-- ========================================= -->
-<!-- Maxillofacial Surgery Section             -->
-<!-- ========================================= -->
-<section class="service_page_wrapper py-5">
+
+<!-- HERO BANNER SECTION -->
+<section class="ns-hero-banner" style="background-image: linear-gradient(rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.85)), url('assets/img/maxillofacial-surgery.png');">
   <div class="container">
-    
-    <!-- Hero / Intro Block -->
-    <div class="row align-items-center g-4 lg-g-5 mb-5">
-      
-      <!-- Left Content Column -->
-      <div class="col-lg-6">
-        <h1 class="service_title mb-3">Maxillofacial Surgery</h1>
-        
-        <!-- Paragraph 1 (Always Visible) -->
-        <p class="service_description mb-3">
-          At NeuroStar Hospital, our Oral and Maxillofacial Surgery department specializes in diagnosing and surgically treating complex conditions affecting the mouth, jaws, face, and neck. Our highly skilled surgical team combines medical expertise and advanced technology to restore facial structure, function, and aesthetic balance.
-        </p>
+    <div class="row">
+      <div class="col-lg-8 ns-hero-content">
+        <nav class="ns-breadcrumb">
+          <a href="#">Home</a> &rsaquo; <a href="#">Services</a> &rsaquo; Maxillofacial Surgery
+        </nav>
+        <h1 class="ns-hero-title"> Maxillo facial Surgery</h1>
+        <p class="ns-hero-subtitle">Advanced surgical reconstruction for complex conditions of the face, jaw, mouth, and neck</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <!-- Paragraph 2 (Hidden until Read More is clicked) -->
-        <div class="collapse" id="moreMaxilloContent">
-          <p class="service_description mb-3">
-            Using state-of-the-art 3D imaging, precision surgical navigation, and reconstructive techniques, we treat complex facial trauma, jaw deformities (orthognathic surgery), impacted wisdom teeth, TMJ joint disorders, facial tumors, and congenital cleft conditions. We focus on achieving optimal functional recovery and enhancing overall quality of life.
-          </p>
+<!-- MAIN CONTENT SECTION -->
+<section class="ns-service-wrapper mt-4 mb-5">
+  <div class="container">
+    <div class="row g-4">
 
-          <!-- Read Less button (Placed AT THE BOTTOM inside expanded content) -->
-          <div class="pt-1 mb-3">
-            <a class="toggle_read_more_btn" data-bs-toggle="collapse" href="#moreMaxilloContent" role="button" aria-expanded="true" aria-controls="moreMaxilloContent">
-              <span class="btn_text">Read Less</span> <i class="bi bi-arrow-up ms-1 toggle_arrow"></i>
-            </a>
+      <!-- LEFT COLUMN -->
+      <div class="col-lg-8">
+
+        <!-- 1. Service Overview -->
+        <div class="ns-card">
+          <div class="ns-card-header">
+            <div class="ns-icon-badge"><i class="bi bi-activity"></i></div>
+            <h2 class="ns-card-title">Service Overview</h2>
+          </div>
+          <div class="ns-card-body">
+            <p class="service_description">
+              At NeuroStar Hospital, our Maxillo facial Surgery Department specializes in diagnosing and surgically treating complex injuries, diseases, deformities, and defects involving both the functional and aesthetic aspects of the hard and soft tissues of the head, face, jaws, and neck. Led by highly experienced maxillofacial surgeons, our department combines surgical precision with artistic technique to restore vital facial function and appearance.
+            </p>
+            <div class="collapse" id="moreMaxillofacialContent">
+              <p class="service_description pt-2">
+                We handle high-complexity cases ranging from severe facial trauma and complex jaw fractures to orthognathic alignment surgery, temporomandibular joint (TMJ) disorders, surgical removal of oral tumors/cysts, and cleft lip/palate corrections. Utilizing 3D surgical planning and working in close coordination with trauma, neurosurgery, and critical care units, we deliver comprehensive, life-changing surgical outcomes.
+              </p>
+            </div>
+            
+            <div class="pt-2">
+              <a class="toggle_read_more_btn ns-btn-readmore text-decoration-none" data-bs-toggle="collapse" href="#moreMaxillofacialContent" role="button" aria-expanded="false" aria-controls="moreMaxillofacialContent" onclick="toggleReadMoreText(this)">
+                <span class="btn_text">Read More</span> <i class="bi bi-arrow-right ms-1 toggle_arrow"></i>
+              </a>
+            </div>
           </div>
         </div>
 
-        <!-- Read More button (Visible only when collapsed) -->
-        <div class="pt-1" id="readMoreWrapperMaxillo">
-          <a class="toggle_read_more_btn" data-bs-toggle="collapse" href="#moreMaxilloContent" role="button" aria-expanded="false" aria-controls="moreMaxilloContent">
-            <span class="btn_text">Read More</span> <i class="bi bi-arrow-right ms-1 toggle_arrow"></i>
+        <!-- 2. What's Included -->
+        <div class="ns-card">
+          <div class="ns-card-header">
+            <div class="ns-icon-badge"><i class="bi bi-list-check"></i></div>
+            <h2 class="ns-card-title">What's Included</h2>
+          </div>
+          <ul class="ns-check-grid">
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Facial trauma management & repair of complex facial/jaw fractures</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Corrective jaw surgery (Orthognathic surgery) for bite & skeletal misalignment</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Diagnosis & surgical treatment of Temporomandibular Joint (TMJ) disorders</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Surgical excision of benign and malignant oral/maxillofacial tumors and cysts</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Correction of congenital facial deformities, including cleft lip and palate</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Complex reconstructive bone grafting & advanced zygomatic implant placement</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 3. Equipment & Technology -->
+        <div class="ns-card">
+          <div class="ns-card-header">
+            <div class="ns-icon-badge"><i class="bi bi-cpu"></i></div>
+            <h2 class="ns-card-title">Equipment &amp; Technology</h2>
+          </div>
+          <ul class="ns-check-grid">
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>3D Virtual Surgical Planning (VSP) & Custom Patient Implants (PSI)</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>High-Resolution Cone Beam CT (CBCT) & Intraoperative Facial CT Scan</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Piezosurgery Ultrasonic Bone Cutting Units for Ultra-Precise Osteotomies</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Titanium Micro-Fixation & Mini-Plating Rigid Reconstruction Systems</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Intraoperative Nerve Monitoring for Facial & Trigeminal Nerve Safety</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Fully Equipped Ultra-Clean Modular Operation Theatres (OT)</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 4. Benefits -->
+        <div class="ns-card">
+          <div class="ns-card-header">
+            <div class="ns-icon-badge"><i class="bi bi-sparkles"></i></div>
+            <h2 class="ns-card-title">Benefits</h2>
+          </div>
+          <ul class="ns-check-grid">
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Restoration of essential facial functions including chewing, swallowing, and speech</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Significant aesthetic enhancement and structural symmetry of facial features</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Minimally invasive intraoral incisions to minimize visible facial scarring</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Multidisciplinary team approach for complex trauma and reconstructive cases</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 5. Process / Workflow -->
+        <div class="ns-card">
+          <div class="ns-card-header">
+            <div class="ns-icon-badge"><i class="bi bi-diagram-3"></i></div>
+            <h2 class="ns-card-title">Process / Workflow</h2>
+          </div>
+          <ul class="ns-process-list">
+            <li class="ns-process-item">
+              <div class="ns-process-number">1</div>
+              <div>Detailed clinical evaluation, 3D CT imaging & digital facial mapping</div>
+            </li>
+            <li class="ns-process-item">
+              <div class="ns-process-number">2</div>
+              <div>Pre-surgical virtual simulation, surgical guide fabrication & medical clearance</div>
+            </li>
+            <li class="ns-process-item">
+              <div class="ns-process-number">3</div>
+              <div>Execution of precise surgical procedure under general anesthesia</div>
+            </li>
+            <li class="ns-process-item">
+              <div class="ns-process-number">4</div>
+              <div>Inpatient recovery, guided physical therapy, and systematic long-term follow-up</div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 6. Related Departments -->
+        <div class="ns-card">
+          <div class="ns-card-header">
+            <div class="ns-icon-badge"><i class="bi bi-building"></i></div>
+            <h2 class="ns-card-title">Related Departments</h2>
+          </div>
+          <div class="ns-dept-tags">
+            <a href="#" class="ns-dept-tag">Emergency &amp; Trauma Care</a>
+            <a href="#" class="ns-dept-tag">ENT &amp; Head/Neck Surgery</a>
+            <a href="#" class="ns-dept-tag">Neurosurgery</a>
+            <a href="#" class="ns-dept-tag">Radiology &amp; Diagnostics</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- RIGHT SIDEBAR (CTA - CLEAN & STICKY BELOW NAVBAR) -->
+      <div class="col-lg-4">
+        <div class="ns-sidebar-cta sticky-top">
+          <div class="cta_sub_label">NEED THIS SERVICE?</div>
+          <h3 class="cta_main_title">Get in touch</h3>
+          
+          <a href="#" class="ns-btn-cta-orange mb-3 text-center text-decoration-none">
+            <i class="bi bi-calendar-event me-2"></i>Book Appointment
+          </a>
+          <a href="tel:8341713713" class="ns-btn-cta-outline text-center text-decoration-none">
+            <i class="bi bi-telephone me-2"></i>Call 8341713713
           </a>
         </div>
       </div>
 
-      <!-- Right Image Column -->
-      <div class="col-lg-6 text-center">
-        <div class="service_image_container">
-          <img src="assets/img/maxillofacial-surgery-illustration.png" alt="Maxillofacial Surgery and Treatment" class="img-fluid service_main_img">
-        </div>
-      </div>
-
     </div>
-
-    <!-- ========================================= -->
-    <!-- Advantages & Considerations Section       -->
-    <!-- ========================================= -->
-    <div class="service_pros_cons_wrapper mt-5 pt-3">
-      <div class="text-center mb-4">
-        <h2 class="pros_cons_heading fw-bold">Treatment Overview</h2>
-        <div class="heading_line mx-auto"></div>
-      </div>
-
-      <div class="row g-4 justify-content-center">
-        
-        <!-- Advantages Card -->
-        <div class="col-md-6 col-lg-5">
-          <div class="pro_con_card advantages_card h-100 p-4 rounded-4 bg-white shadow-sm">
-            <div class="d-flex align-items-center mb-3">
-              <div class="icon_box pro_icon_bg me-3">
-                <i class="bi bi-check-circle-fill"></i>
-              </div>
-              <h3 class="h4 mb-0 fw-bold text-success">Advantages</h3>
-            </div>
-            
-            <ul class="list-unstyled mb-0 pros_cons_list">
-              <li class="d-flex align-items-start mb-3">
-                <i class="bi bi-check-circle-fill text-success me-2 mt-1 fs-5"></i>
-                <span>Corrects severe facial asymmetry and structural jaw imbalances effectively.</span>
-              </li>
-              <li class="d-flex align-items-start mb-3">
-                <i class="bi bi-check-circle-fill text-success me-2 mt-1 fs-5"></i>
-                <span>Restores critical functions like chewing, swallowing, breathing, and speech articulation.</span>
-              </li>
-              <li class="d-flex align-items-start mb-3">
-                <i class="bi bi-check-circle-fill text-success me-2 mt-1 fs-5"></i>
-                <span>Provides comprehensive reconstruction following acute facial trauma or tumor resections.</span>
-              </li>
-              <li class="d-flex align-items-start">
-                <i class="bi bi-check-circle-fill text-success me-2 mt-1 fs-5"></i>
-                <span>Delivers long-lasting aesthetic improvements and boosts patient self-confidence.</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Considerations Card -->
-        <div class="col-md-6 col-lg-5">
-          <div class="pro_con_card disadvantages_card h-100 p-4 rounded-4 bg-white shadow-sm">
-            <div class="d-flex align-items-center mb-3">
-              <div class="icon_box con_icon_bg me-3">
-                <i class="bi bi-exclamation-triangle-fill"></i>
-              </div>
-              <h3 class="h4 mb-0 fw-bold text-danger">Considerations</h3>
-            </div>
-
-            <ul class="list-unstyled mb-0 pros_cons_list">
-              <li class="d-flex align-items-start mb-3">
-                <i class="bi bi-check-circle-fill text-danger me-2 mt-1 fs-5"></i>
-                <span>Surgical procedures often involve a structured post-operative healing and recovery phase.</span>
-              </li>
-              <li class="d-flex align-items-start mb-3">
-                <i class="bi bi-check-circle-fill text-danger me-2 mt-1 fs-5"></i>
-                <span>May require soft food or liquid diet adjustments during the initial healing period.</span>
-              </li>
-              <li class="d-flex align-items-start mb-3">
-                <i class="bi bi-check-circle-fill text-danger me-2 mt-1 fs-5"></i>
-                <span>Requires thorough pre-surgical 3D imaging evaluations and medical clearances.</span>
-              </li>
-              <li class="d-flex align-items-start">
-                <i class="bi bi-check-circle-fill text-danger me-2 mt-1 fs-5"></i>
-                <span>Follow-up rehabilitation or physiotherapy may be needed for complete jaw mobility.</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
   </div>
 </section>
 
 <script>
-// maxillofacial surgery service page read less and more buttons
-document.addEventListener('DOMContentLoaded', function () {
-  const maxilloCollapse = document.getElementById('moreMaxilloContent');
-  const readMoreMaxillo = document.getElementById('readMoreWrapperMaxillo');
-
-  if (maxilloCollapse && readMoreMaxillo) {
-    maxilloCollapse.addEventListener('show.bs.collapse', function () {
-      readMoreMaxillo.style.display = 'none';
-    });
-
-    maxilloCollapse.addEventListener('hide.bs.collapse', function () {
-      readMoreMaxillo.style.display = 'block';
-    });
-  }
-});
+function toggleReadMoreText(btn) {
+  const textSpan = btn.querySelector('.btn_text');
+  const icon = btn.querySelector('.toggle_arrow');
+  
+  setTimeout(() => {
+    const isExpanded = btn.getAttribute('aria-expanded') === 'true';
+    if (isExpanded) {
+      textSpan.textContent = 'Read Less';
+      icon.className = 'bi bi-arrow-up ms-1 toggle_arrow';
+    } else {
+      textSpan.textContent = 'Read More';
+      icon.className = 'bi bi-arrow-right ms-1 toggle_arrow';
+    }
+  }, 150);
+}
 </script>
+
 <?php include 'footer.php'; ?>

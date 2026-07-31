@@ -49,10 +49,12 @@
             <div class="col-6 col-md-6 col-lg-2">
                 <h5>Quick Links</h5>
                 <ul class="list-unstyled">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Doctors</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="Home.php">Home</a></li>
+                    <li><a href="aboutus.php">About Us</a></li>
+                    <li><a href="doctors.php">Doctors</a></li>
+                    <li><a href="contactus.php">Contact Us</a></li>
+                    <li><a href="blogs.php">Blogs</a></li>
+                    <li><a href="appointment.php">Appointment</a></li>
                 </ul>
             </div>
 
@@ -60,14 +62,13 @@
             <div class="col-6 col-md-6 col-lg-2">
                 <h5>Our Services</h5>
                 <ul class="list-unstyled">
-                    <li><a href="#">Neuro Surgery</a></li>
-                    <li><a href="#">Neurology</a></li>
-                    <li><a href="#">Accidents &amp; Trauma Care</a></li>
-                    <li><a href="#">Orthopaedic Surgery</a></li>
-                    <li><a href="#">General Medicine</a></li>
-                    <li><a href="#">Critical Care</a></li>
-                    <li><a href="#">Neuro Psychiatric</a></li>
-                    <li><a href="#">Dental</a></li>
+                    <li><a href="neuro-surgery.php">Neuro Surgery</a></li>
+                    <li><a href="neurology.php">Neurology</a></li>
+                    <li><a href="accidents-and-trauma-care.php">Accidents &amp; Trauma Care</a></li>
+                    <li><a href="orthopaedic-surgery.php">Orthopaedic Surgery</a></li>
+                    <li><a href="critical-care.php">Critical Care</a></li>
+                    <li><a href="neuro-psychiatric.php">Neuro Psychiatric</a></li>
+                    <li><a href="dental.php">Dental</a></li>
                 </ul>
             </div>
 
@@ -75,13 +76,13 @@
             <div class="col-6 col-md-6 col-lg-2">
                 <h5>Our Services</h5>
                 <ul class="list-unstyled">
-                    <li><a href="#">Maxillo facial Surgery</a></li>
-                    <li><a href="#">Plastic &amp; Cosmetic surgery</a></li>
-                    <li><a href="#">Pediatrics</a></li>
-                    <li><a href="#">Physiotherapy</a></li>
-                    <li><a href="#">Radiology</a></li>
-                    <li><a href="#">Neuro rehabilitation</a></li>
-                    <li><a href="#">General &amp; Laproscopic Surgery</a></li>
+                    <li><a href="maxillo-facial-surgery.php">Maxillo facial Surgery</a></li>
+                    <li><a href="plastic-cosmetic-surgery.php">Plastic &amp; Cosmetic surgery</a></li>
+                    <li><a href="pediatrics.php">Pediatrics</a></li>
+                    <li><a href="physiotherapy.php">Physiotherapy</a></li>
+                    <li><a href="radiology.php">Radiology</a></li>
+                    <li><a href="neuro-rehabilitation.php">Neuro rehabilitation</a></li>
+                    <li><a href="general-and-laproscopic-surgery.php">General &amp; Laproscopic Surgery</a></li>
                 </ul>
             </div>
 

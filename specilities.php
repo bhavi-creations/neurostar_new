@@ -12,7 +12,7 @@
             <!-- Breadcrumb -->
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb Specilities_section_breadcrumb mb-3">
-                    <li class="breadcrumb-item"><a href="#" class="text-white-50 text-decoration-none">Home</a></li>
+                    <li class="breadcrumb-item"><a href="Home.php" class="text-white-50 text-decoration-none">Home</a></li>
                     <li class="breadcrumb-item active text-white" aria-current="page">Specialities</li>
                 </ol>
             </nav>
@@ -21,7 +21,7 @@
                 <div class="col-lg-7 col-md-12">
                     <h1 class="Specilities_section_hero_title fw-bold mb-2">Our Specialities</h1>
                     <h5 class="Specilities_section_hero_subtitle text-info fw-semibold mb-3">Comprehensive Care. Every Step of the Way.</h5>
-                    <p class="Specilities_section_hero_desc text-white-50 mb-4 me-lg-4">
+                    <p class="Specilities_section_hero_desc text-white mb-4 me-lg-4">
                         We offer a wide range of medical specialities and advanced treatments under one roof with a team of expert doctors and state-of-the-art facilities to ensure the best outcomes for our patients.
                     </p>
 
@@ -29,7 +29,7 @@
                     <div class="row g-3 Specilities_section_hero_stats">
                         <div class="col-6 col-sm-3">
                             <div class="d-flex align-items-center p-2 rounded border border-white border-opacity-25 bg-white bg-opacity-10">
-                                <i class="bi bi-hospital fs-3 text-info me-2"></i>
+                                <img src="assets/img/Hospital-bg-removed.png" alt="Departments" style="width:50px; height:50px">
                                 <div>
                                     <h6 class="fw-bold mb-0 text-white">25+</h6>
                                     <span class="text-white-50" style="font-size: 11px;">Departments</span>
@@ -38,7 +38,7 @@
                         </div>
                         <div class="col-6 col-sm-3">
                             <div class="d-flex align-items-center p-2 rounded border border-white border-opacity-25 bg-white bg-opacity-10">
-                                <i class="bi bi-person-badge fs-3 text-info me-2"></i>
+                                <img src="assets/img/Expert-doctor-gold.png" alt="" style="width:50px; height:50px">
                                 <div>
                                     <h6 class="fw-bold mb-0 text-white">120+</h6>
                                     <span class="text-white-50" style="font-size: 11px;">Expert Doctors</span>
@@ -47,19 +47,19 @@
                         </div>
                         <div class="col-6 col-sm-3">
                             <div class="d-flex align-items-center p-2 rounded border border-white border-opacity-25 bg-white bg-opacity-10">
-                                <i class="bi bi-gear-wide-connected fs-3 text-info me-2"></i>
+                                <img src="assets/img/happy-patients.png" alt="" style="width:50px; height:50px">
                                 <div>
-                                    <h6 class="fw-bold mb-0 text-white">Advanced</h6>
-                                    <span class="text-white-50" style="font-size: 11px;">Technology</span>
+                                    <h6 class="fw-bold mb-0 text-white">75,000+</h6>
+                                    <span class="text-white-50" style="font-size: 11px;">Happy patients</span>
                                 </div>
                             </div>
                         </div>
                         <div class="col-6 col-sm-3">
                             <div class="d-flex align-items-center p-2 rounded border border-white border-opacity-25 bg-white bg-opacity-10">
-                                <i class="bi bi-heart-pulse fs-3 text-info me-2"></i>
+                                <img src="assets/img/patient-satisfaction1.png" alt="Departments" style="width:50px; height:50px">
                                 <div>
-                                    <h6 class="fw-bold mb-0 text-white">Patient First</h6>
-                                    <span class="text-white-50" style="font-size: 11px;">Always Our Priority</span>
+                                    <h6 class="fw-bold mb-0 text-white">98%</h6>
+                                    <span class="text-white-50" style="font-size: 11px;">Patient Satisfaction</span>
                                 </div>
                             </div>
                         </div>
@@ -84,161 +84,291 @@
         </div>
     </div>
 
-    <!-- 3. SPECIALITIES GRID (12 Cards) -->
-    <div class="container mb-5">
+    <!-- ========================================= -->
+<!-- Medical Specialities -->
+<!-- ========================================= -->
+
+<section class="index_section_specialities py-5">
+
+    <div class="container">
+
+        <div class="row mb-5 align-items-center">
+
+            <div class="col-lg-8">
+
+                <span class="index_section_subtitle">
+                    OUR SPECIALITIES
+                </span>
+
+                <h2 class="index_section_title mt-3">
+                    Comprehensive Medical Specialities Under One Roof
+                </h2>
+
+                <p class="index_section_description mt-3">
+
+                    Our experienced specialists provide advanced diagnosis,
+                    treatment, and personalised care using modern medical
+                    technology for better patient outcomes.
+
+                </p>
+
+            </div>
+
+            <div class="col-lg-4 text-lg-end mt-4 mt-lg-0">
+
+                <a href="specilities.php"
+                    class="btn index_section_btn_primary">
+
+                    View All Specialities
+
+                </a>
+
+            </div>
+
+        </div>
+
         <div class="row g-4">
-            
-            <!-- Card 1: Cardiology -->
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <div class="Specilities_section_card bg-white p-4 rounded-4 border shadow-sm h-100 d-flex flex-column">
-                    <div class="Specilities_section_card_icon bg-danger-subtle text-danger rounded-circle d-flex align-items-center justify-content-center mb-3">
-                        <i class="bi bi-heart-fill fs-4"></i>
+
+            <!-- Card -->
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="index_section_speciality_card">
+
+                    <div class="index_section_speciality_icon">
+
+                        <img src=".\assets\img\Cardiology.png" style="width: 60px; height:60px;">
+
                     </div>
-                    <h5 class="fw-bold text-dark mb-2">Cardiology</h5>
-                    <p class="text-muted small mb-3 flex-grow-1">Comprehensive heart care including interventional cardiology, cardiac surgeries and rehabilitation.</p>
-                    <a href="#" class="Specilities_section_link text-primary fw-semibold small text-decoration-none mt-auto">View Details <i class="bi bi-arrow-right ms-1"></i></a>
+
+                    <h4>Cardiology</h4>
+
+                    <p>
+
+                       Specialized treatment for heart problems.
+
+                    </p>
+
+                    <a href="#">
+                        Learn More
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+
                 </div>
+
             </div>
 
-            <!-- Card 2: Neurology -->
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <div class="Specilities_section_card bg-white p-4 rounded-4 border shadow-sm h-100 d-flex flex-column">
-                    <div class="Specilities_section_card_icon bg-primary-subtle text-primary rounded-circle d-flex align-items-center justify-content-center mb-3">
-                        <i class="bi bi-brain fs-4"></i>
+            <!-- Card -->
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="index_section_speciality_card">
+
+                    <div class="index_section_speciality_icon">
+
+                        <img src=".\assets\img\Neurology.png" style="width: 80px; height:80px;">
+
                     </div>
-                    <h5 class="fw-bold text-dark mb-2">Neurology</h5>
-                    <p class="text-muted small mb-3 flex-grow-1">Advanced diagnosis and treatment for brain, spine and nervous system disorders.</p>
-                    <a href="#" class="Specilities_section_link text-primary fw-semibold small text-decoration-none mt-auto">View Details <i class="bi bi-arrow-right ms-1"></i></a>
+
+                    <h4>Neurology</h4>
+
+                    <p>
+
+                        Expert care for brain,
+                        nerves and neurological disorders.
+
+                    </p>
+
+                    <a href="neurology.php">
+                        Learn More
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+
                 </div>
+
             </div>
 
-            <!-- Card 3: Orthopedics -->
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <div class="Specilities_section_card bg-white p-4 rounded-4 border shadow-sm h-100 d-flex flex-column">
-                    <div class="Specilities_section_card_icon bg-info-subtle text-info rounded-circle d-flex align-items-center justify-content-center mb-3">
-                        <i class="bi bi-person-arms-up fs-4"></i>
+            <!-- Card -->
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="index_section_speciality_card">
+
+                    <div class="index_section_speciality_icon">
+
+                        <img src=".\assets\img\Orthopedic.png" style="width: 60px; height:60px;">
+
                     </div>
-                    <h5 class="fw-bold text-dark mb-2">Orthopedics</h5>
-                    <p class="text-muted small mb-3 flex-grow-1">Expert care for bone, joint, spine problems and trauma with advanced surgical techniques.</p>
-                    <a href="#" class="Specilities_section_link text-primary fw-semibold small text-decoration-none mt-auto">View Details <i class="bi bi-arrow-right ms-1"></i></a>
+
+                    <h4>Orthopaedics</h4>
+
+                    <p>
+
+                        Complete bone, joint, muscle and trauma treatments.
+
+                    </p>
+
+                    <a href="orthopaedic-surgery.php">
+                        Learn More
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+
                 </div>
+
             </div>
 
-            <!-- Card 4: Pediatrics -->
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <div class="Specilities_section_card bg-white p-4 rounded-4 border shadow-sm h-100 d-flex flex-column">
-                    <div class="Specilities_section_card_icon bg-success-subtle text-success rounded-circle d-flex align-items-center justify-content-center mb-3">
-                        <i class="bi bi-emoji-smile fs-4"></i>
+            <!-- Card -->
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="index_section_speciality_card">
+
+                    <div class="index_section_speciality_icon">
+
+                        <img src=".\assets\img\Radiology.png" style="width: 60px; height:60px;">
+
                     </div>
-                    <h5 class="fw-bold text-dark mb-2">Pediatrics</h5>
-                    <p class="text-muted small mb-3 flex-grow-1">Complete healthcare for infants, children and adolescents with compassion and expertise.</p>
-                    <a href="#" class="Specilities_section_link text-primary fw-semibold small text-decoration-none mt-auto">View Details <i class="bi bi-arrow-right ms-1"></i></a>
+
+                    <h4>Radiology</h4>
+
+                    <p>
+
+                        Specialised treatment for
+                        lungs and respiratory diseases.
+
+                    </p>
+
+                    <a href="radiology.php">
+                        Learn More
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+
                 </div>
+
             </div>
 
-            <!-- Card 5: Gynecology -->
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <div class="Specilities_section_card bg-white p-4 rounded-4 border shadow-sm h-100 d-flex flex-column">
-                    <div class="Specilities_section_card_icon bg-danger-subtle text-danger rounded-circle d-flex align-items-center justify-content-center mb-3">
-                        <i class="bi bi-gender-female fs-4"></i>
+            <!-- Card -->
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="index_section_speciality_card">
+
+                    <div class="index_section_speciality_icon">
+
+                        <img src=".\assets\img\plastic-cosmetic-surgery.png" style="width: 60px; height:60px;">
+
                     </div>
-                    <h5 class="fw-bold text-dark mb-2">Gynecology</h5>
-                    <p class="text-muted small mb-3 flex-grow-1">Total women's healthcare including high-risk pregnancy, minimal access surgeries and fertility care.</p>
-                    <a href="#" class="Specilities_section_link text-primary fw-semibold small text-decoration-none mt-auto">View Details <i class="bi bi-arrow-right ms-1"></i></a>
+
+                    <h4>cosmetic surgery</h4>
+
+                    <p>
+
+                        Safe surgical care for beauty and reconstruction.
+
+                    </p>
+
+                    <a href="plastic-cosmetic-surgery.php">
+                        Learn More
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+
                 </div>
+
             </div>
 
-            <!-- Card 6: Oncology -->
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <div class="Specilities_section_card bg-white p-4 rounded-4 border shadow-sm h-100 d-flex flex-column">
-                    <div class="Specilities_section_card_icon bg-warning-subtle text-warning rounded-circle d-flex align-items-center justify-content-center mb-3">
-                        <i class="bi bi-ribbon fs-4"></i>
+            <!-- Card -->
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="index_section_speciality_card">
+
+                    <div class="index_section_speciality_icon">
+
+                     <img src=".\assets\img\pediatrics.png" style="width: 80px; height:80px;">   
+
                     </div>
-                    <h5 class="fw-bold text-dark mb-2">Oncology</h5>
-                    <p class="text-muted small mb-3 flex-grow-1">Advanced cancer care with early detection, medical oncology, radiation and surgical oncology.</p>
-                    <a href="#" class="Specilities_section_link text-primary fw-semibold small text-decoration-none mt-auto">View Details <i class="bi bi-arrow-right ms-1"></i></a>
+
+                    <h4>Pediatrics</h4>
+
+                    <p>
+
+                      Specialized treatment for newly born child, and Teen ages.  
+
+                    </p>
+
+                    <a href="pediatrics.php">
+                        Learn More
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+
                 </div>
+
             </div>
 
-            <!-- Card 7: Gastroenterology -->
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <div class="Specilities_section_card bg-white p-4 rounded-4 border shadow-sm h-100 d-flex flex-column">
-                    <div class="Specilities_section_card_icon bg-warning-subtle text-warning rounded-circle d-flex align-items-center justify-content-center mb-3">
-                        <i class="bi bi-capsule-drop fs-4"></i>
+            <!-- Card -->
+
+            <div class="col-lg-3 col-md-6">
+
+                <div class="index_section_speciality_card">
+
+                    <div class="index_section_speciality_icon">
+
+                     <img src=".\assets\img\Gynecology.png" style="width: 80px; height:80px;">   
+
                     </div>
-                    <h5 class="fw-bold text-dark mb-2">Gastroenterology</h5>
-                    <p class="text-muted small mb-3 flex-grow-1">Treatment for digestive system disorders including liver, pancreas and endoscopy procedures.</p>
-                    <a href="#" class="Specilities_section_link text-primary fw-semibold small text-decoration-none mt-auto">View Details <i class="bi bi-arrow-right ms-1"></i></a>
+
+                    <h4>Gynecology</h4>
+
+                    <p>
+
+                        Specialized treatment provides services for women of all ages.
+
+                    </p>
+
+                    <a href="gynecology.php">
+                        Learn More
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+
                 </div>
+
             </div>
 
-            <!-- Card 8: Nephrology -->
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <div class="Specilities_section_card bg-white p-4 rounded-4 border shadow-sm h-100 d-flex flex-column">
-                    <div class="Specilities_section_card_icon bg-danger-subtle text-danger rounded-circle d-flex align-items-center justify-content-center mb-3">
-                        <i class="bi bi-node-plus fs-4"></i>
-                    </div>
-                    <h5 class="fw-bold text-dark mb-2">Nephrology</h5>
-                    <p class="text-muted small mb-3 flex-grow-1">Comprehensive kidney care including dialysis, transplant and treatment of kidney disorders.</p>
-                    <a href="#" class="Specilities_section_link text-primary fw-semibold small text-decoration-none mt-auto">View Details <i class="bi bi-arrow-right ms-1"></i></a>
-                </div>
-            </div>
+            <!-- Card -->
 
-            <!-- Card 9: Pulmonology -->
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <div class="Specilities_section_card bg-white p-4 rounded-4 border shadow-sm h-100 d-flex flex-column">
-                    <div class="Specilities_section_card_icon bg-info-subtle text-info rounded-circle d-flex align-items-center justify-content-center mb-3">
-                        <i class="bi bi-lungs fs-4"></i>
-                    </div>
-                    <h5 class="fw-bold text-dark mb-2">Pulmonology</h5>
-                    <p class="text-muted small mb-3 flex-grow-1">Diagnosis and treatment of lung and respiratory diseases with advanced pulmonary care.</p>
-                    <a href="#" class="Specilities_section_link text-primary fw-semibold small text-decoration-none mt-auto">View Details <i class="bi bi-arrow-right ms-1"></i></a>
-                </div>
-            </div>
+            <div class="col-lg-3 col-md-6">
 
-            <!-- Card 10: Urology -->
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <div class="Specilities_section_card bg-white p-4 rounded-4 border shadow-sm h-100 d-flex flex-column">
-                    <div class="Specilities_section_card_icon bg-primary-subtle text-primary rounded-circle d-flex align-items-center justify-content-center mb-3">
-                        <i class="bi bi-shield-plus fs-4"></i>
-                    </div>
-                    <h5 class="fw-bold text-dark mb-2">Urology</h5>
-                    <p class="text-muted small mb-3 flex-grow-1">Expert care for urinary tract, prostate, kidney stones and men's health issues.</p>
-                    <a href="#" class="Specilities_section_link text-primary fw-semibold small text-decoration-none mt-auto">View Details <i class="bi bi-arrow-right ms-1"></i></a>
-                </div>
-            </div>
+                <div class="index_section_speciality_card">
 
-            <!-- Card 11: ENT -->
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <div class="Specilities_section_card bg-white p-4 rounded-4 border shadow-sm h-100 d-flex flex-column">
-                    <div class="Specilities_section_card_icon bg-teal-subtle text-teal rounded-circle d-flex align-items-center justify-content-center mb-3">
-                        <i class="bi bi-ear fs-4"></i>
-                    </div>
-                    <h5 class="fw-bold text-dark mb-2">ENT</h5>
-                    <p class="text-muted small mb-3 flex-grow-1">Treatment for ear, nose, throat, head and neck disorders with advanced endoscopic procedures.</p>
-                    <a href="#" class="Specilities_section_link text-primary fw-semibold small text-decoration-none mt-auto">View Details <i class="bi bi-arrow-right ms-1"></i></a>
-                </div>
-            </div>
+                    <div class="index_section_speciality_icon">
 
-            <!-- Card 12: General Surgery -->
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <div class="Specilities_section_card bg-white p-4 rounded-4 border shadow-sm h-100 d-flex flex-column">
-                    <div class="Specilities_section_card_icon bg-primary-subtle text-primary rounded-circle d-flex align-items-center justify-content-center mb-3">
-                        <i class="bi bi-bandaid fs-4"></i>
+                     <img src=".\assets\img\Dental-care.png" style="width: 60px; height:60px;">   
+
                     </div>
-                    <h5 class="fw-bold text-dark mb-2">General Surgery</h5>
-                    <p class="text-muted small mb-3 flex-grow-1">Advanced laparoscopic and open surgical procedures with faster recovery and minimal pain.</p>
-                    <a href="#" class="Specilities_section_link text-primary fw-semibold small text-decoration-none mt-auto">View Details <i class="bi bi-arrow-right ms-1"></i></a>
+
+                    <h4>Dental</h4>
+
+                    <p>
+
+                      Dental treatments for oral health, hygiene and cosmetic.
+
+                    </p>
+
+                    <a href="dental.php">
+                        Learn More
+                        <i class="bi bi-arrow-right"></i>
+                    </a>
+
                 </div>
+
             </div>
 
         </div>
 
-        <!-- View All Departments Button -->
-        <div class="text-center mt-4">
-            <a href="#" class="btn btn-outline-primary px-4 py-2 fw-semibold rounded-3">View All Departments</a>
-        </div>
     </div>
+
+</section>
+
 
     <!-- 4. INFRASTRUCTURE SECTION -->
     <div class="container mb-5">
@@ -248,7 +378,7 @@
                 <!-- Left Image with Play Button -->
                 <div class="col-lg-5 col-md-12">
                     <div class="position-relative rounded-4 overflow-hidden Specilities_section_video_wrapper">
-                        <img src="assets/images/operation-theater.png" alt="State-of-the-Art Infrastructure" class="img-fluid w-100 object-fit-cover">
+                        <img src="assets/img/Neurosurgery-bg.png" alt="State-of-the-Art Infrastructure" class="img-fluid w-100 object-fit-cover">
                         <a href="#" class="position-absolute top-50 start-50 translate-middle bg-white text-primary rounded-circle d-flex align-items-center justify-content-center shadow" style="width: 60px; height: 60px;">
                             <i class="bi bi-play-fill fs-2 ms-1"></i>
                         </a>
@@ -310,7 +440,7 @@
                             <i class="bi bi-award-fill fs-1 text-warning"></i>
                         </div>
                         <h6 class="fw-bold text-dark mb-1">NABH ACCREDITED</h6>
-                        <p class="text-muted small mb-3" style="font-size: 12px;">Committed to Quality, Safety & Patient Satisfaction</p>
+                        <p class="text-black small mb-3" style="font-size: 12px;">Committed to Quality, Safety & Patient Satisfaction</p>
                         <a href="#" class="btn btn-outline-primary btn-sm px-3 fw-semibold w-100">Learn More</a>
                     </div>
                 </div>
@@ -329,10 +459,10 @@
                 </div>
                 <div class="col-lg-6 col-md-12">
                     <div class="d-flex flex-sm-row flex-column gap-2 justify-content-lg-end">
-                        <a href="#" class="btn btn-white bg-white text-primary fw-bold px-4 py-2 d-flex align-items-center justify-content-center gap-2">
+                        <a href="doctors.php" class="btn btn-white bg-white text-primary fw-bold px-4 py-2 d-flex align-items-center justify-content-center gap-2">
                             <i class="bi bi-person-search"></i> Find a Doctor
                         </a>
-                        <a href="#" class="btn Specilities_section_teal_btn text-white fw-bold px-4 py-2 d-flex align-items-center justify-content-center gap-2">
+                        <a href="appointment.php" class="btn Specilities_section_teal_btn text-white fw-bold px-4 py-2 d-flex align-items-center justify-content-center gap-2">
                             <i class="bi bi-calendar-check"></i> Book Appointment
                         </a>
                     </div>

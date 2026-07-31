@@ -1,147 +1,222 @@
 <?php include 'header.php'; ?>
-<!-- ========================================= -->
-<!-- Accidents & Trauma Care Section           -->
-<!-- ========================================= -->
-<section class="service_page_wrapper py-5">
+
+<!-- HERO BANNER SECTION -->
+<section class="ns-hero-banner" style="background-image: linear-gradient(rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.85)), url('assets/img/accidents-trauma-care.png');">
   <div class="container">
-    
-    <!-- Hero / Intro Block -->
-    <div class="row align-items-center g-4 lg-g-5 mb-5">
-      
-      <!-- Left Content Column -->
-      <div class="col-lg-6">
-        <h1 class="service_title mb-3">Accidents & Trauma Care</h1>
-        
-        <!-- Paragraph 1 (Always Visible) -->
-        <p class="service_description mb-3">
-          At NeuroStar Hospital, our Accidents and Trauma Care department is dedicated to providing immediate, comprehensive, and expert medical attention to individuals affected by traumatic injuries and emergencies. Our 24/7 emergency team of surgeons and physicians is equipped to respond swiftly to severe motor vehicle accidents, falls, and critical sports injuries.
-        </p>
+    <div class="row">
+      <div class="col-lg-8 ns-hero-content">
+        <nav class="ns-breadcrumb">
+          <a href="#">Home</a> &rsaquo; <a href="#">Services</a> &rsaquo; Emergency & Trauma Care
+        </nav>
+        <h1 class="ns-hero-title">Accidents &amp; Trauma Care</h1>
+        <p class="ns-hero-subtitle">24/7 Rapid-response critical care for acute trauma, accidents & medical emergencies</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-        <!-- Paragraph 2 (Hidden until Read More is clicked) -->
-        <div class="collapse" id="moreTraumaContent">
-          <p class="service_description mb-3">
-            Equipped with state-of-the-art diagnostic facilities including rapid X-rays, CT scans, and ultrasounds, we perform quick evaluations to stabilize patients immediately. Whether urgent surgical intervention or conservative care is needed, our multidisciplinary team acts fast to ensure optimal survival and recovery outcomes.
-          </p>
+<!-- MAIN CONTENT SECTION -->
+<section class="ns-service-wrapper mt-4 mb-5">
+  <div class="container">
+    <div class="row g-4">
 
-          <!-- Read Less button (Placed AT THE BOTTOM inside expanded content) -->
-          <div class="pt-1 mb-3">
-            <a class="toggle_read_more_btn" data-bs-toggle="collapse" href="#moreTraumaContent" role="button" aria-expanded="true" aria-controls="moreTraumaContent">
-              <span class="btn_text">Read Less</span> <i class="bi bi-arrow-up ms-1 toggle_arrow"></i>
-            </a>
+      <!-- LEFT COLUMN -->
+      <div class="col-lg-8">
+
+        <!-- 1. Service Overview -->
+        <div class="ns-card">
+          <div class="ns-card-header">
+            <div class="ns-icon-badge"><i class="bi bi-activity"></i></div>
+            <h2 class="ns-card-title">Service Overview</h2>
+          </div>
+          <div class="ns-card-body">
+            <p class="service_description">
+              At NeuroStar Hospital, our 24/7 Accidents & Emergency Trauma Center is fully equipped to deliver immediate, life-saving critical care for severe injuries, road accidents, and medical emergencies. Backed by an round-the-clock team of trauma surgeons, emergency physicians, and critical care nurses, we ensure rapid triage, swift diagnostic evaluation, and immediate stabilization during the critical "Golden Hour."
+            </p>
+            <div class="collapse" id="moreTraumaCareContent">
+              <p class="service_description pt-2">
+                Our emergency unit features dedicated resuscitation bays, immediate operating theater availability, advanced life-support ambulances, and instant access to CT scans and blood banks. We specialize in managing complex polytrauma, severe traumatic brain injuries (TBI), spinal cord trauma, compound fractures, and acute neurovascular crises with zero delay.
+              </p>
+            </div>
+            
+            <div class="pt-2">
+              <a class="toggle_read_more_btn ns-btn-readmore text-decoration-none" data-bs-toggle="collapse" href="#moreTraumaCareContent" role="button" aria-expanded="false" aria-controls="moreTraumaCareContent" onclick="toggleReadMoreText(this)">
+                <span class="btn_text">Read More</span> <i class="bi bi-arrow-right ms-1 toggle_arrow"></i>
+              </a>
+            </div>
           </div>
         </div>
 
-        <!-- Read More button (Visible only when collapsed) -->
-        <div class="pt-1" id="readMoreWrapperTrauma">
-          <a class="toggle_read_more_btn" data-bs-toggle="collapse" href="#moreTraumaContent" role="button" aria-expanded="false" aria-controls="moreTraumaContent">
-            <span class="btn_text">Read More</span> <i class="bi bi-arrow-right ms-1 toggle_arrow"></i>
+        <!-- 2. What's Included -->
+        <div class="ns-card">
+          <div class="ns-card-header">
+            <div class="ns-icon-badge"><i class="bi bi-list-check"></i></div>
+            <h2 class="ns-card-title">What's Included</h2>
+          </div>
+          <ul class="ns-check-grid">
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>24/7 Level-1 polytrauma & accident resuscitation emergency care</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Immediate management of Traumatic Brain Injuries (TBI) & spine trauma</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Emergency surgical stabilization for compound fractures & tissue damage</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Advanced Cardiac Life Support (ACLS) & ventilator management</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>24/7 fully equipped ACLS ambulance transport service</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Rapid blood bank cross-matching & urgent transfusion protocols</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 3. Equipment & Technology -->
+        <div class="ns-card">
+          <div class="ns-card-header">
+            <div class="ns-icon-badge"><i class="bi bi-cpu"></i></div>
+            <h2 class="ns-card-title">Equipment &amp; Technology</h2>
+          </div>
+          <ul class="ns-check-grid">
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Dedicated Emergency Resuscitation Bay with Multi-Para Monitors</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Ultra-Fast Ultra-Slice CT Scanner for Immediate Head & Body Scans</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Point-of-Care Ultrasound (FAST) for Internal Bleeding Detection</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>High-End Mechanical Ventilators & Advanced Airway Systems</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Defibrillators, External Pacemakers & Rapid Fluid Warmers</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>24/7 Dedicated Emergency Operation Theater (OT) Readiness</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 4. Benefits -->
+        <div class="ns-card">
+          <div class="ns-card-header">
+            <div class="ns-icon-badge"><i class="bi bi-sparkles"></i></div>
+            <h2 class="ns-card-title">Benefits</h2>
+          </div>
+          <ul class="ns-check-grid">
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Zero-wait triage system prioritizing critical, life-threatening cases</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Golden Hour protocol maximizes survival and recovery potential</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>On-call neurosurgeons, orthopedic surgeons, and trauma specialists</span>
+            </li>
+            <li class="ns-check-item">
+              <i class="bi bi-check-circle ns-check-icon"></i>
+              <span>Seamless integration with Intensive Care Units (ICU & NICU)</span>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 5. Process / Workflow -->
+        <div class="ns-card">
+          <div class="ns-card-header">
+            <div class="ns-icon-badge"><i class="bi bi-diagram-3"></i></div>
+            <h2 class="ns-card-title">Process / Workflow</h2>
+          </div>
+          <ul class="ns-process-list">
+            <li class="ns-process-item">
+              <div class="ns-process-number">1</div>
+              <div>Immediate emergency arrival, triage classification & airway stabilization</div>
+            </li>
+            <li class="ns-process-item">
+              <div class="ns-process-number">2</div>
+              <div>Rapid diagnostic imaging (CT / FAST Ultrasound / Digital X-Ray)</div>
+            </li>
+            <li class="ns-process-item">
+              <div class="ns-process-number">3</div>
+              <div>Emergency medical stabilization or urgent surgical intervention</div>
+            </li>
+            <li class="ns-process-item">
+              <div class="ns-process-number">4</div>
+              <div>Transfer to Trauma-ICU for continuous monitoring & rehabilitation planning</div>
+            </li>
+          </ul>
+        </div>
+
+        <!-- 6. Related Departments -->
+        <div class="ns-card">
+          <div class="ns-card-header">
+            <div class="ns-icon-badge"><i class="bi bi-building"></i></div>
+            <h2 class="ns-card-title">Related Departments</h2>
+          </div>
+          <div class="ns-dept-tags">
+            <a href="#" class="ns-dept-tag">Neurosurgery</a>
+            <a href="#" class="ns-dept-tag">Neurology</a>
+            <a href="#" class="ns-dept-tag">Critical Care & NICU</a>
+            <a href="#" class="ns-dept-tag">Orthopedics & Spine Care</a>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- RIGHT SIDEBAR (CTA - CLEAN & STICKY BELOW NAVBAR) -->
+      <div class="col-lg-4">
+        <div class="ns-sidebar-cta sticky-top">
+          <div class="cta_sub_label">EMERGENCY HELP NEEDED?</div>
+          <h3 class="cta_main_title">24/7 Trauma Care</h3>
+          
+          <a href="#" class="ns-btn-cta-orange mb-3 text-center text-decoration-none">
+            <i class="bi bi-ambulance me-2"></i>Request Ambulance
+          </a>
+          <a href="tel:8341713713" class="ns-btn-cta-outline text-center text-decoration-none">
+            <i class="bi bi-telephone-fill me-2"></i>Call 8341713713
           </a>
         </div>
       </div>
 
-      <!-- Right Image Column -->
-      <div class="col-lg-6 text-center">
-        <div class="service_image_container">
-          <img src="assets/img/trauma-care-illustration.png" alt="Accidents and Trauma Care" class="img-fluid service_main_img">
-        </div>
-      </div>
-
     </div>
-
-    <!-- ========================================= -->
-    <!-- Advantages & Considerations Section       -->
-    <!-- ========================================= -->
-    <div class="service_pros_cons_wrapper mt-5 pt-3">
-      <div class="text-center mb-4">
-        <h2 class="pros_cons_heading fw-bold">Treatment Overview</h2>
-        <div class="heading_line mx-auto"></div>
-      </div>
-
-      <div class="row g-4 justify-content-center">
-        
-        <!-- Advantages Card -->
-        <div class="col-md-6 col-lg-5">
-          <div class="pro_con_card advantages_card h-100 p-4 rounded-4 bg-white shadow-sm">
-            <div class="d-flex align-items-center mb-3">
-              <div class="icon_box pro_icon_bg me-3">
-                <i class="bi bi-check-circle-fill"></i>
-              </div>
-              <h3 class="h4 mb-0 fw-bold text-success">Advantages</h3>
-            </div>
-            
-            <ul class="list-unstyled mb-0 pros_cons_list">
-              <li class="d-flex align-items-start mb-3">
-                <i class="bi bi-check-circle-fill text-success me-2 mt-1 fs-5"></i>
-                <span>24/7 availability for immediate life-saving critical interventions.</span>
-              </li>
-              <li class="d-flex align-items-start mb-3">
-                <i class="bi bi-check-circle-fill text-success me-2 mt-1 fs-5"></i>
-                <span>Rapid-response diagnostic tools enable accurate injury assessments within minutes.</span>
-              </li>
-              <li class="d-flex align-items-start mb-3">
-                <i class="bi bi-check-circle-fill text-success me-2 mt-1 fs-5"></i>
-                <span>Comprehensive emergency team including trauma surgeons and ICU specialists.</span>
-              </li>
-              <li class="d-flex align-items-start">
-                <i class="bi bi-check-circle-fill text-success me-2 mt-1 fs-5"></i>
-                <span>Significantly minimizes long-term disability through quick, structured trauma protocols.</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <!-- Considerations Card -->
-        <div class="col-md-6 col-lg-5">
-          <div class="pro_con_card disadvantages_card h-100 p-4 rounded-4 bg-white shadow-sm">
-            <div class="d-flex align-items-center mb-3">
-              <div class="icon_box con_icon_bg me-3">
-                <i class="bi bi-exclamation-triangle-fill"></i>
-              </div>
-              <h3 class="h4 mb-0 fw-bold text-danger">Considerations</h3>
-            </div>
-
-            <ul class="list-unstyled mb-0 pros_cons_list">
-              <li class="d-flex align-items-start mb-3">
-                <i class="bi bi-check-circle-fill text-danger me-2 mt-1 fs-5"></i>
-                <span>Severe trauma cases often require extended ICU stays or follow-up surgeries.</span>
-              </li>
-              <li class="d-flex align-items-start mb-3">
-                <i class="bi bi-check-circle-fill text-danger me-2 mt-1 fs-5"></i>
-                <span>Complex physical injuries may demand structured long-term rehabilitation.</span>
-              </li>
-              <li class="d-flex align-items-start mb-3">
-                <i class="bi bi-check-circle-fill text-danger me-2 mt-1 fs-5"></i>
-                <span>High-stress environment for family members during initial emergency stabilization.</span>
-              </li>
-              <li class="d-flex align-items-start">
-                <i class="bi bi-check-circle-fill text-danger me-2 mt-1 fs-5"></i>
-                <span>Recovery timeline varies depending on the severity of multi-system trauma.</span>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-      </div>
-    </div>
-
   </div>
 </section>
 
 <script>
-// accidents-and-trauma-care service page read less and more buttons
-document.addEventListener('DOMContentLoaded', function () {
-  const traumaCollapse = document.getElementById('moreTraumaContent');
-  const readMoreTrauma = document.getElementById('readMoreWrapperTrauma');
-
-  if (traumaCollapse && readMoreTrauma) {
-    traumaCollapse.addEventListener('show.bs.collapse', function () {
-      readMoreTrauma.style.display = 'none';
-    });
-
-    traumaCollapse.addEventListener('hide.bs.collapse', function () {
-      readMoreTrauma.style.display = 'block';
-    });
-  }
-});
+function toggleReadMoreText(btn) {
+  const textSpan = btn.querySelector('.btn_text');
+  const icon = btn.querySelector('.toggle_arrow');
+  
+  setTimeout(() => {
+    const isExpanded = btn.getAttribute('aria-expanded') === 'true';
+    if (isExpanded) {
+      textSpan.textContent = 'Read Less';
+      icon.className = 'bi bi-arrow-up ms-1 toggle_arrow';
+    } else {
+      textSpan.textContent = 'Read More';
+      icon.className = 'bi bi-arrow-right ms-1 toggle_arrow';
+    }
+  }, 150);
+}
 </script>
 <?php include 'footer.php'; ?>

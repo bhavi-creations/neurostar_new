@@ -6,11 +6,11 @@ $servername = "localhost";
 if ($_SERVER['SERVER_NAME'] == 'localhost') {
     $username = "root";
     $password = "";
-    $dbname = "appledental";
+    $dbname = "neurostar";
 } 
 else {
-    $username = "appledentalspecialities";
-    $password = "aR6HPpKhxuyNlGcaZucfhPqCV";
+    // $username = "appledentalspecialities";
+    // $password = "aR6HPpKhxuyNlGcaZucfhPqCV";
     $dbname = "appledentalspecialities";
     
 }

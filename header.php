@@ -48,7 +48,7 @@
 
             <span><i class="bi bi-envelope-fill"></i> info@neurostarhospital.com</span>
 
-            <span class="ms-4"><i class="bi bi-telephone-fill"></i> +91 9876543210</span>
+            <span class="ms-4"><i class="bi bi-telephone-fill"></i> +91 9121476777</span>
 
 
           </div>
@@ -158,7 +158,7 @@
 
           <!-- Outline Pill Appointment Button -->
           <li class="nav-item ms-lg-2">
-            <a href="#" class="btn nav_appointment_btn">
+            <a href="appointment.php" class="btn nav_appointment_btn">
               Appointment
             </a>
           </li>
