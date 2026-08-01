@@ -1145,9 +1145,7 @@ Our Doctors
 
                     <p>
 
-                        Excellent treatment and caring doctors.
-                        The staff were supportive throughout my
-                        hospital stay.
+                        "Dr Ashok. Kumar is the best neurosuregon in kakinada in my family only 3 patients are coming here, his interaction with patients and treatment way is very good and communicates with patients like a family member tq so much sir."
 
                     </p>
 
@@ -1161,7 +1159,7 @@ Our Doctors
 
                         <div class="ms-3">
 
-                            <h5 class="mb-1">Ramesh Kumar</h5>
+                            <h5 class="mb-1">Lavanya katta</h5>
 
                             <span>Neurology Patient</span>
 
@@ -1190,10 +1188,7 @@ Our Doctors
                     </div>
 
                     <p>
-
-                        Modern facilities, experienced doctors,
-                        and quick emergency response made
-                        our experience excellent.
+                        "We are very happy with the varicose veins surgery done by Dr. SVR Krishna Sir. The procedure went smoothly, and the patient is doing well. The doctors and staff were supportive and professional throughout. Thank you for your excellent care."
 
                     </p>
 
@@ -1207,9 +1202,9 @@ Our Doctors
 
                         <div class="ms-3">
 
-                            <h5 class="mb-1">Lakshmi Devi</h5>
+                            <h5 class="mb-1">Hanshu989</h5>
 
-                            <span>Cardiology Patient</span>
+                            <span>Pediatric Patient</span>
 
                         </div>
 
@@ -1237,9 +1232,7 @@ Our Doctors
 
                     <p>
 
-                        Professional team with outstanding
-                        medical services. Highly recommended
-                        for specialised treatments.
+                        "Very much docters and staff full support, good service fully satisfied Dr M ashok kumar garu treatment excellent day by day patient condition was explained well. Thank you docters and management staff."
 
                     </p>
 
