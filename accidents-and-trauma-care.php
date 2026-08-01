@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-lg-8 ns-hero-content">
         <nav class="ns-breadcrumb">
-          <a href="#">Home</a> &rsaquo; <a href="#">Services</a> &rsaquo; Emergency & Trauma Care
+          <a href="Home.php">Home</a> &rsaquo; <a href="#">Services</a> &rsaquo; Emergency & Trauma Care
         </nav>
         <h1 class="ns-hero-title">Accidents &amp; Trauma Care</h1>
         <p class="ns-hero-subtitle">24/7 Rapid-response critical care for acute trauma, accidents & medical emergencies</p>
@@ -174,10 +174,10 @@
             <h2 class="ns-card-title">Related Departments</h2>
           </div>
           <div class="ns-dept-tags">
-            <a href="#" class="ns-dept-tag">Neurosurgery</a>
-            <a href="#" class="ns-dept-tag">Neurology</a>
-            <a href="#" class="ns-dept-tag">Critical Care & NICU</a>
-            <a href="#" class="ns-dept-tag">Orthopedics & Spine Care</a>
+            <a href="neuro-surgery.php" class="ns-dept-tag">Neurosurgery</a>
+            <a href="neurology.php" class="ns-dept-tag">Neurology</a>
+            <a href="critical-care.php" class="ns-dept-tag">Critical Care & NICU</a>
+            <a href="orthopaedic-surgery.php" class="ns-dept-tag">Orthopedics & Spine Care</a>
           </div>
         </div>
 
@@ -189,8 +189,8 @@
           <div class="cta_sub_label">EMERGENCY HELP NEEDED?</div>
           <h3 class="cta_main_title">24/7 Trauma Care</h3>
           
-          <a href="#" class="ns-btn-cta-orange mb-3 text-center text-decoration-none">
-            <i class="bi bi-ambulance me-2"></i>Request Ambulance
+          <a href="appointment.php" class="ns-btn-cta-orange mb-3 text-center text-decoration-none">
+            <i class="bi bi-ambulance me-2"></i>Book Appointment
           </a>
           <a href="tel:8341713713" class="ns-btn-cta-outline text-center text-decoration-none">
             <i class="bi bi-telephone-fill me-2"></i>Call 8341713713

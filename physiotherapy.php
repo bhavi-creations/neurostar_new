@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-lg-8 ns-hero-content">
         <nav class="ns-breadcrumb">
-          <a href="#">Home</a> &rsaquo; <a href="#">Services</a> &rsaquo; Physiotherapy
+          <a href="Home.php">Home</a> &rsaquo; <a href="#">Services</a> &rsaquo; Physiotherapy
         </nav>
         <h1 class="ns-hero-title">Physiotherapy &amp; Rehabilitation</h1>
         <p class="ns-hero-subtitle">Advanced physical therapy, mobility restoration, and customized pain management care</p>
@@ -174,10 +174,9 @@
             <h2 class="ns-card-title">Related Departments</h2>
           </div>
           <div class="ns-dept-tags">
-            <a href="#" class="ns-dept-tag">Orthopedics &amp; Joint Replacement</a>
-            <a href="#" class="ns-dept-tag">Neurology &amp; Neurosurgery</a>
-            <a href="#" class="ns-dept-tag">Pain Management Medicine</a>
-            <a href="#" class="ns-dept-tag">Emergency &amp; Trauma Care</a>
+            <a href="orthopaedic-surgery.php" class="ns-dept-tag">Orthopedics &amp; Joint Replacement</a>
+            <a href="neuro-surgery.php" class="ns-dept-tag"> Neurosurgery</a>
+            <a href="accidents-and-trauma-care.php" class="ns-dept-tag">Emergency &amp; Trauma Care</a>
           </div>
         </div>
 
@@ -189,7 +188,7 @@
           <div class="cta_sub_label">NEED PHYSIOTHERAPY?</div>
           <h3 class="cta_main_title">Book a Session</h3>
           
-          <a href="#" class="ns-btn-cta-orange mb-3 text-center text-decoration-none">
+          <a href="appointment.php" class="ns-btn-cta-orange mb-3 text-center text-decoration-none">
             <i class="bi bi-calendar-event me-2"></i>Book Appointment
           </a>
           <a href="tel:8341713713" class="ns-btn-cta-outline text-center text-decoration-none">

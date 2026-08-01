@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-lg-8 ns-hero-content">
         <nav class="ns-breadcrumb">
-          <a href="#">Home</a> &rsaquo; <a href="#">Services</a> &rsaquo; Dental Care
+          <a href="Home.php">Home</a> &rsaquo; <a href="#">Services</a> &rsaquo; Dental Care
         </nav>
         <h1 class="ns-hero-title">Dental Care</h1>
         <p class="ns-hero-subtitle">Complete oral healthcare, restorative treatments, and advanced dentistry</p>
@@ -174,10 +174,10 @@
             <h2 class="ns-card-title">Related Departments</h2>
           </div>
           <div class="ns-dept-tags">
-            <a href="#" class="ns-dept-tag">ENT &amp; Head/Neck Surgery</a>
-            <a href="#" class="ns-dept-tag">Emergency &amp; Trauma Care</a>
-            <a href="#" class="ns-dept-tag">General Surgery</a>
-            <a href="#" class="ns-dept-tag">Radiology &amp; Diagnostics</a>
+            <a href="neuro-surgery.php" class="ns-dept-tag">Neuro Surgery</a>
+            <a href="accidents-and-trauma-care.php" class="ns-dept-tag">Emergency &amp; Trauma Care</a>
+            <a href="general-and-laproscopic-surgery.php" class="ns-dept-tag">General Surgery</a>
+            <a href="radiology.php" class="ns-dept-tag">Radiology &amp; Diagnostics</a>
           </div>
         </div>
 
@@ -189,7 +189,7 @@
           <div class="cta_sub_label">NEED THIS SERVICE?</div>
           <h3 class="cta_main_title">Get in touch</h3>
           
-          <a href="#" class="ns-btn-cta-orange mb-3 text-center text-decoration-none">
+          <a href="appointment.php" class="ns-btn-cta-orange mb-3 text-center text-decoration-none">
             <i class="bi bi-calendar-event me-2"></i>Book Appointment
           </a>
           <a href="tel:8341713713" class="ns-btn-cta-outline text-center text-decoration-none">

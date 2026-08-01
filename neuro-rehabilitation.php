@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-lg-8 ns-hero-content">
         <nav class="ns-breadcrumb">
-          <a href="#">Home</a> &rsaquo; <a href="#">Services</a> &rsaquo; Neuro-Rehabilitation
+          <a href="Home.php">Home</a> &rsaquo; <a href="#">Services</a> &rsaquo; Neuro-Rehabilitation
         </nav>
         <h1 class="ns-hero-title">Neuro-Rehabilitation</h1>
         <p class="ns-hero-subtitle">Comprehensive, multidisciplinary recovery programs for brain, spinal cord, and nerve disorders</p>
@@ -174,10 +174,10 @@
             <h2 class="ns-card-title">Related Departments</h2>
           </div>
           <div class="ns-dept-tags">
-            <a href="#" class="ns-dept-tag">Neurology &amp; Stroke Care</a>
-            <a href="#" class="ns-dept-tag">Neurosurgery</a>
-            <a href="#" class="ns-dept-tag">Physiotherapy &amp; Rehabilitation</a>
-            <a href="#" class="ns-dept-tag">Psychiatry &amp; Behavioral Health</a>
+            <a href="neurology.php" class="ns-dept-tag">Neurology &amp; Stroke Care</a>
+            <a href="neuro-surgery.php" class="ns-dept-tag">Neurosurgery</a>
+            <a href="physiotherapy.php" class="ns-dept-tag">Physiotherapy &amp; Rehabilitation</a>
+            <a href="neuro-psychiatric.php" class="ns-dept-tag">Psychiatry &amp; Behavioral Health</a>
           </div>
         </div>
 
@@ -189,7 +189,7 @@
           <div class="cta_sub_label">NEED NEURO-REHABILITATION?</div>
           <h3 class="cta_main_title">Consult a Specialist</h3>
           
-          <a href="#" class="ns-btn-cta-orange mb-3 text-center text-decoration-none">
+          <a href="appointment.php" class="ns-btn-cta-orange mb-3 text-center text-decoration-none">
             <i class="bi bi-calendar-event me-2"></i>Book Appointment
           </a>
           <a href="tel:8341713713" class="ns-btn-cta-outline text-center text-decoration-none">

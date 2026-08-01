@@ -6,10 +6,10 @@
     <div class="row">
       <div class="col-lg-8 ns-hero-content">
         <nav class="ns-breadcrumb">
-          <a href="#">Home</a> &rsaquo; <a href="#">Services</a> &rsaquo; Neurosurgery
+          <a href="Home.php">Home</a> &rsaquo; <a href="#">Services</a> &rsaquo; Neurosurgery
         </nav>
         <h1 class="ns-hero-title">Neurosurgery Care</h1>
-        <p class="ns-hero-subtitle">Advanced surgical interventions for complex brain, spine & nerve conditions</p>
+        <p class="ns-hero-subtitle">Advanced surgical treatments for complex brain, spine & nerve conditions</p>
       </div>
     </div>
   </div>
@@ -31,11 +31,11 @@
           </div>
           <div class="ns-card-body">
             <p class="service_description">
-              At NeuroStar Hospital, our Neurosurgery department provides cutting-edge surgical treatments for patients suffering from critical conditions of the central and peripheral nervous system. Our world-class team of neurosurgeons combines vast clinical experience with ultra-modern surgical equipment to treat brain tumors, complex spinal disorders, head trauma, and vascular malformations.
+              At NeuroStar Hospital, our Neurosurgery department provides best surgical treatments for patients suffering from critical conditions of the central and peripheral nervous system. Our world-class team of neurosurgeons combines vast clinical experience with ultra-modern surgical equipment to treat brain tumors, complex spinal disorders, head trauma, and Vascular Problems.
             </p>
             <div class="collapse" id="moreNeurosurgeryContent">
               <p class="service_description pt-2">
-                We specialize in minimally invasive neurosurgery (KEYHOLE procedures), complex spine stabilization, brain aneurysm clipping, and endoscopic skull-base procedures. Every surgical plan is meticulously crafted utilizing intraoperative imaging and real-time nerve monitoring to ensure high surgical precision, minimal tissue injury, and faster postoperative recovery.
+                We specialize in Advanced Neurosurgery (KEYHOLE procedures), complex spine stabilization, Brain Blood Vessel Surgery, and endoscopic skull-base procedures. Every surgical plan is meticulously crafted utilizing intraoperative imaging and real-time nerve monitoring to ensure high surgical precision, minimal tissue injury, and faster postoperative recovery.
               </p>
             </div>
             
@@ -68,11 +68,11 @@
             </li>
             <li class="ns-check-item">
               <i class="bi bi-check-circle ns-check-icon"></i>
-              <span>Cerebrovascular surgery for brain aneurysms & AVMs</span>
+              <span>Cerebrovascular surgery for brain blood vessel disorders & AVMs</span>
             </li>
             <li class="ns-check-item">
               <i class="bi bi-check-circle ns-check-icon"></i>
-              <span>Hydrocephalus management & VP shunt insertion</span>
+              <span>Hydrocephalus Treatment & VP Shunt Surgery</span>
             </li>
             <li class="ns-check-item">
               <i class="bi bi-check-circle ns-check-icon"></i>
@@ -124,7 +124,7 @@
           <ul class="ns-check-grid">
             <li class="ns-check-item">
               <i class="bi bi-check-circle ns-check-icon"></i>
-              <span>Minimally invasive techniques ensuring smaller incisions</span>
+              <span>Advanced Techniques ensuring Small Cuts</span>
             </li>
             <li class="ns-check-item">
               <i class="bi bi-check-circle ns-check-icon"></i>
@@ -132,7 +132,7 @@
             </li>
             <li class="ns-check-item">
               <i class="bi bi-check-circle ns-check-icon"></i>
-              <span>Maximum preservation of critical brain & neurological functions</span>
+              <span>Maximum protection of brain and nerve functions</span>
             </li>
             <li class="ns-check-item">
               <i class="bi bi-check-circle ns-check-icon"></i>
@@ -174,10 +174,10 @@
             <h2 class="ns-card-title">Related Departments</h2>
           </div>
           <div class="ns-dept-tags">
-            <a href="#" class="ns-dept-tag">Neurology</a>
-            <a href="#" class="ns-dept-tag">Emergency &amp; Trauma Care</a>
-            <a href="#" class="ns-dept-tag">Neuroradiology</a>
-            <a href="#" class="ns-dept-tag">Critical Care & NICU</a>
+            <a href="neurology.php" class="ns-dept-tag">Neurology</a>
+            <a href="emergency.php" class="ns-dept-tag">Emergency &amp; Trauma Care</a>
+            <a href="neuroradiology.php" class="ns-dept-tag">Neuroradiology</a>
+            <a href="critical-care.php" class="ns-dept-tag">Critical Care & NICU</a>
           </div>
         </div>
 
@@ -189,7 +189,7 @@
           <div class="cta_sub_label">NEED THIS SERVICE?</div>
           <h3 class="cta_main_title">Get in touch</h3>
           
-          <a href="#" class="ns-btn-cta-orange mb-3 text-center text-decoration-none">
+          <a href="appointment.php" class="ns-btn-cta-orange mb-3 text-center text-decoration-none">
             <i class="bi bi-calendar-event me-2"></i>Book Appointment
           </a>
           <a href="tel:8341713713" class="ns-btn-cta-outline text-center text-decoration-none">

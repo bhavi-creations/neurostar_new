@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-lg-8 ns-hero-content">
         <nav class="ns-breadcrumb">
-          <a href="#">Home</a> &rsaquo; <a href="#">Services</a> &rsaquo; General Medicine
+          <a href="Home.php">Home</a> &rsaquo; <a href="#">Services</a> &rsaquo; General Medicine
         </nav>
         <h1 class="ns-hero-title">General Medicine &amp; Internal Care</h1>
         <p class="ns-hero-subtitle">Comprehensive primary care, chronic disease management, and acute illness treatment</p>
@@ -174,10 +174,10 @@
             <h2 class="ns-card-title">Related Departments</h2>
           </div>
           <div class="ns-dept-tags">
-            <a href="#" class="ns-dept-tag">Neurology</a>
-            <a href="#" class="ns-dept-tag">Emergency &amp; Trauma Care</a>
-            <a href="#" class="ns-dept-tag">Critical Care &amp; NICU</a>
-            <a href="#" class="ns-dept-tag">Radiology &amp; Diagnostics</a>
+            <a href="neurology.php" class="ns-dept-tag">Neurology</a>
+            <a href="accidents-and-trauma-care.php" class="ns-dept-tag">Emergency &amp; Trauma Care</a>
+            <a href="critical-care.php" class="ns-dept-tag">Critical Care</a>
+            <a href="radiology.php" class="ns-dept-tag">Radiology &amp; Diagnostics</a>
           </div>
         </div>
 
@@ -189,7 +189,7 @@
           <div class="cta_sub_label">NEED THIS SERVICE?</div>
           <h3 class="cta_main_title">Get in touch</h3>
           
-          <a href="#" class="ns-btn-cta-orange mb-3 text-center text-decoration-none">
+          <a href="appointment.php" class="ns-btn-cta-orange mb-3 text-center text-decoration-none">
             <i class="bi bi-calendar-event me-2"></i>Book Appointment
           </a>
           <a href="tel:8341713713" class="ns-btn-cta-outline text-center text-decoration-none">

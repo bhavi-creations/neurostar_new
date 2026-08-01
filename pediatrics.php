@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-lg-8 ns-hero-content">
         <nav class="ns-breadcrumb">
-          <a href="#">Home</a> &rsaquo; <a href="#">Services</a> &rsaquo; Pediatrics
+          <a href="Home.php">Home</a> &rsaquo; <a href="#">Services</a> &rsaquo; Pediatrics
         </nav>
         <h1 class="ns-hero-title">Pediatric &amp; Child Care</h1>
         <p class="ns-hero-subtitle">Comprehensive, compassionate medical care for infants, children, and adolescents</p>
@@ -35,7 +35,7 @@
             </p>
             <div class="collapse" id="morePediatricContent">
               <p class="service_description pt-2">
-                We offer a complete continuum of care, from routine well-baby checkups and vaccinations to advanced neonatal intensive care (NICU) for critically ill newborns. Our child-friendly environment is designed to minimize anxiety for both the patient and the parents. We work closely with families to ensure the healthy physical, emotional, and social development of your child at every stage of growth.
+                We offer a complete care, from routine well-baby checkups and vaccinations to advanced neonatal intensive care (NICU) for critically ill newborns. Our child-friendly environment is designed to minimize anxiety for both the patient and the parents. We work closely with families to ensure the healthy physical, emotional, and social development of your child at every stage of growth.
               </p>
             </div>
             
@@ -64,7 +64,7 @@
             </li>
             <li class="ns-check-item">
               <i class="bi bi-check-circle ns-check-icon"></i>
-              <span>Treatment of Acute Childhood Illnesses (Fevers, Infections, Respiratory issues)</span>
+              <span>Treatment of Child Illnesses (Fevers, Infections, Respiratory issues)</span>
             </li>
             <li class="ns-check-item">
               <i class="bi bi-check-circle ns-check-icon"></i>
@@ -90,7 +90,7 @@
           <ul class="ns-check-grid">
             <li class="ns-check-item">
               <i class="bi bi-check-circle ns-check-icon"></i>
-              <span>Advanced Level-III Neonatal Intensive Care Unit (NICU)</span>
+              <span>Advanced Level-III Intensive Care Unit (ICU)</span>
             </li>
             <li class="ns-check-item">
               <i class="bi bi-check-circle ns-check-icon"></i>
@@ -174,10 +174,9 @@
             <h2 class="ns-card-title">Related Departments</h2>
           </div>
           <div class="ns-dept-tags">
-            <a href="#" class="ns-dept-tag">Neonatology (NICU)</a>
-            <a href="#" class="ns-dept-tag">Obstetrics &amp; Gynecology</a>
-            <a href="#" class="ns-dept-tag">Pediatric Neurology</a>
-            <a href="#" class="ns-dept-tag">Emergency &amp; Trauma Care</a>
+            <a href="gynecology.php" class="ns-dept-tag">Obstetrics &amp; Gynecology</a>
+            <a href="pediatrics.php" class="ns-dept-tag">Pediatrics</a>
+            <a href="accidents-and-trauma-care.php" class="ns-dept-tag">Emergency &amp; Trauma Care</a>
           </div>
         </div>
 
@@ -189,7 +188,7 @@
           <div class="cta_sub_label">NEED CHILD CARE?</div>
           <h3 class="cta_main_title">Consult a Pediatrician</h3>
           
-          <a href="#" class="ns-btn-cta-orange mb-3 text-center text-decoration-none">
+          <a href="appointment.php" class="ns-btn-cta-orange mb-3 text-center text-decoration-none">
             <i class="bi bi-calendar-event me-2"></i>Book Appointment
           </a>
           <a href="tel:8341713713" class="ns-btn-cta-outline text-center text-decoration-none">

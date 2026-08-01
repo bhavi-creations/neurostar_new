@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-lg-8 ns-hero-content">
         <nav class="ns-breadcrumb">
-          <a href="#">Home</a> &rsaquo; <a href="#">Services</a> &rsaquo; Plastic &amp; Cosmetic Surgery
+          <a href="Home.php">Home</a> &rsaquo; <a href="#">Services</a> &rsaquo; Plastic &amp; Cosmetic Surgery
         </nav>
         <h1 class="ns-hero-title">Plastic &amp; Cosmetic Surgery</h1>
         <p class="ns-hero-subtitle">Advanced aesthetic enhancements, body contouring, and precision reconstructive surgical care</p>
@@ -174,10 +174,10 @@
             <h2 class="ns-card-title">Related Departments</h2>
           </div>
           <div class="ns-dept-tags">
-            <a href="#" class="ns-dept-tag">Maxillofacial Surgery</a>
-            <a href="#" class="ns-dept-tag">Dermatology &amp; Cosmetology</a>
-            <a href="#" class="ns-dept-tag">General &amp; Surgical Oncology</a>
-            <a href="#" class="ns-dept-tag">Emergency &amp; Trauma Care</a>
+            <a href="maxillo-facial-surgery.php" class="ns-dept-tag">Maxillofacial Surgery</a>
+            <a href="plastic-cosmetic-surgery.php" class="ns-dept-tag">Plastic &amp; Cosmetic Surgery</a>
+            <a href="neuro-rehabilitation.php" class="ns-dept-tag">General &amp; Surgical Oncology</a>
+            <a href="accidents-and-trauma-care.php" class="ns-dept-tag">Emergency &amp; Trauma Care</a>
           </div>
         </div>
 
@@ -189,7 +189,7 @@
           <div class="cta_sub_label">NEED THIS SERVICE?</div>
           <h3 class="cta_main_title">Get in touch</h3>
           
-          <a href="#" class="ns-btn-cta-orange mb-3 text-center text-decoration-none">
+          <a href="appointment.php" class="ns-btn-cta-orange mb-3 text-center text-decoration-none">
             <i class="bi bi-calendar-event me-2"></i>Book Appointment
           </a>
           <a href="tel:8341713713" class="ns-btn-cta-outline text-center text-decoration-none">

@@ -6,7 +6,7 @@
     <div class="row">
       <div class="col-lg-8 ns-hero-content">
         <nav class="ns-breadcrumb">
-          <a href="#">Home</a> &rsaquo; <a href="#">Services</a> &rsaquo; Gynecology
+          <a href="Home.php">Home</a> &rsaquo; <a href="#">Services</a> &rsaquo; Gynecology
         </nav>
         <h1 class="ns-hero-title">Gynecology &amp; Women's Health</h1>
         <p class="ns-hero-subtitle">Comprehensive medical and surgical care for women at every stage of life</p>
@@ -174,10 +174,10 @@
             <h2 class="ns-card-title">Related Departments</h2>
           </div>
           <div class="ns-dept-tags">
-            <a href="#" class="ns-dept-tag">Obstetrics &amp; Maternity</a>
-            <a href="#" class="ns-dept-tag">Radiology &amp; Ultrasound Imaging</a>
-            <a href="#" class="ns-dept-tag">General Surgery</a>
-            <a href="#" class="ns-dept-tag">Endocrinology</a>
+            <a href="pediatrics.php" class="ns-dept-tag">Obstetrics &amp; Maternity</a>
+            <a href="radiology.php" class="ns-dept-tag">Radiology &amp; Ultrasound Imaging</a>
+            <a href="general-and-laproscopic-surgery.php" class="ns-dept-tag">General Surgery</a>
+            <a href="gynecology.php" class="ns-dept-tag">Gynecology</a>
           </div>
         </div>
 
@@ -189,7 +189,7 @@
           <div class="cta_sub_label">NEED THIS SERVICE?</div>
           <h3 class="cta_main_title">Get in touch</h3>
           
-          <a href="#" class="ns-btn-cta-orange mb-3 text-center text-decoration-none">
+          <a href="appointment.php" class="ns-btn-cta-orange mb-3 text-center text-decoration-none">
             <i class="bi bi-calendar-event me-2"></i>Book Appointment
           </a>
           <a href="tel:8341713713" class="ns-btn-cta-outline text-center text-decoration-none">
