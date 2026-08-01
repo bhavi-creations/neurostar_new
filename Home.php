@@ -1248,7 +1248,7 @@ Our Doctors
 
                             <h5 class="mb-1">Srinivas Rao</h5>
 
-                            <span>Orthopaedic Patient</span>
+                            <span>Neuro Surgery Patient</span>
 
                         </div>
 
