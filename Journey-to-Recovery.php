@@ -12,7 +12,7 @@
                     <h1 class="journey_section_hero_title fw-bold mb-3">
                         Happy Patients,<br><span class="journey_section_text_primary">Stronger Together</span>
                     </h1>
-                    <p class="journey_section_hero_desc text-muted mb-4 pe-lg-4">
+                    <p class="journey_section_hero_desc text-black mb-4 pe-lg-4">
                         Real stories from real people whose lives have been transformed with compassionate care, advanced technology and expert treatment.
                     </p>
 
@@ -60,7 +60,7 @@
                 <!-- Hero Image -->
                 <div class="col-lg-6 col-md-12 text-center text-lg-end">
                     <div class="journey_section_hero_img_wrapper rounded-4 overflow-hidden shadow-sm">
-                        <img src="assets/img/doctor-patient-thumbs-up.jpg" alt="Happy Patients, Stronger Together" class="img-fluid w-100 object-fit-cover">
+                        <img src="assets/img/journey-bg-img.png" alt="Happy Patients, Stronger Together" class="img-fluid w-100 object-fit-cover">
                     </div>
                 </div>
             </div>
@@ -185,7 +185,7 @@
                         </span>
                     </div>
 
-                    <a href="#" class="btn journey_section_write_btn text-white fw-semibold rounded-3 btn-sm px-3 d-inline-flex align-items-center gap-2">
+                    <a href="https://share.google/hFn2ei3cxbkaU59Ov" class="btn journey_section_write_btn text-white fw-semibold rounded-3 btn-sm px-3 d-inline-flex align-items-center gap-2">
                         <i class="bi bi-pencil-square"></i> Write a Review
                     </a>
                 </div>
@@ -198,7 +198,7 @@
                             <div class="rounded-circle bg-success text-white d-flex align-items-center justify-content-center fw-bold" style="width: 38px; height: 38px; font-size: 14px;">S</div>
                             <div>
                                 <h6 class="fw-bold mb-0 text-dark small">Sowmya Reddy</h6>
-                                <span class="text-muted" style="font-size: 11px;">2 days ago</span>
+                                <span class="text-black" style="font-size: 14px;">2 days ago</span>
                             </div>
                         </div>
                         <div class="journey_section_stars text-warning mb-2" style="font-size: 12px;">
@@ -208,7 +208,7 @@
                             <i class="bi bi-star-fill"></i>
                             <i class="bi bi-star-fill"></i>
                         </div>
-                        <p class="text-secondary small mb-0 flex-grow-1" style="font-size: 12px;">Excellent hospital with well experienced doctors and caring staff. Highly recommended!</p>
+                        <p class="text-black small mb-0 flex-grow-1" style="font-size: 14px;">Excellent hospital with well experienced doctors and caring staff. Highly recommended!</p>
                     </div>
                 </div>
 
@@ -219,7 +219,7 @@
                             <div class="rounded-circle bg-danger text-white d-flex align-items-center justify-content-center fw-bold" style="width: 38px; height: 38px; font-size: 14px;">P</div>
                             <div>
                                 <h6 class="fw-bold mb-0 text-dark small">Praveen Kumar</h6>
-                                <span class="text-muted" style="font-size: 11px;">1 week ago</span>
+                                <span class="text-black" style="font-size: 14px;">1 week ago</span>
                             </div>
                         </div>
                         <div class="journey_section_stars text-warning mb-2" style="font-size: 12px;">
@@ -229,7 +229,7 @@
                             <i class="bi bi-star-fill"></i>
                             <i class="bi bi-star-fill"></i>
                         </div>
-                        <p class="text-secondary small mb-0 flex-grow-1" style="font-size: 12px;">Had a great experience with the treatment and facilities. The staff took good care of me during my stay.</p>
+                        <p class="text-black small mb-0 flex-grow-1" style="font-size: 14px;">Had a great experience with the treatment and facilities. The staff took good care of me during my stay.</p>
                     </div>
                 </div>
 
@@ -240,7 +240,7 @@
                             <div class="rounded-circle bg-success text-white d-flex align-items-center justify-content-center fw-bold" style="width: 38px; height: 38px; font-size: 14px;">G</div>
                             <div>
                                 <h6 class="fw-bold mb-0 text-dark small">Gayathri P.</h6>
-                                <span class="text-muted" style="font-size: 11px;">2 weeks ago</span>
+                                <span class="text-black" style="font-size: 14px;">2 weeks ago</span>
                             </div>
                         </div>
                         <div class="journey_section_stars text-warning mb-2" style="font-size: 12px;">
@@ -250,7 +250,7 @@
                             <i class="bi bi-star-fill"></i>
                             <i class="bi bi-star-fill"></i>
                         </div>
-                        <p class="text-secondary small mb-0 flex-grow-1" style="font-size: 12px;">Very clean and well maintained hospital. Doctors explain everything clearly and make us feel comfortable.</p>
+                        <p class="text-black small mb-0 flex-grow-1" style="font-size: 14px;">Very clean and well maintained hospital. Doctors explain everything clearly and make us feel comfortable.</p>
                     </div>
                 </div>
 
@@ -258,7 +258,7 @@
 
             <!-- View All Link -->
             <div class="text-center mt-3 pt-2">
-                <a href="#" class="journey_section_text_primary fw-bold text-decoration-none small">
+                <a href="https://share.google/hFn2ei3cxbkaU59Ov" class="journey_section_text_primary fw-bold text-decoration-none small">
                     View All Reviews on Google <i class="bi bi-arrow-right ms-1"></i>
                 </a>
             </div>

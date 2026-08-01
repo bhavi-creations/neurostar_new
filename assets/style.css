@@ -3941,7 +3941,7 @@ Footer Bottom
 
 /* Reduced size for numbers so long values like 2,50,000+ fit perfectly */
 .journey_section_stat_number {
-    font-size: 1.05rem !important; /* Decreased size */
+    font-size: 15px !important; /* Decreased size */
     line-height: 1.2;
     white-space: nowrap; /* Prevents awkward line breaks */
     word-break: normal;
@@ -3949,8 +3949,7 @@ Footer Bottom
 
 /* Label size underneath numbers */
 .journey_section_stat_label {
-    font-size: 0.725rem !important;
-    line-height: 1.2;
+    font-size: 14px !important;
     display: block;
 }
 

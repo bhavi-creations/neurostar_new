@@ -280,7 +280,7 @@ Our Doctors
 
                     </p>
 
-                    <a href="#">
+                    <a href="cardiology.php">
                         Learn More
                         <i class="bi bi-arrow-right"></i>
                     </a>
@@ -1161,7 +1161,7 @@ Our Doctors
 
                             <h5 class="mb-1">Lavanya katta</h5>
 
-                            <span>Neurology Patient</span>
+                            <span>Neuro Surgery Patient</span>
 
                         </div>
 
@@ -1246,7 +1246,7 @@ Our Doctors
 
                         <div class="ms-3">
 
-                            <h5 class="mb-1">Srinivas Rao</h5>
+                            <h5 class="mb-1">Gangadhar Gampala</h5>
 
                             <span>Neuro Surgery Patient</span>
 

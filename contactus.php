@@ -19,7 +19,7 @@
                 <!-- Hero Left Content -->
                 <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
                     <h1 class="contactus_section_hero_title fw-bold">We’re Here to Help You</h1>
-                    <p class="contactus_section_hero_text text-muted mb-4">
+                    <p class="contactus_section_hero_text text-black mb-4">
                         Have questions or need assistance? Our team is ready to help you with the best care and support.
                     </p>
 
@@ -30,8 +30,8 @@
                                 <div class="contactus_section_badge_icon text-primary fs-3 mb-1">
                                     <i class="bi bi-headset"></i>
                                 </div>
-                                <h6 class="fw-bold mb-0">24x7 Support</h6>
-                                <small class="text-muted">Always here for you</small>
+                                <h6 class="fs-14px mb-0">24x7 Support</h6>
+                                <small class="text-black">Always here for you</small>
                             </div>
                         </div>
                         <div class="col-6 col-sm-3">
@@ -39,26 +39,26 @@
                                 <div class="contactus_section_badge_icon text-primary fs-3 mb-1">
                                     <i class="bi bi-clock-history"></i>
                                 </div>
-                                <h6 class="fw-bold mb-0">Quick Response</h6>
-                                <small class="text-muted">We value your time</small>
+                                <h6 class="fs-14px mb-0">Quick Response</h6>
+                                <small class="text-black">We value your time</small>
                             </div>
                         </div>
                         <div class="col-6 col-sm-3">
                             <div class="contactus_section_badge_item p-2 text-center text-sm-start border-end">
                                 <div class="contactus_section_badge_icon text-primary fs-3 mb-1">
-                                    <i class="bi bi-people"></i>
+                                    <img src=".\assets\img\Neuro_doctor.png" style="width: 45px; height:42px;">
                                 </div>
-                                <h6 class="fw-bold mb-0">Expert Assistance</h6>
-                                <small class="text-muted">From our care team</small>
+                                <h6 class="fw-14px mb-0">Expert Doctor</h6>
+                                <small class="text-black">From our care team</small>
                             </div>
                         </div>
                         <div class="col-6 col-sm-3">
                             <div class="contactus_section_badge_item p-2 text-center text-sm-start">
                                 <div class="contactus_section_badge_icon text-primary fs-3 mb-1">
-                                    <i class="bi bi-shield-check"></i>
+                                    <img src=".\assets\img\patient-sevices.png" style="width: 45px; height:42px;">
                                 </div>
-                                <h6 class="fw-bold mb-0">Safe & Secure</h6>
-                                <small class="text-muted">Your privacy matters</small>
+                                <h6 class="fs-14px mb-0">Special Services</h6>
+                                <small class="text-black">Best health care services</small>
                             </div>
                         </div>
                     </div>
@@ -88,7 +88,7 @@
                         </div>
                         <div>
                             <h6 class="fw-bold mb-1">Hospital Address</h6>
-                            <p class="mb-1 text-muted small">67-19-1, opp. Ashram School, Nagamalli Thota, Kakinada - 533003</p>
+                            <p class="mb-1 text-black small">67-19-1, opp. Ashram School, Nagamalli Thota, Kakinada - 533003</p>
                             <a href="#map" class="text-primary fw-semibold small text-decoration-none">View on Map <i class="bi bi-arrow-right"></i></a>
                         </div>
                     </div>
@@ -112,8 +112,7 @@
                         </div>
                         <div>
                             <h6 class="fw-bold mb-1">Email Us</h6>
-                            <p class="mb-0 text-muted small">info@neurostarhospital.com</p>
-                            <p class="mb-0 text-muted small">appointments@neurostarhospital.com</p>
+                            <p class="mb-0 text-black small">info@neurostarhospital.com</p>
                         </div>
                     </div>
 
@@ -125,7 +124,7 @@
                         <div>
                             <h6 class="fw-bold mb-1">WhatsApp Us</h6>
                             <p class="mb-0 fw-bold text-dark">+91 9121476777</p>
-                            <small class="text-muted">Chat with us on WhatsApp</small>
+                            <small class="text-black">Chat with us on WhatsApp</small>
                         </div>
                     </div>
 
@@ -136,7 +135,7 @@
                         </div>
                         <div>
                             <h6 class="fw-bold mb-1">Working Hours</h6>
-                            <p class="mb-0 text-muted small">Monday - Sunday</p>
+                            <p class="mb-0 text-black small">Monday - Sunday</p>
                             <span class="badge bg-light text-dark border">24 Hours Open</span>
                         </div>
                     </div>
@@ -208,7 +207,7 @@
         <!-- Map Floating Card -->
         <div class="contactus_section_map_card position-absolute top-0 start-0 m-3 p-3 bg-white rounded-3 shadow-sm border d-none d-sm-block">
             <h6 class="fw-bold mb-1">Neurostar Multispeciality Hospital</h6>
-            <p class="mb-1 text-muted small">67-19-1, opp. Ashram School, Nagamalli Thota, Kakinada - 533003</p>
+            <p class="mb-1 text-black small">67-19-1, opp. Ashram School, Nagamalli Thota, Kakinada - 533003</p>
             <a href="https://www.google.com/maps/search/?api=1&query=Neurostar+Multispeciality+Hospital+Kakinada" target="_blank" class="text-primary fw-semibold small text-decoration-none">
                 Directions <i class="bi bi-box-arrow-up-right ms-1"></i>
             </a>
@@ -223,7 +222,7 @@
                     <!-- Top Sub Box: Book Appointment -->
                     <div class="contactus_section_cta_box text-center p-4 rounded-3 mb-4">
                         <h5 class="fw-bold text-dark mb-2">Book an Appointment</h5>
-                        <p class="text-muted small mb-3">Schedule your appointment with our specialists today.</p>
+                        <p class="text-black small mb-3">Schedule your appointment with our specialists today.</p>
                         <a href="appointment.php" class="btn contactus_section_teal_btn text-white fw-bold px-4 py-2 w-100">
                             <i class="bi bi-calendar-check me-2"></i> Book Appointment
                         </a>
@@ -232,7 +231,7 @@
                     <!-- Bottom Sub Box: Need Immediate Help -->
                     <div class="contactus_section_cta_box text-center p-4 rounded-3">
                         <h5 class="fw-bold text-dark mb-2">Need Immediate Help?</h5>
-                        <p class="text-muted small mb-3">Our emergency team is available 24x7</p>
+                        <p class="text-black small mb-3">Our emergency team is available 24x7</p>
                         <a href="tel:+919876543210" class="btn btn-outline-primary text-dark fw-bold px-4 py-2 w-100 d-flex align-items-center justify-content-center gap-2">
                             <i class="bi bi-telephone-fill text-danger"></i>
                             <span>Call Emergency</span>
@@ -256,7 +255,7 @@
                         <i class="bi bi-truck-front"></i>
                     </div>
                     <h6 class="fw-bold mb-1">24x7 Emergency Care</h6>
-                    <small class="text-muted d-block">Immediate emergency services for critical care.</small>
+                    <small class="text-black d-block">Immediate emergency services for critical care.</small>
                 </div>
             </div>
 
@@ -266,7 +265,7 @@
                         <img src="./assets/img/Neuro_doctor.png" alt="" style="height:50px; width:50px">
                     </div>
                     <h6 class="fw-bold mb-1">Expert Doctors</h6>
-                    <small class="text-muted d-block">Highly experienced and qualified specialists.</small>
+                    <small class="text-black d-block">Highly experienced and qualified specialists.</small>
                 </div>
             </div>
 
@@ -276,7 +275,7 @@
                         <i class="bi bi-laptop"></i>
                     </div>
                     <h6 class="fw-bold mb-1">Advanced Technology</h6>
-                    <small class="text-muted d-block">Advanced treatment using latest technology.</small>
+                    <small class="text-black d-block">Advanced treatment using latest technology.</small>
                 </div>
             </div>
 
@@ -286,7 +285,7 @@
                         <img src="./assets/img/Department.png" style="width: 50px; height: 50px;" alt="">
                     </div>
                     <h6 class="fw-bold mb-1">Medical departments</h6>
-                    <small class="text-muted d-block">Personalized care with experts over each department.</small>
+                    <small class="text-black d-block">Personalized care with experts over each department.</small>
                 </div>
             </div>
 
@@ -296,7 +295,7 @@
                         <img src="./assets/img/patient-sevices.png" style="width: 50px; height: 50px;" alt="">
                     </div>
                     <h6 class="fw-bold mb-1">Specialised Service</h6>
-                    <small class="text-muted d-block">Best health care services for patients</small>
+                    <small class="text-black d-block">Best health care services for patients</small>
                 </div>
             </div>
 
