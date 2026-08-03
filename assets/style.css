@@ -6678,3 +6678,10 @@ section[class^="aboutus_section_"] {
 .contactus_section_feature_icon i{
     display: inline-block;
 }
+
+.contactus_section_badge_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

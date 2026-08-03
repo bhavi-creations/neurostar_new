@@ -1294,7 +1294,7 @@ Our Doctors
 
             <div class="col-lg-4 text-lg-end mt-4 mt-lg-0">
 
-                <a href="contact.php"
+                <a href="appointment.php"
                     class="btn index_section_btn_primary me-2">
 
                     Book Appointment
