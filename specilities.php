@@ -70,19 +70,7 @@
         </div>
     </div>
 
-    <!-- 2. CATEGORY TABS / FILTER BAR -->
-    <div class="container mb-4">
-        <div class="Specilities_section_filter_bar d-flex flex-wrap gap-2 justify-content-start justify-content-lg-between bg-white p-3 rounded-3 shadow-sm border">
-            <button class="btn Specilities_section_filter_btn active"><i class="bi bi-grid-fill me-1"></i> Departments</button>
-            <button class="btn Specilities_section_filter_btn"><i class="bi bi-heart-pulse me-1"></i> Cardiac Sciences</button>
-            <button class="btn Specilities_section_filter_btn"><i class="bi bi-brain me-1"></i> Neurosciences</button>
-            <button class="btn Specilities_section_filter_btn"><i class="bi bi-body-text me-1"></i> Orthopedics</button>
-            <button class="btn Specilities_section_filter_btn"><i class="bi bi-gender-female me-1"></i> Women & Child</button>
-            <button class="btn Specilities_section_filter_btn"><i class="bi bi-prescription2 me-1"></i> Internal Medicine</button>
-            <button class="btn Specilities_section_filter_btn"><i class="bi bi-scissors me-1"></i> Surgical Care</button>
-            <button class="btn Specilities_section_filter_btn"><i class="bi bi-plus-square me-1"></i> Other Specialities</button>
-        </div>
-    </div>
+    
 
     <!-- ========================================= -->
 <!-- Medical Specialities -->
@@ -91,7 +79,38 @@
 <section class="index_section_specialities py-5">
 
     <div class="container">
+<!-- ========================================= -->
+<!-- 2. DEPARTMENT QUICK LINKS -->
+<!-- ========================================= -->
+<div class="container mb-4">
+    <div class="Specilities_section_filter_bar d-flex flex-wrap gap-2 justify-content-start justify-content-lg-between bg-white p-3 rounded-3 shadow-sm border">
 
+        <a href="specilities.php" class="btn Specilities_section_filter_btn active">
+            <i class="bi bi-grid-fill me-1"></i> All Departments
+        </a>
+
+        <a href="cardiology.php" class="btn Specilities_section_filter_btn">
+            <i class="bi bi-heart-pulse me-1"></i> Cardiology
+        </a>
+
+        <a href="neurology.php" class="btn Specilities_section_filter_btn">
+            <i class="bi bi-brain me-1"></i> Neurology
+        </a>
+
+        <a href="orthopaedic-surgery.php" class="btn Specilities_section_filter_btn">
+            <i class="bi bi-body-text me-1"></i> Orthopaedics
+        </a>
+
+        <a href="gynecology.php" class="btn Specilities_section_filter_btn">
+            <i class="bi bi-gender-female me-1"></i>Gynaecology
+        </a>
+
+        <a href="general-and-laproscopic-surgery.php" class="btn Specilities_section_filter_btn">
+            <i class="bi bi-scissors me-1"></i> General Surgery
+        </a>
+
+    </div>
+</div>
         <div class="row mb-5 align-items-center">
 
             <div class="col-lg-8">
@@ -114,16 +133,7 @@
 
             </div>
 
-            <div class="col-lg-4 text-lg-end mt-4 mt-lg-0">
-
-                <a href="specilities.php"
-                    class="btn index_section_btn_primary">
-
-                    View All Specialities
-
-                </a>
-
-            </div>
+            
 
         </div>
 
@@ -388,44 +398,44 @@
                 <!-- Middle Content & Highlights -->
                 <div class="col-lg-4 col-md-12">
                     <span class="badge bg-primary-subtle text-primary text-uppercase fw-semibold mb-2" style="font-size: 11px;">Advanced Care</span>
-                    <h4 class="fw-bold text-dark mb-2">State-of-the-Art Infrastructure</h4>
-                    <p class="text-muted small mb-4">
+                    <h4 class="fw-bold text-dark mb-2">Advanced Treatment Infrastructure</h4>
+                    <p class="text-black fs-14px mb-4">
                         Our hospital is equipped with cutting-edge technology, modular operation theatres, advanced ICUs and world-class diagnostic facilities for accurate diagnosis and effective treatment.
                     </p>
 
                     <div class="row g-2">
                         <div class="col-6">
-                            <div class="d-flex align-items-center gap-2 small">
+                            <div class="d-flex align-items-center gap-2 small text-black">
                                 <i class="bi bi-check-circle-fill text-teal"></i>
                                 <span>Modular Operation Theatres</span>
                             </div>
                         </div>
                         <div class="col-6">
-                            <div class="d-flex align-items-center gap-2 small">
+                            <div class="d-flex align-items-center gap-2 small text-black">
                                 <i class="bi bi-check-circle-fill text-teal"></i>
                                 <span>Advanced Diagnostic Labs</span>
                             </div>
                         </div>
                         <div class="col-6">
-                            <div class="d-flex align-items-center gap-2 small">
+                            <div class="d-flex align-items-center gap-2 small text-black">
                                 <i class="bi bi-check-circle-fill text-teal"></i>
                                 <span>Advanced ICUs & HDUs</span>
                             </div>
                         </div>
                         <div class="col-6">
-                            <div class="d-flex align-items-center gap-2 small">
+                            <div class="d-flex align-items-center gap-2 small text-black">
                                 <i class="bi bi-check-circle-fill text-teal"></i>
                                 <span>Digital Imaging & Radiology</span>
                             </div>
                         </div>
                         <div class="col-6">
-                            <div class="d-flex align-items-center gap-2 small">
+                            <div class="d-flex align-items-center gap-2 small text-black">
                                 <i class="bi bi-check-circle-fill text-teal"></i>
                                 <span>24x7 Emergency Services</span>
                             </div>
                         </div>
                         <div class="col-6">
-                            <div class="d-flex align-items-center gap-2 small">
+                            <div class="d-flex align-items-center gap-2 small text-black">
                                 <i class="bi bi-check-circle-fill text-teal"></i>
                                 <span>Robotic & Minimally Invasive Surgery</span>
                             </div>
@@ -441,7 +451,7 @@
                         </div>
                         <h6 class="fw-bold text-dark mb-1">NABH ACCREDITED</h6>
                         <p class="text-black small mb-3" style="font-size: 12px;">Committed to Quality, Safety & Patient Satisfaction</p>
-                        <a href="#" class="btn btn-outline-primary btn-sm px-3 fw-semibold w-100">Learn More</a>
+                        <!-- <a href="#" class="btn btn-outline-primary btn-sm px-3 fw-semibold w-100">Learn More</a> -->
                     </div>
                 </div>
 

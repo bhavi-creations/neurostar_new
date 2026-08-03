@@ -1,14 +1,14 @@
 <?php include 'header.php'; ?>
 
 <!-- HERO BANNER SECTION -->
-<section class="ns-hero-banner" style="background-image: linear-gradient(rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.85)), url('assets/img/general-medicine.png');">
+<section class="ns-hero-banner" style="background-image: linear-gradient(rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.85)), url('assets/img/General-and-laproscopic-surgery.png');">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 ns-hero-content">
         <nav class="ns-breadcrumb">
           <a href="Home.php">Home</a> &rsaquo; <a href="#">Services</a> &rsaquo; General Medicine
         </nav>
-        <h1 class="ns-hero-title">General Medicine &amp; Internal Care</h1>
+        <h1 class="ns-hero-title">General &amp; Laproscopic Surgery</h1>
         <p class="ns-hero-subtitle">Comprehensive primary care, chronic disease management, and acute illness treatment</p>
       </div>
     </div>

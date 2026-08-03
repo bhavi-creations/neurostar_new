@@ -1,14 +1,14 @@
 <?php include 'header.php'; ?>
 
 <!-- HERO BANNER SECTION -->
-<section class="ns-hero-banner" style="background-image: linear-gradient(rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.85)), url('assets/img/physiotherapy-bg.png');">
+<section class="ns-hero-banner" style="background-image: linear-gradient(rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.85)), url('assets/img/physiotherpy-bg.png');">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 ns-hero-content">
         <nav class="ns-breadcrumb">
           <a href="Home.php">Home</a> &rsaquo; <a href="#">Services</a> &rsaquo; Physiotherapy
         </nav>
-        <h1 class="ns-hero-title">Physiotherapy &amp; Rehabilitation</h1>
+        <h1 class="ns-hero-title">Physiotherapy</h1>
         <p class="ns-hero-subtitle">Advanced physical therapy, mobility restoration, and customized pain management care</p>
       </div>
     </div>
@@ -31,11 +31,11 @@
           </div>
           <div class="ns-card-body">
             <p class="service_description">
-              At NeuroStar Hospital, our Physiotherapy & Rehabilitation Department is dedicated to helping patients recover function, eliminate pain, and regain physical independence. Led by highly skilled physiotherapists and rehabilitation specialists, we provide evidence-based, personalized treatment plans for acute musculoskeletal injuries, chronic pain conditions, neurological disorders, and post-surgical recovery.
+              At NeuroStar Hospital, our Physiotherapy Department is dedicated to helping patients recover function, eliminate pain, and regain physical independence. Led by highly skilled physiotherapists specialists, we provide evidence-based, personalized treatment plans for acute musculoskeletal injuries, chronic pain conditions, neurological disorders, and post-surgical recovery.
             </p>
             <div class="collapse" id="morePhysioContent">
               <p class="service_description pt-2">
-                We combine hands-on manual therapy with state-of-the-art electrotherapy, specialized exercise equipment, and movement retraining protocols. Whether you are recovering from joint replacement surgery, managing spinal pain, rehabilitating after a stroke, or returning to sports after an injury, our team works closely with you to accelerate healing, restore joint mobility, and improve overall quality of life.
+                We combine hands-on manual therapy with specialized exercise equipment, and movement retraining protocols. Whether you are recovering from joint replacement surgery, managing spinal pain, rehabilitating after a stroke, or returning to sports after an injury, our team works closely with you to accelerate healing, restore joint mobility, and improve overall quality of life.
               </p>
             </div>
             

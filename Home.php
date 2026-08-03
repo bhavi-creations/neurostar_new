@@ -247,7 +247,7 @@ Our Doctors
 
             <div class="col-lg-4 text-lg-end mt-4 mt-lg-0">
 
-                <a href="specialities.php"
+                <a href="specilities.php"
                     class="btn index_section_btn_primary">
 
                     View All Specialities
@@ -845,32 +845,32 @@ Our Doctors
         <!-- 2. SEARCH & FILTER BAR -->
     <div class="container my-4">
         <div class="doctors_section_filter_card p-3 p-md-4 rounded shadow-sm bg-white border">
-            <form class="row g-3 align-items-center">
+            <form class="row g-3 align-items-center" id="doctorFilterForm">
                 <div class="col-lg-4 col-md-6">
                     <div class="input-group">
                         <span class="input-group-text bg-light border-end-0"><i class="bi bi-search"></i></span>
-                        <input type="text" class="form-control bg-light border-start-0" placeholder="Search doctors by name, specialty...">
+                        <input type="text" id="doctorSearch" class="form-control bg-light border-start-0" placeholder="Search doctors by name, specialty...">
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-6 col-6">
-                    <select class="form-select bg-light">
+                    <select id="specialtyFilter" class="form-select bg-light">
                         <option selected>All Specialities</option>
-                        <option>Cardiology</option>
+                        <option>Neuro Surgery</option>
                         <option>Neurology</option>
                         <option>Orthopedics</option>
                         <option>Gynecology</option>
                     </select>
                 </div>
                 <div class="col-lg-2 col-md-6 col-6">
-                    <select class="form-select bg-light">
+                    <select id="qualificationFilter" class="form-select bg-light">
                         <option selected>All Qualifications</option>
                         <option>MD</option>
-                        <option>MS</option>
+                        <option>M.B.B.S.</option>
                         <option>DM</option>
                     </select>
                 </div>
                 <div class="col-lg-2 col-md-6 col-6">
-                    <select class="form-select bg-light">
+                    <select id="experienceFilter" class="form-select bg-light">
                         <option selected>All Experience</option>
                         <option>5+ Years</option>
                         <option>10+ Years</option>
@@ -1037,7 +1037,7 @@ Our Doctors
                     <div class="card-body d-flex flex-column p-3">
                         <h5 class="doctors_section_card_title fw-bold mb-1">Dr. G. Dani</h5>
                         <p class="doctors_section_card_specialty text-primary fw-semibold mb-2">Intensivist & Anesthetist</p>
-                        <p class="doctors_section_card_meta text-muted small mb-1"><i class="bi bi-mortarboard-fill me-1"></i> MBBS DA (FIICM)</p>
+                        <p class="doctors_section_card_meta text-muted small mb-1"><i class="bi bi-mortarboard-fill me-1"></i> M.B.B.S., DA (FIICM)</p>
                         <p class="doctors_section_card_meta text-muted small mb-3"><i class="bi bi-briefcase-fill me-1"></i> 11+ Years Exp.</p>
                         <div class="mt-auto d-flex gap-2">
                             <a href="#" class="btn btn-outline-primary btn-sm w-50 view-profile-btn">View Profile</a>
@@ -1061,6 +1061,72 @@ Our Doctors
                         <p class="doctors_section_card_specialty text-primary fw-semibold mb-2">Psychiatrist</p>
                         <p class="doctors_section_card_meta text-muted small mb-1"><i class="bi bi-mortarboard-fill me-1"></i>MD (Psychiatrist)</p>
                         <p class="doctors_section_card_meta text-muted small mb-3"><i class="bi bi-briefcase-fill me-1"></i> 8+ Years Exp.</p>
+                        <div class="mt-auto d-flex gap-2">
+                            <a href="#" class="btn btn-outline-primary btn-sm w-50 view-profile-btn">View Profile</a>
+                            <!-- <a href="#" class="btn btn-primary btn-sm w-50"><i class="bi bi-calendar-check me-1"></i> Book</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!-- Doctor Card 9 -->
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12" data-doctor='{"name":"Dr. Siva Sai Kumar Malla","specialty":"Gen Consultant Surgeon","qual":"M.B.B.S. (AMC Vizag), MS (Gen.Surgery, LHMC New Delhi)","exp":"11+ Years Exp.","bio":"Compassionate psychiatrist with focus on mental wellness and therapy.","img":"./assets/img/.png"}'>
+                <div class="doctors_section_card card h-100 border-0 shadow-sm rounded-3 overflow-hidden">
+                    <div class="doctors_section_card_img_wrapper position-relative text-center pt-3 bg-light">
+                        <button class="doctors_section_wishlist_btn position-absolute top-0 end-0 m-2 btn btn-sm btn-light rounded-circle shadow-sm">
+                            <i class="bi bi-heart"></i>
+                        </button>
+                        <img src="./assets/img/siva-sai-kumar.png" alt="Dr. Siva Sai Kumar Malla" class="img-fluid doctors_section_card_img">
+                    </div>
+                    <div class="card-body d-flex flex-column p-3">
+                        <h5 class="doctors_section_card_title fw-bold mb-1">Dr. Siva Sai Kumar Malla</h5>
+                        <p class="doctors_section_card_specialty text-primary fw-semibold mb-2">Gen Consultant Surgeon</p>
+                        <p class="doctors_section_card_meta text-muted small mb-1"><i class="bi bi-mortarboard-fill me-1"></i>M.B.B.S. (AMC Vizag), MS (Gen.Surgery, LHMC New Delhi)</p>
+                        <p class="doctors_section_card_meta text-muted small mb-3"><i class="bi bi-briefcase-fill me-1"></i> 11+ Years Exp.</p>
+                        <div class="mt-auto d-flex gap-2">
+                            <a href="#" class="btn btn-outline-primary btn-sm w-50 view-profile-btn">View Profile</a>
+                            <!-- <a href="#" class="btn btn-primary btn-sm w-50"><i class="bi bi-calendar-check me-1"></i> Book</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+             <!-- Doctor Card 10 -->
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12" data-doctor='{"name":"Dr. Akhila .S","specialty":"Psychiatrist","qual":"MD (Psychiatrist)","exp":"8+ Years Exp.","bio":"Compassionate psychiatrist with focus on mental wellness and therapy.","img":"./assets/img/akhila.png"}'>
+                <div class="doctors_section_card card h-100 border-0 shadow-sm rounded-3 overflow-hidden">
+                    <div class="doctors_section_card_img_wrapper position-relative text-center pt-3 bg-light">
+                        <button class="doctors_section_wishlist_btn position-absolute top-0 end-0 m-2 btn btn-sm btn-light rounded-circle shadow-sm">
+                            <i class="bi bi-heart"></i>
+                        </button>
+                        <img src="./assets/img/pavan_kumar.png" alt="" class="img-fluid doctors_section_card_img">
+                    </div>
+                    <div class="card-body d-flex flex-column p-3">
+                        <h5 class="doctors_section_card_title fw-bold mb-1">Pawan kumar</h5>
+                        <p class="doctors_section_card_specialty text-primary fw-semibold mb-2">Gen & Neuro Surgeon</p>
+                        <p class="doctors_section_card_meta text-muted small mb-1"><i class="bi bi-mortarboard-fill me-1"></i>MBBS, M.S (GEN), M.Ch (NEUROSURGERY), Gold Medalist.</p>
+                        <p class="doctors_section_card_meta text-muted small mb-3"><i class="bi bi-briefcase-fill me-1"></i> 13+ Years Exp.</p>
+                        <div class="mt-auto d-flex gap-2">
+                            <a href="#" class="btn btn-outline-primary btn-sm w-50 view-profile-btn">View Profile</a>
+                            <!-- <a href="#" class="btn btn-primary btn-sm w-50"><i class="bi bi-calendar-check me-1"></i> Book</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Doctor Card 11 -->
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12" data-doctor='{"name":"mani .S","specialty":"psycho","qual":"MD (Psyc0)","exp":"80+ Years Exp.","hamayya":"Compassionate psychiatrist with focus on mental wellness and therapy.","img":"./assets/img/akhila.png"}'>
+                <div class="doctors_section_card card h-100 border-0 shadow-sm rounded-3 overflow-hidden">
+                    <div class="doctors_section_card_img_wrapper position-relative text-center pt-3 bg-light">
+                        <button class="doctors_section_wishlist_btn position-absolute top-0 end-0 m-2 btn btn-sm btn-light rounded-circle shadow-sm">
+                            <i class="bi bi-heart"></i>
+                        </button>
+                        <img src="./assets/img/Vijay.png" alt="" class="img-fluid doctors_section_card_img">
+                    </div>
+                    <div class="card-body d-flex flex-column p-3">
+                        <h5 class="doctors_section_card_title fw-bold mb-1"></h5>
+                        <p class="doctors_section_card_specialty text-primary fw-semibold mb-2"></p>
+                        <p class="doctors_section_card_meta text-muted small mb-1"><i class="bi bi-mortarboard-fill me-1"></i></p>
+                        <p class="doctors_section_card_meta text-muted small mb-3"><i class="bi bi-briefcase-fill me-1"></i> 13+ Years Exp.</p>
                         <div class="mt-auto d-flex gap-2">
                             <a href="#" class="btn btn-outline-primary btn-sm w-50 view-profile-btn">View Profile</a>
                             <!-- <a href="#" class="btn btn-primary btn-sm w-50"><i class="bi bi-calendar-check me-1"></i> Book</a> -->
@@ -1151,11 +1217,7 @@ Our Doctors
 
                     <div class="d-flex align-items-center">
 
-                        <img src="assets/img/testimonials/patient1.jpg"
-                            class="rounded-circle"
-                            width="65"
-                            height="65"
-                            alt="Patient">
+                        <div class="rounded-circle bg-success text-white d-flex align-items-center justify-content-center fw-bold" style="width: 42px; height: 42px; font-size: 16px;">L</div>
 
                         <div class="ms-3">
 
@@ -1194,11 +1256,7 @@ Our Doctors
 
                     <div class="d-flex align-items-center">
 
-                        <img src="assets/img/testimonials/patient2.jpg"
-                            class="rounded-circle"
-                            width="65"
-                            height="65"
-                            alt="Patient">
+                        <div class="rounded-circle bg-danger text-white d-flex align-items-center justify-content-center fw-bold" style="width: 42px; height: 42px; font-size: 16px;">H</div>
 
                         <div class="ms-3">
 
@@ -1238,11 +1296,7 @@ Our Doctors
 
                     <div class="d-flex align-items-center">
 
-                        <img src="assets/img/testimonials/patient3.jpg"
-                            class="rounded-circle"
-                            width="65"
-                            height="65"
-                            alt="Patient">
+                        <div class="rounded-circle bg-success text-white d-flex align-items-center justify-content-center fw-bold" style="width: 42px; height: 42px; font-size: 16px;">G</div>
 
                         <div class="ms-3">
 
@@ -1468,5 +1522,253 @@ Our Doctors
       }
     })();
   </script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const filterForm = document.getElementById("doctorFilterForm");
+    const searchInput = document.getElementById("doctorSearch");
+    const specialtyFilter = document.getElementById("specialtyFilter");
+    const qualificationFilter = document.getElementById("qualificationFilter");
+    const experienceFilter = document.getElementById("experienceFilter");
+    const doctorGrid = document.getElementById("doctorGrid");
+
+    // Get all doctor cards
+    const doctorCards = Array.from(
+        doctorGrid.children
+    );
+
+    // Create "No doctors found" message
+    const noResultsMessage = document.createElement("div");
+
+    noResultsMessage.className = "col-12 text-center py-5";
+    noResultsMessage.innerHTML = `
+        <div class="py-4">
+            <i class="bi bi-person-x fs-1 text-muted"></i>
+            <h5 class="mt-3 text-muted">No doctors found</h5>
+            <p class="text-muted mb-0">
+                Try a different name, specialty, qualification or experience.
+            </p>
+        </div>
+    `;
+
+    function filterDoctors() {
+
+        // Get search value
+        const searchValue = searchInput.value
+            .trim()
+            .toLowerCase();
+
+        // Get selected filters
+        const specialtyValue = specialtyFilter.value
+            .trim()
+            .toLowerCase();
+
+        const qualificationValue = qualificationFilter.value
+            .trim()
+            .toLowerCase();
+
+        const experienceValue = experienceFilter.value
+            .trim()
+            .toLowerCase();
+
+        let visibleDoctors = 0;
+
+        doctorCards.forEach(function (card) {
+
+            const doctorDataString = card.getAttribute("data-doctor");
+
+            if (!doctorDataString) {
+                return;
+            }
+
+            let doctor;
+
+            try {
+                doctor = JSON.parse(doctorDataString);
+            } catch (error) {
+                console.error("Invalid doctor data:", error);
+                return;
+            }
+
+            // Doctor information
+            const name = (doctor.name || "").toLowerCase();
+            const specialty = (doctor.specialty || "").toLowerCase();
+            const qualification = (doctor.qual || "").toLowerCase();
+            const experience = (doctor.exp || "").toLowerCase();
+            const bio = (doctor.bio || "").toLowerCase();
+
+            /*
+             * SEARCH
+             *
+             * Search works across:
+             * - Doctor name
+             * - Specialty
+             * - Qualification
+             * - Experience
+             * - Bio
+             */
+            const searchMatch =
+                searchValue === "" ||
+                name.includes(searchValue) ||
+                specialty.includes(searchValue) ||
+                qualification.includes(searchValue) ||
+                experience.includes(searchValue) ||
+                bio.includes(searchValue);
+
+            /*
+             * SPECIALTY FILTER
+             */
+            const specialtyMatch =
+                specialtyValue === "" ||
+                specialtyValue === "all specialities" ||
+                specialty.includes(specialtyValue);
+
+            /*
+             * QUALIFICATION FILTER
+             */
+            const qualificationMatch =
+                qualificationValue === "" ||
+                qualificationValue === "all qualifications" ||
+                qualification.includes(qualificationValue);
+
+            /*
+             * EXPERIENCE FILTER
+             */
+            let experienceMatch = true;
+
+            if (
+                experienceValue !== "" &&
+                experienceValue !== "all experience"
+            ) {
+
+                const doctorExperience =
+                    parseInt(experience.match(/\d+/)?.[0] || "0");
+
+                const selectedExperience =
+                    parseInt(experienceValue.match(/\d+/)?.[0] || "0");
+
+                experienceMatch =
+                    doctorExperience >= selectedExperience;
+            }
+
+            /*
+             * FINAL RESULT
+             *
+             * All selected conditions must match.
+             */
+            const shouldShow =
+                searchMatch &&
+                specialtyMatch &&
+                qualificationMatch &&
+                experienceMatch;
+
+            if (shouldShow) {
+                card.style.display = "";
+                visibleDoctors++;
+            } else {
+                card.style.display = "none";
+            }
+
+        });
+
+        // Show / hide no-result message
+        if (visibleDoctors === 0) {
+
+            if (!doctorGrid.contains(noResultsMessage)) {
+                doctorGrid.appendChild(noResultsMessage);
+            }
+
+        } else {
+
+            if (doctorGrid.contains(noResultsMessage)) {
+                noResultsMessage.remove();
+            }
+        }
+    }
+
+
+    /*
+     * SEARCH BUTTON
+     */
+    filterForm.addEventListener("submit", function (event) {
+
+        event.preventDefault();
+
+        filterDoctors();
+
+    });
+
+
+    /*
+     * LIVE SEARCH
+     *
+     * This makes results appear while typing.
+     *
+     * Example:
+     * "D" → matching doctors
+     * "Dr." → matching doctors
+     * "Dr. M" → Ashok
+     * "Ashok" → Ashok
+     */
+    searchInput.addEventListener("input", function () {
+
+        filterDoctors();
+
+    });
+
+
+    /*
+     * SPECIALTY FILTER
+     */
+    specialtyFilter.addEventListener("change", function () {
+
+        filterDoctors();
+
+    });
+
+
+    /*
+     * QUALIFICATION FILTER
+     */
+    qualificationFilter.addEventListener("change", function () {
+
+        filterDoctors();
+
+    });
+
+
+    /*
+     * EXPERIENCE FILTER
+     */
+    experienceFilter.addEventListener("change", function () {
+
+        filterDoctors();
+
+    });
+
+
+    /*
+     * RESET BUTTON
+     */
+    filterForm.addEventListener("reset", function () {
+
+        // Wait until browser resets the form values
+        setTimeout(function () {
+
+            doctorCards.forEach(function (card) {
+                card.style.display = "";
+            });
+
+            if (doctorGrid.contains(noResultsMessage)) {
+                noResultsMessage.remove();
+            }
+
+        }, 0);
+
+    });
+
+});
+</script>
 
 <?php include 'footer.php'; ?>

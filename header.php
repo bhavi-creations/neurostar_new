@@ -114,7 +114,6 @@
                     <li><a class="dropdown-item mega_menu_item" href="neurology.php">Neurology</a></li>
                     <li><a class="dropdown-item mega_menu_item" href="accidents-and-trauma-care.php">Accidents &amp; Trauma Care</a></li>
                     <li><a class="dropdown-item mega_menu_item" href="orthopaedic-surgery.php">Orthopaedic Surgery</a></li>
-                    <li><a class="dropdown-item mega_menu_item" href="general-and-laproscopic-surgery.php">General Medicine</a></li>
                     <li><a class="dropdown-item mega_menu_item" href="gynecology.php">Gynecology</a></li>
                   </ul>
                 </div>

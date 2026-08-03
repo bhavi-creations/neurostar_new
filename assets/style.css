@@ -3032,9 +3032,9 @@ Footer Bottom
 .white_btn { background: #ffffff; color: #0252bf; }
 .teal_btn { background: #00a896; color: #ffffff; }
 
-.aboutus_section_cta_btn i { font-size: 24px; }
+/* .aboutus_section_cta_btn i { font-size: 24px; } */
 .aboutus_section_cta_btn strong { display: block; font-size: 14px; }
-.aboutus_section_cta_btn span { font-size: 11px; opacity: 0.85; }
+/* .aboutus_section_cta_btn span { font-size: 11px; opacity: 0.85; } */
 
 /* 9. NEWSLETTER */
 .aboutus_section_newsletter {
@@ -5563,9 +5563,9 @@ section[class^="aboutus_section_"] {
   color: #000000;
 }
 
-.aboutus_section_cta_btn i {
+/* .aboutus_section_cta_btn i {
   font-size: 1.5rem;
-}
+} */
 
 .aboutus_section_cta_btn strong {
   display: block;
@@ -5574,7 +5574,7 @@ section[class^="aboutus_section_"] {
 }
 
 .aboutus_section_cta_btn span {
-  font-size: 0.75rem;
+  /* font-size: 0.75rem; */
   opacity: 0.85;
 }
 

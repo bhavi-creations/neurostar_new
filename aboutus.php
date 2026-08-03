@@ -415,11 +415,11 @@
                     <p>Book an appointment with our specialists today.</p>
                 </div>
                 <div class="col-lg-3 col-md-6 mb-2 mb-md-0">
-                    <a href="#" class="aboutus_section_cta_btn white_btn">
+                    <a href="appointment.php" class="aboutus_section_cta_btn white_btn">
                         <i class="bi bi-calendar-event"></i>
                         <div>
                             <strong>Book Appointment</strong>
-                            <span>Schedule your visit with our experts <i class="bi bi-arrow-right"></i></span>
+                            <span>Schedule your visit with our experts </span>
                         </div>
                     </a>
                 </div>
@@ -427,8 +427,8 @@
                     <a href="tel:+919876543210" class="aboutus_section_cta_btn teal_btn">
                         <i class="bi bi-telephone-outbound"></i>
                         <div>
-                            <strong>Emergency Care</strong>
-                            <span>We are available 24/7 for you <i class="bi bi-arrow-right"></i></span>
+                            <strong>WhatsApp</strong>
+                            <span> +91 9121476777 <br>We are available 24/7</span>
                         </div>
                     </a>
                 </div>
@@ -440,7 +440,7 @@
 <!-- ============================================================
      8. NEWSLETTER / HEALTH TIPS
 ============================================================ -->
-<section class="aboutus_section_newsletter">
+<!-- <section class="aboutus_section_newsletter">
     <div class="container">
         <div class="aboutus_section_newsletter_card">
             <div class="row align-items-center">
@@ -466,6 +466,6 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <?php include 'footer.php'; ?>

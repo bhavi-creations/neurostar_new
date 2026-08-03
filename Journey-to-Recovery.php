@@ -83,10 +83,10 @@
         <div class="row g-4">
             <!-- Video Card 1 -->
             <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <div class="journey_section_story_card bg-white rounded-4 border shadow-sm h-100 overflow-hidden d-flex flex-column">
+                <!-- <div class="journey_section_story_card bg-white rounded-4 border shadow-sm h-100 overflow-hidden d-flex flex-column">
                     <div class="position-relative journey_section_video_thumb">
                         <img src="assets/images/patient-1.jpg" alt="Ramesh Babu" class="w-100 object-fit-cover" style="height: 180px;">
-                        <a href="#" class="journey_section_play_btn position-absolute top-50 start-50 translate-middle rounded-circle bg-white shadow d-flex align-items-center justify-content-center">
+                        <a href="https://www.instagram.com/reel/DOisyGRDSFD/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" class="journey_section_play_btn position-absolute top-50 start-50 translate-middle rounded-circle bg-white shadow d-flex align-items-center justify-content-center">
                             <i class="bi bi-play-fill fs-3 text-dark"></i>
                         </a>
                         <span class="journey_section_time_badge position-absolute bottom-0 end-0 m-2 bg-dark bg-opacity-75 text-white px-2 py-1 rounded small" style="font-size: 11px;">02:45</span>
@@ -97,12 +97,19 @@
                         <p class="text-secondary small mb-3 flex-grow-1 fs-7">"I am able to walk pain-free now. The care and support I received was excellent."</p>
                         <i class="bi bi-quote position-absolute bottom-0 end-0 m-2 text-light fs-1 opacity-50 z-0"></i>
                     </div>
-                </div>
+                </div> -->
+
+                <video autoplay muted loop playsinline
+       style="width: 100%; height: 100%; object-fit: cover;">
+    <source src=".\assets\img\neurostar-testimonial1.mp4" type="video/mp4">
+</video>
+
+
             </div>
 
             <!-- Video Card 2 -->
             <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <div class="journey_section_story_card bg-white rounded-4 border shadow-sm h-100 overflow-hidden d-flex flex-column">
+                <!-- <div class="journey_section_story_card bg-white rounded-4 border shadow-sm h-100 overflow-hidden d-flex flex-column">
                     <div class="position-relative journey_section_video_thumb">
                         <img src="assets/images/patient-2.jpg" alt="Lakshmi Devi" class="w-100 object-fit-cover" style="height: 180px;">
                         <a href="#" class="journey_section_play_btn position-absolute top-50 start-50 translate-middle rounded-circle bg-white shadow d-flex align-items-center justify-content-center">
@@ -116,12 +123,18 @@
                         <p class="text-secondary small mb-3 flex-grow-1 fs-7">"From consultation to recovery, every step was smooth and comfortable."</p>
                         <i class="bi bi-quote position-absolute bottom-0 end-0 m-2 text-light fs-1 opacity-50 z-0"></i>
                     </div>
-                </div>
+                </div> -->
+
+
+                         <video autoplay muted loop playsinline
+       style="width: 100%; height: 100%; object-fit: cover;">
+    <source src=".\assets\img\neurostar-testimonial2.mp4" type="video/mp4">
+</video>
             </div>
 
             <!-- Video Card 3 -->
             <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <div class="journey_section_story_card bg-white rounded-4 border shadow-sm h-100 overflow-hidden d-flex flex-column">
+                <!-- <div class="journey_section_story_card bg-white rounded-4 border shadow-sm h-100 overflow-hidden d-flex flex-column">
                     <div class="position-relative journey_section_video_thumb">
                         <img src="assets/images/patient-3.jpg" alt="Venkatesh" class="w-100 object-fit-cover" style="height: 180px;">
                         <a href="#" class="journey_section_play_btn position-absolute top-50 start-50 translate-middle rounded-circle bg-white shadow d-flex align-items-center justify-content-center">
@@ -135,12 +148,17 @@
                         <p class="text-secondary small mb-3 flex-grow-1 fs-7">"Thanks to the expert team, I recovered quickly and got back to my routine."</p>
                         <i class="bi bi-quote position-absolute bottom-0 end-0 m-2 text-light fs-1 opacity-50 z-0"></i>
                     </div>
-                </div>
+                </div> -->
+
+                         <video autoplay muted loop playsinline
+       style="width: 100%; height: 100%; object-fit: cover;">
+    <source src=".\assets\img\neurostar-testimonial3.mp4" type="video/mp4">
+</video>
             </div>
 
             <!-- Video Card 4 -->
             <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <div class="journey_section_story_card bg-white rounded-4 border shadow-sm h-100 overflow-hidden d-flex flex-column">
+                <!-- <div class="journey_section_story_card bg-white rounded-4 border shadow-sm h-100 overflow-hidden d-flex flex-column">
                     <div class="position-relative journey_section_video_thumb">
                         <img src="assets/images/patient-4.jpg" alt="Anitha Kumari" class="w-100 object-fit-cover" style="height: 180px;">
                         <a href="#" class="journey_section_play_btn position-absolute top-50 start-50 translate-middle rounded-circle bg-white shadow d-flex align-items-center justify-content-center">
@@ -154,7 +172,14 @@
                         <p class="text-secondary small mb-3 flex-grow-1 fs-7">"Very friendly staff and doctors. I felt safe and well taken care of throughout."</p>
                         <i class="bi bi-quote position-absolute bottom-0 end-0 m-2 text-light fs-1 opacity-50 z-0"></i>
                     </div>
-                </div>
+                </div> -->
+                
+                
+                         <video autoplay muted loop playsinline
+       style="width: 100%; height: 100%; object-fit: cover;">
+    <source src=".\assets\img\neurostar-testimonial4.mp4" type="video/mp4">
+</video>
+
             </div>
         </div>
     </div>
@@ -266,7 +291,7 @@
     </div>
 
     <!-- 4. DOCTORS WHO CARE (PHOTO GALLERY) -->
-    <div class="container mb-5">
+    <!-- <div class="container mb-5">
         <div class="d-flex flex-wrap align-items-center justify-content-between mb-3 gap-2">
             <div>
                 <h3 class="fw-bold text-dark mb-0">
@@ -306,7 +331,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- 5. BOTTOM CTA BANNER -->
     <div class="container mb-4">
@@ -318,11 +343,11 @@
                     </div>
                     <div>
                         <h5 class="fw-bold mb-1 text-white">Your Trust Inspires Us Every Day</h5>
-                        <p class="mb-0 text-white-50 small">We are committed to delivering the best possible care and creating more happy and healthy tomorrows.</p>
+                        <p class="mb-0 text-white-50">We are committed to delivering the best possible care and creating more happy and healthy tomorrows.</p>
                     </div>
                 </div>
                 <div class="col-lg-4 col-md-5 text-md-end text-start">
-                    <a href="#" class="btn journey_section_cta_btn fw-bold px-4 py-2 rounded-3 text-white d-inline-flex align-items-center gap-2">
+                    <a href="appointment.php" class="btn journey_section_cta_btn fw-bold px-4 py-2 rounded-3 text-white d-inline-flex align-items-center gap-2">
                         <i class="bi bi-calendar-check"></i> Book an Appointment
                     </a>
                 </div>
