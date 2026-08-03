@@ -1,7 +1,7 @@
 <?php include 'header.php'; ?>
 
 <!-- HERO BANNER SECTION -->
-<section class="ns-hero-banner" style="background-image: linear-gradient(rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.85)), url('assets/img/cardiology-bg.png');">
+<section class="ns-hero-banner" style="background-image: linear-gradient(rgba(15, 23, 42, 0.75), rgba(15, 23, 42, 0.85)), url('assets/img/Cardiology-bg.png');">
   <div class="container">
     <div class="row">
       <div class="col-lg-8 ns-hero-content">

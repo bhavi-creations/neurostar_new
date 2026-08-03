@@ -6350,14 +6350,15 @@ section[class^="aboutus_section_"] {
   font-size: 1.35rem;
   font-weight: 700;
   margin: 0;
-  color: #0f172a;
+  color: #0a3d91;
 }
 
 .service_description {
-  color: #475569;
+  color: #334155;
   line-height: 1.65;
-  font-size: 0.98rem;
+  font-size: 0.95rem;
   margin-bottom: 0;
+  font-weight: 400;
 }
 
 /* Read More Button */
@@ -6466,7 +6467,7 @@ section[class^="aboutus_section_"] {
    SIDEBAR CTA - FIXED NAVBAR OFFSET & NO INNER BG IMAGE
    ========================================================= */
 .ns-sidebar-cta {
-  background: #0b1528;
+  background: #0a3d91;
   color: #ffffff;
   padding: 32px 24px;
   border-radius: 14px;
@@ -6608,21 +6609,21 @@ section[class^="aboutus_section_"] {
 
 /* 3. Dark Text Styling for White Background */
 .ns-hero-content .ns-hero-title {
-  color: #0f172a !important;
+  color: #0284c7 !important;
   font-weight: 700;
   font-size: 30px;
   margin-bottom: 12px;
 }
 
 .ns-hero-content .ns-hero-subtitle {
-  color: #475569 !important;
+  color: white !important;
   font-size: 14px;
   line-height: 1.5;
 }
 
 .ns-hero-content .ns-breadcrumb, 
 .ns-hero-content .ns-breadcrumb a {
-  color: #64748b !important;
+  color: white !important;
   text-decoration: none;
   font-size: 0.9rem;
 }
