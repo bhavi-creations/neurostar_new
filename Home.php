@@ -1259,7 +1259,7 @@ Our Doctors
             </div>
 
             <!-- Doctor Card 17 -->
-            <div class="col-xl-3 col-lg-4 col-md-6 col-12" data-doctor='{"name":"Dr. Bezwada satish","specialty":"Urologist","qual":"M.B.B.S., MS","exp":"12+ Years Exp.","bio":"compassionate Urologist","img":"./assets/img/bezawadasathish.png"}'>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12" data-doctor='{"name":"Dr. Bezwada satish","specialty":"Urologist","qual":"M.B.B.S., MS","exp":"12+ Years Exp.","bio":"compassionate Urologist with a focus on patient care","img":"./assets/img/bezawadasathish.png"}'>
                 <div class="doctors_section_card card h-100 border-0 shadow-sm rounded-3 overflow-hidden">
                     <div class="doctors_section_card_img_wrapper position-relative text-center pt-3 bg-light">
                         <button class="doctors_section_wishlist_btn position-absolute top-0 end-0 m-2 btn btn-sm btn-light rounded-circle shadow-sm">
