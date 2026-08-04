@@ -4290,10 +4290,10 @@ footer,
 
 /* Services Dropdown Pill Button (White Badge with Navy Text) */
 .custom_navy_navbar .nav_services_btn {
-    background-color: #ffffff !important;
-    color: #052c65 !important;           /* Deep blue color matching navbar background */
-    padding: 6px 16px !important;
-    border-radius: 6px;
+    background-color: transparent !important;
+    color: #ffffff !important;
+    padding: 0 !important;
+    border-radius: 0 !important;
     font-weight: 700 !important;
     display: inline-flex;
     align-items: center;
@@ -6742,4 +6742,36 @@ section[class^="aboutus_section_"] {
 /* When hovering the speciality card */
 .index_section_speciality_card:hover .index_section_speciality_icon h1 {
     color: #ffffff;
+}
+
+
+/* =========================================================
+   CURRENT PAGE NAVBAR INDICATOR
+   ========================================================= */
+
+.index_section_navbar .nav-link {
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.index_section_navbar .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 2px;
+    width: 0;
+    height: 3px;
+    background: #ffffff;
+    border-radius: 10px;
+    transform: translateX(-50%);
+    transition: width 0.3s ease;
+}
+
+/* Only current page */
+.index_section_navbar .nav-link.current-page::after {
+    width: 70%;
+}
+
+.index_section_navbar .nav-link.current-page {
+    color: #ffffff !important;
 }

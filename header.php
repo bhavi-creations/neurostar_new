@@ -173,3 +173,39 @@
 
     </div>
   </nav>
+
+  <!-- Current Page Detection -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const currentPage = window.location.pathname
+        .split("/")
+        .pop()
+        .toLowerCase();
+
+    const navLinks = document.querySelectorAll(
+        ".index_section_navbar .nav-link"
+    );
+
+    navLinks.forEach(function (link) {
+
+        const href = link.getAttribute("href");
+
+        if (!href || href === "#") {
+            return;
+        }
+
+        const linkPage = href
+            .split("/")
+            .pop()
+            .split("#")[0]
+            .toLowerCase();
+
+        if (linkPage === currentPage) {
+            link.classList.add("current-page");
+        }
+
+    });
+
+});
+</script>
