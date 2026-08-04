@@ -146,8 +146,8 @@
                 <div class="index_section_speciality_card">
 
                     <div class="index_section_speciality_icon">
-
-                        <img src=".\assets\img\Cardiology.png" style="width: 60px; height:60px;">
+                        <h1 class=" mt-2">01</h1>
+                        <!-- <img src=".\assets\img\Cardiology.png" style="width: 60px; height:60px;"> -->
 
                     </div>
 
@@ -175,8 +175,8 @@
                 <div class="index_section_speciality_card">
 
                     <div class="index_section_speciality_icon">
-
-                        <img src=".\assets\img\Neurology.png" style="width: 80px; height:80px;">
+                        <h1 class=" mt-2">02</h1>
+                        <!-- <img src=".\assets\img\Neurology.png" style="width: 80px; height:80px;"> -->
 
                     </div>
 
@@ -205,8 +205,8 @@
                 <div class="index_section_speciality_card">
 
                     <div class="index_section_speciality_icon">
-
-                        <img src=".\assets\img\Orthopedic.png" style="width: 60px; height:60px;">
+                        <h1 class=" mt-2">03</h1>
+                        <!-- <img src=".\assets\img\Orthopedic.png" style="width: 60px; height:60px;"> -->
 
                     </div>
 
@@ -234,8 +234,8 @@
                 <div class="index_section_speciality_card">
 
                     <div class="index_section_speciality_icon">
-
-                        <img src=".\assets\img\Radiology.png" style="width: 60px; height:60px;">
+                        <h1 class=" mt-2">04</h1>
+                        <!-- <img src=".\assets\img\Radiology.png" style="width: 60px; height:60px;"> -->
 
                     </div>
 
@@ -264,8 +264,8 @@
                 <div class="index_section_speciality_card">
 
                     <div class="index_section_speciality_icon">
-
-                        <img src=".\assets\img\plastic-cosmetic-surgery.png" style="width: 60px; height:60px;">
+                        <h1 class=" mt-2">05</h1>
+                        <!-- <img src=".\assets\img\plastic-cosmetic-surgery.png" style="width: 60px; height:60px;"> -->
 
                     </div>
 
@@ -293,8 +293,8 @@
                 <div class="index_section_speciality_card">
 
                     <div class="index_section_speciality_icon">
-
-                     <img src=".\assets\img\pediatrics.png" style="width: 80px; height:80px;">   
+                        <h1 class=" mt-2">06</h1>
+                     <!-- <img src=".\assets\img\pediatrics.png" style="width: 80px; height:80px;">    -->
 
                     </div>
 
@@ -322,8 +322,8 @@
                 <div class="index_section_speciality_card">
 
                     <div class="index_section_speciality_icon">
-
-                     <img src=".\assets\img\Gynecology.png" style="width: 80px; height:80px;">   
+                        <h1 class=" mt-2">07</h1>
+                     <!-- <img src=".\assets\img\Gynecology.png" style="width: 80px; height:80px;">    -->
 
                     </div>
 
@@ -351,8 +351,8 @@
                 <div class="index_section_speciality_card">
 
                     <div class="index_section_speciality_icon">
-
-                     <img src=".\assets\img\Dental-care.png" style="width: 60px; height:60px;">   
+                        <h1 class=" mt-2">08</h1>
+                     <!-- <img src=".\assets\img\Dental-care.png" style="width: 60px; height:60px;">    -->
 
                     </div>
 
@@ -372,6 +372,113 @@
                 </div>
 
             </div>
+
+            <!-- new service content add in below  -->
+               
+
+                    <!-- Critical Care -->
+                    <div class="col-lg-3 col-md-6 ">
+                        <div class="index_section_speciality_card">
+                            <div class="index_section_speciality_icon">
+                                <h1 class=" mt-2">09</h1>
+                                <!-- <img src=".\assets\img\critical-care.png" style="width: 60px; height:60px;"> -->
+                            </div>
+                            <h4>Critical Care</h4>
+                            <p>Advanced critical care services for emergency and intensive medical conditions.</p>
+                            <a href="critical-care.php">Learn More <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Neuropsychiatric -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="index_section_speciality_card">
+                            <div class="index_section_speciality_icon">
+                                <h1 class=" mt-2">10</h1>
+                                <!-- <img src=".\assets\img\neuropsychiatric.png" style="width: 60px; height:60px;"> -->
+                            </div>
+                            <h4>Neuropsychiatric</h4>
+                            <p>Comprehensive neuropsychiatric care for brain and mental health disorders.</p>
+                            <a href="neuro-psychiatric.php">Learn More <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Physiotherapy -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="index_section_speciality_card">
+                            <div class="index_section_speciality_icon">
+                                <h1 class=" mt-2">11</h1>
+                                <!-- <img src=".\assets\img\physiotherapy.png" style="width: 60px; height:60px;"> -->
+                            </div>
+                            <h4>Physiotherapy</h4>
+                            <p>Expert physiotherapy for rehabilitation, pain relief and mobility improvement.</p>
+                            <a href="physiotherapy.php">Learn More <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Accidents & Trauma Care -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="index_section_speciality_card">
+                            <div class="index_section_speciality_icon">
+                                <h1 class=" mt-2">12</h1>
+                                <!-- <img src=".\assets\img\accidents-trauma-care.png" style="width: 60px; height:60px;"> -->
+                            </div>
+                            <h4>Accidents & Trauma Care</h4>
+                            <p>24/7 emergency trauma care and accident treatment services.</p>
+                            <a href="accidents-and-trauma-care.php">Learn More <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Maxillo Facial Surgery -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="index_section_speciality_card">
+                            <div class="index_section_speciality_icon">
+                                <h1 class=" mt-2">13</h1>
+                                <!-- <img src=".\assets\img\maxillo-facial-surgery.png" style="width: 60px; height:60px;"> -->
+                            </div>
+                            <h4>Maxillo Facial Surgery</h4>
+                            <p>Specialized maxillofacial surgeries for face, jaw and oral conditions.</p>
+                            <a href="maxillo-facial-surgery.php">Learn More <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- Neurorehabilitation -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="index_section_speciality_card">
+                            <div class="index_section_speciality_icon">
+                                <h1 class=" mt-2">14</h1>
+                                <!-- <img src=".\assets\img\neuro-rehabilitation.png" style="width: 60px; height:60px;"> -->
+                            </div>
+                            <h4>Neurorehabilitation</h4>
+                            <p>Comprehensive neurorehabilitation for recovery from neurological conditions.</p>
+                            <a href="neuro-rehabilitation.php">Learn More <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- General Medicine -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="index_section_speciality_card">
+                            <div class="index_section_speciality_icon">
+                                <h1 class=" mt-2">15</h1>
+                                <!-- <img src=".\assets\img\general-medicine.png" style="width: 60px; height:60px;"> -->
+                            </div>
+                            <h4>General Medicine</h4>
+                            <p>Comprehensive general medicine for diagnosis and treatment of various diseases.</p>
+                            <a href="general-medicine.php">Learn More <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
+
+                    <!-- General & Laproscopic Surgery -->
+                    <div class="col-lg-3 col-md-6">
+                        <div class="index_section_speciality_card">
+                            <div class="index_section_speciality_icon">
+                                <h1 class=" mt-2">16</h1>
+                                <!-- <img src=".\assets\img\general-and-laproscopic-surgery.png" style="width: 60px; height:60px;"> -->
+                            </div>
+                            <h4>General & Laproscopic Surgery</h4>
+                            <p>Advanced general and laparoscopic surgeries with minimal invasion.</p>
+                            <a href="general-and-laproscopic-surgery.php">Learn More <i class="bi bi-arrow-right"></i></a>
+                        </div>
+                    </div>
 
         </div>
 

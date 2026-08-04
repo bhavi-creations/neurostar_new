@@ -99,6 +99,10 @@
             <a class="nav-link" href="aboutus.php">About Us</a>
           </li>
 
+          <li class="nav-item">
+            <a class="nav-link" href="specilities.php">Specilities</a>
+          </li>
+
           <!-- Services Megamenu Dropdown -->
           <li class="nav-item dropdown position-static">
             <a class="nav-link dropdown-toggle nav_services_btn" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -137,6 +141,7 @@
                     <li><a class="dropdown-item mega_menu_item" href="physiotherapy.php">Physiotherapy</a></li>
                     <li><a class="dropdown-item mega_menu_item" href="radiology.php">Radiology</a></li>
                     <li><a class="dropdown-item mega_menu_item" href="neuro-rehabilitation.php">Neuro rehabilitation</a></li>
+                    <li><a class="dropdown-item mega_menu_item" href="general-medicine.php">General Medicine</a></li>
                     <li><a class="dropdown-item mega_menu_item" href="general-and-laproscopic-surgery.php">General &amp; Laproscopic Surgery</a></li>
                   </ul>
                 </div>

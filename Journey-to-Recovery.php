@@ -68,121 +68,61 @@
     </div>
 
     <!-- 2. PATIENT STORIES (VIDEO TESTIMONIALS) -->
-    <div class="container mb-5">
-        <div class="d-flex flex-wrap align-items-center justify-content-between mb-4 gap-2">
-            <div>
-                <h3 class="fw-bold text-dark mb-1">
-                    Patient Stories – <span class="journey_section_text_accent">In Their Own Words</span>
-                </h3>
-            </div>
-            <a href="#" class="btn btn-outline-primary rounded-3 btn-sm px-3 fw-semibold d-inline-flex align-items-center gap-1">
-                <i class="bi bi-play-circle"></i> View All Videos
-            </a>
-        </div>
+<div class="container mb-5">
 
-        <div class="row g-4">
-            <!-- Video Card 1 -->
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <!-- <div class="journey_section_story_card bg-white rounded-4 border shadow-sm h-100 overflow-hidden d-flex flex-column">
-                    <div class="position-relative journey_section_video_thumb">
-                        <img src="assets/images/patient-1.jpg" alt="Ramesh Babu" class="w-100 object-fit-cover" style="height: 180px;">
-                        <a href="https://www.instagram.com/reel/DOisyGRDSFD/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==" class="journey_section_play_btn position-absolute top-50 start-50 translate-middle rounded-circle bg-white shadow d-flex align-items-center justify-content-center">
-                            <i class="bi bi-play-fill fs-3 text-dark"></i>
-                        </a>
-                        <span class="journey_section_time_badge position-absolute bottom-0 end-0 m-2 bg-dark bg-opacity-75 text-white px-2 py-1 rounded small" style="font-size: 11px;">02:45</span>
-                    </div>
-                    <div class="p-3 position-relative flex-grow-1 d-flex flex-column">
-                        <h6 class="fw-bold text-dark mb-0">Ramesh Babu</h6>
-                        <span class="text-muted small mb-2 d-block">Knee Replacement Surgery</span>
-                        <p class="text-secondary small mb-3 flex-grow-1 fs-7">"I am able to walk pain-free now. The care and support I received was excellent."</p>
-                        <i class="bi bi-quote position-absolute bottom-0 end-0 m-2 text-light fs-1 opacity-50 z-0"></i>
-                    </div>
-                </div> -->
-
-                <video autoplay muted loop playsinline
-       style="width: 100%; height: 100%; object-fit: cover;">
-    <source src=".\assets\img\neurostar-testimonial1.mp4" type="video/mp4">
-</video>
-
-
-            </div>
-
-            <!-- Video Card 2 -->
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <!-- <div class="journey_section_story_card bg-white rounded-4 border shadow-sm h-100 overflow-hidden d-flex flex-column">
-                    <div class="position-relative journey_section_video_thumb">
-                        <img src="assets/images/patient-2.jpg" alt="Lakshmi Devi" class="w-100 object-fit-cover" style="height: 180px;">
-                        <a href="#" class="journey_section_play_btn position-absolute top-50 start-50 translate-middle rounded-circle bg-white shadow d-flex align-items-center justify-content-center">
-                            <i class="bi bi-play-fill fs-3 text-dark"></i>
-                        </a>
-                        <span class="journey_section_time_badge position-absolute bottom-0 end-0 m-2 bg-dark bg-opacity-75 text-white px-2 py-1 rounded small" style="font-size: 11px;">03:12</span>
-                    </div>
-                    <div class="p-3 position-relative flex-grow-1 d-flex flex-column">
-                        <h6 class="fw-bold text-dark mb-0">Lakshmi Devi</h6>
-                        <span class="text-muted small mb-2 d-block">Gallbladder Surgery</span>
-                        <p class="text-secondary small mb-3 flex-grow-1 fs-7">"From consultation to recovery, every step was smooth and comfortable."</p>
-                        <i class="bi bi-quote position-absolute bottom-0 end-0 m-2 text-light fs-1 opacity-50 z-0"></i>
-                    </div>
-                </div> -->
-
-
-                         <video autoplay muted loop playsinline
-       style="width: 100%; height: 100%; object-fit: cover;">
-    <source src=".\assets\img\neurostar-testimonial2.mp4" type="video/mp4">
-</video>
-            </div>
-
-            <!-- Video Card 3 -->
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <!-- <div class="journey_section_story_card bg-white rounded-4 border shadow-sm h-100 overflow-hidden d-flex flex-column">
-                    <div class="position-relative journey_section_video_thumb">
-                        <img src="assets/images/patient-3.jpg" alt="Venkatesh" class="w-100 object-fit-cover" style="height: 180px;">
-                        <a href="#" class="journey_section_play_btn position-absolute top-50 start-50 translate-middle rounded-circle bg-white shadow d-flex align-items-center justify-content-center">
-                            <i class="bi bi-play-fill fs-3 text-dark"></i>
-                        </a>
-                        <span class="journey_section_time_badge position-absolute bottom-0 end-0 m-2 bg-dark bg-opacity-75 text-white px-2 py-1 rounded small" style="font-size: 11px;">02:30</span>
-                    </div>
-                    <div class="p-3 position-relative flex-grow-1 d-flex flex-column">
-                        <h6 class="fw-bold text-dark mb-0">Venkatesh</h6>
-                        <span class="text-muted small mb-2 d-block">Hernia Surgery</span>
-                        <p class="text-secondary small mb-3 flex-grow-1 fs-7">"Thanks to the expert team, I recovered quickly and got back to my routine."</p>
-                        <i class="bi bi-quote position-absolute bottom-0 end-0 m-2 text-light fs-1 opacity-50 z-0"></i>
-                    </div>
-                </div> -->
-
-                         <video autoplay muted loop playsinline
-       style="width: 100%; height: 100%; object-fit: cover;">
-    <source src=".\assets\img\neurostar-testimonial3.mp4" type="video/mp4">
-</video>
-            </div>
-
-            <!-- Video Card 4 -->
-            <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <!-- <div class="journey_section_story_card bg-white rounded-4 border shadow-sm h-100 overflow-hidden d-flex flex-column">
-                    <div class="position-relative journey_section_video_thumb">
-                        <img src="assets/images/patient-4.jpg" alt="Anitha Kumari" class="w-100 object-fit-cover" style="height: 180px;">
-                        <a href="#" class="journey_section_play_btn position-absolute top-50 start-50 translate-middle rounded-circle bg-white shadow d-flex align-items-center justify-content-center">
-                            <i class="bi bi-play-fill fs-3 text-dark"></i>
-                        </a>
-                        <span class="journey_section_time_badge position-absolute bottom-0 end-0 m-2 bg-dark bg-opacity-75 text-white px-2 py-1 rounded small" style="font-size: 11px;">02:18</span>
-                    </div>
-                    <div class="p-3 position-relative flex-grow-1 d-flex flex-column">
-                        <h6 class="fw-bold text-dark mb-0">Anitha Kumari</h6>
-                        <span class="text-muted small mb-2 d-block">Gynecology Treatment</span>
-                        <p class="text-secondary small mb-3 flex-grow-1 fs-7">"Very friendly staff and doctors. I felt safe and well taken care of throughout."</p>
-                        <i class="bi bi-quote position-absolute bottom-0 end-0 m-2 text-light fs-1 opacity-50 z-0"></i>
-                    </div>
-                </div> -->
-                
-                
-                         <video autoplay muted loop playsinline
-       style="width: 100%; height: 100%; object-fit: cover;">
-    <source src=".\assets\img\neurostar-testimonial4.mp4" type="video/mp4">
-</video>
-
-            </div>
-        </div>
+    <!-- Section Heading -->
+    <div class="d-flex align-items-center justify-content-between mb-4">
+        <h3 class="fw-bold text-dark mb-0">
+            Patient Stories –
+            <span class="journey_section_text_accent">In Their Own Words</span>
+        </h3>
     </div>
+
+    <!-- Videos Row -->
+    <div class="row justify-content-center gx-4 gy-4">
+
+        <!-- Video 1 -->
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+            <video
+                class="journey_video"
+                autoplay
+                muted
+                loop
+                controls
+                playsinline>
+                <source src="./assets/img/neurostar-testimonial1.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <!-- Video 2 -->
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+            <video
+                class="journey_video"
+                autoplay
+                muted
+                loop
+                controls
+                playsinline>
+                <source src="./assets/img/neurostar-testimonial2.mp4" type="video/mp4">
+            </video>
+        </div>
+
+        <!-- Video 3 -->
+        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12">
+            <video
+                class="journey_video"
+                autoplay
+                muted
+                loop
+                controls
+                playsinline>
+                <source src="./assets/img/neurostar-testimonial3.mp4" type="video/mp4">
+            </video>
+        </div>
+
+    </div>
+
+</div>
 
     <!-- 3. GOOGLE REVIEWS SECTION -->
 <div class="container mb-5">
@@ -201,7 +141,7 @@
                         <i class="bi bi-star-fill"></i>
                         <i class="bi bi-star-fill"></i>
                     </div>
-                    <span class="text-muted small mb-3">Based on 1,245 reviews</span>
+                    <span class="text-black small mb-3">Based on 1,245 reviews</span>
                     
                     <!-- Multicolored Google Text Logo -->
                     <div class="d-flex align-items-center gap-2 mb-3">

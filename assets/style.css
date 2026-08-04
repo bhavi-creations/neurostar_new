@@ -6686,3 +6686,60 @@ section[class^="aboutus_section_"] {
     align-items: center;
 }
 
+
+/* Patient Testimonial Videos */
+.journey_video{
+    width:100%;
+    aspect-ratio:9/16;
+    object-fit:cover;
+    display:block;
+    border-radius:18px;
+    overflow:hidden;
+    box-shadow:0 8px 20px rgba(0,0,0,.12);
+    transition:.3s;
+}
+
+.journey_video:hover{
+    transform:translateY(-5px);
+}
+
+/* Large Screens */
+@media (min-width:992px){
+    .row.justify-content-center{
+        --bs-gutter-x:2rem;
+    }
+}
+
+/* Tablet */
+@media (max-width:991px){
+    .journey_video{
+        aspect-ratio:9/16;
+    }
+}
+
+/* Mobile */
+@media (max-width:576px){
+    .journey_video{
+        max-width:320px;
+        margin:auto;
+    }
+}
+
+/* Specilities numbers hover effect  */
+/* =========================================
+   SPECIALITY NUMBER HOVER EFFECT
+   ========================================= */
+
+.index_section_speciality_icon {
+    transition: all 0.3s ease;
+}
+
+.index_section_speciality_icon h1 {
+    color: #263b50;
+    transition: color 0.3s ease;
+}
+
+/* When hovering the speciality card */
+.index_section_speciality_card:hover .index_section_speciality_icon h1 {
+    color: #ffffff;
+}
