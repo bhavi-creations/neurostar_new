@@ -2,12 +2,87 @@
 <!-- ============================================================
      CONTACT US SECTION - HERO, FORM, MAP & FEATURES
 ============================================================ -->
-<section class="contactus_section_wrapper py-4">
+<section class="contactus_section_wrapper ">
 
-    <!-- 1. HERO SECTION -->
-    <div class="contactus_section_hero py-4 mb-4">
+   <!-- ===================================================
+         CONTACT FIRST SECTION
+         =================================================== -->
+    <section class="contact-first-section">
         <div class="container">
-            <!-- Breadcrumb -->
+            <div class="row">
+                <div class="col-12 col-lg-7">
+
+                    <!-- Breadcrumb Navigation -->
+                    <div class="contact-first-section-breadcrumb">
+                        <a href="#">Home</a>
+                        <i class="fa-solid fa-chevron-right" style="font-size: 10px;"></i>
+                        <span>Contact Us</span>
+                    </div>
+
+                    <!-- Main Title & Description -->
+                    <h1 class="contact-first-section-title">We’re Here to Help You</h1>
+                    <p class="contact-first-section-desc">
+                        Have questions or need assistance? Our team is ready to help you with the best care and support.
+                    </p>
+
+                    <!-- Features Row -->
+                    <div class="contact-first-section-features">
+
+                        <!-- Feature 1 -->
+                        <div class="contact-first-section-feature-item">
+                            <div class="contact-first-section-icon-box">
+                                <i class="fa-solid fa-headset"></i>
+                            </div>
+                            <div>
+                                <h6 class="contact-first-section-feature-title">24x7 Support</h6>
+                                <p class="contact-first-section-feature-subtitle">Always here for you</p>
+                            </div>
+                        </div>
+
+                        <!-- Feature 2 -->
+                        <div class="contact-first-section-feature-item">
+                            <div class="contact-first-section-icon-box">
+                                <i class="fa-regular fa-clock"></i>
+                            </div>
+                            <div>
+                                <h6 class="contact-first-section-feature-title">Quick Response</h6>
+                                <p class="contact-first-section-feature-subtitle">We value your time</p>
+                            </div>
+                        </div>
+
+                        <!-- Feature 3 -->
+                        <div class="contact-first-section-feature-item">
+                            <div class="contact-first-section-icon-box">
+                                <i class="fa-solid fa-user-doctor"></i>
+                            </div>
+                            <div>
+                                <h6 class="contact-first-section-feature-title">Expert Assistance</h6>
+                                <p class="contact-first-section-feature-subtitle">From our care team</p>
+                            </div>
+                        </div>
+
+                        <!-- Feature 4 -->
+                        <div class="contact-first-section-feature-item">
+                            <div class="contact-first-section-icon-box">
+                                <i class="fa-solid fa-shield-halved"></i>
+                            </div>
+                            <div>
+                                <h6 class="contact-first-section-feature-title">Safe & Secure</h6>
+                                <p class="contact-first-section-feature-subtitle">Your privacy matters</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+    <!-- <div class="contactus_section_hero py-4 mb-4">
+        <div class="container">
+            
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb contactus_section_breadcrumb">
                     <li class="breadcrumb-item"><a href="Home.php">Home</a></li>
@@ -16,14 +91,14 @@
             </nav>
 
             <div class="row align-items-center">
-                <!-- Hero Left Content -->
+                
                 <div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
                     <h1 class="contactus_section_hero_title fw-bold">We’re Here to Help You</h1>
                     <p class="contactus_section_hero_text text-black mb-4">
                         Have questions or need assistance? Our team is ready to help you with the best care and support.
                     </p>
 
-                    <!-- Top 4 Service Badges -->
+                    
                     <div class="row g-3 contactus_section_hero_badges">
                         <div class="col-6 col-sm-3">
                             <div class="contactus_section_badge_item p-2 text-center text-sm-start border-end">
@@ -64,24 +139,24 @@
                     </div>
                 </div>
 
-                <!-- Hero Right Image -->
+            
                 <div class="col-lg-6 col-md-12 text-center">
                     <img src="assets/img/Neurostar-hospital.png" alt="Hospital Building" class="img-fluid contactus_section_hero_img rounded-4 shadow-sm">
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <!-- 2. CONTACT INFO & FORM SECTION -->
-    <div class="container mb-5">
+    
+    <div class="container my-5">
         <div class="row g-4">
             
-            <!-- Left Info Box: Get In Touch -->
+            
             <div class="col-lg-4 col-md-12">
                 <div class="contactus_section_info_card p-4 rounded-4 bg-white border shadow-sm h-100">
                     <h4 class="fw-bold text-dark mb-4">Get In Touch</h4>
 
-                    <!-- Hospital Address -->
+                    
                     <div class="d-flex align-items-start mb-4">
                         <div class="contactus_section_info_icon text-white bg-primary rounded-circle me-3 flex-shrink-0 d-flex align-items-center justify-content-center">
                             <i class="bi bi-geo-alt-fill"></i>
@@ -93,7 +168,7 @@
                         </div>
                     </div>
 
-                    <!-- Call Us -->
+                   
                     <div class="d-flex align-items-start mb-4">
                         <div class="contactus_section_info_icon text-white bg-primary rounded-circle me-3 flex-shrink-0 d-flex align-items-center justify-content-center">
                             <i class="bi bi-telephone-fill"></i>
@@ -105,7 +180,7 @@
                         </div>
                     </div>
 
-                    <!-- Email Us -->
+                  
                     <div class="d-flex align-items-start mb-4">
                         <div class="contactus_section_info_icon text-white bg-primary rounded-circle me-3 flex-shrink-0 d-flex align-items-center justify-content-center">
                             <i class="bi bi-envelope-fill"></i>
@@ -116,7 +191,7 @@
                         </div>
                     </div>
 
-                    <!-- WhatsApp Us -->
+                    
                     <div class="d-flex align-items-start mb-4">
                         <div class="contactus_section_info_icon text-white bg-success rounded-circle me-3 flex-shrink-0 d-flex align-items-center justify-content-center">
                             <i class="bi bi-whatsapp"></i>
@@ -128,7 +203,7 @@
                         </div>
                     </div>
 
-                    <!-- Working Hours -->
+                    
                     <div class="d-flex align-items-start">
                         <div class="contactus_section_info_icon text-white bg-primary rounded-circle me-3 flex-shrink-0 d-flex align-items-center justify-content-center">
                             <i class="bi bi-clock-fill"></i>

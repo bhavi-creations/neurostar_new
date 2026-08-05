@@ -26,7 +26,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
   <!-- CSS -->
-
+  <!-- Swiper JS CSS CDN (For smooth 5-column auto-slider) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <link rel="stylesheet" href="assets/style.css">
 
 </head>
@@ -104,14 +105,14 @@
           </li>
 
           <!-- Services Megamenu Dropdown -->
-          <li class="nav-item dropdown position-static">
+          <!-- <li class="nav-item dropdown position-static">
             <a class="nav-link dropdown-toggle nav_services_btn" href="#" id="servicesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Services
             </a>
 
             <div class="dropdown-menu mega_menu_dropdown shadow-lg border-0 p-4" aria-labelledby="servicesDropdown">
               <div class="row g-3">
-                <!-- Column 1 -->
+                
                 <div class="col-md-4">
                   <ul class="list-unstyled mb-0">
                     <li><a class="dropdown-item mega_menu_item" href="neuro-surgery.php">Neuro Surgery</a></li>
@@ -122,7 +123,7 @@
                   </ul>
                 </div>
 
-                <!-- Column 2 -->
+              
                 <div class="col-md-4">
                   <ul class="list-unstyled mb-0">
                     <li><a class="dropdown-item mega_menu_item" href="cardiology.php">Cardiology</a></li>
@@ -134,7 +135,7 @@
                   </ul>
                 </div>
 
-                <!-- Column 3 -->
+              
                 <div class="col-md-4">
                   <ul class="list-unstyled mb-0">
                     <li><a class="dropdown-item mega_menu_item" href="pediatrics.php">Pediatrics</a></li>
@@ -147,7 +148,7 @@
                 </div>
               </div>
             </div>
-          </li>
+          </li> -->
 
           <li class="nav-item">
             <a class="nav-link" href="doctors.php">Doctors</a>

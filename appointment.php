@@ -67,7 +67,7 @@
                                         <option value="Physiotherapy"> Physiotherapy</option>
                                         <option value="Radiology"> Radiology</option>
                                         <option value="Neuro rehabilitation">Neuro rehabilitation </option>
-                                        <option value="General &Laproscopic Surgery"> General &Laproscopic Surgery</option>
+                                        <option value="General & Laproscopic Surgery"> General & Laproscopic Surgery</option>
                 </select>
               </div>
 

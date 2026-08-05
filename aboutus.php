@@ -1,13 +1,723 @@
 <?php include 'header.php'; ?>
 
+
+
+
+    <!-- ===================================================
+         ABOUT FIRST SECTION (Hero Banner)
+         =================================================== -->
+    <section class="about-hero-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-7">
+
+                    <!-- Breadcrumb Navigation -->
+                    <div class="breadcrumb-nav">
+                        <a href="#">Home</a> <i class="fa-solid fa-chevron-right mx-1 fs-10"></i> <span>About Us</span>
+                    </div>
+
+                    <!-- Main Title -->
+                    <h1 class="main-title">
+                        About Carewell
+                        <span>Multispeciality Hospital</span>
+                    </h1>
+
+                    <div class="title-line"></div>
+
+                    <!-- Sub tagline -->
+                    <h5 class="sub-tagline">Compassionate Care. Advanced Medicine. Healthier Lives.</h5>
+
+                    <!-- Description -->
+                    <p class="hero-desc">
+                        Carewell Multispeciality Hospital is dedicated to providing world-class healthcare with compassion, innovation and integrity. Our expert team and advanced technology ensure the best outcomes for every patient.
+                    </p>
+
+                    <!-- Upper Key Feature Badges -->
+                    <div class="features-container">
+
+                        <!-- Feature 1 -->
+                        <div class="feature-item">
+                            <i class="fa-solid fa-users-viewfinder feature-icon"></i>
+                            <div>
+                                <h6 class="feature-title">Patient First</h6>
+                                <p class="feature-sub">Always our priority</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-divider d-none d-sm-block"></div>
+
+                        <!-- Feature 2 -->
+                        <div class="feature-item">
+                            <i class="fa-solid fa-shield-halved feature-icon"></i>
+                            <div>
+                                <h6 class="feature-title">Safety & Quality</h6>
+                                <p class="feature-sub">International Standards</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-divider d-none d-md-block"></div>
+
+                        <!-- Feature 3 -->
+                        <div class="feature-item">
+                            <i class="fa-solid fa-hand-holding-heart feature-icon"></i>
+                            <div>
+                                <h6 class="feature-title">Trusted Care</h6>
+                                <p class="feature-sub">Since 2004</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-divider d-none d-lg-block"></div>
+
+                        <!-- Feature 4 -->
+                        <div class="feature-item">
+                            <i class="fa-solid fa-clock-rotate-left feature-icon"></i>
+                            <div>
+                                <h6 class="feature-title">24x7 Care</h6>
+                                <p class="feature-sub">Always by your side</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===================================================
+         FLOATING STATS COUNTER BAR (Bottom Grid)
+         =================================================== -->
+    <div class="container stats-bar-wrapper">
+        <div class="stats-card">
+            <div class="row g-4 text-center">
+
+                <!-- Stat 1: Years of Excellence -->
+                <div class="col-6 col-md-4 col-lg-2 stat-border-end">
+                    <div class="stat-box">
+                        <div class="stat-box-icon"><i class="fa-solid fa-award"></i></div>
+                        <div class="stat-box-number">20+</div>
+                        <p class="stat-box-label">Years of Excellence</p>
+                    </div>
+                </div>
+
+                <!-- Stat 2: Expert Doctors -->
+                <div class="col-6 col-md-4 col-lg-2 stat-border-end">
+                    <div class="stat-box">
+                        <div class="stat-box-icon"><i class="fa-solid fa-user-doctor"></i></div>
+                        <div class="stat-box-number">120+</div>
+                        <p class="stat-box-label">Expert Doctors</p>
+                    </div>
+                </div>
+
+                <!-- Stat 3: Departments -->
+                <div class="col-6 col-md-4 col-lg-2 stat-border-end">
+                    <div class="stat-box">
+                        <div class="stat-box-icon"><i class="fa-solid fa-hospital-user"></i></div>
+                        <div class="stat-box-number">25+</div>
+                        <p class="stat-box-label">Departments</p>
+                    </div>
+                </div>
+
+                <!-- Stat 4: Happy Patients -->
+                <div class="col-6 col-md-4 col-lg-2 stat-border-end">
+                    <div class="stat-box">
+                        <div class="stat-box-icon"><i class="fa-solid fa-bed-pulse"></i></div>
+                        <div class="stat-box-number">75,000+</div>
+                        <p class="stat-box-label">Happy Patients</p>
+                    </div>
+                </div>
+
+                <!-- Stat 5: OP Consultations -->
+                <div class="col-6 col-md-4 col-lg-2 stat-border-end">
+                    <div class="stat-box">
+                        <div class="stat-box-icon"><i class="fa-solid fa-stethoscope"></i></div>
+                        <div class="stat-box-number">2,50,000+</div>
+                        <p class="stat-box-label">OP Consultations</p>
+                    </div>
+                </div>
+
+                <!-- Stat 6: Successful Surgeries -->
+                <div class="col-6 col-md-4 col-lg-2">
+                    <div class="stat-box">
+                        <div class="stat-box-icon"><i class="fa-solid fa-syringe"></i></div>
+                        <div class="stat-box-number">15,000+</div>
+                        <p class="stat-box-label">Successful Surgeries</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- ===================================================
+         ABOUT SECOND SECTION
+         =================================================== -->
+    <section class="about-second-section">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+
+                <!-- 1. Our Story (Left Column) -->
+                <div class="col-12 col-lg-4">
+
+                    <h2 class="about-second-section-title">Our Story</h2>
+                    <div class="about-second-section-cyan-line"></div>
+                    <p class="about-second-section-text">
+                        Carewell Multispeciality Hospital was established with a vision to provide comprehensive, compassoinate, and affordable healthcare under one roof.
+                    </p>
+                    <p class="about-second-section-text">
+                        Over the years, we have grown into a trusted healthcare institution, equipped with advanced technology and a teem of expert doctors committed to excellence.
+                    </p>
+                    <p class="about-second-section-text">
+                        We continue to innovate and expand our services to improve lives and build a healthier community.
+                    </p>
+
+                    <div class="pt-2">
+                        <a href="#" class="about-second-section-btn">
+                            Our Journey <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- 2. Featured Image (Center Column) -->
+                <div class="col-12 col-lg-4">
+                    <div class="about-second-section-img-box d-flex justify-content-center">
+                        <img src="./assets/img/2.webp" alt="Carewell Doctor Patient Consultation" style="width: 300px; height: 400px;">
+                    </div>
+                </div>
+
+                <!-- 3. Carewell At A Glance (Right Column) -->
+                <div class="col-12 col-lg-4">
+                    <div class="ps-lg-3">
+
+                        <h2 class="about-second-section-title">Carewell At A Glance</h2>
+                        <div class="about-second-section-cyan-line"></div>
+                        <div class="row g-2 pt-2">
+
+                            <!-- Stat 1: 20+ Years of Excellence -->
+                            <div class="col-6">
+                                <div class="about-second-section-glance-item">
+                                    <div class="about-second-section-icon-box">
+                                        <i class="fa-solid fa-award"></i>
+                                    </div>
+                                    <div>
+                                        <div class="about-second-section-number">20+</div>
+                                        <div class="about-second-section-label">Years of Excellence</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Stat 2: 120+ Expert Doctors -->
+                            <div class="col-6">
+                                <div class="about-second-section-glance-item">
+                                    <div class="about-second-section-icon-box">
+                                        <i class="fa-solid fa-user-doctor"></i>
+                                    </div>
+                                    <div>
+                                        <div class="about-second-section-number">120+</div>
+                                        <div class="about-second-section-label">Expert Doctors</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Stat 3: 120+ Specialties -->
+                            <div class="col-6">
+                                <div class="about-second-section-glance-item">
+                                    <div class="about-second-section-icon-box">
+                                        <i class="fa-solid fa-hospital-user"></i>
+                                    </div>
+                                    <div>
+                                        <div class="about-second-section-number">120+</div>
+                                        <div class="about-second-section-label">Specialties</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Stat 4: 75,000+ Happy Patients -->
+                            <div class="col-6">
+                                <div class="about-second-section-glance-item">
+                                    <div class="about-second-section-icon-box">
+                                        <i class="fa-solid fa-users"></i>
+                                    </div>
+                                    <div>
+                                        <div class="about-second-section-number">75,000+</div>
+                                        <div class="about-second-section-label">Happy Patients</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Stat 5: 2,50,000+ OP Consultations -->
+                            <div class="col-6">
+                                <div class="about-second-section-glance-item">
+                                    <div class="about-second-section-icon-box">
+                                        <i class="fa-solid fa-stethoscope"></i>
+                                    </div>
+                                    <div>
+                                        <div class="about-second-section-number">2,50,000+</div>
+                                        <div class="about-second-section-label">OP Consultations</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Stat 6: 15,000+ Succesful Surgeries -->
+                            <div class="col-6">
+                                <div class="about-second-section-glance-item">
+                                    <div class="about-second-section-icon-box">
+                                        <i class="fa-solid fa-syringe"></i>
+                                    </div>
+                                    <div>
+                                        <div class="about-second-section-number">15,000+</div>
+                                        <div class="about-second-section-label">Succesful Surgeries</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ===================================================
+         ABOUT THIRD SECTION (Mission, Vision & Values)
+         =================================================== -->
+    <section class="about-third-section">
+        <div class="container">
+            <div class="about-third-section-card-container">
+                <div class="row g-4 text-center">
+
+                    <!-- 1. Our Mission -->
+                    <div class="col-12 col-md-4 about-third-section-col">
+                        <div class="about-third-section-icon-bubble mission">
+                            <i class="fa-solid fa-bullseye"></i>
+                        </div>
+                        <h3 class="about-third-section-title">Our Mission</h3>
+                        <p class="about-third-section-desc">
+                            To deliver exceptional healthcare services with compassion, innovation and ethical practices.
+                        </p>
+                    </div>
+
+                    <!-- 2. Our Vision -->
+                    <div class="col-12 col-md-4 about-third-section-col">
+                        <div class="about-third-section-icon-bubble vision">
+                            <i class="fa-solid fa-eye"></i>
+                        </div>
+                        <h3 class="about-third-section-title">Our Vision</h3>
+                        <p class="about-third-section-desc">
+                            To be a leading healthcare provider recognized for clinical excellence, patient safety and trust.
+                        </p>
+                    </div>
+
+                    <!-- 3. Our Values -->
+                    <div class="col-12 col-md-4 about-third-section-col">
+                        <div class="about-third-section-icon-bubble values">
+                            <i class="fa-regular fa-heart"></i>
+                        </div>
+                        <h3 class="about-third-section-title">Our Values</h3>
+                        <div>
+                            <ul class="about-third-section-values-list">
+                                <li><i class="fa-solid fa-circle-check"></i> Compassion</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Integrity</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Excellence</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Innovation</li>
+                                <li><i class="fa-solid fa-circle-check"></i> Teamwork</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ===================================================
+         ABOUT FOURTH SECTION (Why Choose Carewell?)
+         =================================================== -->
+    <section class="about-fourth-section">
+        <div class="container">
+
+            <!-- Section Title with Cyan Line -->
+
+            <h2 class="about-fourth-section-title">Why Choose Carewell?</h2>
+            <div class="about-fourth-section-cyan-line"></div>
+
+            <!-- 6 Columns Features Grid -->
+            <div class="row g-3">
+
+                <!-- 1. Expert Care -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="about-fourth-section-card">
+                        <div class="about-fourth-section-card-icon">
+                            <i class="fa-solid fa-user-doctor"></i>
+                        </div>
+                        <h4 class="about-fourth-section-card-title">Expert Care</h4>
+                        <p class="about-fourth-section-card-desc">
+                            Highly qualified and experienced doctors providing personalized care.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 2. Advanced Technology -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="about-fourth-section-card">
+                        <div class="about-fourth-section-card-icon">
+                            <i class="fa-solid fa-microscope"></i>
+                        </div>
+                        <h4 class="about-fourth-section-card-title">Advanced Technology</h4>
+                        <p class="about-fourth-section-card-desc">
+                            State-of-the-art infrastructure and cutting-edge medical technology.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 3. Comprehensive Services -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="about-fourth-section-card">
+                        <div class="about-fourth-section-card-icon">
+                            <i class="fa-solid fa-briefcase-medical"></i>
+                        </div>
+                        <h4 class="about-fourth-section-card-title">Comprehensive Services</h4>
+                        <p class="about-fourth-section-card-desc">
+                            A wide range of specialties and advanced treatments under one roof.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 4. Patient-Centered Care -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="about-fourth-section-card">
+                        <div class="about-fourth-section-card-icon">
+                            <i class="fa-solid fa-hand-holding-heart"></i>
+                        </div>
+                        <h4 class="about-fourth-section-card-title">Patient-Centered Care</h4>
+                        <p class="about-fourth-section-card-desc">
+                            We treat every patient with empathy, respect and individual attention.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 5. Safe & Hygienic -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="about-fourth-section-card">
+                        <div class="about-fourth-section-card-icon">
+                            <i class="fa-solid fa-shield-virus"></i>
+                        </div>
+                        <h4 class="about-fourth-section-card-title">Safe & Hygienic</h4>
+                        <p class="about-fourth-section-card-desc">
+                            Strict infection control and international safety standards.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 6. 24x7 Emergency -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="about-fourth-section-card">
+                        <div class="about-fourth-section-card-icon">
+                            <i class="fa-solid fa-heart-pulse"></i>
+                        </div>
+                        <h4 class="about-fourth-section-card-title">24x7 Emergency</h4>
+                        <p class="about-fourth-section-card-desc">
+                            Round-the-clock emergency and trauma care for your peace of mind.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ===================================================
+         ABOUT FIFTH SECTION (Our Journey Of Excellence)
+         =================================================== -->
+    <section class="about-fifth-section">
+        <div class="container">
+
+            <!-- Section Header -->
+            <div class="about-fifth-section-header">
+                <h2 class="about-fifth-section-title">
+                    Our Journey Of Excellence
+                </h2>
+                <div class="about-fifth-section-underline-container">
+                    <div class="about-fifth-section-cyan-line"></div>
+                    <div class="about-fifth-section-cyan-line"></div>
+                </div>
+            </div>
+
+            <!-- Timeline Row -->
+            <div class="about-fifth-section-timeline-wrapper">
+                <div class="row g-4 justify-content-center">
+
+                    <!-- Item 1: 2004 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="about-fifth-section-item">
+                            <div class="about-fifth-section-circle c-2004">
+                                2004
+                            </div>
+                            <p class="about-fifth-section-desc">
+                                Carewell Hospital was founded with a vision to serve quality healthcare.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Item 2: 2008 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="about-fifth-section-item">
+                            <div class="about-fifth-section-circle c-2008">
+                                2008
+                            </div>
+                            <p class="about-fifth-section-desc">
+                                Expanded departments and introduced advanced diagnostic services.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Item 3: 2012 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="about-fifth-section-item">
+                            <div class="about-fifth-section-circle c-2012">
+                                2012
+                            </div>
+                            <p class="about-fifth-section-desc">
+                                Introduced advanced surgical facilities and critical care units.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Item 4: 2016 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="about-fifth-section-item">
+                            <div class="about-fifth-section-circle c-2016">
+                                2016
+                            </div>
+                            <p class="about-fifth-section-desc">
+                                Achieved NABH Accreditation for quality healthcare.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Item 5: 2020 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="about-fifth-section-item">
+                            <div class="about-fifth-section-circle c-2020">
+                                2020
+                            </div>
+                            <p class="about-fifth-section-desc">
+                                Expanded our infrastructure with super speciality services.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Item 6: 2024 -->
+                    <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                        <div class="about-fifth-section-item">
+                            <div class="about-fifth-section-circle c-2024">
+                                2024
+                            </div>
+                            <p class="about-fifth-section-desc">
+                                Continuing our mission to deliver exceptional care and healthier lives.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+    <!-- ===================================================
+         ABOUT SIXTH SECTION (Accreditations & Awards)
+         =================================================== -->
+    <section class="about-sixth-section">
+        <div class="container">
+
+            <!-- Section Header -->
+            <div class="about-sixth-section-header">
+                <h2 class="about-sixth-section-title">Accreditations & Awards</h2>
+                <div class="about-sixth-section-cyan-line"></div>
+            </div>
+
+            <!-- 5 Columns Row -->
+            <div class="row g-3">
+
+                <!-- 1. NABH Accredited -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2-4">
+                    <div class="about-sixth-section-card">
+                        <div class="about-sixth-section-icon-wrapper">
+                            <i class="fa-solid fa-shield-halved" style="color: #dc2626;"></i>
+                        </div>
+                        <h4 class="about-sixth-section-card-title">NABH Accredited</h4>
+                        <p class="about-sixth-section-card-desc">
+                            Maintaining highest standards of quality and patient safety.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 2. ISO Certified -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2-4">
+                    <div class="about-sixth-section-card">
+                        <div class="about-sixth-section-icon-wrapper">
+                            <i class="fa-solid fa-certificate" style="color: #0284c7;"></i>
+                        </div>
+                        <h4 class="about-sixth-section-card-title">ISO Certified</h4>
+                        <p class="about-sixth-section-card-desc">
+                            Certified for quality management system and best practices.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 3. Excellence in Healthcare -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2-4">
+                    <div class="about-sixth-section-card">
+                        <div class="about-sixth-section-icon-wrapper">
+                            <i class="fa-solid fa-trophy" style="color: #eab308;"></i>
+                        </div>
+                        <h4 class="about-sixth-section-card-title">Excellence in Healthcare</h4>
+                        <p class="about-sixth-section-card-desc">
+                            Award for outstanding contribution to patient care and safety.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 4. Best Multispeciality Hospital Award -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2-4">
+                    <div class="about-sixth-section-card">
+                        <div class="about-sixth-section-icon-wrapper">
+                            <i class="fa-solid fa-award" style="color: #9333ea;"></i>
+                        </div>
+                        <h4 class="about-sixth-section-card-title">Best Multispeciality Hospital Award</h4>
+                        <p class="about-sixth-section-card-desc">
+                            Recognized for clinical excellence and service.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- 5. Trusted Brand -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2-4">
+                    <div class="about-sixth-section-card">
+                        <div class="about-sixth-section-icon-wrapper">
+                            <i class="fa-solid fa-medal" style="color: #d97706;"></i>
+                        </div>
+                        <h4 class="about-sixth-section-card-title">Trusted Brand</h4>
+                        <p class="about-sixth-section-card-desc">
+                            Recognized as one of the most trusted healthcare brands.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Custom Utility for 5 Equal Columns in Bootstrap 5 Grid -->
+    <style>
+        @media (min-width: 992px) {
+            .col-lg-2-4 {
+                flex: 0 0 auto;
+                width: 20%;
+            }
+        }
+    </style>
+
+
+    <!-- ===================================================
+         ABOUT SEVENTH SECTION (Call To Action Banner)
+         =================================================== -->
+    <section class="about-seventh-section">
+        <div class="container">
+            <div class="about-seventh-section-banner">
+                <div class="row g-4 align-items-center">
+
+                    <!-- Left Text Content -->
+                    <div class="col-12 col-lg-6">
+                        <h2 class="about-seventh-section-title">
+                            Healthcare You Can Trust,<br>Care You Deserve.
+                        </h2>
+                        <p class="about-seventh-section-subtitle">
+                            Book an appointment with our specialists today.
+                        </p>
+                    </div>
+
+                    <!-- Right Interactive CTAs -->
+                    <div class="col-12 col-lg-6">
+                        <div class="row g-3 justify-content-lg-end">
+
+                            <!-- Book Appointment Card -->
+                            <div class="col-12 col-sm-6">
+                                <a href="#" class="about-seventh-section-cta-card">
+                                    <div class="about-seventh-section-cta-icon">
+                                        <i class="fa-regular fa-calendar-check"></i>
+                                    </div>
+                                    <div>
+                                        <div class="about-seventh-section-cta-title">Book Appointment</div>
+                                        <p class="about-seventh-section-cta-desc">Schedule your visit with our experts.</p>
+                                    </div>
+                                    <i class="fa-solid fa-arrow-right about-seventh-section-cta-arrow"></i>
+                                </a>
+                            </div>
+
+                            <!-- Emergency Care Card -->
+                            <div class="col-12 col-sm-6">
+                                <a href="tel:+1234567890" class="about-seventh-section-cta-card emergency">
+                                    <div class="about-seventh-section-cta-icon">
+                                        <i class="fa-solid fa-phone-volume"></i>
+                                    </div>
+                                    <div>
+                                        <div class="about-seventh-section-cta-title">Emergency Care</div>
+                                        <p class="about-seventh-section-cta-desc">We are available 24/7 for you.</p>
+                                    </div>
+                                    <i class="fa-solid fa-arrow-right about-seventh-section-cta-arrow"></i>
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- ============================================================
      1. HERO / BANNER SECTION (ABOUT US)
 ============================================================ -->
-<section class="aboutus_section_hero">
+<!-- <section class="aboutus_section_hero">
     <div class="container">
         <div class="row align-items-center gy-4">
             
-            <!-- Left Side: Content & Custom Icon Cards -->
+           
             <div class="col-lg-6">
                 <nav aria-label="breadcrumb">
                     <ol class="breadcrumb aboutus_section_breadcrumb">
@@ -22,12 +732,12 @@
                     Neurostar Hospital provides advanced treatment with modern technology and caring doctors to help every patient live a healthier life.
                 </p>
 
-                <!-- Cards Grid with Image Icons -->
+               
                 <div class="aboutus_hero_stats_wrapper">
                     
                     <div class="aboutus_stat_card">
                         <div class="aboutus_stat_icon_img_wrapper">
-                            <!-- Replace with your actual home page icon image path -->
+                           
                             <img src="assets/img/Department.png" alt="Departments" class="aboutus_stat_icon_img">
                         </div>
                         <h3>25+</h3>
@@ -61,7 +771,7 @@
                 </div>
             </div>
 
-            <!-- Right Side: Hospital Building Image -->
+        
             <div class="col-lg-6">
                 <div class="aboutus_section_hero_img_wrapper">
                     <img src="assets/img/Neurostar-hospital.png" alt="Neurostar Hospital Building" class="img-fluid aboutus_section_hero_img">
@@ -70,16 +780,16 @@
 
         </div>
     </div>
-</section>
+</section> -->
 
 
 <!-- ============================================================
      2. OUR STORY & AT A GLANCE
 ============================================================ -->
-<section class="aboutus_section_story_glance">
+<!-- <section class="aboutus_section_story_glance">
     <div class="container">
         <div class="row gy-4 align-items-center">
-            <!-- Left: Our Story -->
+          
             <div class="col-lg-4">
                 <h2 class="aboutus_section_title">Our Story</h2>
                 <p>At NEUROSTAR Hospital, our primary focus is patient-centered care, delivered by a dedicated team of professionals specializing in neuroscience.</p>
@@ -88,14 +798,14 @@
                 <a href="Journey-to-Recovery.php" class="btn aboutus_section_btn_primary">Our Journey <i class="bi bi-arrow-right"></i></a>
             </div>
 
-            <!-- Center Image -->
+           
             <div class="col-lg-4 text-center">
                 <div class="aboutus_section_story_img_wrapper">
                     <img src="assets/img/Home_doctors_bg.png" alt="Doctors Team" class="img-fluid aboutus_section_story_img">
                 </div>
             </div>
 
-            <!-- Right: At a Glance -->
+            
 <div class="col-lg-4">
     <h2 class="aboutus_section_title">Neurostar At A Glance</h2>
     <div class="row g-3">
@@ -176,12 +886,12 @@
 </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- ============================================================
      3. MISSION, VISION, VALUES
 ============================================================ -->
-<section class="aboutus_section_mvv">
+<!-- <section class="aboutus_section_mvv">
     <div class="container">
         <div class="row g-4">
             <div class="col-lg-4 col-md-6">
@@ -219,12 +929,12 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- ============================================================
      4. WHY CHOOSE NEUROSTAR
 ============================================================ -->
-<section class="aboutus_section_why">
+<!-- <section class="aboutus_section_why">
     <div class="container">
         <h2 class="aboutus_section_title text-center mb-5">Why Choose Neurostar?</h2>
         <div class="row g-4 justify-content-center">
@@ -291,12 +1001,12 @@
 
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- ============================================================
      5. OUR JOURNEY OF EXCELLENCE (TIMELINE)
 ============================================================ -->
-<section class="aboutus_section_timeline">
+<!-- <section class="aboutus_section_timeline">
     <div class="container">
         <h2 class="aboutus_section_title text-center mb-5">
             Our Journey Of Excellence <i class="bi bi-arrow-right"></i>
@@ -304,7 +1014,7 @@
         <div class="aboutus_section_timeline_wrapper">
             <div class="row g-4 justify-content-center">
                 
-                <!-- 2018 -->
+                
                 <div class="col-lg-2 col-md-4 col-6">
                     <div class="aboutus_section_timeline_item color_blue text-center">
                         <div class="aboutus_section_year_badge">2018</div>
@@ -312,7 +1022,7 @@
                     </div>
                 </div>
                 
-                <!-- 2020 -->
+             
                 <div class="col-lg-2 col-md-4 col-6">
                     <div class="aboutus_section_timeline_item color_cyan text-center">
                         <div class="aboutus_section_year_badge">2020</div>
@@ -320,7 +1030,7 @@
                     </div>
                 </div>
                 
-                <!-- 2022 -->
+                
                 <div class="col-lg-2 col-md-4 col-6">
                     <div class="aboutus_section_timeline_item color_green text-center">
                         <div class="aboutus_section_year_badge">2022</div>
@@ -328,7 +1038,7 @@
                     </div>
                 </div>
 
-                <!-- 2023 -->
+                
                 <div class="col-lg-2 col-md-4 col-6">
                     <div class="aboutus_section_timeline_item color_amber text-center">
                         <div class="aboutus_section_year_badge">2023</div>
@@ -336,7 +1046,7 @@
                     </div>
                 </div>
 
-                <!-- 2025 -->
+             
                 <div class="col-lg-2 col-md-4 col-6">
                     <div class="aboutus_section_timeline_item color_red text-center">
                         <div class="aboutus_section_year_badge">2025</div>
@@ -344,7 +1054,7 @@
                     </div>
                 </div>
 
-                <!-- 2026 -->
+               
                 <div class="col-lg-2 col-md-4 col-6">
                     <div class="aboutus_section_timeline_item color_purple text-center">
                         <div class="aboutus_section_year_badge">2026</div>
@@ -355,12 +1065,12 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- ============================================================
      6. ACCREDITATIONS & AWARDS
 ============================================================ -->
-<section class="aboutus_section_accreditations">
+<!-- <section class="aboutus_section_accreditations">
     <div class="container">
         <h2 class="aboutus_section_title text-center mb-5">Accreditations & Awards</h2>
         <div class="row g-4">
@@ -401,12 +1111,12 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- ============================================================
      7. CTA BANNER
 ============================================================ -->
-<section class="aboutus_section_cta_container">
+<!-- <section class="aboutus_section_cta_container">
     <div class="container">
         <div class="aboutus_section_cta_box">
             <div class="row align-items-center">
@@ -435,7 +1145,7 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!-- ============================================================
      8. NEWSLETTER / HEALTH TIPS

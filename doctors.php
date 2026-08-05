@@ -4,10 +4,78 @@
 ============================================================ -->
 <section class="doctors_section_wrapper">
 
+
+    <!-- ===================================================
+         DOCTOR FIRST SECTION (Hero Banner)
+         =================================================== -->
+    <section class="doctor-hero-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-7">
+
+                    <!-- Breadcrumb -->
+                    <div class="breadcrumb-nav">
+                        <a href="#">Home</a> <i class="fa-solid fa-chevron-right mx-1 fs-10"></i> <span>Doctors</span>
+                    </div>
+
+                    <!-- Titles -->
+                    <h1 class="main-title">Our Expert Doctors</h1>
+                    <h4 class="sub-tagline">Experienced. Dedicated. Compassionate.</h4>
+
+                    <!-- Description -->
+                    <p class="hero-desc">
+                        Our team of highly qualified and experienced doctors is committed to providing world-class healthcare with compassion and excellence.
+                    </p>
+
+                    <!-- Key Metrics -->
+                    <div class="stats-container">
+
+                        <div class="stat-item">
+                            <i class="fa-solid fa-user-doctor stat-icon"></i>
+                            <div>
+                                <div class="stat-number">120+</div>
+                                <div class="stat-label">Expert Doctors</div>
+                            </div>
+                        </div>
+
+                        <div class="stat-item">
+                            <i class="fa-solid fa-heart-pulse stat-icon"></i>
+                            <div>
+                                <div class="stat-number">25+</div>
+                                <div class="stat-label">Specialities</div>
+                            </div>
+                        </div>
+
+                        <div class="stat-item">
+                            <i class="fa-solid fa-shield-halved stat-icon"></i>
+                            <div>
+                                <div class="stat-number">20+</div>
+                                <div class="stat-label">Years of Excellence</div>
+                            </div>
+                        </div>
+
+                        <div class="stat-item">
+                            <i class="fa-solid fa-users stat-icon"></i>
+                            <div>
+                                <div class="stat-number">75,000+</div>
+                                <div class="stat-label">Happy Patients</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
     <!-- 1. HERO SECTION -->
-<div class="doctors_section_hero py-5">
+    <!-- <div class="doctors_section_hero py-5">
     <div class="container">
-        <!-- Breadcrumb -->
+       
         <nav aria-label="breadcrumb">
             <ol class="breadcrumb doctors_section_breadcrumb">
                 <li class="breadcrumb-item"><a href="#">Home</a></li>
@@ -16,7 +84,7 @@
         </nav>
 
         <div class="row align-items-center">
-            <!-- Left Content -->
+            
             <div class="col-lg-7 col-md-12 mb-4 mb-lg-0">
                 <h1 class="doctors_section_hero_title fw-bold">Our Expert Doctors</h1>
                 <h5 class="doctors_section_hero_subtitle text-success fw-semibold mb-3">
@@ -26,7 +94,7 @@
                     Our team of highly qualified and experienced doctors is committed to providing world-class healthcare with compassion and excellence.
                 </p>
 
-                <!-- Top Counter Badges -->
+             
                 <div class="row g-3 doctors_section_hero_stats">
                     <div class="col-6 col-sm-3">
                         <div class="doctors_section_stat_card d-flex align-items-center p-2 rounded border bg-white">
@@ -78,13 +146,13 @@
                 </div>
             </div>
 
-            <!-- Right Hero Banner Image -->
+            
             <div class="col-lg-5 col-md-12 text-center position-relative">
                 <img src="assets/img/Home_doctors_bg.png" alt="Neurostar Doctors Team" class="img-fluid doctors_section_hero_img">
             </div>
         </div>
     </div>
-</div>
+</div> -->
 
     <!-- ============================================================
   POPUP (doctor_popup_section) — hidden by default
@@ -140,26 +208,26 @@
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-6 col-6">
-                  <select id="specialtyFilter" class="form-select bg-light">
-                      <option value="" selected>All Specialities</option>
+                    <select id="specialtyFilter" class="form-select bg-light">
+                        <option value="" selected>All Specialities</option>
 
-                      <option value="neuro">Neuro Surgery</option>
+                        <option value="neuro">Neuro Surgery</option>
 
-                      <option value="oral">Oral & Maxillofacial Surgery</option>
+                        <option value="oral">Oral & Maxillofacial Surgery</option>
 
-                      <option value="plastic">Plastic & Cosmetic Surgery</option>
+                        <option value="plastic">Plastic & Cosmetic Surgery</option>
 
-                      <option value="orthopedic">Orthopedics</option>
+                        <option value="orthopedic">Orthopedics</option>
 
-                      <option value="ent">E.N.T</option>
+                        <option value="ent">E.N.T</option>
 
-                      <option value="nephrology">Nephrology</option>
+                        <option value="nephrology">Nephrology</option>
 
-                      <option value="critical">Critical Care & Anesthesia</option>
+                        <option value="critical">Critical Care & Anesthesia</option>
 
-                      <option value="psychiatry">Psychiatry</option>
-                 </select>
-             </div>
+                        <option value="psychiatry">Psychiatry</option>
+                    </select>
+                </div>
                 <div class="col-lg-2 col-md-6 col-6">
                     <select id="qualificationFilter" class="form-select bg-light">
                         <option selected>All Qualifications</option>
@@ -212,7 +280,7 @@
             </div>
 
             <!-- Doctor Card 2 -->
-            <div class="col-xl-3 col-lg-4 col-md-6 col-12"  data-specialty-category="oral" data-doctor='{"name":"Dr. G.V.N.B.R. Sasthrulu","specialty":"Oral &amp; Maxillofacial Surgeon","qual":"B.D.S., M.D.S.(Implantologist)","exp":"12+ Years Exp.","bio":"Renowned oral surgeon specializing in implants and maxillofacial reconstruction.","img":"./assets/img/sasthrulu.png"}'>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12" data-specialty-category="oral" data-doctor='{"name":"Dr. G.V.N.B.R. Sasthrulu","specialty":"Oral &amp; Maxillofacial Surgeon","qual":"B.D.S., M.D.S.(Implantologist)","exp":"12+ Years Exp.","bio":"Renowned oral surgeon specializing in implants and maxillofacial reconstruction.","img":"./assets/img/sasthrulu.png"}'>
                 <div class="doctors_section_card card h-100 border-0 shadow-sm rounded-3 overflow-hidden">
                     <div class="doctors_section_card_img_wrapper position-relative text-center pt-3 bg-light">
                         <button class="doctors_section_wishlist_btn position-absolute top-0 end-0 m-2 btn btn-sm btn-light rounded-circle shadow-sm">
@@ -235,7 +303,7 @@
             </div>
 
             <!-- Doctor Card 3 -->
-            <div class="col-xl-3 col-lg-4 col-md-6 col-12"  data-specialty-category="plastic" data-doctor='{"name":"Dr. Ratna Bhushan","specialty":"Plastic &amp; Cosmetic Surgeon","qual":"M.B.B.S., M.S., M.Ch.","exp":"14+ Years Exp.","bio":"Leading plastic surgeon with a focus on aesthetic and reconstructive surgery.","img":"./assets/img/ratnabushan.png"}'>
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12" data-specialty-category="plastic" data-doctor='{"name":"Dr. Ratna Bhushan","specialty":"Plastic &amp; Cosmetic Surgeon","qual":"M.B.B.S., M.S., M.Ch.","exp":"14+ Years Exp.","bio":"Leading plastic surgeon with a focus on aesthetic and reconstructive surgery.","img":"./assets/img/ratnabushan.png"}'>
                 <div class="doctors_section_card card h-100 border-0 shadow-sm rounded-3 overflow-hidden">
                     <div class="doctors_section_card_img_wrapper position-relative text-center pt-3 bg-light">
                         <button class="doctors_section_wishlist_btn position-absolute top-0 end-0 m-2 btn btn-sm btn-light rounded-circle shadow-sm">
@@ -575,82 +643,82 @@
     </div>
 
     <!-- 4. BOTTOM STATS BAR -->
-<div class="container my-4 my-md-5">
-    <div class="doctors_section_bottom_stats p-3 p-sm-4 bg-light rounded-4 border shadow-sm">
-        <div class="row align-items-center justify-content-center g-3 g-md-4">
-            
-            <!-- Item 1 -->
-            <div class="col-6 col-md-4 col-lg">
-                <div class="d-flex align-items-start justify-content-start justify-content-sm-center">
-                    <div class="doctors_section_counter_icon me-2 me-sm-3">
-                        <img src="assets/img/Neuro_doctor.png" alt="Expert Doctors">
-                    </div>
-                    <div class="text-start">
-                        <h5 class="stats_number mb-0">120+</h5>
-                        <small class="stats_title text-black d-block">Expert Doctors</small>
+    <div class="container my-4 my-md-5">
+        <div class="doctors_section_bottom_stats p-3 p-sm-4 bg-light rounded-4 border shadow-sm">
+            <div class="row align-items-center justify-content-center g-3 g-md-4">
+
+                <!-- Item 1 -->
+                <div class="col-6 col-md-4 col-lg">
+                    <div class="d-flex align-items-start justify-content-start justify-content-sm-center">
+                        <div class="doctors_section_counter_icon me-2 me-sm-3">
+                            <img src="assets/img/Neuro_doctor.png" alt="Expert Doctors">
+                        </div>
+                        <div class="text-start">
+                            <h5 class="stats_number mb-0">120+</h5>
+                            <small class="stats_title text-black d-block">Expert Doctors</small>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Item 2 -->
-            <div class="col-6 col-md-4 col-lg">
-                <div class="d-flex align-items-start justify-content-start justify-content-sm-center">
-                    <div class="doctors_section_counter_icon me-2 me-sm-3">
-                        <img src="assets/img/Department.png" alt="Specialities">
-                    </div>
-                    <div class="text-start">
-                        <h5 class="stats_number mb-0">25+</h5>
-                        <small class="stats_title text-black d-block">Specialities</small>
+                <!-- Item 2 -->
+                <div class="col-6 col-md-4 col-lg">
+                    <div class="d-flex align-items-start justify-content-start justify-content-sm-center">
+                        <div class="doctors_section_counter_icon me-2 me-sm-3">
+                            <img src="assets/img/Department.png" alt="Specialities">
+                        </div>
+                        <div class="text-start">
+                            <h5 class="stats_number mb-0">25+</h5>
+                            <small class="stats_title text-black d-block">Specialities</small>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Item 3 -->
-            <div class="col-6 col-md-4 col-lg">
-                <div class="d-flex align-items-start justify-content-start justify-content-sm-center">
-                    <div class="doctors_section_counter_icon me-2 me-sm-3">
-                        <img src="assets/img/happy-clients-01.png" alt="Happy Patients">
-                    </div>
-                    <div class="text-start">
-                        <h5 class="stats_number mb-0">75,000+</h5>
-                        <small class="stats_title text-black d-block">Happy Patients</small>
+                <!-- Item 3 -->
+                <div class="col-6 col-md-4 col-lg">
+                    <div class="d-flex align-items-start justify-content-start justify-content-sm-center">
+                        <div class="doctors_section_counter_icon me-2 me-sm-3">
+                            <img src="assets/img/happy-clients-01.png" alt="Happy Patients">
+                        </div>
+                        <div class="text-start">
+                            <h5 class="stats_number mb-0">75,000+</h5>
+                            <small class="stats_title text-black d-block">Happy Patients</small>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Item 4 -->
-            <div class="col-6 col-md-4 col-lg">
-                <div class="d-flex align-items-start justify-content-start justify-content-sm-center">
-                    <div class="doctors_section_counter_icon me-2 me-sm-3">
-                        <img src="assets/img/outpatient-consultations.png" alt="OP Consultations">
-                    </div>
-                    <div class="text-start">
-                        <h5 class="stats_number mb-0">2,50,000+</h5>
-                        <small class="stats_title text-black d-block">OP Consultations</small>
+                <!-- Item 4 -->
+                <div class="col-6 col-md-4 col-lg">
+                    <div class="d-flex align-items-start justify-content-start justify-content-sm-center">
+                        <div class="doctors_section_counter_icon me-2 me-sm-3">
+                            <img src="assets/img/outpatient-consultations.png" alt="OP Consultations">
+                        </div>
+                        <div class="text-start">
+                            <h5 class="stats_number mb-0">2,50,000+</h5>
+                            <small class="stats_title text-black d-block">OP Consultations</small>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <!-- Item 5 (Centered on Mobile Grid) -->
-            <div class="col-12 col-md-4 col-lg">
-                <div class="d-flex align-items-start justify-content-center">
-                    <div class="doctors_section_counter_icon me-2 me-sm-3">
-                        <img src="assets/img/Surgical-weapons.png" alt="Successful Surgeries">
-                    </div>
-                    <div class="text-start">
-                        <h5 class="stats_number mb-0">15,000+</h5>
-                        <small class="stats_title text-black d-block">Success Surgeries</small>
+                <!-- Item 5 (Centered on Mobile Grid) -->
+                <div class="col-12 col-md-4 col-lg">
+                    <div class="d-flex align-items-start justify-content-center">
+                        <div class="doctors_section_counter_icon me-2 me-sm-3">
+                            <img src="assets/img/Surgical-weapons.png" alt="Successful Surgeries">
+                        </div>
+                        <div class="text-start">
+                            <h5 class="stats_number mb-0">15,000+</h5>
+                            <small class="stats_title text-black d-block">Success Surgeries</small>
+                        </div>
                     </div>
                 </div>
-            </div>
 
+            </div>
         </div>
     </div>
-</div>
 
     <!-- 5. WHY OUR DOCTORS ARE TRUSTED SECTION -->
     <div class="container py-4">
-        <h3 class="text-center fw-bold mb-4 doctors_section_title_underline">Why Our Doctors Are Trusted</h3>
+        <h3 class="d-flex justify-content-center text-center fw-bold mb-4 doctors_section_title_underline ">Why Our Doctors Are Trusted</h3>
         <div class="row g-4 text-center">
             <div class="col-6 col-md-4 col-lg-2">
                 <div class="doctors_section_feature_card p-3 h-100 rounded bg-white shadow-sm border">
@@ -771,145 +839,145 @@
 </div>
 
 
-  <script>
+<script>
     (function() {
-      const popup = document.getElementById('doctorPopup');
-      const popupInner = document.getElementById('popupInner');
+        const popup = document.getElementById('doctorPopup');
+        const popupInner = document.getElementById('popupInner');
 
-      // DOM elements inside popup
-      const docImg = document.getElementById('popupDocImg');
-      const docName = document.getElementById('popupDocName');
-      const docSpecialty = document.getElementById('popupDocSpecialty');
-      const docQual = document.getElementById('popupDocQual');
-      const docExp = document.getElementById('popupDocExp');
-      const docBio = document.getElementById('popupDocBio');
+        // DOM elements inside popup
+        const docImg = document.getElementById('popupDocImg');
+        const docName = document.getElementById('popupDocName');
+        const docSpecialty = document.getElementById('popupDocSpecialty');
+        const docQual = document.getElementById('popupDocQual');
+        const docExp = document.getElementById('popupDocExp');
+        const docBio = document.getElementById('popupDocBio');
 
-      const closeBtn = document.getElementById('popupCloseBtn');
-      const prevBtn = document.getElementById('popupPrevBtn');
-      const nextBtn = document.getElementById('popupNextBtn');
+        const closeBtn = document.getElementById('popupCloseBtn');
+        const prevBtn = document.getElementById('popupPrevBtn');
+        const nextBtn = document.getElementById('popupNextBtn');
 
-      // Get all doctor cards (with data-doctor attribute)
-      const cards = Array.from(document.querySelectorAll('[data-doctor]'));
-      let currentIndex = 0;
+        // Get all doctor cards (with data-doctor attribute)
+        const cards = Array.from(document.querySelectorAll('[data-doctor]'));
+        let currentIndex = 0;
 
-      // Function to open popup with a given card index
-      function openPopup(index) {
-        if (index < 0 || index >= cards.length) return;
-        currentIndex = index;
-        const card = cards[currentIndex];
-        const data = card.dataset.doctor ? JSON.parse(card.dataset.doctor) : null;
-        if (!data) return;
+        // Function to open popup with a given card index
+        function openPopup(index) {
+            if (index < 0 || index >= cards.length) return;
+            currentIndex = index;
+            const card = cards[currentIndex];
+            const data = card.dataset.doctor ? JSON.parse(card.dataset.doctor) : null;
+            if (!data) return;
 
-        // populate fields
-        docImg.src = data.img || 'https://via.placeholder.com/300';
-        docImg.alt = data.name || 'Doctor';
-        docName.textContent = data.name || 'Dr. Name';
-        docSpecialty.textContent = data.specialty || 'Specialist';
-        docQual.textContent = data.qual || 'Qualification';
-        docExp.textContent = data.exp || 'Experience';
-        docBio.textContent = data.bio || 'Dedicated specialist with a patient-first approach.';
+            // populate fields
+            docImg.src = data.img || 'https://via.placeholder.com/300';
+            docImg.alt = data.name || 'Doctor';
+            docName.textContent = data.name || 'Dr. Name';
+            docSpecialty.textContent = data.specialty || 'Specialist';
+            docQual.textContent = data.qual || 'Qualification';
+            docExp.textContent = data.exp || 'Experience';
+            docBio.textContent = data.bio || 'Dedicated specialist with a patient-first approach.';
 
-        // show popup
-        popup.classList.add('show');
-        document.body.style.overflow = 'hidden'; // prevent scroll
-      }
+            // show popup
+            popup.classList.add('show');
+            document.body.style.overflow = 'hidden'; // prevent scroll
+        }
 
-      // Close popup
-      function closePopup() {
-        popup.classList.remove('show');
-        document.body.style.overflow = '';
-      }
+        // Close popup
+        function closePopup() {
+            popup.classList.remove('show');
+            document.body.style.overflow = '';
+        }
 
-      // Navigation
-      function prevDoctor() {
-        if (cards.length === 0) return;
-        const newIndex = (currentIndex - 1 + cards.length) % cards.length;
-        openPopup(newIndex);
-      }
+        // Navigation
+        function prevDoctor() {
+            if (cards.length === 0) return;
+            const newIndex = (currentIndex - 1 + cards.length) % cards.length;
+            openPopup(newIndex);
+        }
 
-      function nextDoctor() {
-        if (cards.length === 0) return;
-        const newIndex = (currentIndex + 1) % cards.length;
-        openPopup(newIndex);
-      }
+        function nextDoctor() {
+            if (cards.length === 0) return;
+            const newIndex = (currentIndex + 1) % cards.length;
+            openPopup(newIndex);
+        }
 
-      // Event listeners for "View Profile" buttons
-      document.querySelectorAll('.view-profile-btn').forEach((btn, idx) => {
-        btn.addEventListener('click', function(e) {
-          e.preventDefault();
-          // find parent card
-          const card = this.closest('[data-doctor]');
-          if (!card) return;
-          const index = cards.indexOf(card);
-          if (index !== -1) {
-            openPopup(index);
-          }
+        // Event listeners for "View Profile" buttons
+        document.querySelectorAll('.view-profile-btn').forEach((btn, idx) => {
+            btn.addEventListener('click', function(e) {
+                e.preventDefault();
+                // find parent card
+                const card = this.closest('[data-doctor]');
+                if (!card) return;
+                const index = cards.indexOf(card);
+                if (index !== -1) {
+                    openPopup(index);
+                }
+            });
         });
-      });
 
-      // Close button
-      closeBtn.addEventListener('click', closePopup);
+        // Close button
+        closeBtn.addEventListener('click', closePopup);
 
-      // Click outside popup (on backdrop) to close
-      popup.addEventListener('click', function(e) {
-        if (e.target === popup) {
-          closePopup();
+        // Click outside popup (on backdrop) to close
+        popup.addEventListener('click', function(e) {
+            if (e.target === popup) {
+                closePopup();
+            }
+        });
+
+        // Keyboard events: ESC to close, arrows to navigate
+        document.addEventListener('keydown', function(e) {
+            if (!popup.classList.contains('show')) return;
+            if (e.key === 'Escape') {
+                closePopup();
+            } else if (e.key === 'ArrowLeft') {
+                e.preventDefault();
+                prevDoctor();
+            } else if (e.key === 'ArrowRight') {
+                e.preventDefault();
+                nextDoctor();
+            }
+        });
+
+        // Prev / Next buttons
+        prevBtn.addEventListener('click', function(e) {
+            e.stopPropagation();
+            prevDoctor();
+        });
+        nextBtn.addEventListener('click', function(e) {
+            e.stopPropagation();
+            nextDoctor();
+        });
+
+        // (Optional) if there are zero cards, hide arrows
+        if (cards.length <= 1) {
+            prevBtn.style.display = 'none';
+            nextBtn.style.display = 'none';
         }
-      });
-
-      // Keyboard events: ESC to close, arrows to navigate
-      document.addEventListener('keydown', function(e) {
-        if (!popup.classList.contains('show')) return;
-        if (e.key === 'Escape') {
-          closePopup();
-        } else if (e.key === 'ArrowLeft') {
-          e.preventDefault();
-          prevDoctor();
-        } else if (e.key === 'ArrowRight') {
-          e.preventDefault();
-          nextDoctor();
-        }
-      });
-
-      // Prev / Next buttons
-      prevBtn.addEventListener('click', function(e) {
-        e.stopPropagation();
-        prevDoctor();
-      });
-      nextBtn.addEventListener('click', function(e) {
-        e.stopPropagation();
-        nextDoctor();
-      });
-
-      // (Optional) if there are zero cards, hide arrows
-      if (cards.length <= 1) {
-        prevBtn.style.display = 'none';
-        nextBtn.style.display = 'none';
-      }
     })();
-  </script>
+</script>
 
 
 <script>
-document.addEventListener("DOMContentLoaded", function () {
+    document.addEventListener("DOMContentLoaded", function() {
 
-    const filterForm = document.getElementById("doctorFilterForm");
-    const searchInput = document.getElementById("doctorSearch");
-    const specialtyFilter = document.getElementById("specialtyFilter");
-    const qualificationFilter = document.getElementById("qualificationFilter");
-    const experienceFilter = document.getElementById("experienceFilter");
-    const doctorGrid = document.getElementById("doctorGrid");
+        const filterForm = document.getElementById("doctorFilterForm");
+        const searchInput = document.getElementById("doctorSearch");
+        const specialtyFilter = document.getElementById("specialtyFilter");
+        const qualificationFilter = document.getElementById("qualificationFilter");
+        const experienceFilter = document.getElementById("experienceFilter");
+        const doctorGrid = document.getElementById("doctorGrid");
 
-    // Get all doctor cards
-    const doctorCards = Array.from(
-        doctorGrid.children
-    );
+        // Get all doctor cards
+        const doctorCards = Array.from(
+            doctorGrid.children
+        );
 
-    // Create "No doctors found" message
-    const noResultsMessage = document.createElement("div");
+        // Create "No doctors found" message
+        const noResultsMessage = document.createElement("div");
 
-    noResultsMessage.className = "col-12 text-center py-5";
-    noResultsMessage.innerHTML = `
+        noResultsMessage.className = "col-12 text-center py-5";
+        noResultsMessage.innerHTML = `
         <div class="py-4">
             <i class="bi bi-person-x fs-1 text-muted"></i>
             <h5 class="mt-3 text-muted">No doctors found</h5>
@@ -919,227 +987,227 @@ document.addEventListener("DOMContentLoaded", function () {
         </div>
     `;
 
-    function filterDoctors() {
+        function filterDoctors() {
 
-        // Get search value
-        const searchValue = searchInput.value
-            .trim()
-            .toLowerCase();
+            // Get search value
+            const searchValue = searchInput.value
+                .trim()
+                .toLowerCase();
 
-        // Get selected filters
-        const specialtyValue = specialtyFilter.value
-            .trim()
-            .toLowerCase();
+            // Get selected filters
+            const specialtyValue = specialtyFilter.value
+                .trim()
+                .toLowerCase();
 
-        const qualificationValue = qualificationFilter.value
-            .trim()
-            .toLowerCase();
+            const qualificationValue = qualificationFilter.value
+                .trim()
+                .toLowerCase();
 
-        const experienceValue = experienceFilter.value
-            .trim()
-            .toLowerCase();
+            const experienceValue = experienceFilter.value
+                .trim()
+                .toLowerCase();
 
-        let visibleDoctors = 0;
+            let visibleDoctors = 0;
 
-        doctorCards.forEach(function (card) {
+            doctorCards.forEach(function(card) {
 
-            const doctorDataString = card.getAttribute("data-doctor");
+                const doctorDataString = card.getAttribute("data-doctor");
 
-            if (!doctorDataString) {
-                return;
-            }
+                if (!doctorDataString) {
+                    return;
+                }
 
-            let doctor;
+                let doctor;
 
-            try {
-                doctor = JSON.parse(doctorDataString);
-            } catch (error) {
-                console.error("Invalid doctor data:", error);
-                return;
-            }
+                try {
+                    doctor = JSON.parse(doctorDataString);
+                } catch (error) {
+                    console.error("Invalid doctor data:", error);
+                    return;
+                }
 
-            // Doctor information
-            const name = (doctor.name || "").toLowerCase();
-            const specialty = (doctor.specialty || "").toLowerCase();
-            const qualification = (doctor.qual || "").toLowerCase();
-            const experience = (doctor.exp || "").toLowerCase();
-            const bio = (doctor.bio || "").toLowerCase();
+                // Doctor information
+                const name = (doctor.name || "").toLowerCase();
+                const specialty = (doctor.specialty || "").toLowerCase();
+                const qualification = (doctor.qual || "").toLowerCase();
+                const experience = (doctor.exp || "").toLowerCase();
+                const bio = (doctor.bio || "").toLowerCase();
 
-            /*
-             * SEARCH
-             *
-             * Search works across:
-             * - Doctor name
-             * - Specialty
-             * - Qualification
-             * - Experience
-             * - Bio
-             */
-            const searchMatch =
-                searchValue === "" ||
-                name.includes(searchValue) ||
-                specialty.includes(searchValue) ||
-                qualification.includes(searchValue) ||
-                experience.includes(searchValue) ||
-                bio.includes(searchValue);
+                /*
+                 * SEARCH
+                 *
+                 * Search works across:
+                 * - Doctor name
+                 * - Specialty
+                 * - Qualification
+                 * - Experience
+                 * - Bio
+                 */
+                const searchMatch =
+                    searchValue === "" ||
+                    name.includes(searchValue) ||
+                    specialty.includes(searchValue) ||
+                    qualification.includes(searchValue) ||
+                    experience.includes(searchValue) ||
+                    bio.includes(searchValue);
 
-            /*
-             * SPECIALTY FILTER
-             */
-            const doctorSpecialtyCategory =
-            (card.getAttribute("data-specialty-category") || "")
-            .toLowerCase();
+                /*
+                 * SPECIALTY FILTER
+                 */
+                const doctorSpecialtyCategory =
+                    (card.getAttribute("data-specialty-category") || "")
+                    .toLowerCase();
 
-            const specialtyMatch =
-            specialtyValue === "" ||
-            specialtyValue === "all specialities" ||
-            doctorSpecialtyCategory === specialtyValue;
+                const specialtyMatch =
+                    specialtyValue === "" ||
+                    specialtyValue === "all specialities" ||
+                    doctorSpecialtyCategory === specialtyValue;
 
-            /*
-             * QUALIFICATION FILTER
-             */
-            const qualificationMatch =
-                qualificationValue === "" ||
-                qualificationValue === "all qualifications" ||
-                qualification.includes(qualificationValue);
+                /*
+                 * QUALIFICATION FILTER
+                 */
+                const qualificationMatch =
+                    qualificationValue === "" ||
+                    qualificationValue === "all qualifications" ||
+                    qualification.includes(qualificationValue);
 
-            /*
-             * EXPERIENCE FILTER
-             */
-            let experienceMatch = true;
+                /*
+                 * EXPERIENCE FILTER
+                 */
+                let experienceMatch = true;
 
-            if (
-                experienceValue !== "" &&
-                experienceValue !== "all experience"
-            ) {
+                if (
+                    experienceValue !== "" &&
+                    experienceValue !== "all experience"
+                ) {
 
-                const doctorExperience =
-                    parseInt(experience.match(/\d+/)?.[0] || "0");
+                    const doctorExperience =
+                        parseInt(experience.match(/\d+/)?.[0] || "0");
 
-                const selectedExperience =
-                    parseInt(experienceValue.match(/\d+/)?.[0] || "0");
+                    const selectedExperience =
+                        parseInt(experienceValue.match(/\d+/)?.[0] || "0");
 
-                experienceMatch =
-                    doctorExperience >= selectedExperience;
-            }
+                    experienceMatch =
+                        doctorExperience >= selectedExperience;
+                }
 
-            /*
-             * FINAL RESULT
-             *
-             * All selected conditions must match.
-             */
-            const shouldShow =
-                searchMatch &&
-                specialtyMatch &&
-                qualificationMatch &&
-                experienceMatch;
+                /*
+                 * FINAL RESULT
+                 *
+                 * All selected conditions must match.
+                 */
+                const shouldShow =
+                    searchMatch &&
+                    specialtyMatch &&
+                    qualificationMatch &&
+                    experienceMatch;
 
-            if (shouldShow) {
-                card.style.display = "";
-                visibleDoctors++;
+                if (shouldShow) {
+                    card.style.display = "";
+                    visibleDoctors++;
+                } else {
+                    card.style.display = "none";
+                }
+
+            });
+
+            // Show / hide no-result message
+            if (visibleDoctors === 0) {
+
+                if (!doctorGrid.contains(noResultsMessage)) {
+                    doctorGrid.appendChild(noResultsMessage);
+                }
+
             } else {
-                card.style.display = "none";
+
+                if (doctorGrid.contains(noResultsMessage)) {
+                    noResultsMessage.remove();
+                }
             }
+        }
+
+
+        /*
+         * SEARCH BUTTON
+         */
+        filterForm.addEventListener("submit", function(event) {
+
+            event.preventDefault();
+
+            filterDoctors();
 
         });
 
-        // Show / hide no-result message
-        if (visibleDoctors === 0) {
 
-            if (!doctorGrid.contains(noResultsMessage)) {
-                doctorGrid.appendChild(noResultsMessage);
-            }
+        /*
+         * LIVE SEARCH
+         *
+         * This makes results appear while typing.
+         *
+         * Example:
+         * "D" → matching doctors
+         * "Dr." → matching doctors
+         * "Dr. M" → Ashok
+         * "Ashok" → Ashok
+         */
+        searchInput.addEventListener("input", function() {
 
-        } else {
+            filterDoctors();
 
-            if (doctorGrid.contains(noResultsMessage)) {
-                noResultsMessage.remove();
-            }
-        }
-    }
-
-
-    /*
-     * SEARCH BUTTON
-     */
-    filterForm.addEventListener("submit", function (event) {
-
-        event.preventDefault();
-
-        filterDoctors();
-
-    });
+        });
 
 
-    /*
-     * LIVE SEARCH
-     *
-     * This makes results appear while typing.
-     *
-     * Example:
-     * "D" → matching doctors
-     * "Dr." → matching doctors
-     * "Dr. M" → Ashok
-     * "Ashok" → Ashok
-     */
-    searchInput.addEventListener("input", function () {
+        /*
+         * SPECIALTY FILTER
+         */
+        specialtyFilter.addEventListener("change", function() {
 
-        filterDoctors();
+            filterDoctors();
 
-    });
+        });
 
 
-    /*
-     * SPECIALTY FILTER
-     */
-    specialtyFilter.addEventListener("change", function () {
+        /*
+         * QUALIFICATION FILTER
+         */
+        qualificationFilter.addEventListener("change", function() {
 
-        filterDoctors();
+            filterDoctors();
 
-    });
-
-
-    /*
-     * QUALIFICATION FILTER
-     */
-    qualificationFilter.addEventListener("change", function () {
-
-        filterDoctors();
-
-    });
+        });
 
 
-    /*
-     * EXPERIENCE FILTER
-     */
-    experienceFilter.addEventListener("change", function () {
+        /*
+         * EXPERIENCE FILTER
+         */
+        experienceFilter.addEventListener("change", function() {
 
-        filterDoctors();
+            filterDoctors();
+
+        });
+
+
+        /*
+         * RESET BUTTON
+         */
+        filterForm.addEventListener("reset", function() {
+
+            // Wait until browser resets the form values
+            setTimeout(function() {
+
+                doctorCards.forEach(function(card) {
+                    card.style.display = "";
+                });
+
+                if (doctorGrid.contains(noResultsMessage)) {
+                    noResultsMessage.remove();
+                }
+
+            }, 0);
+
+        });
 
     });
-
-
-    /*
-     * RESET BUTTON
-     */
-    filterForm.addEventListener("reset", function () {
-
-        // Wait until browser resets the form values
-        setTimeout(function () {
-
-            doctorCards.forEach(function (card) {
-                card.style.display = "";
-            });
-
-            if (doctorGrid.contains(noResultsMessage)) {
-                noResultsMessage.remove();
-            }
-
-        }, 0);
-
-    });
-
-});
 </script>
 
 <?php include 'footer.php'; ?>
