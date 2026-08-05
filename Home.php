@@ -728,7 +728,8 @@
         <div class="col-12 col-sm-6 col-lg-2-4">
           <div class="stat-item">
             <div class="stat-icon">
-              <i class="fa-solid fa-building-circle-check"></i>
+              <!-- <i class="fa-solid fa-building-circle-check"></i> -->
+                <i class="fa-solid fa-user-nurse"></i>
             </div>
             <div>
               <div class="stat-number">25+</div>
@@ -741,7 +742,8 @@
         <div class="col-12 col-sm-6 col-lg-2-4">
           <div class="stat-item">
             <div class="stat-icon">
-              <i class="fa-solid fa-heart-circle-check"></i>
+              <!-- <i class="fa-solid fa-heart-circle-check"></i> -->
+                <i class="fa-solid fa-user-nurse"></i>
             </div>
             <div>
               <div class="stat-number">75K+</div>
@@ -810,7 +812,8 @@
         <div class="row g-2 mb-3">
           <div class="col-6">
             <div class="feature-item">
-              <i class="fa-solid fa-shield-heart text-primary"></i>
+              <!-- <i class="fa-solid fa-shield-heart text-primary"></i> -->
+                <i class="fa-solid fa-user-doctor text-warning"></i>
               <span>Patient First Approach</span>
             </div>
           </div>
@@ -1221,12 +1224,12 @@
 
           <!-- NABH Accreditation Seal -->
           <div class="logo-item">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/NABH_logo.jpg/600px-NABH_logo.jpg" class="accred-img" alt="NABH Accredited">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg" class="accred-img" alt="NABH Accredited">
           </div>
 
           <!-- NABL Accreditation Seal -->
           <div class="logo-item">
-            <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/0b/NABL_Logo.svg/1200px-NABL_Logo.svg.png" class="accred-img" alt="NABL Accredited">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg" class="accred-img" alt="NABL Accredited">
           </div>
 
           <!-- Govt / Health Certification Seal -->
@@ -1236,7 +1239,7 @@
 
           <!-- ISO Certified Seal -->
           <div class="logo-item">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/ISO_9001-2015.svg/1200px-ISO_9001-2015.svg.png" class="accred-img" alt="ISO Certified">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg" class="accred-img" alt="ISO Certified">
           </div>
 
         </div>

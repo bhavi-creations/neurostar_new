@@ -337,7 +337,7 @@
                     <!-- Left: Video Image Thumbnail -->
                     <div class="col-12 col-lg-4">
                         <div class="infra-img-box">
-                            <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?q=80&w=800&auto=format&fit=crop" alt="Operation Theatre">
+                            <img src="./assets/img/index-hospital-1.png" alt="Operation Theatre">
                             <a href="#" class="play-btn-overlay" title="Watch Video">
                                 <i class="fa-solid fa-play"></i>
                             </a>
@@ -397,7 +397,7 @@
                             <p class="nabh-slogan">
                                 Committed to Quality, Safety & Patient Satisfaction
                             </p>
-                            <a href="#" class="btn-learn-more">Learn More</a>
+                            <!-- <a href="#" class="btn-learn-more">Learn More</a> -->
                         </div>
                     </div>
 
@@ -424,10 +424,10 @@
                     <!-- Right Action Buttons -->
                     <div class="col-12 col-lg-5 text-lg-end">
                         <div class="d-inline-flex flex-wrap gap-2">
-                            <a href="#" class="btn-cta-white">
+                            <a href="doctors.php" class="btn-cta-white">
                                 <i class="fa-regular fa-user"></i> Find a Doctor
                             </a>
-                            <a href="#" class="btn-cta-teal">
+                            <a href="appointment.php" class="btn-cta-teal">
                                 <i class="fa-regular fa-calendar-check"></i> Book Appointment
                             </a>
                         </div>

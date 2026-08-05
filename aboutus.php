@@ -174,11 +174,11 @@
                         We continue to innovate and expand our services to improve lives and build a healthier community.
                     </p>
 
-                    <div class="pt-2">
+                    <!-- <div class="pt-2">
                         <a href="#" class="about-second-section-btn">
                             Our Journey <i class="fa-solid fa-arrow-right"></i>
                         </a>
-                    </div>
+                    </div> -->
                 </div>
 
                 <!-- 2. Featured Image (Center Column) -->
@@ -521,7 +521,7 @@
                     <div class="col-12 col-sm-6 col-md-4 col-lg-2">
                         <div class="about-fifth-section-item">
                             <div class="about-fifth-section-circle c-2024">
-                                2024
+                                2026
                             </div>
                             <p class="about-fifth-section-desc">
                                 Continuing our mission to deliver exceptional care and healthier lives.
@@ -557,7 +557,8 @@
                 <div class="col-12 col-sm-6 col-md-4 col-lg-2-4">
                     <div class="about-sixth-section-card">
                         <div class="about-sixth-section-icon-wrapper">
-                            <i class="fa-solid fa-shield-halved" style="color: #dc2626;"></i>
+                            <!-- <i class="fa-solid fa-shield-halved" style="color: #dc2626;"></i> -->
+                               <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg" class="accred-img" alt="NABH Accredited" style="width: 50px; height: 50px;">
                         </div>
                         <h4 class="about-sixth-section-card-title">NABH Accredited</h4>
                         <p class="about-sixth-section-card-desc">
