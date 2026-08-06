@@ -18,18 +18,18 @@
 
                     <!-- Main Title -->
                     <h1 class="main-title">
-                        About Carewell
+                        About Neurostar
                         <span>Multispeciality Hospital</span>
                     </h1>
 
                     <div class="title-line"></div>
 
                     <!-- Sub tagline -->
-                    <h5 class="sub-tagline">Compassionate Care. Advanced Medicine. Healthier Lives.</h5>
+                    <h5 class="sub-tagline">Advanced Healthcare. Trusted Doctors. Happy Patients.</h5>
 
                     <!-- Description -->
                     <p class="hero-desc">
-                        Carewell Multispeciality Hospital is dedicated to providing world-class healthcare with compassion, innovation and integrity. Our expert team and advanced technology ensure the best outcomes for every patient.
+                        Neurostar Hospital is dedicated to providing cutting-edge neurological care, combining advanced technology with compassionate service to enhance the well-being of our patients.
                     </p>
 
                     <!-- Upper Key Feature Badges -->
@@ -165,13 +165,13 @@
                     <h2 class="about-second-section-title">Our Story</h2>
                     <div class="about-second-section-cyan-line"></div>
                     <p class="about-second-section-text">
-                        Carewell Multispeciality Hospital was established with a vision to provide comprehensive, compassoinate, and affordable healthcare under one roof.
+                        At <strong>NEUROSTAR Hospital</strong>, our primary focus is patient-centered care, delivered by a dedicated team of professionals specializing in neuroscience.
                     </p>
                     <p class="about-second-section-text">
-                        Over the years, we have grown into a trusted healthcare institution, equipped with advanced technology and a teem of expert doctors committed to excellence.
+                        We strive to provide exceptional treatment for brain and spine conditions through collaborative teamwork, ensuring top-quality services at an affordable cost.
                     </p>
                     <p class="about-second-section-text">
-                        We continue to innovate and expand our services to improve lives and build a healthier community.
+                       By upholding the highest standards of medical practice, we are committed to delivering the best possible care and supporting your optimal recovery.
                     </p>
 
                     <!-- <div class="pt-2">
@@ -192,7 +192,7 @@
                 <div class="col-12 col-lg-4">
                     <div class="ps-lg-3">
 
-                        <h2 class="about-second-section-title">Carewell At A Glance</h2>
+                        <h2 class="about-second-section-title">Neurostar At A Glance</h2>
                         <div class="about-second-section-cyan-line"></div>
                         <div class="row g-2 pt-2">
 
@@ -346,7 +346,7 @@
 
             <!-- Section Title with Cyan Line -->
 
-            <h2 class="about-fourth-section-title">Why Choose Carewell?</h2>
+            <h2 class="about-fourth-section-title">Why Choose Neurostar?</h2>
             <div class="about-fourth-section-cyan-line"></div>
 
             <!-- 6 Columns Features Grid -->
@@ -457,38 +457,38 @@
             <div class="about-fifth-section-timeline-wrapper">
                 <div class="row g-4 justify-content-center">
 
-                    <!-- Item 1: 2004 -->
+                    <!-- Item 1: 2018 -->
                     <div class="col-12 col-sm-6 col-md-4 col-lg-2">
                         <div class="about-fifth-section-item">
                             <div class="about-fifth-section-circle c-2004">
-                                2004
+                                2018
                             </div>
                             <p class="about-fifth-section-desc">
-                                Carewell Hospital was founded with a vision to serve quality healthcare.
+                                NEUROSTAR Hospital was founded in 2018 to provide advanced neurological care in Kakinada.
                             </p>
                         </div>
                     </div>
 
-                    <!-- Item 2: 2008 -->
+                    <!-- Item 2: 2020 -->
                     <div class="col-12 col-sm-6 col-md-4 col-lg-2">
                         <div class="about-fifth-section-item">
                             <div class="about-fifth-section-circle c-2008">
-                                2008
+                                2020
                             </div>
                             <p class="about-fifth-section-desc">
-                                Expanded departments and introduced advanced diagnostic services.
+                                Expanded Medical Services Introduced additional specialty departments and advanced diagnostic.
                             </p>
                         </div>
                     </div>
 
-                    <!-- Item 3: 2012 -->
+                    <!-- Item 3: 2018 -->
                     <div class="col-12 col-sm-6 col-md-4 col-lg-2">
                         <div class="about-fifth-section-item">
                             <div class="about-fifth-section-circle c-2012">
-                                2012
+                                2021
                             </div>
                             <p class="about-fifth-section-desc">
-                                Introduced advanced surgical facilities and critical care units.
+                                Added modern operation theatres and advanced brain & spine surgery facilities.
                             </p>
                         </div>
                     </div>
@@ -497,10 +497,10 @@
                     <div class="col-12 col-sm-6 col-md-4 col-lg-2">
                         <div class="about-fifth-section-item">
                             <div class="about-fifth-section-circle c-2016">
-                                2016
+                                2024
                             </div>
                             <p class="about-fifth-section-desc">
-                                Achieved NABH Accreditation for quality healthcare.
+                                Strengthened specialist teams and expanded patient-focused healthcare services.
                             </p>
                         </div>
                     </div>
@@ -509,10 +509,10 @@
                     <div class="col-12 col-sm-6 col-md-4 col-lg-2">
                         <div class="about-fifth-section-item">
                             <div class="about-fifth-section-circle c-2020">
-                                2020
+                                2025
                             </div>
                             <p class="about-fifth-section-desc">
-                                Expanded our infrastructure with super speciality services.
+                                Expanded our infrastructure with multi speciality services for patients care.
                             </p>
                         </div>
                     </div>
@@ -524,7 +524,7 @@
                                 2026
                             </div>
                             <p class="about-fifth-section-desc">
-                                Continuing our mission to deliver exceptional care and healthier lives.
+                                Continuing our mission to Deliver healthcare for every patient.
                             </p>
                         </div>
                     </div>
@@ -658,7 +658,7 @@
 
                             <!-- Book Appointment Card -->
                             <div class="col-12 col-sm-6">
-                                <a href="#" class="about-seventh-section-cta-card">
+                                <a href="appointment.php" class="about-seventh-section-cta-card">
                                     <div class="about-seventh-section-cta-icon">
                                         <i class="fa-regular fa-calendar-check"></i>
                                     </div>
@@ -672,7 +672,7 @@
 
                             <!-- Emergency Care Card -->
                             <div class="col-12 col-sm-6">
-                                <a href="tel:+1234567890" class="about-seventh-section-cta-card emergency">
+                                <a href="tel:+91 9121476777" class="about-seventh-section-cta-card emergency">
                                     <div class="about-seventh-section-cta-icon">
                                         <i class="fa-solid fa-phone-volume"></i>
                                     </div>

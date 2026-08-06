@@ -23,7 +23,7 @@
 
                     <!-- Description -->
                     <p class="hero-desc">
-                        We offer a wide range of medical specialities and advanced treatments under one roof with a team of expert doctors and state-of-the-art facilities to ensure the best outcomes for our patients.
+                        We strive to provide exceptional treatment for brain and spine conditions through collaborative teamwork, ensuring top-quality services at an affordable cost, all while upholding the highest standards of medical practice for your optimal recovery.
                     </p>
 
                     <!-- Bottom Key Stats Bar -->
@@ -349,7 +349,7 @@
                         <div class="badge-sub-title">ADVANCED CARE</div>
                         <h3 class="infra-title">State-of-the-Art Infrastructure</h3>
                         <p class="infra-desc">
-                            Our hospital is equipped with cutting-edge technology, modular operation theatres, advanced ICUs and world-class diagnostic facilities for accurate diagnosis and effective treatment.
+                           NEUROSTAR Hospital is Equipped with the latest advancements in medical technology and supported by state-of-the-art diagnostic and surgical facilities, we are committed to ensuring not only prompt and effective recovery but also a compassionate and patient-centered approach. "
                         </p>
 
                         <!-- 2-Column Features Grid -->

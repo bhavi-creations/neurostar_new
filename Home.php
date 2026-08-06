@@ -94,14 +94,15 @@
 
         <!-- Title -->
         <h1 class="index-first-section-title">
-          Advanced Care.<br>
-          Compassionate Hearts.<br>
-          <span>Better Lives.</span>
+          Advanced Healthcare.<br>
+          Trusted Doctors.<br>
+          <span>Happy Patients.</span>
         </h1>
 
         <!-- Subtitle -->
         <p class="index-first-section-subtitle">
-          World-class medical expertise with advanced technology and personalized care for you and your family.
+          <!-- World-class medical expertise with advanced technology and personalized care for you and your family. -->
+           NEUROSTAR Hospital is dedicated to providing cutting-edge neurological care, combining advanced technology with services for the well-being of our patients.
         </p>
 
         <!-- Buttons Group -->
@@ -121,7 +122,7 @@
           </div>
           <div>
             <p class="index-first-section-emergency-label">24x7 Emergency Care</p>
-            <a href="tel:+919876543210" class="index-first-section-emergency-number">+91 98765 43210</a>
+            <a href="tel:+91 9121476777" class="index-first-section-emergency-number">+91 9121476777</a>
             <p class="index-first-section-emergency-subtext">Your health is our priority, always.</p>
           </div>
         </div>
@@ -793,7 +794,7 @@
       <!-- Left Column: Hospital Image with Play Overlay -->
       <div class="col-lg-6">
         <div class="about-img-wrapper">
-          <img src="./assets/img/index-hospital-1.png" alt="Carewell Hospital Reception">
+          <img src="./assets/img/index-hospital-1.png" alt="Neurostar Hospital Reception">
           <a href="#" class="play-btn" title="Watch Video">
             <i class="fa-solid fa-play ps-1"></i>
           </a>
@@ -803,11 +804,13 @@
       <!-- Right Column: Content & Features -->
       <div class="col-lg-6">
         <span class="section-badge">About Us</span>
-        <h2 class="section-heading">Caring Beyond Treatment</h2>
+        <h2 class="section-heading">About Neurostar Hospital</h2>
         <p class="section-desc">
-          Carewell Multispeciality Hospital is dedicated to provide comprehensive, compassionate and advanced healthcare services under one roof. Our expert team of doctors and state-of-the-art technology ensure the best outcomes for our patients.
+          At NEUROSTAR Hospital, our primary focus is patient-centered care, delivered by a dedicated team of professionals specializing in neuroscience.
         </p>
-
+        <p class="section-desc">
+          We strive to provide exceptional treatment for brain and spine conditions through collaborative teamwork, ensuring top-quality services at an affordable cost, all while upholding the highest standards of medical practice for your optimal recovery.
+        </p>
         <!-- Features Grid (2 Columns) -->
         <div class="row g-2 mb-3">
           <div class="col-6">
@@ -881,21 +884,21 @@
     <div class="dept-container">
       <div class="row g-0">
 
-        <!-- 1. Cardiology -->
+        <!-- 2. Neuro Surgery -->
         <div class="col-6 col-md-4 col-lg-2">
-          <a href="#" class="dept-card">
-            <div class="dept-icon bg-rose-light">
-              <i class="fa-solid fa-heart-pulse"></i>
+          <a href="neuro-surgery.php" class="dept-card">
+            <div class="dept-icon bg-purple-light">
+              <i class="fa-solid fa-brain"></i>
             </div>
-            <h6 class="dept-title">Cardiology</h6>
+            <h6 class="dept-title">Neuro Surgery</h6>
           </a>
         </div>
 
         <!-- 2. Neurology -->
         <div class="col-6 col-md-4 col-lg-2">
-          <a href="#" class="dept-card">
+          <a href="neurology.php" class="dept-card">
             <div class="dept-icon bg-purple-light">
-              <i class="fa-solid fa-brain"></i>
+               <i class="fa-solid fa-head-side-virus"></i>
             </div>
             <h6 class="dept-title">Neurology</h6>
           </a>
@@ -903,7 +906,7 @@
 
         <!-- 3. Orthopedics -->
         <div class="col-6 col-md-4 col-lg-2">
-          <a href="#" class="dept-card">
+          <a href="orthopaedic-surgery.php" class="dept-card">
             <div class="dept-icon bg-blue-light">
               <i class="fa-solid fa-bone"></i>
             </div>
@@ -913,7 +916,7 @@
 
         <!-- 4. Pediatrics -->
         <div class="col-6 col-md-4 col-lg-2">
-          <a href="#" class="dept-card">
+          <a href="pediatrics.php" class="dept-card">
             <div class="dept-icon bg-green-light">
               <i class="fa-solid fa-child"></i>
             </div>
@@ -923,7 +926,7 @@
 
         <!-- 5. Gynecology -->
         <div class="col-6 col-md-4 col-lg-2">
-          <a href="#" class="dept-card">
+          <a href="gynecology.php" class="dept-card">
             <div class="dept-icon bg-pink-light">
               <i class="fa-solid fa-venus"></i>
             </div>
@@ -931,77 +934,77 @@
           </a>
         </div>
 
-        <!-- 6. Oncology -->
+        <!-- 6. Dental -->
         <div class="col-6 col-md-4 col-lg-2">
-          <a href="#" class="dept-card">
-            <div class="dept-icon bg-purple-light">
-              <i class="fa-solid fa-ribbon"></i>
-            </div>
-            <h6 class="dept-title">Oncology</h6>
-          </a>
-        </div>
-
-        <!-- 7. Gastroenterology -->
-        <div class="col-6 col-md-4 col-lg-2">
-          <a href="#" class="dept-card">
+          <a href="dental.php" class="dept-card">
             <div class="dept-icon bg-orange-light">
+              <i class="fa-solid fa-tooth"></i>
+            </div>
+            <h6 class="dept-title">Dental</h6>
+          </a>
+        </div>
+
+        <!-- 7. Accidents & Trauma Care -->
+        <div class="col-6 col-md-4 col-lg-2">
+          <a href="accidents-and-trauma-care.php" class="dept-card">
+            <div class="dept-icon bg-red-light">
               <!-- <i class="fa-solid fa-stomach"></i> -->
-              <!-- <i class="fa-solid fa-gut"></i> -->
-              <img src="./assets/img/stomach.png" alt="" class="img-fluid" style="width: 40px;">
+              <!-- <img src="./assets/img/stomach.png" alt="" class="img-fluid" style="width: 40px;"> -->
+               <i class="fa-solid fa-truck-medical"></i>
             </div>
-            <h6 class="dept-title">Gastroenterology</h6>
+            <h6 class="dept-title">Accidents & Trauma Care</h6>
           </a>
         </div>
 
-        <!-- 8. Pulmonology -->
+        <!-- 8. Critical Care -->
         <div class="col-6 col-md-4 col-lg-2">
-          <a href="#" class="dept-card">
+          <a href="critical-care.php" class="dept-card">
             <div class="dept-icon bg-blue-light">
-              <i class="fa-solid fa-lungs"></i>
+              <i class="fa-solid fa-bed-pulse"></i>
             </div>
-            <h6 class="dept-title">Pulmonology</h6>
+            <h6 class="dept-title">Critical Care</h6>
           </a>
         </div>
 
-        <!-- 9. Nephrology -->
+        <!-- 9. Radiology -->
         <div class="col-6 col-md-4 col-lg-2">
-          <a href="#" class="dept-card">
+          <a href="radiology.php" class="dept-card">
             <div class="dept-icon bg-red-light">
-              <!-- <i class="fa-solid fa-kidneys"></i> -->
-              <img src="./assets/img/nephrology_1.png" alt="" class="img-fluid" style="width: 40px;">
+              <!-- <img src="./assets/img/nephrology_1.png" alt="" class="img-fluid" style="width: 40px;"> -->
+               <i class="fa-solid fa-x-ray"></i>
             </div>
-            <h6 class="dept-title">Nephrology</h6>
+            <h6 class="dept-title">Radiology</h6>
           </a>
         </div>
 
-        <!-- 10. Urology -->
+        <!-- 10. General Medicine -->
         <div class="col-6 col-md-4 col-lg-2">
-          <a href="#" class="dept-card">
+          <a href="general-medicine.php" class="dept-card">
             <div class="dept-icon bg-red-light">
-              <i class="fa-solid fa-person text-danger"></i>
+              <i class="fa-solid fa-user-doctor"></i>
             </div>
-            <h6 class="dept-title">Urology</h6>
+            <h6 class="dept-title">General Medicine</h6>
           </a>
         </div>
 
-        <!-- 11. ENT -->
+        <!-- 11. Physiotherapy -->
         <div class="col-6 col-md-4 col-lg-2">
-          <a href="#" class="dept-card">
+          <a href="physiotherapy.php" class="dept-card">
             <div class="dept-icon bg-teal-light">
-              <i class="fa-solid fa-ear-listen"></i>
+              <i class="fa-solid fa-person-walking"></i>
             </div>
-            <h6 class="dept-title">ENT</h6>
+            <h6 class="dept-title">Physiotherapy</h6>
           </a>
         </div>
 
         <!-- 12. General Surgery -->
         <div class="col-6 col-md-4 col-lg-2">
-          <a href="#" class="dept-card">
+          <a href="general-and-laproscopic-surgery.php" class="dept-card">
             <div class="dept-icon bg-blue-light">
               <!-- <i class="fa-solid fa-scalpel"></i> -->
-              <img src="./assets/img/bed.png" alt="" class="img-fluid" style="width: 40px;">
+              <i class="fa-solid fa-scissors"></i>
             </div>
-            <h6 class="dept-title">General Surgery</h6>
+            <h6 class="dept-title">General & Laproscopic Surgery</h6>
           </a>
         </div>
 
@@ -1114,7 +1117,7 @@
           <div class="treatment-body">
             <h5 class="treatment-title">Neuro Surgery</h5>
             <p class="treatment-desc">Advanced neurosurgical procedures for brain and spine.</p>
-            <a href="#" class="read-more-link">
+            <a href="neuro-surgery.php" class="read-more-link">
               Read More <i class="fa-solid fa-arrow-right"></i>
             </a>
           </div>
@@ -1130,7 +1133,7 @@
           <div class="treatment-body">
             <h5 class="treatment-title">Neurology</h5>
             <p class="treatment-desc">Expert diagnosis and treatment for neurological disorders.</p>
-            <a href="#" class="read-more-link">
+            <a href="neurology.php" class="read-more-link">
               Read More <i class="fa-solid fa-arrow-right"></i>
             </a>
           </div>
@@ -1146,7 +1149,7 @@
           <div class="treatment-body">
             <h5 class="treatment-title">Accidents & Trauma Care</h5>
             <p class="treatment-desc">24/7 emergency trauma care for critical injuries.</p>
-            <a href="#" class="read-more-link">
+            <a href="accidents-and-trauma-care.php" class="read-more-link">
               Read More <i class="fa-solid fa-arrow-right"></i>
             </a>
           </div>
@@ -1162,7 +1165,7 @@
           <div class="treatment-body">
             <h5 class="treatment-title">Orthopaedic Surgery</h5>
             <p class="treatment-desc">Specialized surgical care for bones, joints, and muscles.</p>
-            <a href="#" class="read-more-link">
+            <a href="orthopaedic-surgery.php" class="read-more-link">
               Read More <i class="fa-solid fa-arrow-right"></i>
             </a>
           </div>

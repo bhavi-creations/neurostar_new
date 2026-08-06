@@ -307,7 +307,7 @@
                     <div class="contactus_section_cta_box text-center p-4 rounded-3">
                         <h5 class="fw-bold text-dark mb-2">Need Immediate Help?</h5>
                         <p class="text-black small mb-3">Our emergency team is available 24x7</p>
-                        <a href="tel:+919876543210" class="btn btn-outline-primary text-dark fw-bold px-4 py-2 w-100 d-flex align-items-center justify-content-center gap-2">
+                        <a href="tel:+91 9121476777" class="btn btn-outline-primary text-dark fw-bold px-4 py-2 w-100 d-flex align-items-center justify-content-center gap-2">
                             <i class="bi bi-telephone-fill text-danger"></i>
                             <span>Call Emergency</span>
                             <span class="fw-bold text-primary ms-2">+91 9121476777</span>

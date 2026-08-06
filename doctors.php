@@ -19,12 +19,12 @@
                     </div>
 
                     <!-- Titles -->
-                    <h1 class="main-title">Our Expert Doctors</h1>
+                    <h1 class="main-title">Presenting Our Esteemed Specialists.</h1>
                     <h4 class="sub-tagline">Experienced. Dedicated. Compassionate.</h4>
 
                     <!-- Description -->
                     <p class="hero-desc">
-                        Our team of highly qualified and experienced doctors is committed to providing world-class healthcare with compassion and excellence.
+                        With their exceptional expertise and unwavering dedication, our specialists are committed to providing outstanding care and innovative treatments for all your neurological needs.
                     </p>
 
                     <!-- Key Metrics -->
