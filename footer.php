@@ -1,136 +1,158 @@
-<!-- Footer -->
+<!-- ========================================= -->
+<!-- FOOTER -->
+<!-- ========================================= -->
 <footer class="index_section_footer">
-    <div class="container-fluid px-lg-5">
 
-        <!-- Single Row Layout for Desktop & Large Screens -->
-        <div class="row gy-4 gx-lg-4 align-items-start">
+    <div class="container-fluid px-4 px-lg-5">
 
-           <!-- 1. Logo & Brand Summary -->
-<div class="col-12 col-md-6 col-lg-3 text-center text-lg-start">
-    <img src="assets/img/neurostar_logo.png"
-         alt="Neurostar Logo"
-         class="index_section_footer_logo mb-3"
-         style="max-width: 190px; height: auto;">
+        <div class="row align-items-center gy-5">
 
-    <!-- Changed text-white-50 to text-white -->
-    <p class="text-white mb-3" style="font-size: 0.875rem; line-height: 1.5;">
-        Providing compassionate, advanced neurological &amp; multi-specialty healthcare services around the clock.
-    </p>
+            <!-- ================================= -->
+            <!-- LEFT : CONTACT US -->
+            <!-- ================================= -->
+            <div class="col-12 col-lg-4">
 
- <div class="index_section_social_links justify-content-center justify-content-lg-start">
-    <!-- Facebook: Solid Round Blue Badge -->
-    <a href="https://www.facebook.com/NeurostarMultiSpecialityHospital/" target="_blank" class="brand_social_link brand_facebook" title="Facebook">
-        <i class="fab fa-facebook-f"></i>
-    </a>
+                <div class="footer_contact_wrapper">
 
-    <!-- Instagram: Glowing Rounded Gradient Badge -->
-    <a href="https://www.instagram.com/neurostar_multispeciality_/" target="_blank" class="brand_social_link brand_instagram" title="Instagram">
-        <i class="fab fa-instagram"></i>
-    </a>
+                    <h3 class="footer_heading text-center text-lg-start">
+                        Contact Us
+                    </h3>
 
-    <!-- YouTube: Rounded Red Rectangle Badge -->
-    <a href="https://www.youtube.com/@neurostarkakinada2455" target="_blank" class="brand_social_link brand_youtube" title="YouTube">
-        <i class="fab fa-youtube"></i>
-    </a>
+                    <div class="footer_contact_details">
 
-    <!-- Twitter / X: Dark Soft Rounded Badge 
-    <a href="#" target="_blank" class="brand_social_link brand_twitter" title="Twitter / X">
-        <i class="fab fa-x-twitter"></i>
-    </a>
+                        <!-- Phone -->
+                        <div class="footer_contact_item">
+                            <i class="bi bi-telephone-fill"></i>
 
-     LinkedIn: Rounded Blue Square Badge 
-    <a href="#" target="_blank" class="brand_social_link brand_linkedin" title="LinkedIn">
-        <i class="fab fa-linkedin-in"></i>
-    </a> -->
-</div>
-</div>
+                            <a href="tel:+919121476777">
+                                +91 9121476777
+                            </a>
+                        </div>
 
-            <!-- 2. Quick Links -->
-            <div class="col-6 col-md-6 col-lg-2">
-                <h5>Quick Links</h5>
-                <ul class="list-unstyled">
-                    <li><a href="Home.php">Home</a></li>
-                    <li><a href="aboutus.php">About Us</a></li>
-                    <li><a href="doctors.php">Doctors</a></li>
-                    <li><a href="contactus.php">Contact Us</a></li>
-                    <li><a href="blogs.php">Blogs</a></li>
-                    <li><a href="appointment.php">Appointment</a></li>
-                </ul>
-            </div>
+                        <!-- Email -->
+                        <div class="footer_contact_item">
+                            <i class="bi bi-envelope-fill"></i>
 
-            <!-- 3. Our Services 1 -->
-            <div class="col-6 col-md-6 col-lg-2">
-                <h5>Our Services</h5>
-                <ul class="list-unstyled">
-                    <li><a href="neuro-surgery.php">Neuro Surgery</a></li>
-                    <li><a href="neurology.php">Neurology</a></li>
-                    <li><a href="accidents-and-trauma-care.php">Accidents &amp; Trauma Care</a></li>
-                    <li><a href="orthopaedic-surgery.php">Orthopaedic Surgery</a></li>
-                    <li><a href="critical-care.php">Critical Care</a></li>
-                    <li><a href="neuro-psychiatric.php">Neuro Psychiatric</a></li>
-                    <li><a href="dental.php">Dental</a></li>
-                </ul>
-            </div>
+                            <a href="mailto:info@neurostarhospital.com">
+                                info@neurostarhospital.com
+                            </a>
+                        </div>
 
-            <!-- 4. Our Services 2 -->
-            <div class="col-6 col-md-6 col-lg-2">
-                <h5>Our Services</h5>
-                <ul class="list-unstyled">
-                    <li><a href="maxillo-facial-surgery.php">Maxillo facial Surgery</a></li>
-                    <li><a href="plastic-cosmetic-surgery.php">Plastic &amp; Cosmetic surgery</a></li>
-                    <li><a href="pediatrics.php">Pediatrics</a></li>
-                    <li><a href="physiotherapy.php">Physiotherapy</a></li>
-                    <li><a href="radiology.php">Radiology</a></li>
-                    <li><a href="neuro-rehabilitation.php">Neuro rehabilitation</a></li>
-                    <li><a href="general-and-laproscopic-surgery.php">General &amp; Laproscopic Surgery</a></li>
-                </ul>
-            </div>
+                    </div>
 
-            <!-- 5. Contact Info -->
-            <div class="col-12 col-md-6 col-lg-3">
-                <h5>Contact Info</h5>
-                <div class="index_section_footer_contact">
-                    <p class="d-flex align-items-start gap-2">
-                        <i class="bi bi-geo-alt mt-1"></i>
-                        <span>67-19-1, opp. Ashram School,<br>Nagamalli Thota, Kakinada - 533003</span>
-                    </p>
-                    <p class="d-flex align-items-center gap-2">
-                        <i class="bi bi-clock"></i>
-                        <span><strong>Time :</strong> 24/7</span>
-                    </p>
-                    <p class="d-flex align-items-center gap-2">
-                        <i class="bi bi-telephone"></i>
-                        <a href="tel:+919121476777" class="text-white text-decoration-none">+91 9121476777</a>
-                    </p>
-                    <p class="d-flex align-items-center gap-2 mb-0">
-                        <i class="bi bi-envelope-fill"></i>
-                        <a href="mailto:info@neurostarhospital.com" class="text-white text-decoration-none text-break">info@neurostarhospital.com</a>
-                    </p>
                 </div>
+
+            </div>
+
+
+
+            <!-- ================================= -->
+            <!-- CENTER : LOGO -->
+            <!-- ================================= -->
+            <div class="col-12 col-lg-4">
+
+                <div class="footer_logo_wrapper">
+
+                    <img src="assets/img/neurostar_logo.png"
+                         alt="Neurostar Hospital"
+                         class="footer_logo">
+
+                    <p class="footer_description">
+
+                        Providing compassionate, advanced neurological &
+                        multi-specialty healthcare services around the clock.
+
+                    </p>
+
+                    <div class="footer_social_links">
+
+                        <a href="https://www.facebook.com/NeurostarMultiSpecialityHospital/" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/neurostar_multispeciality_/" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+
+                        <a href="https://www.youtube.com/@neurostarkakinada2455" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+            <!-- ================================= -->
+            <!-- RIGHT : ADDRESS -->
+            <!-- ================================= -->
+            <div class="col-12 col-lg-4">
+
+                <div class="footer_address_wrapper">
+
+                    <h3 class="footer_heading text-center text-lg-center">
+                        Address
+                    </h3>
+
+                    <div class="footer_address">
+
+                        <p>
+
+                            67-19-1,
+
+                            Opp. Ashram School,
+
+                            Nagamalli Thota,
+
+                            Kakinada - 533003
+
+                        </p>
+
+                        <div class="footer_time">
+
+                            <i class="bi bi-clock-fill"></i>
+
+                            <span>24 / 7 Emergency Care</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
             </div>
 
         </div>
 
+        <!-- Divider -->
+        <hr class="footer_divider">
+
+                <!-- Footer Bottom -->
+<div class="footer_bottom_single">
+
+    <a href="#" class="footer_bottom_link">Terms &amp; Conditions</a>
+
+    <a href="#" class="footer_bottom_link">Privacy Policy</a>
+
+    <a href="https://bhavicreations.com"
+       target="_blank"
+       class="footer_branding_link">
+
+        <span>Design with Love @</span>
+
+        <img src="assets/img/Bhavi_branding_footer.png"
+             alt="Bhavi Creations">
+
+    </a>
+
+</div>
+        
+
     </div>
 
-    <!-- ================= Footer Bottom ================= -->
-    <div class="index_section_footer_bottom mt-5">
-        <div class="container-fluid">
-            <div class="index_section_footer_bottom_inner">
-                <div class="index_section_footer_left">
-                    <a href="#">Terms &amp; Conditions</a>
-                    <span>:</span>
-                    <a href="#">Privacy &amp; Policy</a>
-                </div>
-                <div class="index_section_footer_right">
-                    <a href="https://bhavicreations.com" target="_blank" class="index_section_branding_link">
-                        <span>Branding By @</span>
-                        <img src="assets/img/Bhavi_branding_footer.png" alt="" class="index_section_branding_logo">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
 </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
