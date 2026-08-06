@@ -10057,6 +10057,8 @@ section[class^="aboutus_section_"] {
 
      padding-top:0;
     gap:8px;
+    background-color:#fbfbfd3b;
+    margin-bottom:-40px;
 
 }
 
@@ -10465,3 +10467,29 @@ section[class^="aboutus_section_"] {
 
 
 
+
+
+/* footer seection stylings  */
+
+
+  .neurostar-footer-section {
+  /* Dark Blue Gradient matching the image */
+  background: linear-gradient(135deg, #023877 0%, #084c94 50%, #00224d 100%);
+  overflow: hidden;
+}
+
+/* Right side Floating Buttons Styles */
+.floating-side-menu .floating-btn {
+  width: 50px;
+  height: 50px;
+  background: rgba(255, 255, 255, 0.2);
+  border: 2px solid rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(5px);
+  transition: all 0.3s ease;
+}
+
+.floating-side-menu .floating-btn:hover {
+  background: #ffffff;
+  color: #023877 !important;
+  transform: scale(1.1);
+}
