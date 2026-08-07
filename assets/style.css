@@ -10538,3 +10538,104 @@ section[class^="aboutus_section_"] {
     }
 
 }
+
+
+/* mobile device aligemtn code  */
+/*=========================================
+      Stats Alignment (375px - 768px)
+=========================================*/
+@media (max-width:768px){
+
+    /* Equal spacing between rows */
+    .stats-wrapper .row{
+        row-gap:22px;
+    }
+
+    /* Equal column width */
+    .stats-wrapper .col-12,
+    .stats-wrapper .col-sm-6{
+        display:flex;
+        justify-content:center;
+    }
+
+    /* Same width for every card */
+    .index-third-section .stat-item{
+        display:flex;
+        align-items:center;
+        width:180px;
+        gap:8px;
+        margin:0 auto;
+    }
+
+    /* Fixed icon width */
+    .index-third-section .stat-icon{
+        width:42px;
+        min-width:42px;
+        text-align:center;
+        flex-shrink:0;
+    }
+
+    /* Fixed text width */
+    .index-third-section .stat-item > div:last-child{
+        width:120px;
+    }
+
+    /* Number */
+    .index-third-section .stat-number{
+        font-size:18px;
+        line-height:1;
+        margin-bottom:4px;
+    }
+
+    /* Label */
+    .index-third-section .stat-label{
+        font-size:13px;
+        line-height:1.3;
+        margin:0;
+    }
+
+    /* Last card in center */
+    .stats-wrapper .col-12:last-child,
+    .stats-wrapper .col-sm-6:last-child{
+        flex:0 0 100%;
+        max-width:100%;
+        display:flex;
+        justify-content:center;
+    }
+}
+
+/* Happy Patients text */
+.index-third-section .row > div:nth-child(3) .stat-item > div:last-child{
+    padding-right:12px;
+}
+
+@media (max-width: 768px) {
+    /* 1. Ensure the parent item controls the layout */
+    .stat-item {
+        display: flex;
+        align-items: center; /* Keeps icon and text vertically centered */
+        gap: 8px; /* Slightly reduced gap to give text more room */
+    }
+
+    /* 2. Control the text container so it doesn't push into the next column */
+    .stat-item > div:not(.stat-icon) {
+        flex: 1; /* Takes up remaining space */
+        min-width: 0; /* Prevents container from overflowing its parent */
+    }
+
+    /* 3. Increase font size and force wrapping */
+    .index-third-section .stat-label {
+        font-size: 13px; /* Much more readable font size */
+        line-height: 1.2;
+        margin: 0;
+        white-space: normal; /* Overrides any nowrap rules */
+        word-wrap: break-word; /* Forces long words to break if necessary */
+    }
+    
+    /* Ensure the number remains clear and proportional */
+    .index-third-section .stat-number {
+        font-size: 15px; 
+        line-height: 1.2;
+        margin-bottom: 2px; /* Tiny space between number and label */
+    }
+}
