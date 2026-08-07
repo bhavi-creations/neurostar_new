@@ -12,23 +12,23 @@
 
                 <!-- Breadcrumb Navigation -->
                 <div class="breadcrumb-nav">
-                    <a href="#">Home</a> <i class="fa-solid fa-chevron-right mx-1 fs-10"></i> <span>About Us</span>
+                    <a href="#">Home</a> <i class="fa-solid fa-chevron-right mx-1 fs-10"></i> <span>Journey</span>
                 </div>
 
                 <!-- Main Title -->
                 <h1 class="main-title">
-                    About Carewell
+                    Journey of Neurostar
                     <span>Multispeciality Hospital</span>
                 </h1>
 
                 <div class="title-line"></div>
 
                 <!-- Sub tagline -->
-                <h5 class="sub-tagline">Compassionate Care. Advanced Medicine. Healthier Lives.</h5>
+                <h5 class="sub-tagline">Advanced Healthcare. Trusted Doctors. Happy Patients.</h5>
 
                 <!-- Description -->
                 <p class="hero-desc">
-                    Carewell Multispeciality Hospital is dedicated to providing world-class healthcare with compassion, innovation and integrity. Our expert team and advanced technology ensure the best outcomes for every patient.
+                    Neurostar Hospital is dedicated to providing cutting-edge neurological care, combining advanced technology with compassionate service to enhance the well-being of our patients.
                 </p>
 
                 <!-- Upper Key Feature Badges -->
@@ -364,7 +364,7 @@
                         <i class="bi bi-heart-pulse fs-2 text-white"></i>
                     </div>
                     <div>
-                        <h5 class="fw-bold mb-1 text-white">Your Trust Inspires Us Every Day</h5>
+                        <h5 class="fw-bold mb-1 text-white">Your Journey Inspires Us Every Day</h5>
                         <p class="mb-0 text-white-50">We are committed to delivering the best possible care and creating more happy and healthy tomorrows.</p>
                     </div>
                 </div>
