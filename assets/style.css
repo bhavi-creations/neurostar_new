@@ -4395,7 +4395,7 @@ footer,
 /* Appointment Outline Pill Button */
 .custom_navy_navbar .nav_appointment_btn {
     color: #ffffff !important;
-    border: 2px solid #ffffff !important;
+    border: 2px solid #ffffff !important; background-color: #0a3d91 !important;
     border-radius: 50px !important;
     /* Round pill outline shape */
     padding: 6px 22px !important;

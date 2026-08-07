@@ -64,7 +64,7 @@
                             </div>
 
                             <!-- Stat 4: Patient First Priority -->
-                            <div class="col-6 col-sm-3">
+                            <!-- <div class="col-6 col-sm-3">
                                 <div class="stat-item">
                                     <i class="fa-solid fa-heart-pulse stat-icon"></i>
                                     <div>
@@ -72,7 +72,7 @@
                                         <div class="stat-label">Always Our Priority</div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> -->
 
                         </div>
                     </div>
