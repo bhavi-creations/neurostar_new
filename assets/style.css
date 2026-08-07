@@ -148,7 +148,7 @@ Navbar
 
 .index_section_navbar .nav-link:hover {
 
-    color: var(--primary);
+    color: #0a3d91;
 
 }
 
@@ -4356,14 +4356,16 @@ footer,
 
 /* Navy Navbar Styling */
 .custom_navy_navbar {
-    background-color: #052c65 !important;
+    background-color: #f9fafc !important;
+    /* background-color: #052c65 !important; */
     padding-top: 10px;
     padding-bottom: 10px;
 }
 
 /* Navigation Links */
 .custom_navy_navbar .nav-link {
-    color: #ffffff !important;
+    color: #0a3d91 !important;
+    /* color: #ffffff !important;#0a3d91 */
     font-weight: 600;
     font-size: 0.95rem;
     transition: opacity 0.2s ease;
@@ -4404,13 +4406,20 @@ footer,
 }
 
 .custom_navy_navbar .nav_appointment_btn:hover {
-    background-color: #ffffff !important;
-    color: #052c65 !important;
+    background-color: #0a3d91 !important;
+    color: #ffffff !important;
+    border-color: #0a3d91 !important;
 }
 
 /* Mobile Navbar Toggler Icon Color */
 .custom_navy_navbar .navbar-toggler-icon {
-    filter: invert(1);
+    /* Use an inline SVG so the hamburger lines match the custom navy color */
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='%230a3d91' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.custom_navy_navbar .navbar-toggler {
+    color: #0a3d91 !important;
+    border-color: #0a3d91 !important;
 }
 
 .custom_navy_navbar .navbar-toggler {
@@ -6999,9 +7008,9 @@ section[class^="aboutus_section_"] {
     width: 70%;
 }
 
-.index_section_navbar .nav-link.current-page {
+/* .index_section_navbar .nav-link.current-page {
     color: #ffffff !important;
-}
+} */
 
 
 
