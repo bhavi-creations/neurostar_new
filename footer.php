@@ -253,7 +253,7 @@ document.getElementById("index_section_scroll_top").addEventListener("click",fun
 
 <!-- Floating Buttons -->
 <!-- WhatsApp -->
-<a href="https://wa.me/919121476777"
+<a href="https://wa.me/9121476777"
    target="_blank"
    class="index_section_whatsapp_float">
     <i class="bi bi-whatsapp"></i>
