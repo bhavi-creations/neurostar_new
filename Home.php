@@ -797,9 +797,9 @@
       <div class="col-lg-6">
         <div class="about-img-wrapper">
           <img src="./assets/img/index-hospital-1.png" alt="Neurostar Hospital Reception">
-          <a href="#" class="play-btn" title="Watch Video">
+          <!-- <a href="#" class="play-btn" title="Watch Video">
             <i class="fa-solid fa-play ps-1"></i>
-          </a>
+          </a> -->
         </div>
       </div>
 
@@ -961,11 +961,12 @@
 
         <!-- 8. Critical Care -->
         <div class="col-6 col-md-4 col-lg-2">
-          <a href="critical-care.php" class="dept-card">
+          <a href="cardiology.php" class="dept-card">
             <div class="dept-icon bg-blue-light">
-              <i class="fa-solid fa-bed-pulse"></i>
+              <!-- <i class="fa-solid fa-bed-pulse"></i> -->
+               <img src="./assets/img/Cardiology.png" alt="cardiology" style="width: 40px;">
             </div>
-            <h6 class="dept-title">Critical Care</h6>
+            <h6 class="dept-title">Cardiology</h6>
           </a>
         </div>
 

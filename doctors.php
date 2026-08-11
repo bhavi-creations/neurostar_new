@@ -263,7 +263,7 @@
                         <button class="doctors_section_wishlist_btn position-absolute top-0 end-0 m-2 btn btn-sm btn-light rounded-circle shadow-sm">
                             <i class="bi bi-heart"></i>
                         </button>
-                        <img src="./assets/img/ashokkumar.png" alt="Dr. M. Ashok Kumar" class="img-fluid doctors_section_card_img">
+                        <img src="./assets/img/ashok.png" alt="Dr. M. Ashok Kumar" class="img-fluid doctors_section_card_img">
                     </div>
                     <div class="card-body d-flex flex-column p-3">
                         <h5 class="doctors_section_card_title fw-bold mb-1">Dr. M. Ashok Kumar</h5>
@@ -286,7 +286,7 @@
                         <button class="doctors_section_wishlist_btn position-absolute top-0 end-0 m-2 btn btn-sm btn-light rounded-circle shadow-sm">
                             <i class="bi bi-heart"></i>
                         </button>
-                        <img src="./assets/img/sasthrulu.png" alt="Dr. G.V.N.B.R. Sasthrulu" class="img-fluid doctors_section_card_img">
+                        <img src="./assets/img/Sasthrulu_1.png" alt="Dr. G.V.N.B.R. Sasthrulu" class="img-fluid doctors_section_card_img">
                     </div>
                     <div class="card-body d-flex flex-column p-3">
                         <h5 class="doctors_section_card_title fw-bold mb-1">Dr. G.V.N.B.R. Sasthrulu</h5>
@@ -626,6 +626,55 @@
                         <p class="doctors_section_card_specialty text-primary fw-semibold mb-2">Urologist</p>
                         <p class="doctors_section_card_meta text-muted small mb-1"><i class="bi bi-mortarboard-fill me-1"></i>M.B.B.S., MS,</p>
                         <p class="doctors_section_card_meta text-muted small mb-3"><i class="bi bi-briefcase-fill me-1"></i> 12+ Years Exp.</p>
+                        <div class="mt-auto d-flex gap-2">
+                            <a href="#" class="btn btn-outline-primary btn-sm w-50 view-profile-btn">View Profile</a>
+                            <!-- <a href="#" class="btn btn-primary btn-sm w-50"><i class="bi bi-calendar-check me-1"></i> Book</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+             <!-- Doctor Card 18 -->
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12" data-doctor='{"name":"Dr.v. Guru Kiran Dengeti","specialty":"Cardiologist","qual":"M.B.B.S., MD, (General Medicine ),DM (Cardiology)","exp":"12+ Years Exp.","bio":"A cardiologist specializes in diagnosing and treating heart and cardiovascular conditions.","img":"./assets/img/guru-kiran.png"}'>
+                <div class="doctors_section_card card h-100 border-0 shadow-sm rounded-3 overflow-hidden">
+                    <div class="doctors_section_card_img_wrapper position-relative text-center pt-3 bg-light">
+                        <button class="doctors_section_wishlist_btn position-absolute top-0 end-0 m-2 btn btn-sm btn-light rounded-circle shadow-sm">
+                            <i class="bi bi-heart"></i>
+                        </button>
+                        <img src="./assets/img/guru-kiran.png" alt="" class="img-fluid doctors_section_card_img">
+                    </div>
+                    <div class="card-body d-flex flex-column p-3">
+                        <h5 class="doctors_section_card_title fw-bold mb-1">Dr.v. Guru Kiran Dengeti</h5>
+                        <p class="doctors_section_card_specialty text-primary fw-semibold mb-2">Cardiologist</p>
+                        <p class="doctors_section_card_meta text-muted small mb-1"><i class="bi bi-mortarboard-fill me-1"></i>M.B.B.S., MD, (General Medicine ),</p>
+                        <!-- <p class="doctors_section_card_meta text-muted small mb-3"><i class="bi bi-briefcase-fill me-1"></i></p> -->
+                        <p class="doctors_section_card_meta text-muted small mb-3"><i class="bi bi-briefcase-fill me-1"></i>DM (Cardiology). </p>
+                        <div class="mt-auto d-flex gap-2">
+                            <a href="#" class="btn btn-outline-primary btn-sm w-50 view-profile-btn">View Profile</a>
+                            <!-- <a href="#" class="btn btn-primary btn-sm w-50"><i class="bi bi-calendar-check me-1"></i> Book</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+             <!-- Doctor Card 19 -->
+            <div class="col-xl-3 col-lg-4 col-md-6 col-12" data-doctor='{"name":"Dr.S.V.R.Krishna","specialty":"Vascular & Endovascular Surgeon","qual":"M.B.B.S., MS,DNB","exp":"12+ Years Exp.","bio":"A vascular and endovascular surgeon specializes in diagnosing and treating diseases affecting blood vessels through surgical and minimally invasive procedures.","img":"./assets/img/svr-krishna.png"}'>
+                <div class="doctors_section_card card h-100 border-0 shadow-sm rounded-3 overflow-hidden">
+                    <div class="doctors_section_card_img_wrapper position-relative text-center pt-3 bg-light">
+                        <button class="doctors_section_wishlist_btn position-absolute top-0 end-0 m-2 btn btn-sm btn-light rounded-circle shadow-sm">
+                            <i class="bi bi-heart"></i>
+                        </button>
+                        <img src="./assets/img/svr-krishna.png" alt="" class="img-fluid doctors_section_card_img">
+                    </div>
+                    <div class="card-body d-flex flex-column p-3">
+                        <h5 class="doctors_section_card_title fw-bold mb-1">Dr.S.V.R.Krishna</h5>
+                        <p class="doctors_section_card_specialty text-primary fw-semibold mb-2">Vascular & Endovascular Surgeon</p>
+                        <p class="doctors_section_card_meta text-muted small mb-1"><i class="bi bi-mortarboard-fill me-1"></i>M.B.B.S., MS,DNB</p>
+                        <!-- <p class="doctors_section_card_meta text-muted small mb-3"><i class="bi bi-briefcase-fill me-1"></i> 12+ Years Exp.</p> -->
                         <div class="mt-auto d-flex gap-2">
                             <a href="#" class="btn btn-outline-primary btn-sm w-50 view-profile-btn">View Profile</a>
                             <!-- <a href="#" class="btn btn-primary btn-sm w-50"><i class="bi bi-calendar-check me-1"></i> Book</a> -->
