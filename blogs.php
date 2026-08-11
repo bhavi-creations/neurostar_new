@@ -109,7 +109,7 @@ include 'header.php';
                 </div>
 
                 <div class="col-lg-6 col-md-12 text-center">
-                    <img src="assets/images/blog-hero-stethoscope.png" alt="Health Insights Hero" class="img-fluid blogs_section_hero_img">
+                    <img src="./assets/img/index-hospital-1.png" alt="Health Insights Hero" class="img-fluid blogs_section_hero_img">
                 </div>
             </div>
         </div>
@@ -248,7 +248,7 @@ include 'header.php';
         </div>
     </div>
 
-    <div class="container my-5">
+    <!-- <div class="container my-5">
         <div class="blogs_section_newsletter_banner p-4 rounded-4 shadow-sm">
             <div class="row align-items-center g-3">
                 <div class="col-lg-6 col-md-12 d-flex align-items-center">
@@ -268,7 +268,7 @@ include 'header.php';
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </section>
 
 <?php
