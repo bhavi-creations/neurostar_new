@@ -10705,3 +10705,198 @@ section[class^="aboutus_section_"] {
 
 
 
+/* ==========================================
+   INFRASTRUCTURE COMPACT STRIP
+========================================== */
+
+.infra-strip {
+  
+    width: 100%;
+    background: #eaf7ff;
+    padding: 16px 0;
+    border-top: 1px solid rgba(8, 118, 201, 0.06);
+    border-bottom: 1px solid rgba(8, 118, 201, 0.06);
+  
+}
+
+.infra-strip .infra-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0;
+}
+
+.infra-strip .infra-item {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    min-height: 48px;
+    padding: 4px 20px;
+    position: relative;
+}
+
+/* Vertical divider */
+.infra-strip .infra-item:not(:last-child)::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 5px;
+    width: 1px;
+    height: 38px;
+    background: rgba(23, 59, 94, 0.18);
+}
+
+/* Icon */
+.infra-strip .infra-icon {
+    width: 42px;
+    height: 42px;
+    flex: 0 0 42px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    color: #0876c9;
+    font-size: 25px;
+}
+
+/* Content */
+.infra-strip .infra-content {
+    text-align: left;
+}
+
+.infra-strip .infra-number {
+    margin: 0;
+    color: #0b74c9;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 800;
+}
+
+.infra-strip .infra-label {
+    margin: 3px 0 0;
+    color: #173b5e;
+    font-size: 13px;
+    line-height: 1.2;
+    font-weight: 500;
+}
+
+
+/* ==========================================
+   TABLET
+========================================== */
+
+@media (max-width: 991px) {
+
+    .infra-strip {
+        padding: 14px 0;
+    }
+
+    .infra-strip .infra-item {
+        padding: 4px 12px;
+        gap: 8px;
+    }
+
+    .infra-strip .infra-icon {
+        width: 36px;
+        height: 36px;
+        flex-basis: 36px;
+        font-size: 21px;
+    }
+
+    .infra-strip .infra-number {
+        font-size: 16px;
+    }
+
+    .infra-strip .infra-label {
+        font-size: 12px;
+    }
+
+}
+
+
+/* ==========================================
+   MOBILE
+========================================== */
+
+@media (max-width: 767px) {
+
+    .infra-strip {
+        padding: 12px 0;
+    }
+
+    .infra-strip .infra-row {
+        flex-wrap: wrap;
+    }
+
+    .infra-strip .infra-item {
+        flex: 0 0 50%;
+        max-width: 50%;
+        justify-content: flex-start;
+        padding: 9px 12px;
+    }
+
+    /* Remove right divider from every 2nd item */
+    .infra-strip .infra-item:nth-child(2)::after,
+    .infra-strip .infra-item:nth-child(4)::after,
+    .infra-strip .infra-item:nth-child(6)::after {
+        display: none;
+    }
+
+    .infra-strip .infra-item::after {
+        height: 34px;
+        top: 9px;
+    }
+
+    .infra-strip .infra-icon {
+        width: 34px;
+        height: 34px;
+        flex-basis: 34px;
+        font-size: 20px;
+    }
+
+    .infra-strip .infra-number {
+        font-size: 15px;
+    }
+
+    .infra-strip .infra-label {
+        font-size: 11px;
+    }
+
+}
+
+
+/* ==========================================
+   SMALL MOBILE
+========================================== */
+
+@media (max-width: 400px) {
+
+    .infra-strip .infra-item {
+        padding: 8px 7px;
+        gap: 6px;
+    }
+
+    .infra-strip .infra-icon {
+        width: 30px;
+        height: 30px;
+        flex-basis: 30px;
+        font-size: 18px;
+    }
+
+    .infra-strip .infra-number {
+        font-size: 14px;
+    }
+
+    .infra-strip .infra-label {
+        font-size: 10px;
+    }
+
+}
+
+
+
+
+

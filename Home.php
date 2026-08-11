@@ -184,19 +184,122 @@
   </div>
 </section>
 
+<!-- ==========================================
+     INFRASTRUCTURE STRIP
+========================================== -->
 
+<section class="infra-strip">
+
+  <div class="container">
+
+    <div class="infra-row">
+
+      <!-- 82 Beds -->
+      <div class="infra-item">
+
+        <div class="infra-icon">
+          <i class="fas fa-bed"></i>
+        </div>
+
+        <div class="infra-content">
+          <div class="infra-number">82 Beds</div>
+          <p class="infra-label">Patient Capacity</p>
+        </div>
+
+      </div>
+
+
+      <!-- 20,000 SFT -->
+      <div class="infra-item">
+
+        <div class="infra-icon">
+          <i class="fas fa-building"></i>
+        </div>
+
+        <div class="infra-content">
+          <div class="infra-number">20,000 SFT</div>
+          <p class="infra-label">Hospital Infrastructure</p>
+        </div>
+
+      </div>
+
+
+      <!-- OTs -->
+      <div class="infra-item">
+
+        <div class="infra-icon">
+          <i class="fas fa-hospital"></i>
+        </div>
+
+        <div class="infra-content">
+          <div class="infra-number">OTs</div>
+          <p class="infra-label">Operation Theatres</p>
+        </div>
+
+      </div>
+
+
+      <!-- Cath Lab -->
+      <div class="infra-item">
+
+        <div class="infra-icon">
+          <i class="fas fa-heartbeat"></i>
+        </div>
+
+        <div class="infra-content">
+          <div class="infra-number">Cath Lab</div>
+          <p class="infra-label">Advanced Cardiac Care</p>
+        </div>
+
+      </div>
+
+
+      <!-- CT -->
+      <div class="infra-item">
+
+        <div class="infra-icon">
+          <i class="fas fa-x-ray"></i>
+        </div>
+
+        <div class="infra-content">
+          <div class="infra-number">CT</div>
+          <p class="infra-label">CT Scan Facility</p>
+        </div>
+
+      </div>
+
+
+      <!-- ICUs -->
+      <div class="infra-item">
+
+        <div class="infra-icon">
+          <i class="fas fa-procedures"></i>
+        </div>
+
+        <div class="infra-content">
+          <div class="infra-number">ICUs</div>
+          <p class="infra-label">State-of-the-Art ICUs</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+
+</section>
 
 
 
 <!-- ===================================================
          1. SECOND SECTION: Quick Action Cards
          =================================================== -->
-<section class="index-second-section">
+<!-- <section class="index-second-section">
   <div class="container">
     <div class="services-wrapper">
       <div class="row g-0 align-items-center">
 
-        <!-- Item 1: Book Appointment -->
+        Item 1: Book Appointment
         <div class="col-6 col-md-4 col-lg-3">
           <a href="appointment.php" class="service-box">
             <div class="icon-circle icon-blue">
@@ -206,7 +309,7 @@
           </a>
         </div>
 
-        <!-- Item 2: Find a Doctor -->
+        Item 2: Find a Doctor
         <div class="col-6 col-md-4 col-lg-3">
           <a href="doctors.php" class="service-box">
             <div class="icon-circle icon-blue">
@@ -216,7 +319,7 @@
           </a>
         </div>
 
-        <!-- Item 3: Our Departments -->
+        Item 3: Our Departments
         <div class="col-6 col-md-4 col-lg-3">
           <a href="specilities.php" class="service-box">
             <div class="icon-circle icon-blue">
@@ -226,8 +329,8 @@
           </a>
         </div>
 
-        <!-- Item 4: Health Checkups -->
-        <!-- <div class="col-6 col-md-4 col-lg-2">
+        Item 4: Health Checkups
+        <div class="col-6 col-md-4 col-lg-2">
           <a href="#" class="service-box">
             <div class="icon-circle icon-teal">
               <i class="fa-solid fa-heart-pulse"></i>
@@ -244,9 +347,9 @@
             </div>
             <h6 class="service-title">Diagnostics<br>& Lab</h6>
           </a>
-        </div> -->
+        </div>
 
-        <!-- Item 6: Emergency Care -->
+        Item 6: Emergency Care
         <div class="col-6 col-md-4 col-lg-3">
           <a href="appointment.php" class="service-box">
             <div class="icon-circle icon-red">
@@ -259,7 +362,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 
 
