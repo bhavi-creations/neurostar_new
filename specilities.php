@@ -182,7 +182,7 @@
                 <div class="speciality-card">
                     <div class="card-icon-box" style="background-color: #fff1f2; color: #e11d48;"> <i class="fa-solid fa-heart-pulse"></i> </div>
                     <h5 class="card-title">Vascular Surgery</h5>
-                    <p class="card-desc"> Specialized care for diseases and conditions affecting blood vessels, including arteries and veins. </p> <a href="vascular.php" class="card-view-link"> View Details <i class="fa-solid fa-arrow-right"></i> </a>
+                    <p class="card-desc"> Specialized care for diseases and conditions affecting blood vessels, including arteries and veins. </p> <a href="Vascular-surgery.php" class="card-view-link"> View Details <i class="fa-solid fa-arrow-right"></i> </a>
                 </div>
             </div>
 
