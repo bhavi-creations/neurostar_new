@@ -102,7 +102,7 @@
         <!-- Subtitle -->
         <p class="index-first-section-subtitle">
           <!-- World-class medical expertise with advanced technology and personalized care for you and your family. -->
-           NEUROSTAR Hospital is dedicated to providing cutting-edge neurological care, combining advanced technology with services for the well-being of our patients.
+          NEUROSTAR Hospital is dedicated to providing cutting-edge neurological care, combining advanced technology with services for the well-being of our patients.
         </p>
 
         <!-- Buttons Group -->
@@ -730,8 +730,8 @@
           <div class="stat-item">
             <div class="stat-icon">
               <!-- <i class="fa-solid fa-building-circle-check"></i> -->
-                <!-- <i class="fa-solid fa-user-nurse"></i> -->
-                 <i class="fa-solid fa-hospital-user"></i>
+              <!-- <i class="fa-solid fa-user-nurse"></i> -->
+              <i class="fa-solid fa-hospital-user"></i>
             </div>
             <div>
               <div class="stat-number">25+</div>
@@ -745,8 +745,8 @@
           <div class="stat-item">
             <div class="stat-icon">
               <!-- <i class="fa-solid fa-heart-circle-check"></i> -->
-                <!-- <i class="fa-solid fa-user-nurse"></i> -->
-                 <i class="fa-solid fa-face-smile"></i> 
+              <!-- <i class="fa-solid fa-user-nurse"></i> -->
+              <i class="fa-solid fa-face-smile"></i>
             </div>
             <div>
               <div class="stat-number">75K+</div>
@@ -818,14 +818,14 @@
           <div class="col-6">
             <div class="feature-item">
               <!-- <i class="fa-solid fa-shield-heart text-primary"></i> -->
-                <i class="fa-solid fa-user-doctor text-warning"></i>
+              <i class="fa-solid fa-user-doctor text-warning"></i>
               <span>Patient First Approach</span>
             </div>
           </div>
           <div class="col-6">
             <div class="feature-item">
               <i class="fa-solid fa-user-doctor text-warning"></i>
-              
+
               <span>Expert Medical Team</span>
             </div>
           </div>
@@ -901,11 +901,49 @@
         <div class="col-6 col-md-4 col-lg-2">
           <a href="neurology.php" class="dept-card">
             <div class="dept-icon bg-purple-light">
-               <i class="fa-solid fa-head-side-virus"></i>
+              <i class="fa-solid fa-head-side-virus"></i>
             </div>
             <h6 class="dept-title">Neurology</h6>
           </a>
         </div>
+
+
+        <!-- 8. Critical Care -->
+        <div class="col-6 col-md-4 col-lg-2">
+          <a href="cardiology.php" class="dept-card">
+            <div class="dept-icon bg-blue-light">
+              <!-- <i class="fa-solid fa-bed-pulse"></i> -->
+              <img src="./assets/img/Cardiology.png" alt="cardiology" style="width: 40px;">
+            </div>
+            <h6 class="dept-title">Cardiology</h6>
+          </a>
+        </div>
+
+        <!-- 8. vascular -->
+        <div class="col-6 col-md-4 col-lg-2">
+          <a href="cardiology.php" class="dept-card">
+            <div class="dept-icon bg-blue-light">
+              <!-- <i class="fa-solid fa-bed-pulse"></i> -->
+              <img src="./assets/img/Cardiology.png" alt="cardiology" style="width: 40px;">
+            </div>
+            <h6 class="dept-title">vascular surgen</h6>
+          </a>
+        </div>
+
+        <!-- 6. Dental -->
+        <div class="col-6 col-md-4 col-lg-2">
+          <a href="dental.php" class="dept-card">
+            <div class="dept-icon bg-orange-light">
+              <i class="fa-solid fa-tooth"></i>
+            </div>
+            <h6 class="dept-title">Dental Surgery</h6>
+          </a>
+        </div>
+
+
+
+
+
 
         <!-- 3. Orthopedics -->
         <div class="col-6 col-md-4 col-lg-2">
@@ -937,15 +975,7 @@
           </a>
         </div>
 
-        <!-- 6. Dental -->
-        <div class="col-6 col-md-4 col-lg-2">
-          <a href="dental.php" class="dept-card">
-            <div class="dept-icon bg-orange-light">
-              <i class="fa-solid fa-tooth"></i>
-            </div>
-            <h6 class="dept-title">Dental</h6>
-          </a>
-        </div>
+
 
         <!-- 7. Accidents & Trauma Care -->
         <div class="col-6 col-md-4 col-lg-2">
@@ -953,29 +983,20 @@
             <div class="dept-icon bg-red-light">
               <!-- <i class="fa-solid fa-stomach"></i> -->
               <!-- <img src="./assets/img/stomach.png" alt="" class="img-fluid" style="width: 40px;"> -->
-               <i class="fa-solid fa-truck-medical"></i>
+              <i class="fa-solid fa-truck-medical"></i>
             </div>
             <h6 class="dept-title">Accidents & Trauma Care</h6>
           </a>
         </div>
 
-        <!-- 8. Critical Care -->
-        <div class="col-6 col-md-4 col-lg-2">
-          <a href="cardiology.php" class="dept-card">
-            <div class="dept-icon bg-blue-light">
-              <!-- <i class="fa-solid fa-bed-pulse"></i> -->
-               <img src="./assets/img/Cardiology.png" alt="cardiology" style="width: 40px;">
-            </div>
-            <h6 class="dept-title">Cardiology</h6>
-          </a>
-        </div>
+
 
         <!-- 9. Radiology -->
         <div class="col-6 col-md-4 col-lg-2">
           <a href="radiology.php" class="dept-card">
             <div class="dept-icon bg-red-light">
               <!-- <img src="./assets/img/nephrology_1.png" alt="" class="img-fluid" style="width: 40px;"> -->
-               <i class="fa-solid fa-x-ray"></i>
+              <i class="fa-solid fa-x-ray"></i>
             </div>
             <h6 class="dept-title">Radiology</h6>
           </a>
@@ -1192,7 +1213,7 @@
     <div class="row g-4 align-items-center">
 
       <!-- Left Side: Insurance Partners -->
-      <div class="col-12 col-lg-7">
+      <div class="col-12 col-lg-8">
         <h6 class="section-title">Insurance Partners</h6>
         <div class="logo-grid">
 
@@ -1208,12 +1229,12 @@
 
           <!-- HDFC ERGO -->
           <div class="logo-item">
-            <img src="./assets/img/hdfc.png" alt="HDFC ERGO General Insurance">
+            <img src="./assets/img/ongc.png" alt="HDFC ERGO General Insurance">
           </div>
 
           <!-- Care Health -->
           <div class="logo-item">
-            <img src="./assets/img/care.png" alt="Care Health Insurance">
+            <img src="./assets/img/sbi.png" alt="Care Health Insurance">
           </div>
 
           <!-- Reliance General Insurance -->
@@ -1225,7 +1246,7 @@
       </div>
 
       <!-- Right Side: Accreditations -->
-      <div class="col-12 col-lg-5 vertical-divider">
+      <div class="col-12 col-lg-4 vertical-divider">
         <h6 class="section-title">Accreditations</h6>
         <div class="logo-grid justify-content-start gap-4">
 

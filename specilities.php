@@ -89,6 +89,21 @@
 <section class="speciality-second-section">
     <div class="container">
 
+        <!-- Mobile Department Dropdown -->
+        <div class="speciality-mobile-filter d-lg-none">
+            <label for="mobileDepartmentFilter" class="speciality-mobile-filter-label">All Departments</label>
+            <select id="mobileDepartmentFilter" class="form-select speciality-mobile-filter-select">
+                <option value="all">All Departments</option>
+                <option value="cardiac">Cardiac Sciences</option>
+                <option value="neuro">Neurosciences</option>
+                <option value="ortho">Orthopedics</option>
+                <option value="women">Women & Child</option>
+                <option value="internal">Internal Medicine</option>
+                <option value="surgical">Surgical Care</option>
+                <option value="other">Other Specialities</option>
+            </select>
+        </div>
+
         <!-- Top Filter Nav Tabs Bar -->
         <div class="filter-nav-bar" id="filterNav">
             <button class="filter-btn active" data-filter="all">
@@ -137,7 +152,7 @@
                 <div class="speciality-card">
                     <div class="card-icon-box" style="background-color: #f3e8ff; color: #9333ea;">
                         <!-- <i class="fa-solid fa-head-side-virus"></i> -->
-                         <img src="./assets/img/Neurology.png" alt="Neurology" style="width: 40px;">
+                        <img src="./assets/img/Neurology.png" alt="Neurology" style="width: 40px;">
                     </div>
                     <h5 class="card-title">Neurology</h5>
                     <p class="card-desc">Diagnosis and medical treatment for stroke, seizures, headaches, nerve disorders and movement problems.</p>
@@ -145,13 +160,64 @@
                 </div>
             </div>
 
+
+            <!-- 17. Cardiology -->
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 department-item" data-category="medical">
+                <div class="speciality-card">
+                    <div class="card-icon-box" style="background-color: #fee2e2; color: #dc2626;">
+                        <!-- <i class="fa-solid fa-heart-pulse"></i> -->
+                        <img src="./assets/img/Cardiology.png" alt="cardiology" style="width: 40px;">
+                        <!-- <img src="./a" alt=""> -->
+                    </div>
+                    <h5 class="card-title">Cardiology</h5>
+                    <p class="card-desc">Specialized diagnosis and treatment of heart and cardiovascular conditions through advanced medical care and procedures.</p>
+                    <a href="cardiology.php" class="card-view-link">View Details <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- 17. vascuklar -->
+
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 department-item" data-category="other">
+                <div class="speciality-card">
+                    <div class="card-icon-box" style="background-color: #fff1f2; color: #e11d48;"> <i class="fa-solid fa-heart-pulse"></i> </div>
+                    <h5 class="card-title">Vascular Surgery</h5>
+                    <p class="card-desc"> Specialized care for diseases and conditions affecting blood vessels, including arteries and veins. </p> <a href="vascular.php" class="card-view-link"> View Details <i class="fa-solid fa-arrow-right"></i> </a>
+                </div>
+            </div>
+
+            <!-- 9. Dental -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 department-item" data-category="other">
+                <div class="speciality-card">
+                    <div class="card-icon-box" style="background-color: #fff7ed; color: #f97316;">
+                        <i class="fa-solid fa-tooth"></i>
+                    </div>
+                    <h5 class="card-title">Dental Surgery</h5>
+                    <p class="card-desc">Oral health services including cleaning, fillings, extractions, root canal treatment and preventive care.</p>
+                    <a href="dental.php" class="card-view-link">View Details <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <!-- 10. Maxillo facial Surgery -->
+            <div class="col-12 col-sm-6 col-md-4 col-lg-3 department-item" data-category="surgical">
+                <div class="speciality-card">
+                    <div class="card-icon-box" style="background-color: #fefce8; color: #ca8a04;">
+                        <i class="fa-solid fa-face-smile"></i>
+                    </div>
+                    <h5 class="card-title">Maxillo facial Surgery</h5>
+                    <p class="card-desc">Surgical management of facial trauma, jaw deformities, oral pathology and reconstructive procedures.</p>
+                    <a href="maxillo-facial-surgery.php" class="card-view-link">View Details <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+
+
             <!-- 3. Accidents & Trauma Care -->
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 department-item" data-category="other">
                 <div class="speciality-card">
                     <div class="card-icon-box" style="background-color: #fef2f2; color: #ef4444;">
                         <i class="fa-solid fa-truck-medical"></i>
                     </div>
-                    <h5 class="card-title">Accidents & Trauma Care</h5>
+                    <h5 class="card-title">All Accidents Cases</h5>
                     <p class="card-desc">Emergency stabilization and treatment for fractures, road accidents, head injuries and critical trauma cases.</p>
                     <a href="accidents-and-trauma-care.php" class="card-view-link">View Details <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
@@ -217,36 +283,16 @@
                 </div>
             </div>
 
-            <!-- 9. Dental -->
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3 department-item" data-category="other">
-                <div class="speciality-card">
-                    <div class="card-icon-box" style="background-color: #fff7ed; color: #f97316;">
-                        <i class="fa-solid fa-tooth"></i>
-                    </div>
-                    <h5 class="card-title">Dental</h5>
-                    <p class="card-desc">Oral health services including cleaning, fillings, extractions, root canal treatment and preventive care.</p>
-                    <a href="dental.php" class="card-view-link">View Details <i class="fa-solid fa-arrow-right"></i></a>
-                </div>
-            </div>
 
-            <!-- 10. Maxillo facial Surgery -->
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3 department-item" data-category="surgical">
-                <div class="speciality-card">
-                    <div class="card-icon-box" style="background-color: #fefce8; color: #ca8a04;">
-                        <i class="fa-solid fa-face-smile"></i>
-                    </div>
-                    <h5 class="card-title">Maxillo facial Surgery</h5>
-                    <p class="card-desc">Surgical management of facial trauma, jaw deformities, oral pathology and reconstructive procedures.</p>
-                    <a href="maxillo-facial-surgery.php" class="card-view-link">View Details <i class="fa-solid fa-arrow-right"></i></a>
-                </div>
-            </div>
+
+
 
             <!-- 11. Plastic & Cosmetic surgery -->
             <div class="col-12 col-sm-6 col-md-4 col-lg-3 department-item" data-category="surgical">
                 <div class="speciality-card">
                     <div class="card-icon-box" style="background-color: #fdf2f8; color: #c026d3;">
                         <!-- <i class="fa-solid fa-sparkles"></i> -->
-                            <img src="./assets/img/plastic-cosmetic-surgery.png" alt="">
+                        <img src="./assets/img/plastic-cosmetic-surgery.png" alt="">
                     </div>
                     <h5 class="card-title">Plastic & Cosmetic surgery</h5>
                     <p class="card-desc">Aesthetic and reconstructive surgery for appearance enhancement, burns, scars and injury correction.</p>
@@ -259,7 +305,7 @@
                 <div class="speciality-card">
                     <div class="card-icon-box" style="background-color: #f0fdf4; color: #16a34a;">
                         <i class="fa-solid fa-baby"></i>
-                      
+
                     </div>
                     <h5 class="card-title">Pediatrics</h5>
                     <p class="card-desc">Growth, vaccination and illness care for infants, children and adolescents with child-friendly support.</p>
@@ -316,20 +362,7 @@
             </div>
 
 
-            <!-- 17. Cardiology -->
 
-            <div class="col-12 col-sm-6 col-md-4 col-lg-3 department-item" data-category="medical">
-                <div class="speciality-card">
-                    <div class="card-icon-box" style="background-color: #fee2e2; color: #dc2626;">
-                        <!-- <i class="fa-solid fa-heart-pulse"></i> -->
-                         <img src="./assets/img/Cardiology.png" alt="cardiology" style="width: 40px;">
-                         <!-- <img src="./a" alt=""> -->
-                    </div>
-                    <h5 class="card-title">Cardiology</h5>
-                    <p class="card-desc">Specialized diagnosis and treatment of heart and cardiovascular conditions through advanced medical care and procedures.</p>
-                    <a href="cardiology.php" class="card-view-link">View Details <i class="fa-solid fa-arrow-right"></i></a>
-                </div>
-            </div>
 
         </div>
 
@@ -482,6 +515,7 @@
         const filterBtns = document.querySelectorAll('.filter-btn');
         const deptItems = document.querySelectorAll('.department-item');
         const resetBtn = document.getElementById('btnResetFilter');
+        const mobileFilter = document.getElementById('mobileDepartmentFilter');
 
         // Function to filter departments
         function filterCategory(category) {
@@ -517,6 +551,12 @@
         if (resetBtn) {
             resetBtn.addEventListener('click', function() {
                 filterCategory('all');
+            });
+        }
+
+        if (mobileFilter) {
+            mobileFilter.addEventListener('change', function() {
+                filterCategory(this.value);
             });
         }
     });

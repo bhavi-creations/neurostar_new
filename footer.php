@@ -188,7 +188,7 @@
                <!-- <img src="assets/img/111.png" alt="Neurostar Logo" > -->
 
       <div class="col-lg-4 mb-4 mb-lg-0 d-flex justify-content-center" stylel>
-        <img src="assets/img/111.png" alt="BHAVI CREATIONS PVT LTD" class="img-fluid" style="max-width: 280px;">
+        <img src="assets/img/123345456.png" alt="BHAVI CREATIONS PVT LTD" class="img-fluid" style="max-width: 280px;">
       </div>
 
       <!-- Right Column: Address -->
