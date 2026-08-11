@@ -442,14 +442,14 @@
     <!-- ===================================================
          FLOATING ACTION BUTTONS (WhatsApp & Phone)
          =================================================== -->
-    <div class="floating-actions">
+    <!-- <div class="floating-actions">
         <a href="https://wa.me/" target="_blank" class="floating-btn whatsapp" title="Chat on WhatsApp">
             <i class="fa-brands fa-whatsapp"></i>
         </a>
         <a href="tel:+1234567890" class="floating-btn phone" title="Call Us">
             <i class="fa-solid fa-phone"></i>
         </a>
-    </div>
+    </div> -->
 
     <!-- Bootstrap 5 JS Bundle -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
