@@ -78,7 +78,7 @@ include 'header.php';
                         Expert advice and tips to help you and your family live a healthier life.
                     </p>
                     <div class="row g-3 blogs_section_hero_stats">
-                        <div class="col-md-4 col-6">
+                        <div class="col-4">
                             <div class="blogs_section_stat_card d-flex align-items-center p-2 rounded border bg-white shadow-sm">
                                 <div class="blogs_section_stat_icon me-2 text-primary fs-3"><i class="bi bi-journal-text"></i></div>
                                 <div>
@@ -87,7 +87,7 @@ include 'header.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 col-6">
+                        <div class="col-4">
                             <div class="blogs_section_stat_card d-flex align-items-center p-2 rounded border bg-white shadow-sm">
                                 <div class="blogs_section_stat_icon me-2 text-primary fs-3"><i class="bi bi-person-badge"></i></div>
                                 <div>
@@ -96,7 +96,7 @@ include 'header.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-md-4 col-6">
+                        <div class="col-4">
                             <div class="blogs_section_stat_card d-flex align-items-center p-2 rounded border bg-white shadow-sm">
                                 <div class="blogs_section_stat_icon me-2 text-primary fs-3"><i class="bi bi-people"></i></div>
                                 <div>
@@ -234,14 +234,14 @@ include 'header.php';
 
                 <div class="blogs_section_cta_card p-4 rounded-3 text-white overflow-hidden position-relative">
                     <div class="row align-items-center">
-                        <div class="col-12 position-relative z-1">
+                        <div class="col-7 position-relative z-1">
                             <h6 class="fw-bold text-dark mb-1">Need Expert Advice?</h6>
                             <p class="text-muted small mb-3">Talk to our specialists for personalized guidance.</p>
                             <a href="contactus.php" class="btn btn-primary btn-sm px-3 fw-semibold">Book an Appointment</a>
                         </div>
-                        <!-- <div class="col-5 position-relative">
+                        <div class="col-5 position-relative">
                             <img src="assets/images/doctor-cta-side.png" alt="Doctor Consultation" class="img-fluid position-absolute bottom-0 end-0" style="max-height: 130px;">
-                        </div> -->
+                        </div>
                     </div>
                 </div>
             </div>
