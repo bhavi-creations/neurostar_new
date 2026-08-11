@@ -109,7 +109,7 @@ include 'header.php';
                 </div>
 
                 <div class="col-lg-6 col-md-12 text-center">
-                    <img src="assets/images/blog-hero-stethoscope.png" alt="Health Insights Hero" class="img-fluid blogs_section_hero_img">
+                    <img src="./assets/img/index-hospital-1.png" alt="Health Insights Hero" class="img-fluid blogs_section_hero_img">
                 </div>
             </div>
         </div>
@@ -234,21 +234,21 @@ include 'header.php';
 
                 <div class="blogs_section_cta_card p-4 rounded-3 text-white overflow-hidden position-relative">
                     <div class="row align-items-center">
-                        <div class="col-7 position-relative z-1">
+                        <div class="col-12 position-relative z-1">
                             <h6 class="fw-bold text-dark mb-1">Need Expert Advice?</h6>
                             <p class="text-muted small mb-3">Talk to our specialists for personalized guidance.</p>
                             <a href="contactus.php" class="btn btn-primary btn-sm px-3 fw-semibold">Book an Appointment</a>
                         </div>
-                        <div class="col-5 position-relative">
+                        <!-- <div class="col-5 position-relative">
                             <img src="assets/images/doctor-cta-side.png" alt="Doctor Consultation" class="img-fluid position-absolute bottom-0 end-0" style="max-height: 130px;">
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container my-5">
+    <!-- <div class="container my-5">
         <div class="blogs_section_newsletter_banner p-4 rounded-4 shadow-sm">
             <div class="row align-items-center g-3">
                 <div class="col-lg-6 col-md-12 d-flex align-items-center">
@@ -268,7 +268,7 @@ include 'header.php';
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 </section>
 
 <?php
