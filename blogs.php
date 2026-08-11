@@ -78,7 +78,7 @@ include 'header.php';
                         Expert advice and tips to help you and your family live a healthier life.
                     </p>
                     <div class="row g-3 blogs_section_hero_stats">
-                        <div class="col-4">
+                        <div class="col-md-4 col-6">
                             <div class="blogs_section_stat_card d-flex align-items-center p-2 rounded border bg-white shadow-sm">
                                 <div class="blogs_section_stat_icon me-2 text-primary fs-3"><i class="bi bi-journal-text"></i></div>
                                 <div>
@@ -87,7 +87,7 @@ include 'header.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-md-4 col-6">
                             <div class="blogs_section_stat_card d-flex align-items-center p-2 rounded border bg-white shadow-sm">
                                 <div class="blogs_section_stat_icon me-2 text-primary fs-3"><i class="bi bi-person-badge"></i></div>
                                 <div>
@@ -96,7 +96,7 @@ include 'header.php';
                                 </div>
                             </div>
                         </div>
-                        <div class="col-4">
+                        <div class="col-md-4 col-6">
                             <div class="blogs_section_stat_card d-flex align-items-center p-2 rounded border bg-white shadow-sm">
                                 <div class="blogs_section_stat_icon me-2 text-primary fs-3"><i class="bi bi-people"></i></div>
                                 <div>
