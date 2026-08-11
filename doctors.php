@@ -47,7 +47,7 @@
                         </div>
 
                         <div class="stat-item">
-                            <i class="fa-solid fa-shield-halved stat-icon"></i>
+                            <img src="./assets/img/Experience.png" alt="" style="height:40px; width:40px">
                             <div>
                                 <div class="stat-number">20+</div>
                                 <div class="stat-label">Years of Excellence</div>

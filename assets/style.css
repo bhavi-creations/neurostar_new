@@ -10896,6 +10896,14 @@ section[class^="aboutus_section_"] {
 
 }
 
+@media (max-width: 575.98px) {
+  .stats-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px; /* Adjust row and column spacing as needed */
+  }
+}
+
 
 
 

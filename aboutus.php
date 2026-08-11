@@ -191,7 +191,7 @@
                     </div>
                 </div>
 
-                <!-- 3. Carewell At A Glance (Right Column) -->
+                <!-- 3. Neurostar At A Glance (Right Column) -->
                 <div class="col-12 col-lg-4">
                     <div class="ps-lg-3">
 
