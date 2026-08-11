@@ -37,7 +37,8 @@
 
                         <!-- Feature 1 -->
                         <div class="feature-item">
-                            <i class="fa-solid fa-users-viewfinder feature-icon"></i>
+                            <!-- <i class="fa-solid fa-users-viewfinder feature-icon"></i> -->
+                            <i class="fa-solid fa-hand-holding-heart feature-icon"></i>
                             <div>
                                 <h6 class="feature-title">Patient First</h6>
                                 <p class="feature-sub">Always our priority</p>
@@ -48,7 +49,9 @@
 
                         <!-- Feature 2 -->
                         <div class="feature-item">
-                            <i class="fa-solid fa-shield-halved feature-icon"></i>
+                            <!-- <i class="fa-solid fa-shield-halved feature-icon"></i> -->
+                             <!-- <i class="fa-solid fa-shield-check feature-icon"></i> -->
+                             <i class="fa-solid fa-circle-check feature-icon"></i>
                             <div>
                                 <h6 class="feature-title">Safety & Quality</h6>
                                 <p class="feature-sub">International Standards</p>

@@ -730,7 +730,8 @@
           <div class="stat-item">
             <div class="stat-icon">
               <!-- <i class="fa-solid fa-building-circle-check"></i> -->
-                <i class="fa-solid fa-user-nurse"></i>
+                <!-- <i class="fa-solid fa-user-nurse"></i> -->
+                 <i class="fa-solid fa-hospital-user"></i>
             </div>
             <div>
               <div class="stat-number">25+</div>
@@ -744,7 +745,8 @@
           <div class="stat-item">
             <div class="stat-icon">
               <!-- <i class="fa-solid fa-heart-circle-check"></i> -->
-                <i class="fa-solid fa-user-nurse"></i>
+                <!-- <i class="fa-solid fa-user-nurse"></i> -->
+                 <i class="fa-solid fa-face-smile"></i> 
             </div>
             <div>
               <div class="stat-number">75K+</div>
@@ -823,6 +825,7 @@
           <div class="col-6">
             <div class="feature-item">
               <i class="fa-solid fa-user-doctor text-warning"></i>
+              
               <span>Expert Medical Team</span>
             </div>
           </div>
@@ -1227,22 +1230,22 @@
 
           <!-- NABH Accreditation Seal -->
           <div class="logo-item">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg" class="accred-img" alt="NABH Accredited">
+            <img src="./assets/img/nabh.png" class="accred-img" alt="NABH Accredited" style="width: 150px; height:150px;">
           </div>
 
           <!-- NABL Accreditation Seal -->
           <div class="logo-item">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg" class="accred-img" alt="NABL Accredited">
+            <img src="./assets/img/nabl.png" class="accred-img" alt="NABL Accredited" style="width: 150px; height:150px;">
           </div>
 
           <!-- Govt / Health Certification Seal -->
-          <div class="logo-item">
+          <!-- <div class="logo-item">
             <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg" class="accred-img" alt="Government Approved">
-          </div>
+          </div> -->
 
           <!-- ISO Certified Seal -->
           <div class="logo-item">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg" class="accred-img" alt="ISO Certified">
+            <img src="./assets/img/iso_small.png" class="accred-img" alt="ISO Certified" style="width: 150px; height:150px;">
           </div>
 
         </div>
