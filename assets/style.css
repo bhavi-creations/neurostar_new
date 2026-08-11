@@ -6511,13 +6511,16 @@ section[class^="aboutus_section_"] {
 /* All service pages custom css responsive */
 /* Hero Banner Styling */
 .ns-hero-banner {
-    background-size: cover !important;
-    background-position: center center !important;
+    background-size: contain !important;
+    background-position: right center !important;
     background-repeat: no-repeat !important;
-    padding: 70px 0;
+    background-color: #ffffff;
+    padding: 90px 0;
     color: #ffffff;
     position: relative;
     width: 100%;
+    min-height: 420px;
+    overflow: hidden;
 }
 
 .ns-breadcrumb {
@@ -6791,12 +6794,12 @@ section[class^="aboutus_section_"] {
 
 .ns-hero-banner {
     /* 1. Change background-size to allow the image to scale naturally without severe cropping */
-    background-size: 100% auto !important;
-    background-position: center center !important;
+    background-size: contain !important;
+    background-position: right center !important;
     background-repeat: no-repeat !important;
 
     /* 2. Increase padding top/bottom so the section matches the aspect ratio of the full image */
-    padding: 120px 0 !important;
+    padding: 90px 0 !important;
 
     color: #ffffff;
     position: relative;
@@ -6807,8 +6810,8 @@ section[class^="aboutus_section_"] {
 @media (max-width: 991px) {
     .ns-hero-banner {
         padding: 70px 0 !important;
-        background-size: cover !important;
-        /* Revert to cover on small screens to fill space cleanly */
+        background-size: contain !important;
+        background-position: center center !important;
     }
 }
 
@@ -6826,6 +6829,13 @@ section[class^="aboutus_section_"] {
     display: flex;
     align-items: center;
     overflow: hidden;
+}
+
+@media (max-width: 575.98px) {
+    .ns-hero-banner {
+        min-height: 320px;
+        padding: 55px 0 !important;
+    }
 }
 
 /* 2. Left Box Overlay - Fade applies ONLY to the content side */
@@ -8089,11 +8099,13 @@ section[class^="aboutus_section_"] {
 .about-hero-section {
     position: relative;
      background: linear-gradient(90deg, #f0f9ff 0%, #e0f2fe 45%, rgba(224, 242, 254, 0.4) 70%, rgba(224, 242, 254, 0) 100%),
-       url('https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?q=80&w=1600&auto=format&fit=crop') right center / cover no-repeat;
+       url('../assets/img/1.png') right center / contain no-repeat;
             /* background: url("") no-repeat center right / cover; */
 
     padding: 50px 0 90px 0;
     min-height: 520px;
+    background-color: #f0f9ff;
+    overflow: hidden;
 }
 
 /* Breadcrumb Navigation */
@@ -9675,7 +9687,7 @@ section[class^="aboutus_section_"] {
             background-image:
                 linear-gradient(to right, #e8f1fd 0%, #e8f1fd 40%, rgba(232, 241, 253, 0.85) 60%, rgba(232, 241, 253, 0.2) 100%),
                 url('./img/1.png');
-            background-size: cover;
+            background-size: contain;
             background-position: right center;
             background-repeat: no-repeat;
             padding: 50px 0 45px 0;

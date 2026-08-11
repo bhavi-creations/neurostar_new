@@ -197,8 +197,8 @@
       <div class="row g-0 align-items-center">
 
         <!-- Item 1: Book Appointment -->
-        <div class="col-6 col-md-4 col-lg-2">
-          <a href="#" class="service-box">
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="appointment.php" class="service-box">
             <div class="icon-circle icon-blue">
               <i class="fa-regular fa-calendar-check"></i>
             </div>
@@ -207,8 +207,8 @@
         </div>
 
         <!-- Item 2: Find a Doctor -->
-        <div class="col-6 col-md-4 col-lg-2">
-          <a href="#" class="service-box">
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="doctors.php" class="service-box">
             <div class="icon-circle icon-blue">
               <i class="fa-solid fa-user-doctor"></i>
             </div>
@@ -217,8 +217,8 @@
         </div>
 
         <!-- Item 3: Our Departments -->
-        <div class="col-6 col-md-4 col-lg-2">
-          <a href="#" class="service-box">
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="specilities.php" class="service-box">
             <div class="icon-circle icon-blue">
               <i class="fa-solid fa-hospital-user"></i>
             </div>
@@ -227,7 +227,7 @@
         </div>
 
         <!-- Item 4: Health Checkups -->
-        <div class="col-6 col-md-4 col-lg-2">
+        <!-- <div class="col-6 col-md-4 col-lg-2">
           <a href="#" class="service-box">
             <div class="icon-circle icon-teal">
               <i class="fa-solid fa-heart-pulse"></i>
@@ -236,7 +236,7 @@
           </a>
         </div>
 
-        <!-- Item 5: Diagnostics & Lab -->
+        
         <div class="col-6 col-md-4 col-lg-2">
           <a href="#" class="service-box">
             <div class="icon-circle icon-blue">
@@ -244,11 +244,11 @@
             </div>
             <h6 class="service-title">Diagnostics<br>& Lab</h6>
           </a>
-        </div>
+        </div> -->
 
         <!-- Item 6: Emergency Care -->
-        <div class="col-6 col-md-4 col-lg-2">
-          <a href="#" class="service-box">
+        <div class="col-6 col-md-4 col-lg-3">
+          <a href="appointment.php" class="service-box">
             <div class="icon-circle icon-red">
               <i class="fa-solid fa-truck-medical"></i>
             </div>
