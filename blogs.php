@@ -61,8 +61,82 @@ function blog_excerpt($html, $limit = 120) {
 include 'header.php';
 ?>
 
+   <!-- ===================================================
+         CONTACT FIRST SECTION
+         =================================================== -->
+    <section class="contact-first-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-7">
+
+                    <!-- Breadcrumb Navigation -->
+                    <div class="contact-first-section-breadcrumb">
+                        <a href="Home.php">Home</a>
+                        <i class="fa-solid fa-chevron-right" style="font-size: 10px;"></i>
+                        <span>Blogs</span>
+                    </div>
+
+                    <!-- Main Title & Description -->
+                    <h1 class="contact-first-section-title">Health Insights & Articles</h1>
+                    <p class="contact-first-section-desc">
+                         Expert advice and tips to help you and your family live a healthier life.
+                    </p>
+
+                    <!-- Features Row -->
+                     <div class="row g-3 blogs_section_hero_stats">
+                        <div class="col-md-4 col-6">
+                            <div class="blogs_section_stat_card d-flex align-items-center p-2 rounded border bg-white shadow-sm">
+                                <div class="blogs_section_stat_icon me-2 text-primary fs-3"><i class="bi bi-journal-text"></i></div>
+                                <div>
+                                    <h6 class="fw-bold mb-0">100+</h6>
+                                    <small class="text-muted" style="font-size: 11px;">Health Articles</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-6">
+                            <div class="blogs_section_stat_card d-flex align-items-center p-2 rounded border bg-white shadow-sm">
+                                <div class="blogs_section_stat_icon me-2 text-primary fs-3"><i class="bi bi-person-badge"></i></div>
+                                <div>
+                                    <h6 class="fw-bold mb-0">20+</h6>
+                                    <small class="text-muted" style="font-size: 11px;">Medical Experts</small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-6">
+                            <div class="blogs_section_stat_card d-flex align-items-center p-2 rounded border bg-white shadow-sm">
+                                <div class="blogs_section_stat_icon me-2 text-primary fs-3"><i class="bi bi-people"></i></div>
+                                <div>
+                                    <h6 class="fw-bold mb-0">50,000+</h6>
+                                    <small class="text-muted" style="font-size: 11px;">Readers Every Month</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <section class="blogs_section_wrapper">
-    <div class="blogs_section_hero py-5">
+    <!-- <div class="blogs_section_hero py-5">
         <div class="container">
             <nav aria-label="breadcrumb">
                 <ol class="breadcrumb blogs_section_breadcrumb">
@@ -113,7 +187,7 @@ include 'header.php';
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
     <!-- <div class="container my-4">
         <div class="blogs_section_category_filter d-flex flex-wrap gap-2 justify-content-start justify-content-lg-between bg-white p-3 rounded-3 shadow-sm border">
