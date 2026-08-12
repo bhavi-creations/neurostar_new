@@ -970,10 +970,10 @@
 <!-- ===================================================
          INDEX FIFTH SECTION
          =================================================== -->
-<!-- <section class="index-fifth-section">
+ <section class="index-fifth-section d-block d-lg-none">
   <div class="container">
 
-    Section Header Bar
+    <!-- Section Header Bar -->
     <div class="d-flex justify-content-between align-items-end">
       <div>
         <span class="section-badge">Our Departments</span>
@@ -986,11 +986,11 @@
         </div>
     </div>
 
-    12-Card Grid Container
+    <!-- 12-Card Grid Container -->
     <div class="dept-container">
       <div class="row g-0">
 
-        1. Neuro Surgery
+        <!-- 1. Neuro Surgery -->
         <div class="col-6 col-md-4 col-lg-2">
           <a href="neuro-surgery.php" class="dept-card">
             <div class="dept-icon bg-purple-light">
@@ -1000,7 +1000,7 @@
           </a>
         </div>
 
-        2. Neurology
+        <!-- 2. Neurology -->
         <div class="col-6 col-md-4 col-lg-2">
           <a href="neurology.php" class="dept-card">
             <div class="dept-icon bg-purple-light">
@@ -1011,29 +1011,29 @@
         </div>
 
 
-        3. Critical Care
+        <!-- 3. Critical Care -->
         <div class="col-6 col-md-4 col-lg-2">
           <a href="cardiology.php" class="dept-card">
             <div class="dept-icon bg-blue-light">
-              <i class="fa-solid fa-bed-pulse"></i>
+              <!-- <i class="fa-solid fa-bed-pulse"></i> -->
               <img src="./assets/img/Cardiology.png" alt="cardiology" style="width: 40px;">
             </div>
             <h6 class="dept-title">Cardiology</h6>
           </a>
         </div>
 
-        4. vascular
+        <!-- 4. vascular -->
         <div class="col-6 col-md-4 col-lg-2">
           <a href="Vascular-surgery.php" class="dept-card">
             <div class="dept-icon bg-red-light">
               <i class="fa-solid fa-bed-pulse"></i>
-              <img src="./assets/img/Cardiology.png" alt="cardiology" style="width: 40px;">
+              <!-- <img src="./assets/img/Cardiology.png" alt="cardiology" style="width: 40px;"> -->
             </div>
             <h6 class="dept-title">Vascular Surgery</h6>
           </a>
         </div>
 
-        5. Dental
+        <!-- 5. Dental -->
         <div class="col-6 col-md-4 col-lg-2">
           <a href="dental.php" class="dept-card">
             <div class="dept-icon bg-orange-light">
@@ -1043,7 +1043,7 @@
           </a>
         </div>
 
-        6. Maxillo facial surgery
+        <!-- 6. Maxillo facial surgery -->
         <div class="col-6 col-md-4 col-lg-2">
           <a href="maxillo-facial-surgery.php" class="dept-card">
             <div class="dept-icon bg-orange-light">
@@ -1053,7 +1053,7 @@
           </a>
         </div>
 
-        7. Orthopedics
+        <!-- 7. Orthopedics -->
         <div class="col-6 col-md-4 col-lg-2">
           <a href="orthopaedic-surgery.php" class="dept-card">
             <div class="dept-icon bg-blue-light">
@@ -1063,7 +1063,7 @@
           </a>
         </div>
 
-        8. Pediatrics
+        <!-- 8. Pediatrics -->
         <div class="col-6 col-md-4 col-lg-2">
           <a href="pediatrics.php" class="dept-card">
             <div class="dept-icon bg-green-light">
@@ -1073,7 +1073,7 @@
           </a>
         </div>
 
-        9. Gynecology
+        <!-- 9. Gynecology -->
         <div class="col-6 col-md-4 col-lg-2">
           <a href="gynecology.php" class="dept-card">
             <div class="dept-icon bg-pink-light">
@@ -1083,7 +1083,7 @@
           </a>
         </div>
 
-        10. Critical Care
+        <!-- 10. Critical Care -->
         <div class="col-6 col-md-4 col-lg-2">
           <a href="critical-care.php" class="dept-card">
             <div class="dept-icon bg-pink-light">
@@ -1093,12 +1093,12 @@
           </a>
         </div>
 
-        11. Accidents & Trauma Care
+        <!-- 11. Accidents & Trauma Care -->
         <div class="col-6 col-md-4 col-lg-2">
           <a href="accidents-and-trauma-care.php" class="dept-card">
             <div class="dept-icon bg-red-light">
               <i class="fa-solid fa-stomach"></i>
-              <img src="./assets/img/stomach.png" alt="" class="img-fluid" style="width: 40px;">
+              <!-- <img src="./assets/img/stomach.png" alt="" class="img-fluid" style="width: 40px;"> -->
               <i class="fa-solid fa-truck-medical"></i>
             </div>
             <h6 class="dept-title">All accident cases</h6>
@@ -1107,18 +1107,18 @@
 
 
 
-        12. Radiology
+        <!-- 12. Radiology -->
         <div class="col-6 col-md-4 col-lg-2">
           <a href="radiology.php" class="dept-card">
             <div class="dept-icon bg-red-light">
-              <img src="./assets/img/nephrology_1.png" alt="" class="img-fluid" style="width: 40px;">
+              <!-- <img src="./assets/img/nephrology_1.png" alt="" class="img-fluid" style="width: 40px;"> -->
               <i class="fa-solid fa-x-ray"></i>
             </div>
             <h6 class="dept-title">Radiology</h6>
           </a>
         </div>
 
-        13. General Medicine
+        <!-- 13. General Medicine -->
         <div class="col-6 col-md-4 col-lg-2">
           <a href="general-medicine.php" class="dept-card">
             <div class="dept-icon bg-red-light">
@@ -1128,7 +1128,7 @@
           </a>
         </div>
 
-        14. Physiotherapy
+        <!-- 14. Physiotherapy -->
         <div class="col-6 col-md-4 col-lg-2">
           <a href="physiotherapy.php" class="dept-card">
             <div class="dept-icon bg-teal-light">
@@ -1138,7 +1138,7 @@
           </a>
         </div>
 
-        15. General Surgery
+        <!-- 15. General Surgery -->
         <div class="col-6 col-md-4 col-lg-2">
           <a href="general-and-laproscopic-surgery.php" class="dept-card">
             <div class="dept-icon bg-blue-light">
@@ -1149,7 +1149,7 @@
           </a>
         </div>
 
-        16. Neuro Psychiatric
+        <!-- 16. Neuro Psychiatric -->
         <div class="col-6 col-md-4 col-lg-2">
           <a href="neuro-psychiatric.php" class="dept-card">
             <div class="dept-icon bg-blue-light">
@@ -1159,7 +1159,7 @@
           </a>
         </div>
 
-        17. Physiotherapy
+        <!-- 17. Physiotherapy -->
         <div class="col-6 col-md-4 col-lg-2">
           <a href="physiotherapy.php" class="dept-card">
             <div class="dept-icon bg-blue-light">
@@ -1169,7 +1169,7 @@
           </a>
         </div>
 
-        18. Neuro rehabilitation
+        <!-- 18. Neuro rehabilitation -->
          <div class="col-6 col-md-4 col-lg-2">
           <a href="neuro-rehabilitation.php" class="dept-card">
             <div class="dept-icon bg-blue-light">
@@ -1184,7 +1184,7 @@
     </div>
 
   </div>
-</section> -->
+</section> 
 
 
 
@@ -1774,8 +1774,8 @@
     <!-- ===================================================
          INDEX FIFTH SECTION
          =================================================== -->
- <section class="index-fifth-section">
-  <div class="container">
+ <section class="index-fifth-section ">
+  <div class="container d-none d-xl-block">
 
     <!-- Section Header Bar -->
     <div class="d-flex justify-content-between align-items-end">
@@ -1792,7 +1792,7 @@
 </div>
 </section>
 
-    <section class="index-new-all-service-section">
+    <section class="index-new-all-service-section  d-none d-xl-block">
     <div class="container-fluid px-lg-5">
         <div class="row align-items-start">
 
