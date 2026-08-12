@@ -19,7 +19,8 @@ body {
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;
+
 }
 
 img {
@@ -11207,6 +11208,7 @@ section[class^="aboutus_section_"] {
 
     .hcs-icon-circle i {
         font-size: 34px;
+        color:#2563eb;
     }
 
     .hcs-service-title {
@@ -11654,4 +11656,44 @@ section[class^="aboutus_section_"] {
     .spc-speciality-name {
         font-size: 7.5px;
     }
+}
+
+
+/* Layout Wrapper Stretching */
+.index-new-all-service-section .services-grid-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    width: 100%;
+}
+
+/* Equal Width for Each Column */
+.index-new-all-service-section .grid-col {
+    flex: 1 1 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Staggered Downward Shift for Columns 2, 4, 5 */
+.index-new-all-service-section .grid-col.shifted-down {
+    margin-top: 35px;
+}
+
+/* Service Card Styling & Inner Padding Adjustments */
+.index-new-all-service-section .service-card {
+    background-color: #ebf5fb;
+    border-radius: 12px;
+    padding: 20px 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 120px;
+    transition: transform 0.3s ease;
+}
+
+.index-new-all-service-section .service-card:hover {
+    transform: translateY(-5px);
 }

@@ -816,7 +816,7 @@
       <div class="row g-0 align-items-center">
 
         <!-- Stat 1: Doctors -->
-        <div class="col-12 col-sm-6 col-lg-2-4">
+        <div class="col-12 col-sm-6 col-lg">
           <div class="stat-item">
             <div class="stat-icon">
               <i class="fa-solid fa-user-nurse"></i>
@@ -829,7 +829,7 @@
         </div>
 
         <!-- Stat 2: Departments -->
-        <div class="col-12 col-sm-6 col-lg-2-4">
+        <div class="col-12 col-sm-6 col-lg">
           <div class="stat-item">
             <div class="stat-icon">
               <!-- <i class="fa-solid fa-building-circle-check"></i> -->
@@ -844,7 +844,7 @@
         </div>
 
         <!-- Stat 3: Happy Patients -->
-        <div class="col-12 col-sm-6 col-lg-2-4">
+        <div class="col-12 col-sm-6 col-lg">
           <div class="stat-item">
             <div class="stat-icon">
               <!-- <i class="fa-solid fa-heart-circle-check"></i> -->
@@ -859,7 +859,7 @@
         </div>
 
         <!-- Stat 4: Years of Excellence -->
-        <div class="col-12 col-sm-6 col-lg-2-4">
+        <div class="col-12 col-sm-6 col-lg">
           <div class="stat-item">
             <div class="stat-icon">
               <i class="fa-solid fa-award"></i>
@@ -872,7 +872,7 @@
         </div>
 
         <!-- Stat 5: Patient Satisfaction -->
-        <div class="col-12 col-sm-6 col-lg-2-4">
+        <div class="col-12 col-sm-6 col-lg">
           <div class="stat-item">
             <div class="stat-icon">
               <i class="fa-solid fa-thumbs-up"></i>
@@ -1203,7 +1203,7 @@
                     <div class="hcs-service-card">
 
                         <div class="hcs-icon-circle">
-                            <img src="./assets/img/doctor-consultation.png" alt="" style="height:80px; width:80px">
+                            <img src="./assets/img/doctor-consultation.png" alt="" style="height:60px; width:60px">
                         </div>
 
                         <div class="hcs-service-title">
@@ -1257,7 +1257,7 @@
                     <div class="hcs-service-card">
 
                         <div class="hcs-icon-circle">
-                            <i class="bi bi-microscope"></i>
+                            <img src="./assets/img/laboratory-tests.png" alt="" style="height:60px; width:60px">
                         </div>
 
                         <div class="hcs-service-title">
@@ -1275,7 +1275,7 @@
                     <div class="hcs-service-card">
 
                         <div class="hcs-icon-circle  text-primary">
-                            <i class="bi bi-lungs"></i>
+                            <img src="./assets/img/Radiology.png" alt="" style="height:60px; width:60px">
                         </div>
 
                         <div class="hcs-service-title">
@@ -1292,8 +1292,8 @@
                 <a href="#" class="hcs-service-link">
                     <div class="hcs-service-card">
 
-                        <div class="hcs-icon-circle">
-                            <i class="bi bi-capsule"></i>
+                        <div class="hcs-icon-circle text-primary">
+                            <img src="./assets/img/Pharmacy.png" alt="" style="height:60px; width:60px">
                         </div>
 
                         <div class="hcs-service-title">
@@ -1488,15 +1488,15 @@
     <section class="index-new-service-section">
 
         <!-- Right Sticky Appointment Tab -->
-        <a href="#" class="appointment-tab">
+        <!-- <a href="#" class="appointment-tab">
             <i class="fa-solid fa-calendar-check"></i>
             <span>Book an Appointment</span>
-        </a>
+        </a> -->
 
         <div class="container-fluid px-lg-5">
 
             <!-- Top Left Badge -->
-            <div class="top-badge-container">
+            <!-- <div class="top-badge-container">
                 <div class="circle-badge">
                     <div class="badge-icon-box">
                         <i class="fa-solid fa-hands-holding-child"></i>
@@ -1506,12 +1506,12 @@
                         <i class="fa-regular fa-file-lines"></i> KNOW MORE
                     </a>
                 </div>
-            </div>
+            </div> -->
 
-            <!-- 5 Column Grid Layout -->
+            <!-- 5 Column Grid Layout
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-4">
 
-                <!-- Card 1: Radiology -->
+                Card 1: Radiology
                 <div class="col">
                     <div class="service-card">
                         <div class="card-img-wrapper">
@@ -1525,7 +1525,7 @@
                     </div>
                 </div>
 
-                <!-- Card 2: Nuclear Medicine -->
+                Card 2: Nuclear Medicine
                 <div class="col">
                     <div class="service-card">
                         <div class="card-img-wrapper">
@@ -1539,7 +1539,7 @@
                     </div>
                 </div>
 
-                <!-- Card 3: Biochemistry -->
+                Card 3: Biochemistry
                 <div class="col">
                     <div class="service-card">
                         <div class="card-img-wrapper">
@@ -1554,7 +1554,7 @@
                     </div>
                 </div>
 
-                <!-- Card 4: Microbiology -->
+                Card 4: Microbiology
                 <div class="col">
                     <div class="service-card">
                         <div class="card-img-wrapper">
@@ -1568,7 +1568,7 @@
                     </div>
                 </div>
 
-                <!-- Card 5: Pathology -->
+                Card 5: Pathology
                 <div class="col">
                     <div class="service-card">
                         <div class="card-img-wrapper">
@@ -1582,7 +1582,7 @@
                     </div>
                 </div>
 
-            </div>
+            </div> -->
         </div>
 
     </section>
@@ -1771,127 +1771,189 @@
 
 <body>
 
-    <section class="index-new-all-service-section">
-        <div class="container-fluid px-lg-5">
-            <div class="row align-items-start">
+    <!-- ===================================================
+         INDEX FIFTH SECTION
+         =================================================== -->
+ <section class="index-fifth-section">
+  <div class="container">
 
-                <!-- Left Side: Staggered Services Grid (6 Columns) -->
-                <div class="col-xl-9 col-lg-8">
-                    <div class="services-grid-wrapper">
-
-                        <!-- Column 1 -->
-                        <div class="grid-col">
-                            <div class="service-card">
-                                <i class="fa-solid fa-brain"></i>
-                                <span>Neuro Surgery</span>
-                            </div>
-                            <div class="service-card">
-                                <i class="fa-solid fa-diagram-project"></i>
-                                <span>Neurology</span>
-                            </div>
-                            <div class="service-card">
-                                <i class="fa-solid fa-heart-pulse"></i>
-                                <span>Cardiology</span>
-                            </div>
-                        </div>
-
-                        <!-- Column 2 (Shifted Down) -->
-                        <div class="grid-col">
-                            <div class="service-card">
-                                <i class="fa-solid fa-vial"></i>
-                                <span>Vascular Surgery</span>
-                            </div>
-                            <div class="service-card">
-                                <i class="fa-solid fa-tooth"></i>
-                                <span>Dental Surgery</span>
-                            </div>
-                            <div class="service-card">
-                                <i class="fa-solid fa-head-side-mask"></i>
-                                <span>Maxillo facial Surgery</span>
-                            </div>
-                        </div>
-
-                        <!-- Column 3 -->
-                        <div class="grid-col">
-                            <div class="service-card">
-                                <i class="fa-solid fa-bone"></i>
-                                <span>Orthopedics</span>
-                            </div>
-                            <div class="service-card">
-                                <i class="fa-solid fa-baby"></i>
-                                <span>Pediatrics</span>
-                            </div>
-                            <div class="service-card">
-                                <i class="fa-solid fa-person-pregnant"></i>
-                                <span>Gynecology</span>
-                            </div>
-                        </div>
-
-                        <!-- Column 4 (Shifted Down) -->
-                        <div class="grid-col">
-                            <div class="service-card">
-                                <i class="fa-solid fa-bed-pulse"></i>
-                                <span>Critical Care</span>
-                            </div>
-                            <div class="service-card">
-                                <i class="fa-solid fa-truck-medical"></i>
-                                <span>Accidents & Trauma Care</span>
-                            </div>
-                            <div class="service-card">
-                                <i class="fa-solid fa-x-ray"></i>
-                                <span>Radiology</span>
-                            </div>
-                        </div>
-
-                        <!-- Column 5 (Shifted Down) -->
-                        <div class="grid-col">
-                            <div class="service-card">
-                                <i class="fa-solid fa-user-doctor"></i>
-                                <span>General Medicine</span>
-                            </div>
-                            <div class="service-card">
-                                <i class="fa-solid fa-person-walking"></i>
-                                <span>Physiotherapy</span>
-                            </div>
-                            <div class="service-card">
-                                <i class="fa-solid fa-scalpel"></i>
-                                <span>General & Laproscopic Surgery</span>
-                            </div>
-                        </div>
-
-                        <!-- Column 6 -->
-                        <div class="grid-col">
-                            <div class="service-card">
-                                <i class="fa-solid fa-head-side-virus"></i>
-                                <span>Neuro Psychiatric</span>
-                            </div>
-                            <div class="service-card">
-                                <i class="fa-solid fa-child-reaching"></i>
-                                <span>Physiotherapy</span>
-                            </div>
-                            <div class="service-card">
-                                <i class="fa-solid fa-hand-holding-hand"></i>
-                                <span>Neuro rehabilitation</span>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <!-- Right Side: Circular Floating Badge -->
-                <div class="col-xl-3 col-lg-4 badge-side-container">
-                    <div class="circle-badge">
-                        <i class="fa-solid fa-location-crosshairs"></i>
-                        <h4>Centers of<br>Excellence</h4>
-                        <a href="#" class="know-more-btn">
-                            <i class="fa-regular fa-file-lines"></i> KNOW MORE
-                        </a>
-                    </div>
-                </div>
-
-            </div>
+    <!-- Section Header Bar -->
+    <div class="d-flex justify-content-between align-items-end">
+      <div>
+        <span class="section-badge">Our Departments</span>
+        <h2 class="section-heading">Comprehensive Medical Specialities</h2>
+      </div>
+      <div>
+          <a href="specilities.php" class="view-all-link">
+            View All Departments <i class="fa-solid fa-arrow-right"></i>
+          </a>
         </div>
-    </section>
+    </div>
+</div>
+</section>
+
+    <section class="index-new-all-service-section">
+    <div class="container-fluid px-lg-5">
+        <div class="row align-items-start">
+
+            <!-- Full Width Services Grid Wrapper (12 Columns) -->
+            <div class="col-12">
+                <div class="services-grid-wrapper">
+
+                    <!-- Column 1 -->
+                    <div class="grid-col ">
+                      <a href="neuro-surgery.php">
+                        <div class="service-card">
+                          
+                            <i class="fa-solid fa-brain"></i>
+                            <span>Neuro Surgery</span>
+                        </div>
+                      </a>
+
+                       <a href="accidents-and-trauma-care.php">
+                        <div class="service-card">
+                            <i class="fa-solid fa-truck-medical"></i>
+                            <span>All accident cases</span>
+                        </div>
+                       </a>
+
+                        <a href="plastic-cosmetic-surgery.php">
+                        <div class="service-card">
+                            <img src="./assets/img/plastic-cosmetic-surgery.png" alt="" style="width: 40px;">
+                            <span>Plastic and cosmetic surgery</span>
+                        </div>
+                      </a>
+                    </div>
+
+                    <!-- Column 2 (Shifted Down) -->
+                    <div class="grid-col shifted-down">
+                      <a href="neurology.php">
+                        <div class="service-card">
+                            <i class="fa-solid fa-head-side-virus"></i>
+                            <span>Neurology</span>
+                        </div>
+                      </a>
+
+                      <a href="orthopaedic-surgery.php">
+                        <div class="service-card">
+                            <i class="fa-solid fa-bone"></i>
+                            <span>Orthopaedic Surgery</span>
+                        </div>
+                      </a>
+
+                      <a href="pediatrics.php">
+                        <div class="service-card">
+                            <i class="fa-solid fa-baby"></i> 
+                            <span>Pediatrics</span>
+                        </div>
+                     </a>
+                    </div>
+
+                    <!-- Column 3 -->
+                    <div class="grid-col">
+                        <a href="cardiology.php">
+                        <div class="service-card">
+                            <img src="./assets/img/Cardiology.png" alt="cardiology" style="width: 40px;">
+                            <span>Cardiology</span>
+                        </div>
+                       </a>
+
+                       <a href="general-medicine.php">
+                        <div class="service-card">
+                            <i class="fa-solid fa-user-doctor"></i>
+                            <span>General Medicine</span>
+                        </div>
+                      </a>
+
+                      <a href="physiotherapy.php">
+                        <div class="service-card">
+                            <i class="fa-solid fa-person-walking"></i>
+                            <span>Physiotherapy</span>
+                        </div>
+                     </a>
+                    </div>
+
+                    <!-- Column 4 (Shifted Down) -->
+                    <div class="grid-col shifted-down">
+
+                        <a href="Vascular-surgery.php">
+                        <div class="service-card">
+                            <i class="fa-solid fa-bed-pulse"></i>
+                            <span>Vascular Surgery</span>
+                        </div>
+                       </a>
+
+                       <a href="gynecology.php">
+                        <div class="service-card">
+                            <i class="fa-solid fa-venus"></i>
+                            <span>Gynecology</span>
+                        </div>
+                       </a>
+
+                       <a href="radiology.php">
+                        <div class="service-card">
+                            <i class="fa-solid fa-x-ray"></i>
+                            <span>Radiology</span>
+                        </div>
+                       </a>
+                    </div>
+
+                    <!-- Column 5 (Shifted Down) -->
+                    <div class="grid-col shifted-down">
+
+                     <a href="dental.php">
+                        <div class="service-card">
+                            <i class="fa-solid fa-tooth"></i>
+                            <span>Dental Surgery</span>
+                        </div>
+                    </a>
+
+                    <a href="critical-care.php"> 
+                        <div class="service-card">
+                            <i class="fa-solid fa-bed-pulse"></i>
+                            <span>Critical Care</span>
+                        </div>
+                    </a>
+
+                    <a href="neuro-rehabilitation.php">
+                        <div class="service-card">
+                            <i class="fa-solid fa-wheelchair"></i>
+                            <span>Neuro rehabilitation</span>
+                        </div>
+                     </a>
+                    </div>
+
+                    <!-- Column 6 -->
+                    <div class="grid-col">
+
+                    <a href="maxillo-facial-surgery.php">
+                        <div class="service-card">
+                            <i class="fa-solid fa-face-smile"></i>
+                            <span>Maxillo facial Surgery</span>
+                        </div>
+                    </a>
+
+                    <a href="neuro-psychiatric.php">
+                        <div class="service-card">
+                            <i class="fa-solid fa-user-pen"></i>
+                            <span>Neuro Psychiatric</span>
+                        </div>
+                     </a>
+
+                     <a href="general-and-laproscopic-surgery.php">
+                        <div class="service-card">
+                            <i class="fa-solid fa-scissors"></i>
+                            <span>General & Laproscopic Surgery</span>
+                        </div>
+                     </a>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
 
 </body>
 
@@ -1995,14 +2057,18 @@
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="treatment-card">
           <div class="treatment-img-box">
-            <img src="./assets/img/Neurology_index.png" alt="Neuro Surgery">
+            <!-- <img src="./assets/img/Neurology_index.png" alt="Neuro Surgery"> -->
+             <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=600&q=80"
+                                alt="Radiology">
           </div>
           <div class="treatment-body">
-            <h5 class="treatment-title">Neuro Surgery</h5>
-            <p class="treatment-desc">Advanced neurosurgical procedures for brain and spine.</p>
-            <a href="neuro-surgery.php" class="read-more-link">
+            <h5 class="treatment-title">Radiology</h5>
+            <p class="treatment-desc">Radiology utilizes imaging technology for accurate disease diagnosis,
+                            guiding effective treatment plans for comprehensive patient care.</p>
+            <!-- <a href="neuro-surgery.php" class="read-more-link"> -->
+              <!-- <a href="radiology.php" class="read-more-link">
               Read More <i class="fa-solid fa-arrow-right"></i>
-            </a>
+            </a> -->
           </div>
         </div>
       </div>
@@ -2011,14 +2077,16 @@
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="treatment-card">
           <div class="treatment-img-box">
-            <img src="./assets/img/neuro-surgen_index.png" alt="Neurology">
+            <img src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=600&q=80"
+                                alt="Biochemistry">
           </div>
           <div class="treatment-body">
-            <h5 class="treatment-title">Neurology</h5>
-            <p class="treatment-desc">Expert diagnosis and treatment for neurological disorders.</p>
-            <a href="neurology.php" class="read-more-link">
+            <h5 class="treatment-title">Biochemistry</h5>
+            <p class="treatment-desc">Biochemistry studies living organisms' chemical processes, aiding
+                            diagnostics, disease understanding, and personalized treatments for holistic patient care.</p>
+            <!-- <a href="neurology.php" class="read-more-link">
               Read More <i class="fa-solid fa-arrow-right"></i>
-            </a>
+            </a> -->
           </div>
         </div>
       </div>
@@ -2027,20 +2095,23 @@
       <div class="col-12 col-sm-6 col-lg-3">
         <div class="treatment-card">
           <div class="treatment-img-box">
-            <img src="./assets/img/accidents-trauma-care.png" alt="Accidents & Trauma Care">
+            <!-- <img src="./assets/img/accidents-trauma-care.png" alt="Accidents & Trauma Care"> -->
+             <img src="./assets/img/Microbiology.png" alt="">
           </div>
           <div class="treatment-body">
-            <h5 class="treatment-title">Accidents & Trauma Care</h5>
-            <p class="treatment-desc">24/7 emergency trauma care for critical injuries.</p>
-            <a href="accidents-and-trauma-care.php" class="read-more-link">
+            <h5 class="treatment-title">Microbiology</h5>
+            <!-- <p class="treatment-desc">24/7 emergency trauma care for critical injuries.</p> -->
+             <p class="treatment-desc">Microbiology studies microscopic organisms, crucial in diagnosing
+                            infections and guiding treatments for comprehensive patient care.</p>
+            <!-- <a href="accidents-and-trauma-care.php" class="read-more-link">
               Read More <i class="fa-solid fa-arrow-right"></i>
-            </a>
+            </a> -->
           </div>
         </div>
       </div>
 
       <!-- Card 4: Orthopaedic Surgery -->
-      <div class="col-12 col-sm-6 col-lg-3">
+      <!-- <div class="col-12 col-sm-6 col-lg-3">
         <div class="treatment-card">
           <div class="treatment-img-box">
             <img src="./assets/img/ortho_index.png" alt="Orthopaedic Surgery">
@@ -2051,6 +2122,23 @@
             <a href="orthopaedic-surgery.php" class="read-more-link">
               Read More <i class="fa-solid fa-arrow-right"></i>
             </a>
+          </div>
+        </div>
+      </div> -->
+      <!-- Card 4: Orthopaedic Surgery -->
+      <div class="col-12 col-sm-6 col-lg-3">
+        <div class="treatment-card">
+          <div class="treatment-img-box">
+            <img src="https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=600&q=80"
+                                alt="Pathology">
+          </div>
+          <div class="treatment-body">
+            <h5 class="treatment-title">Pathology</h5>
+            <p class="treatment-desc">Pathology diagnoses diseases through analyzing tissues, guiding
+                            treatment decisions for personalized and effective patient care.</p>
+            <!-- <a href="orthopaedic-surgery.php" class="read-more-link">
+              Read More <i class="fa-solid fa-arrow-right"></i>
+            </a> -->
           </div>
         </div>
       </div>
