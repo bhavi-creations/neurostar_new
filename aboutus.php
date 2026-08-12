@@ -192,95 +192,87 @@
                 </div>
 
                 <!-- 3. Neurostar At A Glance (Right Column) -->
-                <div class="col-12 col-lg-4">
-                    <div class="ps-lg-3">
+<div class="col-12 col-lg-4">
+    <div class="ps-lg-3">
 
-                        <h2 class="about-second-section-title">Neurostar At A Glance</h2>
-                        <div class="about-second-section-cyan-line"></div>
-                        <div class="row g-2 pt-2">
+        <h2 class="about-second-section-title">Neurostar At A Glance</h2>
+        <div class="about-second-section-cyan-line"></div>
 
-                            <!-- Stat 1: 20+ Years of Excellence -->
-                            <div class="col-6">
-                                <div class="about-second-section-glance-item">
-                                    <div class="about-second-section-icon-box">
-                                        <i class="fa-solid fa-award"></i>
-                                    </div>
-                                    <div>
-                                        <div class="about-second-section-number">20+</div>
-                                        <div class="about-second-section-label">Years of Excellence</div>
-                                    </div>
-                                </div>
-                            </div>
+        <!-- Single Outer Card Box -->
+        <div class="stats-card mt-3">
+            <div class="row g-4">
 
-                            <!-- Stat 2: 120+ Expert Doctors -->
-                            <div class="col-6">
-                                <div class="about-second-section-glance-item">
-                                    <div class="about-second-section-icon-box">
-                                        <i class="fa-solid fa-user-doctor"></i>
-                                    </div>
-                                    <div>
-                                        <div class="about-second-section-number">120+</div>
-                                        <div class="about-second-section-label">Expert Doctors</div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Stat 3: 120+ Specialties -->
-                            <div class="col-6">
-                                <div class="about-second-section-glance-item">
-                                    <div class="about-second-section-icon-box">
-                                        <i class="fa-solid fa-hospital-user"></i>
-                                    </div>
-                                    <div>
-                                        <div class="about-second-section-number">120+</div>
-                                        <div class="about-second-section-label">Specialties</div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Stat 4: 75,000+ Happy Patients -->
-                            <div class="col-6">
-                                <div class="about-second-section-glance-item">
-                                    <div class="about-second-section-icon-box">
-                                        <i class="fa-solid fa-users"></i>
-                                    </div>
-                                    <div>
-                                        <div class="about-second-section-number">75,000+</div>
-                                        <div class="about-second-section-label">Happy Patients</div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Stat 5: 2,50,000+ OP Consultations -->
-                            <div class="col-6">
-                                <div class="about-second-section-glance-item">
-                                    <div class="about-second-section-icon-box">
-                                        <i class="fa-solid fa-stethoscope"></i>
-                                    </div>
-                                    <div>
-                                        <div class="about-second-section-number">2,50,000+</div>
-                                        <div class="about-second-section-label">OP Consultations</div>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <!-- Stat 6: 15,000+ Succesful Surgeries -->
-                            <div class="col-6">
-                                <div class="about-second-section-glance-item">
-                                    <div class="about-second-section-icon-box">
-                                        <i class="fa-solid fa-syringe"></i>
-                                    </div>
-                                    <div>
-                                        <div class="about-second-section-number">15,000+</div>
-                                        <div class="about-second-section-label">Succesful Surgeries</div>
-                                    </div>
-                                </div>
-                            </div>
-
+                <!-- Stat 1: 20+ Years of Excellence -->
+                <div class="col-6">
+                    <div class="about-second-section-glance-item">
+                        <div class="about-second-section-icon-box">
+                            <i class="fa-solid fa-award"></i>
                         </div>
-
+                        <div class="about-second-section-number">20+</div>
+                        <div class="about-second-section-label">Years of Excellence</div>
                     </div>
                 </div>
+
+                <!-- Stat 2: 120+ Expert Doctors -->
+                <div class="col-6">
+                    <div class="about-second-section-glance-item">
+                        <div class="about-second-section-icon-box">
+                            <i class="fa-solid fa-user-doctor"></i>
+                        </div>
+                        <div class="about-second-section-number">120+</div>
+                        <div class="about-second-section-label">Expert Doctors</div>
+                    </div>
+                </div>
+
+                <!-- Stat 3: 120+ Specialties -->
+                <div class="col-6">
+                    <div class="about-second-section-glance-item">
+                        <div class="about-second-section-icon-box">
+                            <i class="fa-solid fa-hospital-user"></i>
+                        </div>
+                        <div class="about-second-section-number">120+</div>
+                        <div class="about-second-section-label">Specialties</div>
+                    </div>
+                </div>
+
+                <!-- Stat 4: 75,000+ Happy Patients -->
+                <div class="col-6">
+                    <div class="about-second-section-glance-item">
+                        <div class="about-second-section-icon-box">
+                            <i class="fa-solid fa-users"></i>
+                        </div>
+                        <div class="about-second-section-number">75,000+</div>
+                        <div class="about-second-section-label">Happy Patients</div>
+                    </div>
+                </div>
+
+                <!-- Stat 5: 2,50,000+ OP Consultations -->
+                <div class="col-6">
+                    <div class="about-second-section-glance-item">
+                        <div class="about-second-section-icon-box">
+                            <i class="fa-solid fa-stethoscope"></i>
+                        </div>
+                        <div class="about-second-section-number">2,50,000+</div>
+                        <div class="about-second-section-label">OP Consultations</div>
+                    </div>
+                </div>
+
+                <!-- Stat 6: 15,000+ Succesful Surgeries -->
+                <div class="col-6">
+                    <div class="about-second-section-glance-item">
+                        <div class="about-second-section-icon-box">
+                            <i class="fa-solid fa-syringe"></i>
+                        </div>
+                        <div class="about-second-section-number">15,000+</div>
+                        <div class="about-second-section-label">Succesful Surgeries</div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</div>
 
             </div>
         </div>

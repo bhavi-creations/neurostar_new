@@ -970,27 +970,27 @@
 <!-- ===================================================
          INDEX FIFTH SECTION
          =================================================== -->
-<section class="index-fifth-section">
+<!-- <section class="index-fifth-section">
   <div class="container">
 
-    <!-- Section Header Bar -->
+    Section Header Bar
     <div class="d-flex justify-content-between align-items-end">
       <div>
         <span class="section-badge">Our Departments</span>
         <h2 class="section-heading">Comprehensive Medical Specialities</h2>
       </div>
-      <!-- <div>
+      <div>
           <a href="specilities.php" class="view-all-link">
             View All Departments <i class="fa-solid fa-arrow-right"></i>
           </a>
-        </div> -->
+        </div>
     </div>
 
-    <!-- 12-Card Grid Container -->
+    12-Card Grid Container
     <div class="dept-container">
       <div class="row g-0">
 
-        <!-- 1. Neuro Surgery -->
+        1. Neuro Surgery
         <div class="col-6 col-md-4 col-lg-2">
           <a href="neuro-surgery.php" class="dept-card">
             <div class="dept-icon bg-purple-light">
@@ -1000,7 +1000,7 @@
           </a>
         </div>
 
-        <!-- 2. Neurology -->
+        2. Neurology
         <div class="col-6 col-md-4 col-lg-2">
           <a href="neurology.php" class="dept-card">
             <div class="dept-icon bg-purple-light">
@@ -1011,29 +1011,29 @@
         </div>
 
 
-        <!-- 3. Critical Care -->
+        3. Critical Care
         <div class="col-6 col-md-4 col-lg-2">
           <a href="cardiology.php" class="dept-card">
             <div class="dept-icon bg-blue-light">
-              <!-- <i class="fa-solid fa-bed-pulse"></i> -->
+              <i class="fa-solid fa-bed-pulse"></i>
               <img src="./assets/img/Cardiology.png" alt="cardiology" style="width: 40px;">
             </div>
             <h6 class="dept-title">Cardiology</h6>
           </a>
         </div>
 
-        <!-- 4. vascular -->
+        4. vascular
         <div class="col-6 col-md-4 col-lg-2">
           <a href="Vascular-surgery.php" class="dept-card">
             <div class="dept-icon bg-red-light">
-              <!-- <i class="fa-solid fa-bed-pulse"></i> -->
+              <i class="fa-solid fa-bed-pulse"></i>
               <img src="./assets/img/Cardiology.png" alt="cardiology" style="width: 40px;">
             </div>
             <h6 class="dept-title">Vascular Surgery</h6>
           </a>
         </div>
 
-        <!-- 5. Dental -->
+        5. Dental
         <div class="col-6 col-md-4 col-lg-2">
           <a href="dental.php" class="dept-card">
             <div class="dept-icon bg-orange-light">
@@ -1043,7 +1043,7 @@
           </a>
         </div>
 
-        <!-- 6. Maxillo facial surgery -->
+        6. Maxillo facial surgery
         <div class="col-6 col-md-4 col-lg-2">
           <a href="maxillo-facial-surgery.php" class="dept-card">
             <div class="dept-icon bg-orange-light">
@@ -1053,7 +1053,7 @@
           </a>
         </div>
 
-        <!-- 7. Orthopedics -->
+        7. Orthopedics
         <div class="col-6 col-md-4 col-lg-2">
           <a href="orthopaedic-surgery.php" class="dept-card">
             <div class="dept-icon bg-blue-light">
@@ -1063,7 +1063,7 @@
           </a>
         </div>
 
-        <!-- 8. Pediatrics -->
+        8. Pediatrics
         <div class="col-6 col-md-4 col-lg-2">
           <a href="pediatrics.php" class="dept-card">
             <div class="dept-icon bg-green-light">
@@ -1073,7 +1073,7 @@
           </a>
         </div>
 
-        <!-- 9. Gynecology -->
+        9. Gynecology
         <div class="col-6 col-md-4 col-lg-2">
           <a href="gynecology.php" class="dept-card">
             <div class="dept-icon bg-pink-light">
@@ -1083,7 +1083,7 @@
           </a>
         </div>
 
-        <!-- 10. Critical Care -->
+        10. Critical Care
         <div class="col-6 col-md-4 col-lg-2">
           <a href="critical-care.php" class="dept-card">
             <div class="dept-icon bg-pink-light">
@@ -1093,32 +1093,32 @@
           </a>
         </div>
 
-        <!-- 11. Accidents & Trauma Care -->
+        11. Accidents & Trauma Care
         <div class="col-6 col-md-4 col-lg-2">
           <a href="accidents-and-trauma-care.php" class="dept-card">
             <div class="dept-icon bg-red-light">
-              <!-- <i class="fa-solid fa-stomach"></i> -->
-              <!-- <img src="./assets/img/stomach.png" alt="" class="img-fluid" style="width: 40px;"> -->
+              <i class="fa-solid fa-stomach"></i>
+              <img src="./assets/img/stomach.png" alt="" class="img-fluid" style="width: 40px;">
               <i class="fa-solid fa-truck-medical"></i>
             </div>
-            <h6 class="dept-title">Accidents & Trauma Care</h6>
+            <h6 class="dept-title">All accident cases</h6>
           </a>
         </div>
 
 
 
-        <!-- 12. Radiology -->
+        12. Radiology
         <div class="col-6 col-md-4 col-lg-2">
           <a href="radiology.php" class="dept-card">
             <div class="dept-icon bg-red-light">
-              <!-- <img src="./assets/img/nephrology_1.png" alt="" class="img-fluid" style="width: 40px;"> -->
+              <img src="./assets/img/nephrology_1.png" alt="" class="img-fluid" style="width: 40px;">
               <i class="fa-solid fa-x-ray"></i>
             </div>
             <h6 class="dept-title">Radiology</h6>
           </a>
         </div>
 
-        <!-- 13. General Medicine -->
+        13. General Medicine
         <div class="col-6 col-md-4 col-lg-2">
           <a href="general-medicine.php" class="dept-card">
             <div class="dept-icon bg-red-light">
@@ -1128,7 +1128,7 @@
           </a>
         </div>
 
-        <!-- 14. Physiotherapy -->
+        14. Physiotherapy
         <div class="col-6 col-md-4 col-lg-2">
           <a href="physiotherapy.php" class="dept-card">
             <div class="dept-icon bg-teal-light">
@@ -1138,18 +1138,18 @@
           </a>
         </div>
 
-        <!-- 15. General Surgery -->
+        15. General Surgery
         <div class="col-6 col-md-4 col-lg-2">
           <a href="general-and-laproscopic-surgery.php" class="dept-card">
             <div class="dept-icon bg-blue-light">
-              <!-- <i class="fa-solid fa-scalpel"></i> -->
+              <i class="fa-solid fa-scalpel"></i>
               <i class="fa-solid fa-scissors"></i>
             </div>
             <h6 class="dept-title">General & Laproscopic Surgery</h6>
           </a>
         </div>
 
-        <!-- 16. Neuro Psychiatric -->
+        16. Neuro Psychiatric
         <div class="col-6 col-md-4 col-lg-2">
           <a href="neuro-psychiatric.php" class="dept-card">
             <div class="dept-icon bg-blue-light">
@@ -1159,7 +1159,7 @@
           </a>
         </div>
 
-        <!-- 17. Physiotherapy -->
+        17. Physiotherapy
         <div class="col-6 col-md-4 col-lg-2">
           <a href="physiotherapy.php" class="dept-card">
             <div class="dept-icon bg-blue-light">
@@ -1169,7 +1169,7 @@
           </a>
         </div>
 
-        <!-- 18. Neuro rehabilitation -->
+        18. Neuro rehabilitation
          <div class="col-6 col-md-4 col-lg-2">
           <a href="neuro-rehabilitation.php" class="dept-card">
             <div class="dept-icon bg-blue-light">
@@ -1184,7 +1184,718 @@
     </div>
 
   </div>
+</section> -->
+
+
+
+<!-- ========================================================= -->
+<!-- HEALTHCARE SERVICES CARDS -->
+<!-- ========================================================= -->
+
+<section class="hcs-services-section">
+    <div class="container-fluid hcs-services-container">
+
+        <div class="row g-4 justify-content-center">
+
+            <!-- 1. Doctor Consultation -->
+            <div class="col-6 col-md-4 col-lg-2">
+                <a href="appointment.php" class="hcs-service-link">
+                    <div class="hcs-service-card">
+
+                        <div class="hcs-icon-circle">
+                            <img src="./assets/img/doctor-consultation.png" alt="" style="height:80px; width:80px">
+                        </div>
+
+                        <div class="hcs-service-title">
+                            Doctor Consultation
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+
+
+            <!-- 2. Video Consultation -->
+            <!-- <div class="col-6 col-md-4 col-lg-2">
+                <a href="video-consultation.php" class="hcs-service-link">
+                    <div class="hcs-service-card">
+
+                        <div class="hcs-icon-circle">
+                            <i class="bi bi-person-video3"></i>
+                        </div>
+
+                        <div class="hcs-service-title">
+                            Video Consultation
+                        </div>
+
+                    </div>
+                </a>
+            </div> -->
+
+
+            <!-- 3. Health Packages -->
+            <div class="col-6 col-md-4 col-lg-2">
+                <a href="#" class="hcs-service-link">
+                    <div class="hcs-service-card">
+
+                        <div class="hcs-icon-circle">
+                            <i class="bi bi-box2-heart text-primary"></i>
+                        </div>
+
+                        <div class="hcs-service-title">
+                            Health Packages
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+
+
+            <!-- 4. Laboratory Tests -->
+            <div class="col-6 col-md-4 col-lg-2">
+                <a href="equipment.php" class="hcs-service-link">
+                    <div class="hcs-service-card">
+
+                        <div class="hcs-icon-circle">
+                            <i class="bi bi-microscope"></i>
+                        </div>
+
+                        <div class="hcs-service-title">
+                            Laboratory Tests
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+
+
+            <!-- 5. Radiology Imaging -->
+            <div class="col-6 col-md-4 col-lg-2">
+                <a href="radiology.php" class="hcs-service-link">
+                    <div class="hcs-service-card">
+
+                        <div class="hcs-icon-circle  text-primary">
+                            <i class="bi bi-lungs"></i>
+                        </div>
+
+                        <div class="hcs-service-title">
+                            Radiology Imaging
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+
+
+            <!-- 6. Pharmacy -->
+            <div class="col-6 col-md-4 col-lg-2">
+                <a href="#" class="hcs-service-link">
+                    <div class="hcs-service-card">
+
+                        <div class="hcs-icon-circle">
+                            <i class="bi bi-capsule"></i>
+                        </div>
+
+                        <div class="hcs-service-title">
+                            Pharmacy
+                        </div>
+
+                    </div>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
 </section>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services Section</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <style>
+        /* Main Section Class */
+        .index-new-service-section {
+            background-color: #f8f9fa;
+            padding: 40px 0 60px 0;
+            position: relative;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            overflow-x: hidden;
+        }
+
+        /* Top Left Floating Circle Badge */
+        .index-new-service-section .top-badge-container {
+            margin-left: 20px;
+            margin-bottom: 30px;
+        }
+
+        .index-new-service-section .circle-badge {
+            width: 170px;
+            height: 170px;
+            background-color: #eef7f9;
+            /* Light cyan/grey outer ring */
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            box-shadow: inset 0 0 0 10px #e2f2f5;
+        }
+
+        .index-new-service-section .badge-icon-box {
+            background-color: #2b6cb0;
+            /* Solid blue icon container */
+            color: #ffffff;
+            width: 60px;
+            height: 40px;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            margin-bottom: 6px;
+        }
+
+        .index-new-service-section .circle-badge h4 {
+            font-size: 18px;
+            font-weight: 700;
+            color: #333333;
+            margin: 2px 0 6px 0;
+        }
+
+        .index-new-service-section .know-more-btn {
+            background-color: #f26a36;
+            /* Orange button */
+            color: #ffffff;
+            border: none;
+            font-size: 10px;
+            font-weight: 700;
+            padding: 5px 12px;
+            border-radius: 15px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            text-decoration: none;
+            transition: background 0.2s ease;
+        }
+
+        .index-new-service-section .know-more-btn:hover {
+            background-color: #d95523;
+            color: #fff;
+        }
+
+        /* Service Cards Grid */
+        .index-new-service-section .service-card {
+            text-align: center;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .index-new-service-section .card-img-wrapper {
+            width: 100%;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+            margin-bottom: 15px;
+            aspect-ratio: 4 / 3;
+        }
+
+        .index-new-service-section .card-img-wrapper img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+            transition: transform 0.3s ease;
+        }
+
+        .index-new-service-section .service-card:hover .card-img-wrapper img {
+            transform: scale(1.04);
+        }
+
+        .index-new-service-section .service-icon {
+            font-size: 26px;
+            color: #17a2b8;
+            /* Cyan accent color */
+            margin-bottom: 8px;
+            display: block;
+        }
+
+        .index-new-service-section .service-title {
+            font-size: 15px;
+            font-weight: 700;
+            color: #222222;
+            margin-bottom: 8px;
+        }
+
+        .index-new-service-section .service-desc {
+            font-size: 11.5px;
+            color: #666666;
+            line-height: 1.4;
+            margin: 0;
+            padding: 0 4px;
+        }
+
+        /* Fixed Right Sidebar Button (Book an Appointment) */
+        .index-new-service-section .appointment-tab {
+            position: fixed;
+            right: 0;
+            top: 35%;
+            transform: translateY(-50%);
+            background-color: #00a896;
+            color: #ffffff;
+            writing-mode: vertical-rl;
+            text-transform: capitalize;
+            padding: 15px 8px;
+            border-top-left-radius: 8px;
+            border-bottom-left-radius: 8px;
+            font-weight: 600;
+            font-size: 13px;
+            letter-spacing: 0.5px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            cursor: pointer;
+            z-index: 999;
+            box-shadow: -2px 4px 10px rgba(0, 0, 0, 0.15);
+            text-decoration: none;
+        }
+
+        .index-new-service-section .appointment-tab i {
+            writing-mode: horizontal-tb;
+            font-size: 16px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="index-new-service-section">
+
+        <!-- Right Sticky Appointment Tab -->
+        <a href="#" class="appointment-tab">
+            <i class="fa-solid fa-calendar-check"></i>
+            <span>Book an Appointment</span>
+        </a>
+
+        <div class="container-fluid px-lg-5">
+
+            <!-- Top Left Badge -->
+            <div class="top-badge-container">
+                <div class="circle-badge">
+                    <div class="badge-icon-box">
+                        <i class="fa-solid fa-hands-holding-child"></i>
+                    </div>
+                    <h4>Services</h4>
+                    <a href="#" class="know-more-btn">
+                        <i class="fa-regular fa-file-lines"></i> KNOW MORE
+                    </a>
+                </div>
+            </div>
+
+            <!-- 5 Column Grid Layout -->
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-5 g-4">
+
+                <!-- Card 1: Radiology -->
+                <div class="col">
+                    <div class="service-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1579684385127-1ef15d508118?auto=format&fit=crop&w=600&q=80"
+                                alt="Radiology">
+                        </div>
+                        <i class="fa-solid fa-x-ray service-icon"></i>
+                        <h5 class="service-title">Radiology</h5>
+                        <p class="service-desc">Radiology utilizes imaging technology for accurate disease diagnosis,
+                            guiding effective treatment plans for comprehensive patient care.</p>
+                    </div>
+                </div>
+
+                <!-- Card 2: Nuclear Medicine -->
+                <div class="col">
+                    <div class="service-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&w=600&q=80"
+                                alt="Nuclear Medicine">
+                        </div>
+                        <i class="fa-solid fa-atom service-icon"></i>
+                        <h5 class="service-title">Nuclear Medicine</h5>
+                        <p class="service-desc">Nuclear Medicine uses radioactive materials for imaging, offering
+                            insights into organ function, aiding precise diagnostics and treatments.</p>
+                    </div>
+                </div>
+
+                <!-- Card 3: Biochemistry -->
+                <div class="col">
+                    <div class="service-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?auto=format&fit=crop&w=600&q=80"
+                                alt="Biochemistry">
+                        </div>
+                        <i class="fa-solid fa-vial-circle-check service-icon"></i>
+                        <h5 class="service-title">Biochemistry</h5>
+                        <p class="service-desc">Biochemistry studies living organisms' chemical processes, aiding
+                            diagnostics, disease understanding, and personalized treatments for holistic patient care.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Card 4: Microbiology -->
+                <div class="col">
+                    <div class="service-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1581093458791-9f3c3250a8b0?auto=format&fit=crop&w=600&q=80"
+                                alt="Microbiology">
+                        </div>
+                        <i class="fa-solid fa-microscope service-icon"></i>
+                        <h5 class="service-title">Microbiology</h5>
+                        <p class="service-desc">Microbiology studies microscopic organisms, crucial in diagnosing
+                            infections and guiding treatments for comprehensive patient care.</p>
+                    </div>
+                </div>
+
+                <!-- Card 5: Pathology -->
+                <div class="col">
+                    <div class="service-card">
+                        <div class="card-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=600&q=80"
+                                alt="Pathology">
+                        </div>
+                        <i class="fa-solid fa-dna service-icon"></i>
+                        <h5 class="service-title">Pathology</h5>
+                        <p class="service-desc">Pathology diagnoses diseases through analyzing tissues, guiding
+                            treatment decisions for personalized and effective patient care.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centers of Excellence Section</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    <style>
+        /* Main Section Class */
+        .index-new-all-service-section {
+            background-color: #fafafa;
+            padding: 60px 0;
+            position: relative;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        }
+
+        /* Grid Layout Container */
+        .index-new-all-service-section .services-grid-wrapper {
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            gap: 16px;
+        }
+
+        /* Asymmetrical Staggered Columns Offset */
+        .index-new-all-service-section .grid-col:nth-child(1) {
+            margin-top: 0px;
+        }
+
+        .index-new-all-service-section .grid-col:nth-child(2) {
+            margin-top: 35px;
+        }
+
+        .index-new-all-service-section .grid-col:nth-child(3) {
+            margin-top: 0px;
+        }
+
+        .index-new-all-service-section .grid-col:nth-child(4) {
+            margin-top: 25px;
+        }
+
+        .index-new-all-service-section .grid-col:nth-child(5) {
+            margin-top: 30px;
+        }
+
+        .index-new-all-service-section .grid-col:nth-child(6) {
+            margin-top: 0px;
+        }
+
+        /* Single Column Stack */
+        .index-new-all-service-section .grid-col {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        /* Service Card Styling */
+        .index-new-all-service-section .service-card {
+            background-color: #e6f1f6;
+            /* Soft Peach tint */
+            border-radius: 10px;
+            padding: 22px 12px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 105px;
+            transition: all 0.25s ease-in-out;
+            border: 1px solid rgba(240, 200, 180, 0.2);
+        }
+
+        .index-new-all-service-section .service-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 20px rgba(230, 100, 50, 0.12);
+            /* background-color: #ffe8d9; */
+        }
+
+        /* Icon styling with teal green color */
+        .index-new-all-service-section .service-card i {
+            font-size: 26px;
+            color: #2563eb;
+            margin-bottom: 8px;
+        }
+
+        .index-new-all-service-section .service-card span {
+            font-size: 12px;
+            font-weight: 600;
+            color: #2b2b2b;
+            line-height: 1.3;
+        }
+
+        /* Floating Circle Badge Container */
+        .index-new-all-service-section .badge-side-container {
+            display: flex;
+            align-items: flex-start;
+            justify-content: center;
+            padding-top: 10px;
+        }
+
+        .index-new-all-service-section .circle-badge {
+            width: 220px;
+            height: 220px;
+            background-color: #fff0e6;
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.02);
+        }
+
+        .index-new-all-service-section .circle-badge i {
+            font-size: 28px;
+            color: #009688;
+            margin-bottom: 8px;
+        }
+
+        .index-new-all-service-section .circle-badge h4 {
+            font-size: 19px;
+            font-weight: 700;
+            color: #1a1a1a;
+            line-height: 1.2;
+            margin-bottom: 12px;
+        }
+
+        .index-new-all-service-section .know-more-btn {
+            background-color: #f26a36;
+            color: #ffffff;
+            border: none;
+            font-size: 10px;
+            font-weight: 700;
+            padding: 6px 14px;
+            border-radius: 15px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            display: inline-flex;
+            align-items: center;
+            gap: 5px;
+            text-decoration: none;
+            transition: background 0.2s ease;
+        }
+
+        .index-new-all-service-section .know-more-btn:hover {
+            background-color: #d95523;
+            color: #ffffff;
+        }
+
+        /* Responsive Adjustments */
+        @media (max-width: 1200px) {
+            .index-new-all-service-section .services-grid-wrapper {
+                grid-template-columns: repeat(3, 1fr);
+            }
+
+            .index-new-all-service-section .grid-col {
+                margin-top: 0 !important;
+            }
+
+            .index-new-all-service-section .badge-side-container {
+                margin-top: 40px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .index-new-all-service-section .services-grid-wrapper {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="index-new-all-service-section">
+        <div class="container-fluid px-lg-5">
+            <div class="row align-items-start">
+
+                <!-- Left Side: Staggered Services Grid (6 Columns) -->
+                <div class="col-xl-9 col-lg-8">
+                    <div class="services-grid-wrapper">
+
+                        <!-- Column 1 -->
+                        <div class="grid-col">
+                            <div class="service-card">
+                                <i class="fa-solid fa-brain"></i>
+                                <span>Neuro Surgery</span>
+                            </div>
+                            <div class="service-card">
+                                <i class="fa-solid fa-diagram-project"></i>
+                                <span>Neurology</span>
+                            </div>
+                            <div class="service-card">
+                                <i class="fa-solid fa-heart-pulse"></i>
+                                <span>Cardiology</span>
+                            </div>
+                        </div>
+
+                        <!-- Column 2 (Shifted Down) -->
+                        <div class="grid-col">
+                            <div class="service-card">
+                                <i class="fa-solid fa-vial"></i>
+                                <span>Vascular Surgery</span>
+                            </div>
+                            <div class="service-card">
+                                <i class="fa-solid fa-tooth"></i>
+                                <span>Dental Surgery</span>
+                            </div>
+                            <div class="service-card">
+                                <i class="fa-solid fa-head-side-mask"></i>
+                                <span>Maxillo facial Surgery</span>
+                            </div>
+                        </div>
+
+                        <!-- Column 3 -->
+                        <div class="grid-col">
+                            <div class="service-card">
+                                <i class="fa-solid fa-bone"></i>
+                                <span>Orthopedics</span>
+                            </div>
+                            <div class="service-card">
+                                <i class="fa-solid fa-baby"></i>
+                                <span>Pediatrics</span>
+                            </div>
+                            <div class="service-card">
+                                <i class="fa-solid fa-person-pregnant"></i>
+                                <span>Gynecology</span>
+                            </div>
+                        </div>
+
+                        <!-- Column 4 (Shifted Down) -->
+                        <div class="grid-col">
+                            <div class="service-card">
+                                <i class="fa-solid fa-bed-pulse"></i>
+                                <span>Critical Care</span>
+                            </div>
+                            <div class="service-card">
+                                <i class="fa-solid fa-truck-medical"></i>
+                                <span>Accidents & Trauma Care</span>
+                            </div>
+                            <div class="service-card">
+                                <i class="fa-solid fa-x-ray"></i>
+                                <span>Radiology</span>
+                            </div>
+                        </div>
+
+                        <!-- Column 5 (Shifted Down) -->
+                        <div class="grid-col">
+                            <div class="service-card">
+                                <i class="fa-solid fa-user-doctor"></i>
+                                <span>General Medicine</span>
+                            </div>
+                            <div class="service-card">
+                                <i class="fa-solid fa-person-walking"></i>
+                                <span>Physiotherapy</span>
+                            </div>
+                            <div class="service-card">
+                                <i class="fa-solid fa-scalpel"></i>
+                                <span>General & Laproscopic Surgery</span>
+                            </div>
+                        </div>
+
+                        <!-- Column 6 -->
+                        <div class="grid-col">
+                            <div class="service-card">
+                                <i class="fa-solid fa-head-side-virus"></i>
+                                <span>Neuro Psychiatric</span>
+                            </div>
+                            <div class="service-card">
+                                <i class="fa-solid fa-child-reaching"></i>
+                                <span>Physiotherapy</span>
+                            </div>
+                            <div class="service-card">
+                                <i class="fa-solid fa-hand-holding-hand"></i>
+                                <span>Neuro rehabilitation</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- Right Side: Circular Floating Badge -->
+                <div class="col-xl-3 col-lg-4 badge-side-container">
+                    <div class="circle-badge">
+                        <i class="fa-solid fa-location-crosshairs"></i>
+                        <h4>Centers of<br>Excellence</h4>
+                        <a href="#" class="know-more-btn">
+                            <i class="fa-regular fa-file-lines"></i> KNOW MORE
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
 
 <!-- ===================================================
          INDEX SIXTH SECTION

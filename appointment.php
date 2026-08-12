@@ -18,7 +18,7 @@
       <!-- Left Column: Hospital Building Image -->
       <div class="col-lg-6 text-center d-none d-md-block">
         <div class="appointment_img_box">
-           <img src="assets/img/Neurostar-hospital.png" alt="Neurostar Hospital Building" class="img-fluid appointment_img"> 
+           <img src="./assets/img/index-hospital-1.png" alt="Neurostar Hospital Reception" class="img-fluid appointment_img"> 
                              
         </div>
       </div>
