@@ -110,9 +110,9 @@
           <a href="appointment.php" class="index-first-section-btn-primary">
             <i class="fa-regular fa-calendar-check"></i> Book Appointment
           </a>
-          <!-- <a href="doctors.php" class="index-first-section-btn-outline">
+          <a href="doctors.php" class="index-first-section-btn-outline">
             <i class="fa-regular fa-user"></i> Find a Doctor
-          </a> -->
+          </a>
         </div>
 
         <!-- Emergency Contact Card -->
@@ -188,13 +188,13 @@
      INFRASTRUCTURE STRIP
 ========================================== -->
 
- <section class="infra-strip">
+<section class="infra-strip">
 
   <div class="container">
 
     <div class="infra-row">
 
-    
+
       <div class="infra-item">
 
         <div class="infra-icon">
@@ -209,7 +209,7 @@
       </div>
 
 
-     
+
       <div class="infra-item">
 
         <div class="infra-icon">
@@ -224,7 +224,7 @@
       </div>
 
 
-   
+
       <div class="infra-item">
 
         <div class="infra-icon">
@@ -239,7 +239,7 @@
       </div>
 
 
-     
+
       <div class="infra-item">
 
         <div class="infra-icon">
@@ -254,7 +254,7 @@
       </div>
 
 
-   
+
       <div class="infra-item">
 
         <div class="infra-icon">
@@ -269,7 +269,7 @@
       </div>
 
 
-   
+
       <div class="infra-item d-block d-md-none d-xl-block">
 
         <div class="infra-icon">
@@ -287,7 +287,7 @@
 
   </div>
 
-</section> 
+</section>
 
 
 
@@ -2161,62 +2161,50 @@
 
       <!-- Left Side: Insurance Partners -->
       <div class="col-12 col-lg-8">
-        <h6 class="section-title">Insurance Partners</h6>
+        <!-- <h6 class="section-title">Insurance Partners</h6>
         <div class="logo-grid">
 
-          <!-- Star Health -->
+          
           <div class="logo-item">
             <img src="./assets/img/star.png" alt="Star Health Insurance">
           </div>
 
-          <!-- Niva Bupa -->
+          
           <div class="logo-item">
             <img src="./assets/img/niva.png" alt="Niva Bupa Health Insurance">
           </div>
 
-          <!-- HDFC ERGO -->
+      
           <div class="logo-item">
             <img src="./assets/img/ongc.png" alt="HDFC ERGO General Insurance">
           </div>
 
-          <!-- Care Health -->
+          
           <div class="logo-item">
             <img src="./assets/img/sbi.png" alt="Care Health Insurance">
           </div>
 
-          <!-- Reliance General Insurance -->
+          
           <div class="logo-item">
             <img src="./assets/img/reliance.png" alt="Reliance General Insurance">
           </div>
 
-        </div>
+        </div> -->
+        <h6 class="section-title">Insurance Partners</h6>
+        <img src="./assets/img/Layer 3.png" alt="" class="img-fluid d-block d-md-none">
+        <img src="./assets/img/landscape.png" alt="" class="img-fluid  d-none d-md-block">
+
       </div>
 
       <!-- Right Side: Accreditations -->
       <div class="col-12 col-lg-4 vertical-divider">
         <h6 class="section-title">Accreditations</h6>
-        <div class="logo-grid justify-content-start gap-4">
 
-          <!-- NABH Accreditation Seal -->
-          <div class="logo-item">
-            <img src="./assets/img/nabh.png" class="accred-img" alt="NABH Accredited" style="width: 150px; height:150px;">
-          </div>
-
-          <!-- NABL Accreditation Seal -->
-          <div class="logo-item">
-            <img src="./assets/img/nabl.png" class="accred-img" alt="NABL Accredited" style="width: 150px; height:150px;">
-          </div>
-
-          <!-- Govt / Health Certification Seal -->
-          <!-- <div class="logo-item">
-            <img src="https://upload.wikimedia.org/wikipedia/commons/5/55/Emblem_of_India.svg" class="accred-img" alt="Government Approved">
-          </div> -->
-
-          <!-- ISO Certified Seal -->
-          <div class="logo-item">
-            <img src="./assets/img/iso_small.png" class="accred-img" alt="ISO Certified" style="width: 150px; height:150px;">
-          </div>
-
+        <div class="logo-grid d-flex justify-content-center align-items-center gap-4">
+          <img src="./assets/img/portrate.png"
+            alt="Accreditation"
+            class="img-fluid"
+            style="height: 500px;">
         </div>
       </div>
 
