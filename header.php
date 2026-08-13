@@ -85,7 +85,7 @@
     <div class="container-fluid px-lg-5">
 
       <a class="navbar-brand fw-bold" href="#">
-        <img src="assets/img/111.png" alt="Neurostar Logo" >
+        <img src="assets/img/111_11.png" alt="Neurostar Logo" >
       </a>
 
       <button class="navbar-toggler text-white border-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbar">
@@ -153,9 +153,9 @@
             </div>
           </li> -->
 
-          <!-- <li class="nav-item">
+          <li class="nav-item">
             <a class="nav-link" href="doctors.php">Doctors</a>
-          </li> -->
+          </li>
 
           <li class="nav-item">
             <a class="nav-link" href="blogs.php">Blogs</a>
