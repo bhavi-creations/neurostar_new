@@ -100,24 +100,56 @@
         <div id="hospitalCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3000">
 
             <!-- Slide Indicators -->
-            <div class="carousel-indicators">
+            <!-- <div class="carousel-indicators">
                 <button type="button" data-bs-target="#hospitalCarousel" data-bs-slide-to="0" class="active"
                     aria-current="true"></button>
                 <button type="button" data-bs-target="#hospitalCarousel" data-bs-slide-to="1"></button>
                 <button type="button" data-bs-target="#hospitalCarousel" data-bs-slide-to="2"></button>
-            </div>
+            </div> -->
 
             <!-- Carousel Images -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="./assets/img/all-equipment.png" alt="Hospital Banner 1">
                 </div>
-                <div class="carousel-item">
+                <!-- <div class="carousel-item">
                     <img src="./assets/img/111_11.png" alt="Doctors Team">
                 </div>
+
+                
                 <div class="carousel-item">
                     <img src="./assets/img/1.png" alt="Hospital Services">
+                </div> -->
+
+
+                <!-- new -->
+                <div class="carousel-item">
+                    <img src="./assets/img/cath-lab.png" alt="Doctors Team">
                 </div>
+
+                <div class="carousel-item">
+                    <img src="./assets/img/CT scan.png" alt="Doctors Team">
+                </div>
+
+
+                <div class="carousel-item">
+                    <img src="./assets/img/Neuro Micro scope.png" alt="Doctors Team">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./assets/img/Neuro Navigation.png" alt="Doctors Team">
+                </div>
+
+                <div class="carousel-item">
+                    <img src="./assets/img/mri.png" alt="Doctors Team">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/varicose laser.png" alt="Doctors Team">
+                </div>
+                <!-- <div class="carousel-item">
+                    <img src="./assets/img/" alt="Doctors Team">
+                </div> -->
+
             </div>
 
             <!-- Left / Right Control Buttons -->
