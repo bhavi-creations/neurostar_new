@@ -102,7 +102,7 @@
         <!-- Subtitle -->
         <p class="index-first-section-subtitle">
           <!-- World-class medical expertise with advanced technology and personalized care for you and your family. -->
-          NEUROSTAR Hospital is dedicated to providing cutting-edge neurological care, combining advanced technology with services for the well-being of our patients.
+          NEUROSTAR Hospital is dedicated to providing cutting-edge Neuro Cardiac & Vascular Care, combining advanced technology with services for the well-being of our patients.
         </p>
 
         <!-- Buttons Group -->
