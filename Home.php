@@ -76,6 +76,7 @@
 
 </section> -->
 
+<?php include 'slider.php' ; ?>
 
 <!-- ===================================================
          INDEX FIRST SECTION (HERO)

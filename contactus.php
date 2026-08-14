@@ -4,7 +4,7 @@
 ============================================================ -->
 <section class="contactus_section_wrapper ">
 
-   <!-- ===================================================
+    <!-- ===================================================
          CONTACT FIRST SECTION
          =================================================== -->
     <section class="contact-first-section">
@@ -79,7 +79,7 @@
         </div>
     </section>
 
-   
+
     <!-- <div class="contactus_section_hero py-4 mb-4">
         <div class="container">
             
@@ -147,16 +147,16 @@
         </div>
     </div> -->
 
-    
+
     <div class="container my-5">
         <div class="row g-4">
-            
-            
+
+
             <div class="col-lg-4 col-md-12">
                 <div class="contactus_section_info_card p-4 rounded-4 bg-white border shadow-sm h-100">
                     <h4 class="fw-bold text-dark mb-4">Get In Touch</h4>
 
-                    
+
                     <div class="d-flex align-items-start mb-4">
                         <div class="contactus_section_info_icon text-white bg-primary rounded-circle me-3 flex-shrink-0 d-flex align-items-center justify-content-center">
                             <i class="bi bi-geo-alt-fill"></i>
@@ -168,7 +168,7 @@
                         </div>
                     </div>
 
-                   
+
                     <div class="d-flex align-items-start mb-4">
                         <div class="contactus_section_info_icon text-white bg-primary rounded-circle me-3 flex-shrink-0 d-flex align-items-center justify-content-center">
                             <i class="bi bi-telephone-fill"></i>
@@ -180,7 +180,7 @@
                         </div>
                     </div>
 
-                  
+
                     <div class="d-flex align-items-start mb-4">
                         <div class="contactus_section_info_icon text-white bg-primary rounded-circle me-3 flex-shrink-0 d-flex align-items-center justify-content-center">
                             <i class="bi bi-envelope-fill"></i>
@@ -191,7 +191,7 @@
                         </div>
                     </div>
 
-                    
+
                     <div class="d-flex align-items-start mb-4">
                         <div class="contactus_section_info_icon text-white bg-success rounded-circle me-3 flex-shrink-0 d-flex align-items-center justify-content-center">
                             <i class="bi bi-whatsapp"></i>
@@ -203,7 +203,7 @@
                         </div>
                     </div>
 
-                    
+
                     <div class="d-flex align-items-start">
                         <div class="contactus_section_info_icon text-white bg-primary rounded-circle me-3 flex-shrink-0 d-flex align-items-center justify-content-center">
                             <i class="bi bi-clock-fill"></i>
@@ -221,24 +221,24 @@
             <div class="col-lg-8 col-md-12">
                 <div class="contactus_section_form_card p-4 p-md-5 rounded-4 bg-white border shadow-sm h-100">
                     <h4 class="fw-bold text-dark mb-4">Send Us a Message</h4>
-                    
-                    <form action="#" method="POST">
+
+                    <form action="send_mail.php" method="POST">
                         <div class="row g-3">
                             <div class="col-md-6">
                                 <label class="form-label small fw-semibold">Your Name <span class="text-danger">*</span></label>
-                                <input type="text" class="form-control bg-light" placeholder="Enter your full name" required>
+                                <input type="text" name="name" class="form-control bg-light" placeholder="Enter your full name" required>
                             </div>
                             <div class="col-md-6">
                                 <label class="form-label small fw-semibold">Phone Number <span class="text-danger">*</span></label>
-                                <input type="tel" class="form-control bg-light" placeholder="Enter your phone number" required>
+                                <input type="tel" name="phone" class="form-control bg-light" placeholder="Enter your phone number" required>
                             </div>
                             <div class="col-md-6">
                                 <label class="form-label small fw-semibold">Email Address <span class="text-danger">*</span></label>
-                                <input type="email" class="form-control bg-light" placeholder="Enter your email address" required>
+                                <input type="email" name="email" class="form-control bg-light" placeholder="Enter your email address" required>
                             </div>
                             <div class="col-md-6">
                                 <label class="form-label small fw-semibold">Subject <span class="text-danger">*</span></label>
-                                <select class="form-select bg-light" required>
+                                <select name="subject" class="form-select bg-light" required>
                                     <option value="" selected disabled>Select a subject</option>
                                     <option value="General Inquiry">General Inquiry</option>
                                     <option value="Appointment">Book Appointment</option>
@@ -247,10 +247,10 @@
                             </div>
                             <div class="col-12">
                                 <label class="form-label small fw-semibold">Message <span class="text-danger">*</span></label>
-                                <textarea class="form-control bg-light" rows="5" placeholder="Write your message here..." required></textarea>
+                                <textarea name="message" class="form-control bg-light" rows="5" placeholder="Write your message here..." required></textarea>
                             </div>
                             <div class="col-12 mt-4">
-                                <button type="submit" class="btn contactus_section_submit_btn text-white fw-bold w-100 py-3">
+                                <button type="submit" name="submit_contact" class="btn contactus_section_submit_btn text-white fw-bold w-100 py-3">
                                     <i class="bi bi-send-fill me-2"></i> Send Message
                                 </button>
                             </div>
@@ -265,35 +265,35 @@
     <!-- 3. MAP & EMERGENCY SIDEBAR SECTION -->
     <div class="container mb-5" id="map">
         <div class="row g-4 align-items-stretch">
-            
-            <!-- Map Column -->
-<div class="col-lg-7 col-md-12">
-    <div class="contactus_section_map_wrapper position-relative rounded-4 overflow-hidden border shadow-sm h-100" style="min-height: 320px;">
-        <!-- Embedded Google Map Pointing to Exact Address -->
-        <iframe 
-            src="https://maps.google.com/maps?q=Neurostar%20Multispeciality%20Hospital,%2067-19-1,%20opp.%20Ashram%20School,%20Nagamalli%20Thota,%20Kakinada%20533003&t=&z=16&ie=UTF8&iwloc=&output=embed" 
-            width="100%" 
-            height="100%" 
-            style="border:0; min-height: 320px;" 
-            allowfullscreen="" 
-            loading="lazy">
-        </iframe>
 
-        <!-- Map Floating Card -->
-        <div class="contactus_section_map_card position-absolute top-0 start-0 m-3 p-3 bg-white rounded-3 shadow-sm border d-none d-sm-block">
-            <h6 class="fw-bold mb-1">Neurostar Multispeciality Hospital</h6>
-            <p class="mb-1 text-black small">67-19-1, opp. Ashram School, Nagamalli Thota, Kakinada - 533003</p>
-            <a href="https://www.google.com/maps/search/?api=1&query=Neurostar+Multispeciality+Hospital+Kakinada" target="_blank" class="text-primary fw-semibold small text-decoration-none">
-                Directions <i class="bi bi-box-arrow-up-right ms-1"></i>
-            </a>
-        </div>
-    </div>
-</div>
+            <!-- Map Column -->
+            <div class="col-lg-7 col-md-12">
+                <div class="contactus_section_map_wrapper position-relative rounded-4 overflow-hidden border shadow-sm h-100" style="min-height: 320px;">
+                    <!-- Embedded Google Map Pointing to Exact Address -->
+                    <iframe
+                        src="https://maps.google.com/maps?q=Neurostar%20Multispeciality%20Hospital,%2067-19-1,%20opp.%20Ashram%20School,%20Nagamalli%20Thota,%20Kakinada%20533003&t=&z=16&ie=UTF8&iwloc=&output=embed"
+                        width="100%"
+                        height="100%"
+                        style="border:0; min-height: 320px;"
+                        allowfullscreen=""
+                        loading="lazy">
+                    </iframe>
+
+                    <!-- Map Floating Card -->
+                    <div class="contactus_section_map_card position-absolute top-0 start-0 m-3 p-3 bg-white rounded-3 shadow-sm border d-none d-sm-block">
+                        <h6 class="fw-bold mb-1">Neurostar Multispeciality Hospital</h6>
+                        <p class="mb-1 text-black small">67-19-1, opp. Ashram School, Nagamalli Thota, Kakinada - 533003</p>
+                        <a href="https://www.google.com/maps/search/?api=1&query=Neurostar+Multispeciality+Hospital+Kakinada" target="_blank" class="text-primary fw-semibold small text-decoration-none">
+                            Directions <i class="bi bi-box-arrow-up-right ms-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
 
             <!-- Right Emergency Box -->
             <div class="col-lg-5 col-md-12">
                 <div class="contactus_section_sidebar_card p-4 rounded-4 border shadow-sm h-100 d-flex flex-column justify-content-center">
-                    
+
                     <!-- Top Sub Box: Book Appointment -->
                     <div class="contactus_section_cta_box text-center p-4 rounded-3 mb-4">
                         <h5 class="fw-bold text-dark mb-2">Book an Appointment</h5>
@@ -323,7 +323,7 @@
     <!-- 4. BOTTOM 5 FEATURE CARDS -->
     <div class="container my-4">
         <div class="row g-3 text-center">
-            
+
             <div class="col-6 col-md-4 col-lg">
                 <div class="contactus_section_feature_box p-3 rounded-4 bg-white border shadow-sm h-100">
                     <div class="contactus_section_feature_icon fs-2 text-primary mb-2">
@@ -378,4 +378,4 @@
     </div>
 
 </section>
-<?php include 'footer.php' ; ?>
+<?php include 'footer.php'; ?>
