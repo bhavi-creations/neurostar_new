@@ -25,14 +25,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit_appointment']))
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';             // cPanel mail వాడితే mail.yourdomain.com ఇవ్వండి
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'manimalladi05@gmail.com';       // మీ Sender Email
-        $mail->Password   = 'rcaueajfwhczcrhm';          // Gmail App Password
+        $mail->Username   = 'neurostar36@gmail.com';       // మీ Sender Email
+        $mail->Password   = 'nfjzvqkmpkpsuqxv';          // Gmail App Password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
 
         // 3. Sender & Receiver
-        $mail->setFrom('manimalladi05@gmail.com', 'Hospital Appointment System');
-        $mail->addAddress('manimalladi05@gmail.com', 'Neurostar Hospital'); // హాస్పిటల్ డెస్క్ కి మెయిల్ వెళ్తుంది
+        $mail->setFrom('neurostar36@gmail.com', 'Hospital Appointment System');
+        $mail->addAddress('neurostar36@gmail.com', 'Neurostar Hospital'); // హాస్పిటల్ డెస్క్ కి మెయిల్ వెళ్తుంది
         $mail->addReplyTo($email, $name);                                    // పేషెంట్‌కి రిప్లై పంపడానికి
 
         // 4. Clean Email Template Style
@@ -85,7 +85,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit_appointment']))
         // Success Alert & Redirect
         echo "<script>
                 alert('Thank you! Your appointment request has been submitted successfully.');
-                window.location.href='index.html'; // మీ హోమ్ పేజీకి రీడైరెక్ట్ అవుతుంది
+                window.location.href='Home.php'; // మీ హోమ్ పేజీకి రీడైరెక్ట్ అవుతుంది
               </script>";
 
     } catch (Exception $e) {
@@ -95,7 +95,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit_appointment']))
               </script>";
     }
 } else {
-    header("Location: index.php");
+    header("Location: Home.php");
     exit();
 }
 ?>

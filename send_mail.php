@@ -21,14 +21,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit_contact'])) {
         $mail->isSMTP();
         $mail->Host       = 'smtp.gmail.com';             // మీ SMTP Server (ఉదా: Gmail, cPanel Host)
         $mail->SMTPAuth   = true;
-        $mail->Username   = 'manimalladi05@gmail.com';       // మీ మెయిల్ ID
-        $mail->Password   = 'rcaueajfwhczcrhm';          // మీ Gmail App Password
+        $mail->Username   = 'neurostar36@gmail.com';       // మీ మెయిల్ ID
+        $mail->Password   = 'nfjzvqkmpkpsuqxv';          // మీ Gmail App Password
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
 
         // Sender & Recipient Setup
-        $mail->setFrom('manimalladi05@gmail.com', 'Website Contact Form');
-        $mail->addAddress('manimalladi05@gmail.com', 'Admin'); // మీకు మెయిల్ రావాల్సిన ఇమెయిల్
+        $mail->setFrom('neurostar36@gmail.com', 'Website Contact Form');
+        $mail->addAddress('neurostar36@gmail.com', 'Admin'); // మీకు మెయిల్ రావాల్సిన ఇమెయిల్
         $mail->addReplyTo($email, $name);                       // యూజర్‌కి రిప్లై ఇవ్వడానికి
 
         // Mail Content Formatting (HTML)
@@ -49,13 +49,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit_contact'])) {
         ";
 
         $mail->send();
-        echo "<script>alert('Message sent successfully!'); window.location.href='index.html';</script>";
+        echo "<script>alert('Message sent successfully!'); window.location.href='Home.php';</script>";
 
     } catch (Exception $e) {
         echo "<script>alert('Message could not be sent. Mailer Error: {$mail->ErrorInfo}'); window.history.back();</script>";
     }
 } else {
-    header("Location: index.php");
+    header("Location: Home.php");
     exit();
 }
 ?>
