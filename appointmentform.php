@@ -1,23 +1,29 @@
 <?php
-require_once __DIR__ . '/mail_config.php';
+require_once __DIR__ . '/form_helpers.php';
 
-if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit_appointment'])) {
-
-    // 1. Data Cleaning & Sanitization
-    $name    = htmlspecialchars(trim($_POST['name']));
-    $email   = filter_var(trim($_POST['email']), FILTER_SANITIZE_EMAIL);
-    $phone   = htmlspecialchars(trim($_POST['phone']));
-    $date    = htmlspecialchars(trim($_POST['date']));
-    $service = htmlspecialchars(trim($_POST['service']));
-    $message = !empty($_POST['message']) ? htmlspecialchars(trim($_POST['message'])) : 'No additional message provided.';
-
-    // Date formatting (DD-MM-YYYY)
-    $formatted_date = date('d-m-Y', strtotime($date));
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     try {
+        $rawName = websiteFormField('name');
+        $name = websiteFormEscape($rawName);
+        $rawEmail = websiteFormEmail();
+        $email = websiteFormEscape($rawEmail);
+        $phone = websiteFormEscape(websiteFormField('phone', true, 40));
+        $date = websiteFormField('date', true, 10);
+        $parsedDate = \DateTime::createFromFormat('!Y-m-d', $date);
+        if (!$parsedDate || $parsedDate->format('Y-m-d') !== $date) {
+            throw new \InvalidArgumentException('Please enter a valid appointment date.');
+        }
+        $formatted_date = $parsedDate->format('d-m-Y');
+        $service = websiteFormEscape(websiteFormField('service'));
+        $message = websiteFormEscape(websiteFormField('message', false, 10000));
+        if ($message === '') {
+            $message = 'No additional message provided.';
+        }
+        require_once __DIR__ . '/mail_config.php';
         $mail = createWebsiteMailer('Hospital Appointment System');
 
-        $mail->addReplyTo($email, $name);
+        $mail->addReplyTo($rawEmail, $rawName);
 
         $mail->isHTML(true);
         $mail->Subject = "New Appointment Request - " . $name . " [" . $service . "]";
@@ -71,7 +77,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit_appointment']))
                 window.location.href='Home.php'; // మీ హోమ్ పేజీకి రీడైరెక్ట్ అవుతుంది
               </script>";
 
+    } catch (\InvalidArgumentException $e) {
+        websiteFormValidationError($e);
     } catch (\Throwable $e) {
+        http_response_code(503);
         error_log('Appointment form email delivery failed: ' . $e->getMessage());
         echo "<script>
                 alert('Sorry, something went wrong. Please try again.');

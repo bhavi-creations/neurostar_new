@@ -1,17 +1,19 @@
 <?php
-require_once __DIR__ . '/mail_config.php';
+require_once __DIR__ . '/form_helpers.php';
 
-if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit_contact'])) {
-
-    $name    = htmlspecialchars(trim($_POST['name']));
-    $phone   = htmlspecialchars(trim($_POST['phone']));
-    $email   = filter_var(trim($_POST['email']), FILTER_SANITIZE_EMAIL);
-    $subject = htmlspecialchars(trim($_POST['subject']));
-    $message = htmlspecialchars(trim($_POST['message']));
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     try {
+        $rawName = websiteFormField('name');
+        $name = websiteFormEscape($rawName);
+        $phone = websiteFormEscape(websiteFormField('phone', true, 40));
+        $rawEmail = websiteFormEmail();
+        $email = websiteFormEscape($rawEmail);
+        $subject = websiteFormEscape(websiteFormField('subject'));
+        $message = websiteFormEscape(websiteFormField('message', true, 10000));
+        require_once __DIR__ . '/mail_config.php';
         $mail = createWebsiteMailer('Website Contact Form');
-        $mail->addReplyTo($email, $name);
+        $mail->addReplyTo($rawEmail, $rawName);
 
         $mail->isHTML(true);
         $mail->Subject = "New Contact Form Submission: " . $subject;
@@ -32,7 +34,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit_contact'])) {
         $mail->send();
         echo "<script>alert('Message sent successfully!'); window.location.href='Home.php';</script>";
 
+    } catch (\InvalidArgumentException $e) {
+        websiteFormValidationError($e);
     } catch (\Throwable $e) {
+        http_response_code(503);
         error_log('Contact form email delivery failed: ' . $e->getMessage());
         echo "<script>alert('Message could not be sent. Please try again later.'); window.history.back();</script>";
     }
