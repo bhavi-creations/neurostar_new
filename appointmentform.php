@@ -1,9 +1,5 @@
 <?php
-use PHPMailer\PHPMailer\PHPMailer;
-use PHPMailer\PHPMailer\Exception;
-
-// Composer autoloader లేదా PHPMailer path
-require 'vendor/autoload.php'; 
+require_once __DIR__ . '/mail_config.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit_appointment'])) {
 
@@ -18,27 +14,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit_appointment']))
     // Date formatting (DD-MM-YYYY)
     $formatted_date = date('d-m-Y', strtotime($date));
 
-    $mail = new PHPMailer(true);
-
     try {
-        // 2. SMTP Configurations
-        $mail->isSMTP();
-        $mail->Host       = 'smtp.gmail.com';             // cPanel mail వాడితే mail.yourdomain.com ఇవ్వండి
-        $mail->SMTPAuth   = true;
-        $mail->Username   = 'neurostar36@gmail.com';       // మీ Sender Email
-        $mail->Password   = 'nfjzvqkmpkpsuqxv';          // Gmail App Password
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
-        $mail->Port       = 587;
+        $mail = createWebsiteMailer('Hospital Appointment System');
 
-        // 3. Sender & Receiver
-        $mail->setFrom('neurostar36@gmail.com', 'Hospital Appointment System');
-        $mail->addAddress('neurostar36@gmail.com', 'Neurostar Hospital'); // హాస్పిటల్ డెస్క్ కి మెయిల్ వెళ్తుంది
-        $mail->addReplyTo($email, $name);                                    // పేషెంట్‌కి రిప్లై పంపడానికి
+        $mail->addReplyTo($email, $name);
 
-        // 4. Clean Email Template Style
         $mail->isHTML(true);
         $mail->Subject = "New Appointment Request - " . $name . " [" . $service . "]";
-        
+
         $mail->Body = "
         <div style='font-family: Arial, sans-serif; background-color: #f4f6f9; padding: 20px;'>
             <div style='max-width: 600px; margin: 0 auto; background: #ffffff; padding: 25px; border-radius: 8px; border-top: 5px solid #1c3366; box-shadow: 0 2px 5px rgba(0,0,0,0.1);'>
@@ -88,7 +71,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit_appointment']))
                 window.location.href='Home.php'; // మీ హోమ్ పేజీకి రీడైరెక్ట్ అవుతుంది
               </script>";
 
-    } catch (Exception $e) {
+    } catch (\Throwable $e) {
+        error_log('Appointment form email delivery failed: ' . $e->getMessage());
         echo "<script>
                 alert('Sorry, something went wrong. Please try again.');
                 window.history.back();
