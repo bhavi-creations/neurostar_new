@@ -1,33 +1,44 @@
 <?php
-require_once __DIR__ . '/form_helpers.php';
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\Exception;
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
+// Composer autoloader లేదా PHPMailer path
+require 'vendor/autoload.php'; 
+
+if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit_appointment'])) {
+
+    // 1. Data Cleaning & Sanitization
+    $name    = htmlspecialchars(trim($_POST['name']));
+    $email   = filter_var(trim($_POST['email']), FILTER_SANITIZE_EMAIL);
+    $phone   = htmlspecialchars(trim($_POST['phone']));
+    $date    = htmlspecialchars(trim($_POST['date']));
+    $service = htmlspecialchars(trim($_POST['service']));
+    $message = !empty($_POST['message']) ? htmlspecialchars(trim($_POST['message'])) : 'No additional message provided.';
+
+    // Date formatting (DD-MM-YYYY)
+    $formatted_date = date('d-m-Y', strtotime($date));
+
+    $mail = new PHPMailer(true);
 
     try {
-        $rawName = websiteFormField('name');
-        $name = websiteFormEscape($rawName);
-        $rawEmail = websiteFormEmail();
-        $email = websiteFormEscape($rawEmail);
-        $phone = websiteFormEscape(websiteFormField('phone', true, 40));
-        $date = websiteFormField('date', true, 10);
-        $parsedDate = \DateTime::createFromFormat('!Y-m-d', $date);
-        if (!$parsedDate || $parsedDate->format('Y-m-d') !== $date) {
-            throw new \InvalidArgumentException('Please enter a valid appointment date.');
-        }
-        $formatted_date = $parsedDate->format('d-m-Y');
-        $service = websiteFormEscape(websiteFormField('service'));
-        $message = websiteFormEscape(websiteFormField('message', false, 10000));
-        if ($message === '') {
-            $message = 'No additional message provided.';
-        }
-        require_once __DIR__ . '/mail_config.php';
-        $mail = createWebsiteMailer('Hospital Appointment System');
+        // 2. SMTP Configurations
+        $mail->isSMTP();
+        $mail->Host       = 'smtp.gmail.com';             // cPanel mail వాడితే mail.yourdomain.com ఇవ్వండి
+        $mail->SMTPAuth   = true;
+        $mail->Username   = 'neurostar36@gmail.com';       // మీ Sender Email
+        $mail->Password   = 'nfjzvqkmpkpsuqxv';          // Gmail App Password
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+        $mail->Port       = 587;
 
-        $mail->addReplyTo($rawEmail, $rawName);
+        // 3. Sender & Receiver
+        $mail->setFrom('neurostar36@gmail.com', 'Hospital Appointment System');
+        $mail->addAddress('neurostar36@gmail.com', 'Neurostar Hospital'); // హాస్పిటల్ డెస్క్ కి మెయిల్ వెళ్తుంది
+        $mail->addReplyTo($email, $name);                                    // పేషెంట్‌కి రిప్లై పంపడానికి
 
+        // 4. Clean Email Template Style
         $mail->isHTML(true);
         $mail->Subject = "New Appointment Request - " . $name . " [" . $service . "]";
-
+        
         $mail->Body = "
         <div style='font-family: Arial, sans-serif; background-color: #f4f6f9; padding: 20px;'>
             <div style='max-width: 600px; margin: 0 auto; background: #ffffff; padding: 25px; border-radius: 8px; border-top: 5px solid #1c3366; box-shadow: 0 2px 5px rgba(0,0,0,0.1);'>
@@ -77,11 +88,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 window.location.href='Home.php'; // మీ హోమ్ పేజీకి రీడైరెక్ట్ అవుతుంది
               </script>";
 
-    } catch (\InvalidArgumentException $e) {
-        websiteFormValidationError($e);
-    } catch (\Throwable $e) {
-        http_response_code(503);
-        error_log('Appointment form email delivery failed: ' . $e->getMessage());
+    } catch (Exception $e) {
         echo "<script>
                 alert('Sorry, something went wrong. Please try again.');
                 window.history.back();
