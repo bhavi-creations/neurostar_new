@@ -9,9 +9,10 @@ if ($_SERVER['SERVER_NAME'] == 'localhost') {
     $dbname = "neurostar";
 } 
 else {
-    $username = "bhavicreations";
-    $password = "d8Az75YlgmyBnVM";
-    $dbname = "neurostar";
+    
+        $username = "neurostarhospita";
+    $password = "D18hqhEubleOcP3";
+    $dbname = "neurostarhospital";
     
 }
  
